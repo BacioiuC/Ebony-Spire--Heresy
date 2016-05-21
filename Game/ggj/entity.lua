@@ -198,9 +198,13 @@ end
 
 function entity:debugSpawner(_x, _y )
 	if rngMap:isTowerLevel( ) then
-		self:new(_x, _y, math.random(1, #self:makeSpawnListForTowerLevel( ) ), true)
+		if #self:makeSpawnListForTowerLevel( ) > 0 then
+			self:new(_x, _y, math.random(1, #self:makeSpawnListForTowerLevel( ) ), true)
+		end
 	else
-		self:new(_x, _y, math.random(1, #self:makeSpawnListForLevel( ) ))
+		if ##self:makeSpawnListForLevel( ) > 0 then
+			self:new(_x, _y, math.random(1, #self:makeSpawnListForLevel( ) ))
+		end
 	end
 	
 end

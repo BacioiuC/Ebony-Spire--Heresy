@@ -723,8 +723,11 @@ function player:update( )
 
 		self._acceptInput = false
 
-
-		for i = 1, 11 do
+		local nrEnemies = 11
+		if Game.dungeoNLevel == 10 and Game.dungeonType == 1 then
+			nrEnemies = 1
+		end
+		for i = 1, nrEnemies do
 			local x, y = rngMap:returnEmptyLocations( )
 			entity:debugSpawner( x, y )
 		end
