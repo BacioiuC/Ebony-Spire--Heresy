@@ -1,0 +1,39 @@
+name,_type,gfx,speed,hp,isCreature,hasAnim,animName,attackAnim,Frames,energy,Ratio1,Ratio2,Ratio3,weaponAffinity,baseDamage,inventoryCapacity,dungeonLevel,held_item,InventoryItem
+Devout Follower of Dae,1,assets/follower.png,25,5,yes,0,,,4,4,0,0,20,0.1,1,3,1,0,0
+Priestess of Dae,2,assets/follower_female.png,30,10,yes,0,,,4,4,0,0,20,0.2,2,3,1,0,0
+Rat,3,assets/delver_rat.png,50,3,yes,0,,,,4,1,1,3,0.2,2,0,2,0,0
+Chiller,3,assets/chiller.png,100,150,yes,0,,,,4,1,0,6,0.8,5,0,3,0,0
+Floating Eye,3,assets/seer.png,20,2,yes,0,,,,4,0,0,20,0.1,1,2,3,0,0
+Rotting Corpse,1,assets/Rotting_Corpse.png,60,15,yes,0,,,,5,3,0,1,0.4,4,3,3,0,0
+Tormented Pixie,2,assets/tormented_pixie.png,40,55,yes,0,,,,4,1,1,1,0.6,4,1,3,38,38
+Apprentice Evoker,2,assets/apprentice.png,80,20,yes,0,,,,4,3,0,3,0.4,5,2,3,0,0
+Clay Golem,2,assets/clay_golem.png,40,15,yes,0,,,,5,4,0,20,0.1,8,3,3,0,0
+Rogue,2,assets/rogue.png,70,50,yes,0,,,,5,5,0,3,0.8,4,4,3,0,0
+Office Troll,2,OldAssets/office_troll.png,40,70,yes,0,,,,4,2,0,7,0.85,5,3,3,0,0
+One Eyed Ogre,2,OldAssets/one_eyed_ogre.png,20,100,yes,0,,,,8,4,0,0,1,6,1,3,0,0
+Seasoned Intern,3,OldAssets/seasoned_intern.png,120,45,yes,0,,,,4,4,0,3,0.7,6,3,3,0,0
+Chest of Abandoned Projects,3,OldAssets/chest_projects.png,140,200,yes,0,,,,12,20,0,0,2,2,4,3,0,0
+Fanboy Cultist,3,OldAssets/fanboy_cultist.png,100,65,yes,0,,,,12,3,0,2,0.8,2,2,3,0,0
+Sky Warrior,4,OldAssets/sky_warrior.png,89,60,yes,0,,,,4,0,0,4,1.6,5,5,4,0,0
+Troll Beserker,4,OldAssets/troll_beserker.png,190,45,yes,0,,,,8,6,2,4,1.2,8,0,4,0,0
+One Eyed Ogre,2,OldAssets/one_eyed_ogre.png,20,100,yes,0,,,,8,4,0,0,1,6,1,4,0,0
+Office Troll,2,OldAssets/office_troll.png,40,70,yes,0,,,,4,2,0,7,0.85,5,3,4,0,0
+Fanboy Cultist,3,OldAssets/fanboy_cultist.png,100,65,yes,0,,,,12,3,0,2,0.8,2,2,4,0,0
+Bandit,4,OldAssets/bandit.png,180,65,yes,0,,,,8,4,0,4,0.9,4,5,4,0,0
+Blood Thirsty Minotaur,5,OldAssets/Blood_thirsty_minotaur.png,120,120,yes,0,,,,6,3,1,1,2,4,2,5,0,0
+Blood Thirsty Minotaur,5,OldAssets/Blood_thirsty_minotaur.png,120,120,yes,0,,,,6,3,1,1,2,4,2,6,0,0
+Minotaur,5,OldAssets/minotaur.png,100,140,yes,0,,,,7,2,0,3,1.8,3,1,5,0,0
+Gray Goblin Mage,5,OldAssets/gray_goblin_mage.png,80,60,yes,0,,,,6,2,0,3,1,4,5,5,39,39
+Gray Goblin Mage,5,OldAssets/gray_goblin_mage.png,80,60,yes,0,,,,6,2,0,3,1,4,5,5,39,39
+Salamander Warrior,6,OldAssets/salamander_warrior.png,70,50,yes,0,,,,4,2,5,4,3,3,1,6,0,0
+Fire Knight,7,OldAssets/fire_knight.png,70,250,yes,0,,,,6,10,0,4,1.4,5,2,6,0,0
+Fire Knight,7,OldAssets/fire_knight.png,70,250,yes,0,,,,6,10,0,4,1.4,5,2,7,0,0
+Fire Knight,7,OldAssets/fire_knight.png,70,250,yes,0,,,,6,10,0,4,1.4,5,2,8,0,0
+Demon Spawn,8,OldAssets/demon_spawn.png,100,300,yes,0,,,,6,20,0,5,4,9,1,8,0,0
+Demon Spawn,8,OldAssets/demon_spawn.png,100,300,yes,0,,,,6,20,0,5,4,9,1,9,0,0
+Demon Spawn,8,OldAssets/demon_spawn.png,100,300,yes,0,,,,6,20,0,5,4,9,1,10,0,0
+Enraged Demon Spawn,9,OldAssets/enraged_demon_spawn.png,120,350,yes,0,,,,7,25,0,0,5,10,2,9,0,0
+Red Dragon,10,OldAssets/red_dragon.png,150,320,yes,0,,,,7,5,1,5,4,11,2,9,0,0
+Enraged Demon Spawn,9,OldAssets/enraged_demon_spawn.png,120,350,yes,0,,,,7,25,0,0,5,10,2,10,0,0
+Gold Dragon,10,OldAssets/gold_dragon.png,150,320,yes,0,,,,7,5,1,5,4,11,2,10,0,0
+Golden Knight,10,OldAssets/golden_knight.png,120,340,yes,0,,,,6,6,0,1,7,8,5,10,0,0

@@ -1,0 +1,48 @@
+name,_type,gfx,color,effect,description,weight,wmd,wmulti,sdmg,sa,adef,aarcdef,value,modifierType,modifier,canSpawn,spawnChance,AllowedFrom
+Potion of Darkness,Potion,OldAssets/potion_of_darkness.png,C9C9C9,darkness,Creates perpetual darkness patches. Blinds everything in it and can cause death.,1,0,0,0,0,0,0,1,nil,0,yes,25,1
+Spellbook of Frost,Spell,OldAssets/book_sprite.png,262626,nil,Pulls an Elsa on the target!,1,0,0,0,0,0,0,50,nil,0,no,0,1
+Leather Armor of Minor Arcane Def,Armor,OldAssets/leather_arcane_armor_sprite.png,FF0000,nil,Provides minimal defense against arcane attacks.,5.5,0,0,0,0,0,1,50,nil,0,yes,35,1
+Flocky's Keyboard,Weapon,OldAssets/Keyboard.png,FF0000,nil,A dev's best friend! (May or may not have been humped by Flocky),12,10,0.7,0,0,0,0,20,nil,0,yes,12,1
+Leather Armor of Minor Def,Armor,OldAssets/leather_armor_sprite.png,C9C9C9,nil,Provides minimal defense against physical attacks.,10,0,0,0,0,1,0,15,nil,0,yes,15,1
+rock,misc,OldAssets/rock.png,C9C9C9,nil,It's a rock! It can be thrown :D,2,5,0.5,0,0,0,0,1,nil,0,yes,25,1
+desk,Weapon,OldAssets/desk.png,B86E28,nil,Itsa dessk,80,4,1.4,0,0,0,0,1,nil,0,no,0,1
+Stack of Gold Coins,misc,OldAssets/gold_coins.png,EAFF00,nil,Stack of gold coins ( Extremely Valuable ),1,0,0,0,0,0,0,255,nil,0,yes,15,1
+Healing Potion,Potion,OldAssets/health_potion.png,9BBA1E,heal,Restores HP ( Area of Effect ),2,0,0,0,0,0,0,500,nil,0,yes,17,1
+Potion of Fire,Potion,OldAssets/fire_potion.png,FF0000,burn,Sets everyone in the radius on FIRE ( Area of Effect ),2,0,0,15,0,0,0,155,nil,0,yes,14,1
+Potion of Teleport,Potion,OldAssets/potion_of_teleportation.png,FF0000,teleport,Teleports the target to a random location ( Single Target ),2,0,0,0,0,0,0,155,nil,0,yes,14,1
+Potion of Summoning,Potion,OldAssets/potion_of_summoning.png,CF37E6,summon,Summons a random friendly monster to AID the player,2,0,0,0,0,0,0,600,nil,0,yes,15,1
+Small Potion of Health,Potion,OldAssets/health_potion.png,9BBA1E,heal_single,Restores HP (Single Target),2,0,0,0,0,0,0,500,nil,0,yes,16,1
+Scroll of Reveal,Scroll,OldAssets/scroll_of_reveal.png,EAFF00,reveal_map,Reveals the entire map,1,0,0,0,0,0,0,100,nil,0,yes,11,1
+Scroll of Discharge,Scroll,OldAssets/scroll_of_discharge.png,EAFF00,damage_all,Gives a random amount of damage to all enemies,1,0,0,8,0,0,0,800,nil,0,yes,10,1
+Magic Missile,Spell,OldAssets/magic_missile.png,155BA9,magic_missile_proj,Arcane Projectile (Goes boom when it hits a target),14,0,0,14,0,0,0,0,nil,0,no,11,1
+Scroll of Magic Missile,Scroll,OldAssets/scroll_of_magic_missile.png,155BA9,magic_missile,Used to cast the Magic Missile spell (Goes boom when it hits a target),1,0,0,14,0,0,0,1260,nil,0,yes,11,1
+Potion of Polimorph,Potion,OldAssets/potion_of_polymorph.png,9BBA1E,polymorph,Changes the target's appearance and stats into that of another monster. ,2,0,0,0,0,0,0,147,nil,0,yes,10,1
+Chain Mail Armor,Armor,OldAssets/chain_mail_armor.png,C9C9C9,nil,Provides some defense against physical attacks. Useless against most arcane/magic attacks,12.5,0,0,0,0,3,1,98,nil,0,yes,14,1
+Armor Of the Ranger,Armor,OldAssets/armor_of_the_ranger.png,C9C9C9,nil,Decent defense and arcane defense.,18,0,0,0,0,5,4,240,nil,0,yes,7,2
+Armor of Arcane Repulsion,Armor,OldAssets/armor_of_arcane_repulsion.png,C9C9C9,nil,A must have piece of armor that protects the wearer from most low-level arcane attacks,25,0,0,0,0,3,12,590,nil,0,yes,7,3
+Armor of the Lucky Summoner,Armor,OldAssets/armor_lucky_summoner.png,C9C9C9,nil,This set of armor can only be summoned via a spell/potion! Highly Valuable and powerful.,45,1,1,0,0,15,25,4500,nil,0,no,100,4
+Royal Plated Armor,Armor,OldAssets/royal_plated_armor.png,C9C9C9,nil,A set of armor with royal insignia. It is said that it was worn by Sir Costi – Duke of Mobility,65,0,0,0,0,10,8,4000,nil,0,no,100,4
+Scroll of Mystical Item,Scroll,OldAssets/scroll_of_mystical_item.png,EAFF00,summon_epic,A scroll that can summon a rare item into the world.,1,0,0,0,0,0,0,5500,nil,0,yes,3,4
+Iron Axe,Weapon,OldAssets/axe_sprite.png,C9C9C9,nil,An iron axe.,24,10,1,0,0,0,0,100,nil,0,yes,10,2
+Noldor Quicksilver Sword,Weapon,OldAssets/noldor_quicksilver_sword.png,C9C9C9,nil,A quicksilver sword of Noldor craftmanship. Strong but light!,15,12,2,0,0,0,0,1800,nil,0,yes,4,4
+Noldor Quicksilver Sword,Weapon,OldAssets/noldor_quicksilver_sword.png,C9C9C9,nil,A quicksilver sword of Noldor craftmanship. Strong but light!,15,12,2,0,0,0,0,1800,nil,0,no,4,4
+Ring of Life (+3),Accessories,OldAssets/red_ring.png,FF0000,nil,Increases the wearers health by 3,2,0,0,0,0,0,0,1500,hp,3,yes,10,1
+Necklace of Life Regen,Accessories,OldAssets/necklace_purple_heart.png,CF37E6,nil,Regenerates 1 HP every turn.,2,0,0,0,0,0,0,1800,hp_regen,1,yes,5,2
+Iron Throwing Axe,Weapon,OldAssets/throwing_axe.png,C9C9C9,nil,An iron throwing axe,30,8,1,0,0,0,0,150,nil,0,yes,10,1
+Ring of Life (+6),Accessories,OldAssets/red_ring.png,FF0000,nil,Increases the wearers health by 6,2,0,0,0,0,0,0,2300,hp,6,yes,7,3
+Cloak of the Immortal Mage,Armor,OldAssets/green_cloak.png,CF37E6,nil,Provides protection against arcane magic and increases health regen.,15,0,0,0,0,1,25,5500,hp_regen,5,yes,8,4
+Cloak of the Immortal Mage,Armor,OldAssets/green_cloak.png,CF37E6,nil,Provides protection against arcane magic and increases health regen.,15,0,0,0,0,1,25,5500,hp_regen,5,yes,8,4
+Cloak of Darkness,Artefact,OldAssets/dark_cloak.png,C9C9C9,darkness,When used – summons Patches of Darkness if none are present. Else – it will remove them!. ,15,0,0,0,0,1,25,5500,nil,0,yes,100,1
+Flaming Skull of Corruption,Artefact,OldAssets/skull_red_eye.png,EAFF00,damage_all,When used – it damages everyone in the level. If present in the inventory - it will drain a bit of the player's life every turn.,8,0,0,25,0,0,0,2400,hp_regen,-1,yes,4,4
+Axe of Regeneration,Artefact,OldAssets/green_epic_axe.png,C9C9C9,nil,A rare artefact that regens the user's life every turn.,65,25,4,0,0,0,0,9800,hp_regen,4,yes,4,4
+Sword of the Arcane,Artefact,OldAssets/red_sword_artefact.png,FF0000,damage_all,A sword forged into the fires of Nepala.,53,40,2,0,0,0,0,9900,nil,0,yes,1,4
+Tome of Teleportation,Artefact,OldAssets/Tome_1.png,FF0000,teleport,The fantasy variant of Get out of Jail Free Card. Quite useful and rare!,25,0,0,0,0,0,0,14000,nil,0,yes,2,4
+Gray Goblin Artefact,Artefact,OldAssets/goblin_artefact.png,C9C9C9,damage_all,An artefact carried by Gray Goblin Mages. It can be used to damage a creature from afar.,12,0,0,35,5,0,0,700,hp_regen,2,no,1,6
+Mio's Headphones,Artefact,OldAssets/headphones_mio.png,FF0000,magic_missile,Mio's Headphones is a rare artefact that – once it is triggered - spawns a magic missile in the wearers inventory.,16,0,0,0,0,0,0,9450,hp,3,yes,4,6
+Iron Sword,Weapon,OldAssets/sword_regular.png,C9C9C9,none,A plain iron sword.,20,12,1.6,9,9,9,9,200,nil,0,yes,15,1
+Iron Broadsword,Weapon,OldAssets/iron_broadsword.png,C9C9C9,none,A plain iron broadsword.,29,20,2,0,0,0,0,280,nil,0,yes,14,2
+Sword of Darkness,Weapon,OldAssets/sword_of_darkness.png,C9C9C9,darkness,A sword imbued with darkness. Throwing it kills most enemies and spawn patches of darkness.,89,25,3,0,0,0,0,1400,nil,0,yes,10,3
+Steel Arbalet,Weapon,OldAssets/steel_arbalet.png,FF0000,nil,This range weapon doubles the damage of all thrown items and objects.,70,15,2,0,0,0,0,1700,thrown,2,yes,7,3
+Ring of Life (+25),Accessories,OldAssets/red_ring.png,FF0000,nil,Increases the wearers health by 6,2,0,0,0,0,0,0,2300,hp,25,yes,7,6
+Fire Knight's Armor,Armor,OldAssets/armor_of_the_red_knight.png,EAFF00,nil,Extremely high physical and arcane damage reduction.,60,0,0,0,0,45,40,5400,nil,0,yes,4,6
+Amulet of Mobility,Goal,OldAssets/mobility_amulet.png,9FC43A,WinCondition,The holy grail – the most sought item – the thing that's worth it,1,2000,2000,2000,200,2000,2000,99999,nil,0,yes,100,10

@@ -1,0 +1,9675 @@
+return {
+-- Table: {1}
+{
+   {2},
+   {3},
+   {4},
+   {5},
+   {6},
+   {7},
+   {8},
+   {9},
+   {10},
+   {11},
+   {12},
+   {13},
+   {14},
+   {15},
+   {16},
+   {17},
+   {18},
+   {19},
+   {20},
+   {21},
+   {22},
+   {23},
+   {24},
+   {25},
+   {26},
+   {27},
+   {28},
+   {29},
+   {30},
+   {31},
+   {32},
+   {33},
+},
+-- Table: {2}
+{
+   {34},
+   {35},
+   {36},
+   {37},
+   {38},
+   {39},
+   {40},
+   {41},
+   {42},
+   {43},
+   {44},
+   {45},
+   {46},
+   {47},
+   {48},
+   {49},
+   {50},
+   {51},
+   {52},
+   {53},
+   {54},
+   {55},
+   {56},
+   {57},
+   {58},
+   {59},
+   {60},
+   {61},
+   {62},
+   {63},
+   {64},
+   {65},
+},
+-- Table: {3}
+{
+   {66},
+   {67},
+   {68},
+   {69},
+   {70},
+   {71},
+   {72},
+   {73},
+   {74},
+   {75},
+   {76},
+   {77},
+   {78},
+   {79},
+   {80},
+   {81},
+   {82},
+   {83},
+   {84},
+   {85},
+   {86},
+   {87},
+   {88},
+   {89},
+   {90},
+   {91},
+   {92},
+   {93},
+   {94},
+   {95},
+   {96},
+   {97},
+},
+-- Table: {4}
+{
+   {98},
+   {99},
+   {100},
+   {101},
+   {102},
+   {103},
+   {104},
+   {105},
+   {106},
+   {107},
+   {108},
+   {109},
+   {110},
+   {111},
+   {112},
+   {113},
+   {114},
+   {115},
+   {116},
+   {117},
+   {118},
+   {119},
+   {120},
+   {121},
+   {122},
+   {123},
+   {124},
+   {125},
+   {126},
+   {127},
+   {128},
+   {129},
+},
+-- Table: {5}
+{
+   {130},
+   {131},
+   {132},
+   {133},
+   {134},
+   {135},
+   {136},
+   {137},
+   {138},
+   {139},
+   {140},
+   {141},
+   {142},
+   {143},
+   {144},
+   {145},
+   {146},
+   {147},
+   {148},
+   {149},
+   {150},
+   {151},
+   {152},
+   {153},
+   {154},
+   {155},
+   {156},
+   {157},
+   {158},
+   {159},
+   {160},
+   {161},
+},
+-- Table: {6}
+{
+   {162},
+   {163},
+   {164},
+   {165},
+   {166},
+   {167},
+   {168},
+   {169},
+   {170},
+   {171},
+   {172},
+   {173},
+   {174},
+   {175},
+   {176},
+   {177},
+   {178},
+   {179},
+   {180},
+   {181},
+   {182},
+   {183},
+   {184},
+   {185},
+   {186},
+   {187},
+   {188},
+   {189},
+   {190},
+   {191},
+   {192},
+   {193},
+},
+-- Table: {7}
+{
+   {194},
+   {195},
+   {196},
+   {197},
+   {198},
+   {199},
+   {200},
+   {201},
+   {202},
+   {203},
+   {204},
+   {205},
+   {206},
+   {207},
+   {208},
+   {209},
+   {210},
+   {211},
+   {212},
+   {213},
+   {214},
+   {215},
+   {216},
+   {217},
+   {218},
+   {219},
+   {220},
+   {221},
+   {222},
+   {223},
+   {224},
+   {225},
+},
+-- Table: {8}
+{
+   {226},
+   {227},
+   {228},
+   {229},
+   {230},
+   {231},
+   {232},
+   {233},
+   {234},
+   {235},
+   {236},
+   {237},
+   {238},
+   {239},
+   {240},
+   {241},
+   {242},
+   {243},
+   {244},
+   {245},
+   {246},
+   {247},
+   {248},
+   {249},
+   {250},
+   {251},
+   {252},
+   {253},
+   {254},
+   {255},
+   {256},
+   {257},
+},
+-- Table: {9}
+{
+   {258},
+   {259},
+   {260},
+   {261},
+   {262},
+   {263},
+   {264},
+   {265},
+   {266},
+   {267},
+   {268},
+   {269},
+   {270},
+   {271},
+   {272},
+   {273},
+   {274},
+   {275},
+   {276},
+   {277},
+   {278},
+   {279},
+   {280},
+   {281},
+   {282},
+   {283},
+   {284},
+   {285},
+   {286},
+   {287},
+   {288},
+   {289},
+},
+-- Table: {10}
+{
+   {290},
+   {291},
+   {292},
+   {293},
+   {294},
+   {295},
+   {296},
+   {297},
+   {298},
+   {299},
+   {300},
+   {301},
+   {302},
+   {303},
+   {304},
+   {305},
+   {306},
+   {307},
+   {308},
+   {309},
+   {310},
+   {311},
+   {312},
+   {313},
+   {314},
+   {315},
+   {316},
+   {317},
+   {318},
+   {319},
+   {320},
+   {321},
+},
+-- Table: {11}
+{
+   {322},
+   {323},
+   {324},
+   {325},
+   {326},
+   {327},
+   {328},
+   {329},
+   {330},
+   {331},
+   {332},
+   {333},
+   {334},
+   {335},
+   {336},
+   {337},
+   {338},
+   {339},
+   {340},
+   {341},
+   {342},
+   {343},
+   {344},
+   {345},
+   {346},
+   {347},
+   {348},
+   {349},
+   {350},
+   {351},
+   {352},
+   {353},
+},
+-- Table: {12}
+{
+   {354},
+   {355},
+   {356},
+   {357},
+   {358},
+   {359},
+   {360},
+   {361},
+   {362},
+   {363},
+   {364},
+   {365},
+   {366},
+   {367},
+   {368},
+   {369},
+   {370},
+   {371},
+   {372},
+   {373},
+   {374},
+   {375},
+   {376},
+   {377},
+   {378},
+   {379},
+   {380},
+   {381},
+   {382},
+   {383},
+   {384},
+   {385},
+},
+-- Table: {13}
+{
+   {386},
+   {387},
+   {388},
+   {389},
+   {390},
+   {391},
+   {392},
+   {393},
+   {394},
+   {395},
+   {396},
+   {397},
+   {398},
+   {399},
+   {400},
+   {401},
+   {402},
+   {403},
+   {404},
+   {405},
+   {406},
+   {407},
+   {408},
+   {409},
+   {410},
+   {411},
+   {412},
+   {413},
+   {414},
+   {415},
+   {416},
+   {417},
+},
+-- Table: {14}
+{
+   {418},
+   {419},
+   {420},
+   {421},
+   {422},
+   {423},
+   {424},
+   {425},
+   {426},
+   {427},
+   {428},
+   {429},
+   {430},
+   {431},
+   {432},
+   {433},
+   {434},
+   {435},
+   {436},
+   {437},
+   {438},
+   {439},
+   {440},
+   {441},
+   {442},
+   {443},
+   {444},
+   {445},
+   {446},
+   {447},
+   {448},
+   {449},
+},
+-- Table: {15}
+{
+   {450},
+   {451},
+   {452},
+   {453},
+   {454},
+   {455},
+   {456},
+   {457},
+   {458},
+   {459},
+   {460},
+   {461},
+   {462},
+   {463},
+   {464},
+   {465},
+   {466},
+   {467},
+   {468},
+   {469},
+   {470},
+   {471},
+   {472},
+   {473},
+   {474},
+   {475},
+   {476},
+   {477},
+   {478},
+   {479},
+   {480},
+   {481},
+},
+-- Table: {16}
+{
+   {482},
+   {483},
+   {484},
+   {485},
+   {486},
+   {487},
+   {488},
+   {489},
+   {490},
+   {491},
+   {492},
+   {493},
+   {494},
+   {495},
+   {496},
+   {497},
+   {498},
+   {499},
+   {500},
+   {501},
+   {502},
+   {503},
+   {504},
+   {505},
+   {506},
+   {507},
+   {508},
+   {509},
+   {510},
+   {511},
+   {512},
+   {513},
+},
+-- Table: {17}
+{
+   {514},
+   {515},
+   {516},
+   {517},
+   {518},
+   {519},
+   {520},
+   {521},
+   {522},
+   {523},
+   {524},
+   {525},
+   {526},
+   {527},
+   {528},
+   {529},
+   {530},
+   {531},
+   {532},
+   {533},
+   {534},
+   {535},
+   {536},
+   {537},
+   {538},
+   {539},
+   {540},
+   {541},
+   {542},
+   {543},
+   {544},
+   {545},
+},
+-- Table: {18}
+{
+   {546},
+   {547},
+   {548},
+   {549},
+   {550},
+   {551},
+   {552},
+   {553},
+   {554},
+   {555},
+   {556},
+   {557},
+   {558},
+   {559},
+   {560},
+   {561},
+   {562},
+   {563},
+   {564},
+   {565},
+   {566},
+   {567},
+   {568},
+   {569},
+   {570},
+   {571},
+   {572},
+   {573},
+   {574},
+   {575},
+   {576},
+   {577},
+},
+-- Table: {19}
+{
+   {578},
+   {579},
+   {580},
+   {581},
+   {582},
+   {583},
+   {584},
+   {585},
+   {586},
+   {587},
+   {588},
+   {589},
+   {590},
+   {591},
+   {592},
+   {593},
+   {594},
+   {595},
+   {596},
+   {597},
+   {598},
+   {599},
+   {600},
+   {601},
+   {602},
+   {603},
+   {604},
+   {605},
+   {606},
+   {607},
+   {608},
+   {609},
+},
+-- Table: {20}
+{
+   {610},
+   {611},
+   {612},
+   {613},
+   {614},
+   {615},
+   {616},
+   {617},
+   {618},
+   {619},
+   {620},
+   {621},
+   {622},
+   {623},
+   {624},
+   {625},
+   {626},
+   {627},
+   {628},
+   {629},
+   {630},
+   {631},
+   {632},
+   {633},
+   {634},
+   {635},
+   {636},
+   {637},
+   {638},
+   {639},
+   {640},
+   {641},
+},
+-- Table: {21}
+{
+   {642},
+   {643},
+   {644},
+   {645},
+   {646},
+   {647},
+   {648},
+   {649},
+   {650},
+   {651},
+   {652},
+   {653},
+   {654},
+   {655},
+   {656},
+   {657},
+   {658},
+   {659},
+   {660},
+   {661},
+   {662},
+   {663},
+   {664},
+   {665},
+   {666},
+   {667},
+   {668},
+   {669},
+   {670},
+   {671},
+   {672},
+   {673},
+},
+-- Table: {22}
+{
+   {674},
+   {675},
+   {676},
+   {677},
+   {678},
+   {679},
+   {680},
+   {681},
+   {682},
+   {683},
+   {684},
+   {685},
+   {686},
+   {687},
+   {688},
+   {689},
+   {690},
+   {691},
+   {692},
+   {693},
+   {694},
+   {695},
+   {696},
+   {697},
+   {698},
+   {699},
+   {700},
+   {701},
+   {702},
+   {703},
+   {704},
+   {705},
+},
+-- Table: {23}
+{
+   {706},
+   {707},
+   {708},
+   {709},
+   {710},
+   {711},
+   {712},
+   {713},
+   {714},
+   {715},
+   {716},
+   {717},
+   {718},
+   {719},
+   {720},
+   {721},
+   {722},
+   {723},
+   {724},
+   {725},
+   {726},
+   {727},
+   {728},
+   {729},
+   {730},
+   {731},
+   {732},
+   {733},
+   {734},
+   {735},
+   {736},
+   {737},
+},
+-- Table: {24}
+{
+   {738},
+   {739},
+   {740},
+   {741},
+   {742},
+   {743},
+   {744},
+   {745},
+   {746},
+   {747},
+   {748},
+   {749},
+   {750},
+   {751},
+   {752},
+   {753},
+   {754},
+   {755},
+   {756},
+   {757},
+   {758},
+   {759},
+   {760},
+   {761},
+   {762},
+   {763},
+   {764},
+   {765},
+   {766},
+   {767},
+   {768},
+   {769},
+},
+-- Table: {25}
+{
+   {770},
+   {771},
+   {772},
+   {773},
+   {774},
+   {775},
+   {776},
+   {777},
+   {778},
+   {779},
+   {780},
+   {781},
+   {782},
+   {783},
+   {784},
+   {785},
+   {786},
+   {787},
+   {788},
+   {789},
+   {790},
+   {791},
+   {792},
+   {793},
+   {794},
+   {795},
+   {796},
+   {797},
+   {798},
+   {799},
+   {800},
+   {801},
+},
+-- Table: {26}
+{
+   {802},
+   {803},
+   {804},
+   {805},
+   {806},
+   {807},
+   {808},
+   {809},
+   {810},
+   {811},
+   {812},
+   {813},
+   {814},
+   {815},
+   {816},
+   {817},
+   {818},
+   {819},
+   {820},
+   {821},
+   {822},
+   {823},
+   {824},
+   {825},
+   {826},
+   {827},
+   {828},
+   {829},
+   {830},
+   {831},
+   {832},
+   {833},
+},
+-- Table: {27}
+{
+   {834},
+   {835},
+   {836},
+   {837},
+   {838},
+   {839},
+   {840},
+   {841},
+   {842},
+   {843},
+   {844},
+   {845},
+   {846},
+   {847},
+   {848},
+   {849},
+   {850},
+   {851},
+   {852},
+   {853},
+   {854},
+   {855},
+   {856},
+   {857},
+   {858},
+   {859},
+   {860},
+   {861},
+   {862},
+   {863},
+   {864},
+   {865},
+},
+-- Table: {28}
+{
+   {866},
+   {867},
+   {868},
+   {869},
+   {870},
+   {871},
+   {872},
+   {873},
+   {874},
+   {875},
+   {876},
+   {877},
+   {878},
+   {879},
+   {880},
+   {881},
+   {882},
+   {883},
+   {884},
+   {885},
+   {886},
+   {887},
+   {888},
+   {889},
+   {890},
+   {891},
+   {892},
+   {893},
+   {894},
+   {895},
+   {896},
+   {897},
+},
+-- Table: {29}
+{
+   {898},
+   {899},
+   {900},
+   {901},
+   {902},
+   {903},
+   {904},
+   {905},
+   {906},
+   {907},
+   {908},
+   {909},
+   {910},
+   {911},
+   {912},
+   {913},
+   {914},
+   {915},
+   {916},
+   {917},
+   {918},
+   {919},
+   {920},
+   {921},
+   {922},
+   {923},
+   {924},
+   {925},
+   {926},
+   {927},
+   {928},
+   {929},
+},
+-- Table: {30}
+{
+   {930},
+   {931},
+   {932},
+   {933},
+   {934},
+   {935},
+   {936},
+   {937},
+   {938},
+   {939},
+   {940},
+   {941},
+   {942},
+   {943},
+   {944},
+   {945},
+   {946},
+   {947},
+   {948},
+   {949},
+   {950},
+   {951},
+   {952},
+   {953},
+   {954},
+   {955},
+   {956},
+   {957},
+   {958},
+   {959},
+   {960},
+   {961},
+},
+-- Table: {31}
+{
+   {962},
+   {963},
+   {964},
+   {965},
+   {966},
+   {967},
+   {968},
+   {969},
+   {970},
+   {971},
+   {972},
+   {973},
+   {974},
+   {975},
+   {976},
+   {977},
+   {978},
+   {979},
+   {980},
+   {981},
+   {982},
+   {983},
+   {984},
+   {985},
+   {986},
+   {987},
+   {988},
+   {989},
+   {990},
+   {991},
+   {992},
+   {993},
+},
+-- Table: {32}
+{
+   {994},
+   {995},
+   {996},
+   {997},
+   {998},
+   {999},
+   {1000},
+   {1001},
+   {1002},
+   {1003},
+   {1004},
+   {1005},
+   {1006},
+   {1007},
+   {1008},
+   {1009},
+   {1010},
+   {1011},
+   {1012},
+   {1013},
+   {1014},
+   {1015},
+   {1016},
+   {1017},
+   {1018},
+   {1019},
+   {1020},
+   {1021},
+   {1022},
+   {1023},
+   {1024},
+   {1025},
+},
+-- Table: {33}
+{
+   {1026},
+   {1027},
+   {1028},
+   {1029},
+   {1030},
+   {1031},
+   {1032},
+   {1033},
+   {1034},
+   {1035},
+   {1036},
+   {1037},
+   {1038},
+   {1039},
+   {1040},
+   {1041},
+   {1042},
+   {1043},
+   {1044},
+   {1045},
+   {1046},
+   {1047},
+   {1048},
+   {1049},
+   {1050},
+   {1051},
+   {1052},
+   {1053},
+   {1054},
+   {1055},
+   {1056},
+   {1057},
+},
+-- Table: {34}
+{
+   ["wasVisited"]=false,
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+},
+-- Table: {35}
+{
+   ["wasVisited"]=false,
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+},
+-- Table: {36}
+{
+   ["wasVisited"]=false,
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+},
+-- Table: {37}
+{
+   ["wasVisited"]=false,
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+},
+-- Table: {38}
+{
+   ["wasVisited"]=false,
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+},
+-- Table: {39}
+{
+   ["wasVisited"]=false,
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+},
+-- Table: {40}
+{
+   ["wasVisited"]=false,
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+},
+-- Table: {41}
+{
+   ["wasVisited"]=false,
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+},
+-- Table: {42}
+{
+   ["wasVisited"]=false,
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+},
+-- Table: {43}
+{
+   ["wasVisited"]=false,
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+},
+-- Table: {44}
+{
+   ["wasVisited"]=false,
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+},
+-- Table: {45}
+{
+   ["wasVisited"]=false,
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+},
+-- Table: {46}
+{
+   ["wasVisited"]=false,
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+},
+-- Table: {47}
+{
+   ["wasVisited"]=false,
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+},
+-- Table: {48}
+{
+   ["wasVisited"]=false,
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+},
+-- Table: {49}
+{
+   ["wasVisited"]=false,
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+},
+-- Table: {50}
+{
+   ["wasVisited"]=false,
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+},
+-- Table: {51}
+{
+   ["wasVisited"]=false,
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+},
+-- Table: {52}
+{
+   ["wasVisited"]=false,
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+},
+-- Table: {53}
+{
+   ["wasVisited"]=false,
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+},
+-- Table: {54}
+{
+   ["wasVisited"]=false,
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+},
+-- Table: {55}
+{
+   ["wasVisited"]=false,
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+},
+-- Table: {56}
+{
+   ["wasVisited"]=false,
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+},
+-- Table: {57}
+{
+   ["wasVisited"]=false,
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+},
+-- Table: {58}
+{
+   ["wasVisited"]=false,
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+},
+-- Table: {59}
+{
+   ["wasVisited"]=false,
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+},
+-- Table: {60}
+{
+   ["wasVisited"]=false,
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+},
+-- Table: {61}
+{
+   ["wasVisited"]=false,
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+},
+-- Table: {62}
+{
+   ["wasVisited"]=false,
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+},
+-- Table: {63}
+{
+   ["wasVisited"]=false,
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+},
+-- Table: {64}
+{
+   ["wasVisited"]=false,
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+},
+-- Table: {65}
+{
+   ["wasVisited"]=false,
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+},
+-- Table: {66}
+{
+   ["wasVisited"]=false,
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+},
+-- Table: {67}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=7827,
+   ["wasVisited"]=false,
+},
+-- Table: {68}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=7828,
+   ["wasVisited"]=false,
+},
+-- Table: {69}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=7829,
+   ["wasVisited"]=false,
+},
+-- Table: {70}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=7830,
+   ["wasVisited"]=false,
+},
+-- Table: {71}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=7831,
+   ["wasVisited"]=false,
+},
+-- Table: {72}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=7832,
+   ["wasVisited"]=false,
+},
+-- Table: {73}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=7833,
+   ["wasVisited"]=false,
+},
+-- Table: {74}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=7834,
+   ["wasVisited"]=false,
+},
+-- Table: {75}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=7835,
+   ["wasVisited"]=false,
+},
+-- Table: {76}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=7836,
+   ["wasVisited"]=false,
+},
+-- Table: {77}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=7837,
+   ["wasVisited"]=false,
+},
+-- Table: {78}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=7838,
+   ["wasVisited"]=false,
+},
+-- Table: {79}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=7839,
+   ["wasVisited"]=false,
+},
+-- Table: {80}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=7840,
+   ["wasVisited"]=false,
+},
+-- Table: {81}
+{
+   ["hasWall"]=true,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=false,
+   ["wasVisited"]=false,
+   ["ceiling"]=7841,
+   ["wall"]=7216,
+},
+-- Table: {82}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=7842,
+   ["wasVisited"]=false,
+},
+-- Table: {83}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=7843,
+   ["wasVisited"]=false,
+},
+-- Table: {84}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=7844,
+   ["wasVisited"]=false,
+},
+-- Table: {85}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=7845,
+   ["wasVisited"]=false,
+},
+-- Table: {86}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=7846,
+   ["wasVisited"]=false,
+},
+-- Table: {87}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=7847,
+   ["wasVisited"]=false,
+},
+-- Table: {88}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=7848,
+   ["wasVisited"]=false,
+},
+-- Table: {89}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=7849,
+   ["wasVisited"]=false,
+},
+-- Table: {90}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=7850,
+   ["wasVisited"]=false,
+},
+-- Table: {91}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=7851,
+   ["wasVisited"]=false,
+},
+-- Table: {92}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=7852,
+   ["wasVisited"]=false,
+},
+-- Table: {93}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=7853,
+   ["wasVisited"]=false,
+},
+-- Table: {94}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=7854,
+   ["wasVisited"]=false,
+},
+-- Table: {95}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=7855,
+   ["wasVisited"]=false,
+},
+-- Table: {96}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=7856,
+   ["wasVisited"]=false,
+},
+-- Table: {97}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=7857,
+   ["wasVisited"]=false,
+},
+-- Table: {98}
+{
+   ["wasVisited"]=false,
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+},
+-- Table: {99}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=7858,
+   ["wasVisited"]=false,
+},
+-- Table: {100}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=7859,
+   ["wasVisited"]=false,
+},
+-- Table: {101}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=7860,
+   ["wasVisited"]=false,
+},
+-- Table: {102}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=7861,
+   ["wasVisited"]=false,
+},
+-- Table: {103}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=7862,
+   ["wasVisited"]=false,
+},
+-- Table: {104}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=7863,
+   ["wasVisited"]=false,
+},
+-- Table: {105}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=7864,
+   ["wasVisited"]=false,
+},
+-- Table: {106}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=7865,
+   ["wasVisited"]=false,
+},
+-- Table: {107}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=7866,
+   ["wasVisited"]=false,
+},
+-- Table: {108}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=7867,
+   ["wasVisited"]=false,
+},
+-- Table: {109}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=7868,
+   ["wasVisited"]=false,
+},
+-- Table: {110}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=7869,
+   ["wasVisited"]=false,
+},
+-- Table: {111}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=7870,
+   ["wasVisited"]=false,
+},
+-- Table: {112}
+{
+   ["hasWall"]=true,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=false,
+   ["wasVisited"]=false,
+   ["ceiling"]=7871,
+   ["wall"]=7217,
+},
+-- Table: {113}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=7872,
+   ["floor"]=7218,
+},
+-- Table: {114}
+{
+   ["hasWall"]=true,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=false,
+   ["wasVisited"]=false,
+   ["ceiling"]=7873,
+   ["wall"]=7219,
+},
+-- Table: {115}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=7874,
+   ["wasVisited"]=false,
+},
+-- Table: {116}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=7875,
+   ["wasVisited"]=false,
+},
+-- Table: {117}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=7876,
+   ["wasVisited"]=false,
+},
+-- Table: {118}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=7877,
+   ["wasVisited"]=false,
+},
+-- Table: {119}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=7878,
+   ["wasVisited"]=false,
+},
+-- Table: {120}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=7879,
+   ["wasVisited"]=false,
+},
+-- Table: {121}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=7880,
+   ["wasVisited"]=false,
+},
+-- Table: {122}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=7881,
+   ["wasVisited"]=false,
+},
+-- Table: {123}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=7882,
+   ["wasVisited"]=false,
+},
+-- Table: {124}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=7883,
+   ["wasVisited"]=false,
+},
+-- Table: {125}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=7884,
+   ["wasVisited"]=false,
+},
+-- Table: {126}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=7885,
+   ["wasVisited"]=false,
+},
+-- Table: {127}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=7886,
+   ["wasVisited"]=false,
+},
+-- Table: {128}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=7887,
+   ["wasVisited"]=false,
+},
+-- Table: {129}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=7888,
+   ["wasVisited"]=false,
+},
+-- Table: {130}
+{
+   ["wasVisited"]=false,
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+},
+-- Table: {131}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=7889,
+   ["wasVisited"]=false,
+},
+-- Table: {132}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=7890,
+   ["wasVisited"]=false,
+},
+-- Table: {133}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=7891,
+   ["wasVisited"]=false,
+},
+-- Table: {134}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=7892,
+   ["wasVisited"]=false,
+},
+-- Table: {135}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=7893,
+   ["wasVisited"]=false,
+},
+-- Table: {136}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=7894,
+   ["wasVisited"]=false,
+},
+-- Table: {137}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=7895,
+   ["wasVisited"]=false,
+},
+-- Table: {138}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=7896,
+   ["wasVisited"]=false,
+},
+-- Table: {139}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=7897,
+   ["wasVisited"]=false,
+},
+-- Table: {140}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=7898,
+   ["wasVisited"]=false,
+},
+-- Table: {141}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=7899,
+   ["wasVisited"]=false,
+},
+-- Table: {142}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=7900,
+   ["wasVisited"]=false,
+},
+-- Table: {143}
+{
+   ["hasWall"]=true,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=false,
+   ["wasVisited"]=false,
+   ["ceiling"]=7901,
+   ["wall"]=7220,
+},
+-- Table: {144}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=7902,
+   ["floor"]=7221,
+},
+-- Table: {145}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=7903,
+   ["floor"]=7222,
+},
+-- Table: {146}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=7904,
+   ["floor"]=7223,
+},
+-- Table: {147}
+{
+   ["hasWall"]=true,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=false,
+   ["wasVisited"]=false,
+   ["ceiling"]=7905,
+   ["wall"]=7224,
+},
+-- Table: {148}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=7906,
+   ["wasVisited"]=false,
+},
+-- Table: {149}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=7907,
+   ["wasVisited"]=false,
+},
+-- Table: {150}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=7908,
+   ["wasVisited"]=false,
+},
+-- Table: {151}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=7909,
+   ["wasVisited"]=false,
+},
+-- Table: {152}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=7910,
+   ["wasVisited"]=false,
+},
+-- Table: {153}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=7911,
+   ["wasVisited"]=false,
+},
+-- Table: {154}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=7912,
+   ["wasVisited"]=false,
+},
+-- Table: {155}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=7913,
+   ["wasVisited"]=false,
+},
+-- Table: {156}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=7914,
+   ["wasVisited"]=false,
+},
+-- Table: {157}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=7915,
+   ["wasVisited"]=false,
+},
+-- Table: {158}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=7916,
+   ["wasVisited"]=false,
+},
+-- Table: {159}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=7917,
+   ["wasVisited"]=false,
+},
+-- Table: {160}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=7918,
+   ["wasVisited"]=false,
+},
+-- Table: {161}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=7919,
+   ["wasVisited"]=false,
+},
+-- Table: {162}
+{
+   ["wasVisited"]=false,
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+},
+-- Table: {163}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=7920,
+   ["wasVisited"]=false,
+},
+-- Table: {164}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=7921,
+   ["wasVisited"]=false,
+},
+-- Table: {165}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=7922,
+   ["wasVisited"]=false,
+},
+-- Table: {166}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=7923,
+   ["wasVisited"]=false,
+},
+-- Table: {167}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=7924,
+   ["wasVisited"]=false,
+},
+-- Table: {168}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=7925,
+   ["wasVisited"]=false,
+},
+-- Table: {169}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=7926,
+   ["wasVisited"]=false,
+},
+-- Table: {170}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=7927,
+   ["wasVisited"]=false,
+},
+-- Table: {171}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=7928,
+   ["wasVisited"]=false,
+},
+-- Table: {172}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=7929,
+   ["wasVisited"]=false,
+},
+-- Table: {173}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=7930,
+   ["wasVisited"]=false,
+},
+-- Table: {174}
+{
+   ["hasWall"]=true,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=false,
+   ["wasVisited"]=false,
+   ["ceiling"]=7931,
+   ["wall"]=7225,
+},
+-- Table: {175}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=7932,
+   ["floor"]=7226,
+},
+-- Table: {176}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=7933,
+   ["floor"]=7227,
+},
+-- Table: {177}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=7934,
+   ["floor"]=7228,
+},
+-- Table: {178}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=7935,
+   ["floor"]=7229,
+},
+-- Table: {179}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=7936,
+   ["floor"]=7230,
+},
+-- Table: {180}
+{
+   ["hasWall"]=true,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=false,
+   ["wasVisited"]=false,
+   ["ceiling"]=7937,
+   ["wall"]=7231,
+},
+-- Table: {181}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=7938,
+   ["wasVisited"]=false,
+},
+-- Table: {182}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=7939,
+   ["wasVisited"]=false,
+},
+-- Table: {183}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=7940,
+   ["wasVisited"]=false,
+},
+-- Table: {184}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=7941,
+   ["wasVisited"]=false,
+},
+-- Table: {185}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=7942,
+   ["wasVisited"]=false,
+},
+-- Table: {186}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=7943,
+   ["wasVisited"]=false,
+},
+-- Table: {187}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=7944,
+   ["wasVisited"]=false,
+},
+-- Table: {188}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=7945,
+   ["wasVisited"]=false,
+},
+-- Table: {189}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=7946,
+   ["wasVisited"]=false,
+},
+-- Table: {190}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=7947,
+   ["wasVisited"]=false,
+},
+-- Table: {191}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=7948,
+   ["wasVisited"]=false,
+},
+-- Table: {192}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=7949,
+   ["wasVisited"]=false,
+},
+-- Table: {193}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=7950,
+   ["wasVisited"]=false,
+},
+-- Table: {194}
+{
+   ["wasVisited"]=false,
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+},
+-- Table: {195}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=7951,
+   ["wasVisited"]=false,
+},
+-- Table: {196}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=7952,
+   ["wasVisited"]=false,
+},
+-- Table: {197}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=7953,
+   ["wasVisited"]=false,
+},
+-- Table: {198}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=7954,
+   ["wasVisited"]=false,
+},
+-- Table: {199}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=7955,
+   ["wasVisited"]=false,
+},
+-- Table: {200}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=7956,
+   ["wasVisited"]=false,
+},
+-- Table: {201}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=7957,
+   ["wasVisited"]=false,
+},
+-- Table: {202}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=7958,
+   ["wasVisited"]=false,
+},
+-- Table: {203}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=7959,
+   ["wasVisited"]=false,
+},
+-- Table: {204}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=7960,
+   ["wasVisited"]=false,
+},
+-- Table: {205}
+{
+   ["hasWall"]=true,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=false,
+   ["wasVisited"]=false,
+   ["ceiling"]=7961,
+   ["wall"]=7232,
+},
+-- Table: {206}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=7962,
+   ["floor"]=7233,
+},
+-- Table: {207}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=7963,
+   ["floor"]=7234,
+},
+-- Table: {208}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=7964,
+   ["floor"]=7235,
+},
+-- Table: {209}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=7965,
+   ["floor"]=7236,
+},
+-- Table: {210}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=7966,
+   ["floor"]=7237,
+},
+-- Table: {211}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=7967,
+   ["floor"]=7238,
+},
+-- Table: {212}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=7968,
+   ["floor"]=7239,
+},
+-- Table: {213}
+{
+   ["hasWall"]=true,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=false,
+   ["wasVisited"]=false,
+   ["ceiling"]=7969,
+   ["wall"]=7240,
+},
+-- Table: {214}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=7970,
+   ["wasVisited"]=false,
+},
+-- Table: {215}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=7971,
+   ["wasVisited"]=false,
+},
+-- Table: {216}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=7972,
+   ["wasVisited"]=false,
+},
+-- Table: {217}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=7973,
+   ["wasVisited"]=false,
+},
+-- Table: {218}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=7974,
+   ["wasVisited"]=false,
+},
+-- Table: {219}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=7975,
+   ["wasVisited"]=false,
+},
+-- Table: {220}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=7976,
+   ["wasVisited"]=false,
+},
+-- Table: {221}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=7977,
+   ["wasVisited"]=false,
+},
+-- Table: {222}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=7978,
+   ["wasVisited"]=false,
+},
+-- Table: {223}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=7979,
+   ["wasVisited"]=false,
+},
+-- Table: {224}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=7980,
+   ["wasVisited"]=false,
+},
+-- Table: {225}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=7981,
+   ["wasVisited"]=false,
+},
+-- Table: {226}
+{
+   ["wasVisited"]=false,
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+},
+-- Table: {227}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=7982,
+   ["wasVisited"]=false,
+},
+-- Table: {228}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=7983,
+   ["wasVisited"]=false,
+},
+-- Table: {229}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=7984,
+   ["wasVisited"]=false,
+},
+-- Table: {230}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=7985,
+   ["wasVisited"]=false,
+},
+-- Table: {231}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=7986,
+   ["wasVisited"]=false,
+},
+-- Table: {232}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=7987,
+   ["wasVisited"]=false,
+},
+-- Table: {233}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=7988,
+   ["wasVisited"]=false,
+},
+-- Table: {234}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=7989,
+   ["wasVisited"]=false,
+},
+-- Table: {235}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=7990,
+   ["wasVisited"]=false,
+},
+-- Table: {236}
+{
+   ["hasWall"]=true,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=false,
+   ["wasVisited"]=false,
+   ["ceiling"]=7991,
+   ["wall"]=7241,
+},
+-- Table: {237}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=7992,
+   ["floor"]=7242,
+},
+-- Table: {238}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=7993,
+   ["floor"]=7243,
+},
+-- Table: {239}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=7994,
+   ["floor"]=7244,
+},
+-- Table: {240}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=7995,
+   ["floor"]=7245,
+},
+-- Table: {241}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=7996,
+   ["floor"]=7246,
+},
+-- Table: {242}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=7997,
+   ["floor"]=7247,
+},
+-- Table: {243}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=7998,
+   ["floor"]=7248,
+},
+-- Table: {244}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=7999,
+   ["floor"]=7249,
+},
+-- Table: {245}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8000,
+   ["floor"]=7250,
+},
+-- Table: {246}
+{
+   ["hasWall"]=true,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=false,
+   ["wasVisited"]=false,
+   ["ceiling"]=8001,
+   ["wall"]=7251,
+},
+-- Table: {247}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8002,
+   ["wasVisited"]=false,
+},
+-- Table: {248}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8003,
+   ["wasVisited"]=false,
+},
+-- Table: {249}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8004,
+   ["wasVisited"]=false,
+},
+-- Table: {250}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8005,
+   ["wasVisited"]=false,
+},
+-- Table: {251}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8006,
+   ["wasVisited"]=false,
+},
+-- Table: {252}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8007,
+   ["wasVisited"]=false,
+},
+-- Table: {253}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8008,
+   ["wasVisited"]=false,
+},
+-- Table: {254}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8009,
+   ["wasVisited"]=false,
+},
+-- Table: {255}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8010,
+   ["wasVisited"]=false,
+},
+-- Table: {256}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8011,
+   ["wasVisited"]=false,
+},
+-- Table: {257}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8012,
+   ["wasVisited"]=false,
+},
+-- Table: {258}
+{
+   ["wasVisited"]=false,
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+},
+-- Table: {259}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8013,
+   ["wasVisited"]=false,
+},
+-- Table: {260}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8014,
+   ["wasVisited"]=false,
+},
+-- Table: {261}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8015,
+   ["wasVisited"]=false,
+},
+-- Table: {262}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8016,
+   ["wasVisited"]=false,
+},
+-- Table: {263}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8017,
+   ["wasVisited"]=false,
+},
+-- Table: {264}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8018,
+   ["wasVisited"]=false,
+},
+-- Table: {265}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8019,
+   ["wasVisited"]=false,
+},
+-- Table: {266}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8020,
+   ["wasVisited"]=false,
+},
+-- Table: {267}
+{
+   ["hasWall"]=true,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=false,
+   ["wasVisited"]=false,
+   ["ceiling"]=8021,
+   ["wall"]=7252,
+},
+-- Table: {268}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8022,
+   ["floor"]=7253,
+},
+-- Table: {269}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8023,
+   ["floor"]=7254,
+},
+-- Table: {270}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8024,
+   ["floor"]=7255,
+},
+-- Table: {271}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8025,
+   ["floor"]=7256,
+},
+-- Table: {272}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8026,
+   ["floor"]=7257,
+},
+-- Table: {273}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8027,
+   ["floor"]=7258,
+},
+-- Table: {274}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8028,
+   ["floor"]=7259,
+},
+-- Table: {275}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8029,
+   ["floor"]=7260,
+},
+-- Table: {276}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8030,
+   ["floor"]=7261,
+},
+-- Table: {277}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8031,
+   ["floor"]=7262,
+},
+-- Table: {278}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8032,
+   ["floor"]=7263,
+},
+-- Table: {279}
+{
+   ["hasWall"]=true,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=false,
+   ["wasVisited"]=false,
+   ["ceiling"]=8033,
+   ["wall"]=7264,
+},
+-- Table: {280}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8034,
+   ["wasVisited"]=false,
+},
+-- Table: {281}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8035,
+   ["wasVisited"]=false,
+},
+-- Table: {282}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8036,
+   ["wasVisited"]=false,
+},
+-- Table: {283}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8037,
+   ["wasVisited"]=false,
+},
+-- Table: {284}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8038,
+   ["wasVisited"]=false,
+},
+-- Table: {285}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8039,
+   ["wasVisited"]=false,
+},
+-- Table: {286}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8040,
+   ["wasVisited"]=false,
+},
+-- Table: {287}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8041,
+   ["wasVisited"]=false,
+},
+-- Table: {288}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8042,
+   ["wasVisited"]=false,
+},
+-- Table: {289}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8043,
+   ["wasVisited"]=false,
+},
+-- Table: {290}
+{
+   ["wasVisited"]=false,
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+},
+-- Table: {291}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8044,
+   ["wasVisited"]=false,
+},
+-- Table: {292}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8045,
+   ["wasVisited"]=false,
+},
+-- Table: {293}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8046,
+   ["wasVisited"]=false,
+},
+-- Table: {294}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8047,
+   ["wasVisited"]=false,
+},
+-- Table: {295}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8048,
+   ["wasVisited"]=false,
+},
+-- Table: {296}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8049,
+   ["wasVisited"]=false,
+},
+-- Table: {297}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8050,
+   ["wasVisited"]=false,
+},
+-- Table: {298}
+{
+   ["hasWall"]=true,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=false,
+   ["wasVisited"]=false,
+   ["ceiling"]=8051,
+   ["wall"]=7265,
+},
+-- Table: {299}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8052,
+   ["floor"]=7266,
+},
+-- Table: {300}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8053,
+   ["floor"]=7267,
+},
+-- Table: {301}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8054,
+   ["floor"]=7268,
+},
+-- Table: {302}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8055,
+   ["floor"]=7269,
+},
+-- Table: {303}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8056,
+   ["floor"]=7270,
+},
+-- Table: {304}
+{
+   ["hasCeiling"]=true,
+   ["hasWall"]=true,
+   ["wasVisited"]=false,
+   ["hasFloor"]=true,
+   ["wall"]=7638,
+   ["ceiling"]=8057,
+   ["floor"]=7271,
+},
+-- Table: {305}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8058,
+   ["floor"]=7639,
+},
+-- Table: {306}
+{
+   ["hasCeiling"]=true,
+   ["hasWall"]=true,
+   ["wasVisited"]=false,
+   ["hasFloor"]=true,
+   ["wall"]=7640,
+   ["ceiling"]=8059,
+   ["floor"]=7273,
+},
+-- Table: {307}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8060,
+   ["floor"]=7274,
+},
+-- Table: {308}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8061,
+   ["floor"]=7275,
+},
+-- Table: {309}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8062,
+   ["floor"]=7276,
+},
+-- Table: {310}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8063,
+   ["floor"]=7277,
+},
+-- Table: {311}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8064,
+   ["floor"]=7278,
+},
+-- Table: {312}
+{
+   ["hasWall"]=true,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=false,
+   ["wasVisited"]=false,
+   ["ceiling"]=8065,
+   ["wall"]=7279,
+},
+-- Table: {313}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8066,
+   ["wasVisited"]=false,
+},
+-- Table: {314}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8067,
+   ["wasVisited"]=false,
+},
+-- Table: {315}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8068,
+   ["wasVisited"]=false,
+},
+-- Table: {316}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8069,
+   ["wasVisited"]=false,
+},
+-- Table: {317}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8070,
+   ["wasVisited"]=false,
+},
+-- Table: {318}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8071,
+   ["wasVisited"]=false,
+},
+-- Table: {319}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8072,
+   ["wasVisited"]=false,
+},
+-- Table: {320}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8073,
+   ["wasVisited"]=false,
+},
+-- Table: {321}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8074,
+   ["wasVisited"]=false,
+},
+-- Table: {322}
+{
+   ["wasVisited"]=false,
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+},
+-- Table: {323}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8075,
+   ["wasVisited"]=false,
+},
+-- Table: {324}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8076,
+   ["wasVisited"]=false,
+},
+-- Table: {325}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8077,
+   ["wasVisited"]=false,
+},
+-- Table: {326}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8078,
+   ["wasVisited"]=false,
+},
+-- Table: {327}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8079,
+   ["wasVisited"]=false,
+},
+-- Table: {328}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8080,
+   ["wasVisited"]=false,
+},
+-- Table: {329}
+{
+   ["hasWall"]=true,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=false,
+   ["wasVisited"]=false,
+   ["ceiling"]=8081,
+   ["wall"]=7280,
+},
+-- Table: {330}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8082,
+   ["floor"]=7281,
+},
+-- Table: {331}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8083,
+   ["floor"]=7282,
+},
+-- Table: {332}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8084,
+   ["floor"]=7283,
+},
+-- Table: {333}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8085,
+   ["floor"]=7284,
+},
+-- Table: {334}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8086,
+   ["floor"]=7285,
+},
+-- Table: {335}
+{
+   ["hasCeiling"]=true,
+   ["hasWall"]=true,
+   ["wasVisited"]=false,
+   ["hasFloor"]=true,
+   ["wall"]=7641,
+   ["ceiling"]=8087,
+   ["floor"]=7286,
+},
+-- Table: {336}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8088,
+   ["floor"]=7642,
+},
+-- Table: {337}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8089,
+   ["floor"]=7643,
+},
+-- Table: {338}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8090,
+   ["floor"]=7644,
+},
+-- Table: {339}
+{
+   ["hasCeiling"]=true,
+   ["hasWall"]=true,
+   ["wasVisited"]=false,
+   ["hasFloor"]=true,
+   ["wall"]=7645,
+   ["ceiling"]=8091,
+   ["floor"]=7290,
+},
+-- Table: {340}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8092,
+   ["floor"]=7291,
+},
+-- Table: {341}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8093,
+   ["floor"]=7292,
+},
+-- Table: {342}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8094,
+   ["floor"]=7293,
+},
+-- Table: {343}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8095,
+   ["floor"]=7294,
+},
+-- Table: {344}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8096,
+   ["floor"]=7295,
+},
+-- Table: {345}
+{
+   ["hasWall"]=true,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=false,
+   ["wasVisited"]=false,
+   ["ceiling"]=8097,
+   ["wall"]=7296,
+},
+-- Table: {346}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8098,
+   ["wasVisited"]=false,
+},
+-- Table: {347}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8099,
+   ["wasVisited"]=false,
+},
+-- Table: {348}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8100,
+   ["wasVisited"]=false,
+},
+-- Table: {349}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8101,
+   ["wasVisited"]=false,
+},
+-- Table: {350}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8102,
+   ["wasVisited"]=false,
+},
+-- Table: {351}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8103,
+   ["wasVisited"]=false,
+},
+-- Table: {352}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8104,
+   ["wasVisited"]=false,
+},
+-- Table: {353}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8105,
+   ["wasVisited"]=false,
+},
+-- Table: {354}
+{
+   ["wasVisited"]=false,
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+},
+-- Table: {355}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8106,
+   ["wasVisited"]=false,
+},
+-- Table: {356}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8107,
+   ["wasVisited"]=false,
+},
+-- Table: {357}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8108,
+   ["wasVisited"]=false,
+},
+-- Table: {358}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8109,
+   ["wasVisited"]=false,
+},
+-- Table: {359}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8110,
+   ["wasVisited"]=false,
+},
+-- Table: {360}
+{
+   ["hasWall"]=true,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=false,
+   ["wasVisited"]=false,
+   ["ceiling"]=8111,
+   ["wall"]=7297,
+},
+-- Table: {361}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8112,
+   ["floor"]=7298,
+},
+-- Table: {362}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8113,
+   ["floor"]=7299,
+},
+-- Table: {363}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8114,
+   ["floor"]=7300,
+},
+-- Table: {364}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8115,
+   ["floor"]=7301,
+},
+-- Table: {365}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8116,
+   ["floor"]=7302,
+},
+-- Table: {366}
+{
+   ["hasCeiling"]=true,
+   ["hasWall"]=true,
+   ["wasVisited"]=false,
+   ["hasFloor"]=true,
+   ["wall"]=7646,
+   ["ceiling"]=8117,
+   ["floor"]=7303,
+},
+-- Table: {367}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8118,
+   ["floor"]=7647,
+},
+-- Table: {368}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8119,
+   ["floor"]=7648,
+},
+-- Table: {369}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8120,
+   ["floor"]=7649,
+},
+-- Table: {370}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8121,
+   ["floor"]=7650,
+},
+-- Table: {371}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8122,
+   ["floor"]=7651,
+},
+-- Table: {372}
+{
+   ["hasCeiling"]=true,
+   ["hasWall"]=true,
+   ["wasVisited"]=false,
+   ["hasFloor"]=true,
+   ["wall"]=7652,
+   ["ceiling"]=8123,
+   ["floor"]=7309,
+},
+-- Table: {373}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8124,
+   ["floor"]=7310,
+},
+-- Table: {374}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8125,
+   ["floor"]=7311,
+},
+-- Table: {375}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8126,
+   ["floor"]=7312,
+},
+-- Table: {376}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8127,
+   ["floor"]=7313,
+},
+-- Table: {377}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8128,
+   ["floor"]=7314,
+},
+-- Table: {378}
+{
+   ["hasWall"]=true,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=false,
+   ["wasVisited"]=false,
+   ["ceiling"]=8129,
+   ["wall"]=7315,
+},
+-- Table: {379}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8130,
+   ["wasVisited"]=false,
+},
+-- Table: {380}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8131,
+   ["wasVisited"]=false,
+},
+-- Table: {381}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8132,
+   ["wasVisited"]=false,
+},
+-- Table: {382}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8133,
+   ["wasVisited"]=false,
+},
+-- Table: {383}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8134,
+   ["wasVisited"]=false,
+},
+-- Table: {384}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8135,
+   ["wasVisited"]=false,
+},
+-- Table: {385}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8136,
+   ["wasVisited"]=false,
+},
+-- Table: {386}
+{
+   ["wasVisited"]=false,
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+},
+-- Table: {387}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8137,
+   ["wasVisited"]=false,
+},
+-- Table: {388}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8138,
+   ["wasVisited"]=false,
+},
+-- Table: {389}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8139,
+   ["wasVisited"]=false,
+},
+-- Table: {390}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8140,
+   ["wasVisited"]=false,
+},
+-- Table: {391}
+{
+   ["hasWall"]=true,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=false,
+   ["wasVisited"]=false,
+   ["ceiling"]=8141,
+   ["wall"]=7316,
+},
+-- Table: {392}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8142,
+   ["floor"]=7317,
+},
+-- Table: {393}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8143,
+   ["floor"]=7318,
+},
+-- Table: {394}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8144,
+   ["floor"]=7319,
+},
+-- Table: {395}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8145,
+   ["floor"]=7320,
+},
+-- Table: {396}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8146,
+   ["floor"]=7321,
+},
+-- Table: {397}
+{
+   ["hasCeiling"]=true,
+   ["hasWall"]=true,
+   ["wasVisited"]=false,
+   ["hasFloor"]=true,
+   ["wall"]=7653,
+   ["ceiling"]=8147,
+   ["floor"]=7322,
+},
+-- Table: {398}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8148,
+   ["floor"]=7654,
+},
+-- Table: {399}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8149,
+   ["floor"]=7655,
+},
+-- Table: {400}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8150,
+   ["floor"]=7656,
+},
+-- Table: {401}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8151,
+   ["floor"]=7657,
+},
+-- Table: {402}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8152,
+   ["floor"]=7658,
+},
+-- Table: {403}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8153,
+   ["floor"]=7659,
+},
+-- Table: {404}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8154,
+   ["floor"]=7660,
+},
+-- Table: {405}
+{
+   ["hasCeiling"]=true,
+   ["hasWall"]=true,
+   ["wasVisited"]=false,
+   ["hasFloor"]=true,
+   ["wall"]=7661,
+   ["ceiling"]=8155,
+   ["floor"]=7330,
+},
+-- Table: {406}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8156,
+   ["floor"]=7331,
+},
+-- Table: {407}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8157,
+   ["floor"]=7332,
+},
+-- Table: {408}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8158,
+   ["floor"]=7333,
+},
+-- Table: {409}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8159,
+   ["floor"]=7334,
+},
+-- Table: {410}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8160,
+   ["floor"]=7335,
+},
+-- Table: {411}
+{
+   ["hasWall"]=true,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=false,
+   ["wasVisited"]=false,
+   ["ceiling"]=8161,
+   ["wall"]=7336,
+},
+-- Table: {412}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8162,
+   ["wasVisited"]=false,
+},
+-- Table: {413}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8163,
+   ["wasVisited"]=false,
+},
+-- Table: {414}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8164,
+   ["wasVisited"]=false,
+},
+-- Table: {415}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8165,
+   ["wasVisited"]=false,
+},
+-- Table: {416}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8166,
+   ["wasVisited"]=false,
+},
+-- Table: {417}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8167,
+   ["wasVisited"]=false,
+},
+-- Table: {418}
+{
+   ["wasVisited"]=false,
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+},
+-- Table: {419}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8168,
+   ["wasVisited"]=false,
+},
+-- Table: {420}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8169,
+   ["wasVisited"]=false,
+},
+-- Table: {421}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8170,
+   ["wasVisited"]=false,
+},
+-- Table: {422}
+{
+   ["hasWall"]=true,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=false,
+   ["wasVisited"]=false,
+   ["ceiling"]=8171,
+   ["wall"]=7337,
+},
+-- Table: {423}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8172,
+   ["floor"]=7338,
+},
+-- Table: {424}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8173,
+   ["floor"]=7339,
+},
+-- Table: {425}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8174,
+   ["floor"]=7340,
+},
+-- Table: {426}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8175,
+   ["floor"]=7341,
+},
+-- Table: {427}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8176,
+   ["floor"]=7342,
+},
+-- Table: {428}
+{
+   ["hasCeiling"]=true,
+   ["hasWall"]=true,
+   ["wasVisited"]=false,
+   ["hasFloor"]=true,
+   ["wall"]=7662,
+   ["ceiling"]=8177,
+   ["floor"]=7343,
+},
+-- Table: {429}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8178,
+   ["floor"]=7663,
+},
+-- Table: {430}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8179,
+   ["floor"]=7664,
+},
+-- Table: {431}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8180,
+   ["floor"]=7665,
+},
+-- Table: {432}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8181,
+   ["floor"]=7666,
+},
+-- Table: {433}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8182,
+   ["floor"]=7667,
+},
+-- Table: {434}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8183,
+   ["floor"]=7668,
+},
+-- Table: {435}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8184,
+   ["floor"]=7669,
+},
+-- Table: {436}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8185,
+   ["floor"]=7670,
+},
+-- Table: {437}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8186,
+   ["floor"]=7671,
+},
+-- Table: {438}
+{
+   ["hasCeiling"]=true,
+   ["hasWall"]=true,
+   ["wasVisited"]=false,
+   ["hasFloor"]=true,
+   ["wall"]=7672,
+   ["ceiling"]=8187,
+   ["floor"]=7353,
+},
+-- Table: {439}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8188,
+   ["floor"]=7354,
+},
+-- Table: {440}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8189,
+   ["floor"]=7355,
+},
+-- Table: {441}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8190,
+   ["floor"]=7356,
+},
+-- Table: {442}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8191,
+   ["floor"]=7357,
+},
+-- Table: {443}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8192,
+   ["floor"]=7358,
+},
+-- Table: {444}
+{
+   ["hasWall"]=true,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=false,
+   ["wasVisited"]=false,
+   ["ceiling"]=8193,
+   ["wall"]=7359,
+},
+-- Table: {445}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8194,
+   ["wasVisited"]=false,
+},
+-- Table: {446}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8195,
+   ["wasVisited"]=false,
+},
+-- Table: {447}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8196,
+   ["wasVisited"]=false,
+},
+-- Table: {448}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8197,
+   ["wasVisited"]=false,
+},
+-- Table: {449}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8198,
+   ["wasVisited"]=false,
+},
+-- Table: {450}
+{
+   ["wasVisited"]=false,
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+},
+-- Table: {451}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8199,
+   ["wasVisited"]=false,
+},
+-- Table: {452}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8200,
+   ["wasVisited"]=false,
+},
+-- Table: {453}
+{
+   ["hasWall"]=true,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=false,
+   ["wasVisited"]=false,
+   ["ceiling"]=8201,
+   ["wall"]=7360,
+},
+-- Table: {454}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8202,
+   ["floor"]=7361,
+},
+-- Table: {455}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8203,
+   ["floor"]=7362,
+},
+-- Table: {456}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8204,
+   ["floor"]=7363,
+},
+-- Table: {457}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8205,
+   ["floor"]=7364,
+},
+-- Table: {458}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8206,
+   ["floor"]=7365,
+},
+-- Table: {459}
+{
+   ["hasCeiling"]=true,
+   ["hasWall"]=true,
+   ["wasVisited"]=false,
+   ["hasFloor"]=true,
+   ["wall"]=7673,
+   ["ceiling"]=8207,
+   ["floor"]=7366,
+},
+-- Table: {460}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8208,
+   ["floor"]=7674,
+},
+-- Table: {461}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8209,
+   ["floor"]=7675,
+},
+-- Table: {462}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8210,
+   ["floor"]=7676,
+},
+-- Table: {463}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8211,
+   ["floor"]=7677,
+},
+-- Table: {464}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8212,
+   ["floor"]=7678,
+},
+-- Table: {465}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8213,
+   ["floor"]=7679,
+},
+-- Table: {466}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8214,
+   ["floor"]=7680,
+},
+-- Table: {467}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8215,
+   ["floor"]=7681,
+},
+-- Table: {468}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8216,
+   ["floor"]=7682,
+},
+-- Table: {469}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8217,
+   ["floor"]=7683,
+},
+-- Table: {470}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8218,
+   ["floor"]=7684,
+},
+-- Table: {471}
+{
+   ["hasCeiling"]=true,
+   ["hasWall"]=true,
+   ["wasVisited"]=false,
+   ["hasFloor"]=true,
+   ["wall"]=7685,
+   ["ceiling"]=8219,
+   ["floor"]=7378,
+},
+-- Table: {472}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8220,
+   ["floor"]=7379,
+},
+-- Table: {473}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8221,
+   ["floor"]=7380,
+},
+-- Table: {474}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8222,
+   ["floor"]=7381,
+},
+-- Table: {475}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8223,
+   ["floor"]=7382,
+},
+-- Table: {476}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8224,
+   ["floor"]=7383,
+},
+-- Table: {477}
+{
+   ["hasWall"]=true,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=false,
+   ["wasVisited"]=false,
+   ["ceiling"]=8225,
+   ["wall"]=7384,
+},
+-- Table: {478}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8226,
+   ["wasVisited"]=false,
+},
+-- Table: {479}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8227,
+   ["wasVisited"]=false,
+},
+-- Table: {480}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8228,
+   ["wasVisited"]=false,
+},
+-- Table: {481}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8229,
+   ["wasVisited"]=false,
+},
+-- Table: {482}
+{
+   ["wasVisited"]=false,
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+},
+-- Table: {483}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8230,
+   ["wasVisited"]=false,
+},
+-- Table: {484}
+{
+   ["hasWall"]=true,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=false,
+   ["wasVisited"]=false,
+   ["ceiling"]=8231,
+   ["wall"]=7385,
+},
+-- Table: {485}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8232,
+   ["floor"]=7386,
+},
+-- Table: {486}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8233,
+   ["floor"]=7387,
+},
+-- Table: {487}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8234,
+   ["floor"]=7388,
+},
+-- Table: {488}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8235,
+   ["floor"]=7389,
+},
+-- Table: {489}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8236,
+   ["floor"]=7390,
+},
+-- Table: {490}
+{
+   ["hasCeiling"]=true,
+   ["hasWall"]=true,
+   ["wasVisited"]=false,
+   ["hasFloor"]=true,
+   ["wall"]=7686,
+   ["ceiling"]=8237,
+   ["floor"]=7391,
+},
+-- Table: {491}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8238,
+   ["floor"]=7687,
+},
+-- Table: {492}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8239,
+   ["floor"]=7688,
+},
+-- Table: {493}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8240,
+   ["floor"]=7689,
+},
+-- Table: {494}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8241,
+   ["floor"]=7690,
+},
+-- Table: {495}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8242,
+   ["floor"]=7691,
+},
+-- Table: {496}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8243,
+   ["floor"]=7692,
+},
+-- Table: {497}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8244,
+   ["floor"]=7693,
+},
+-- Table: {498}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8245,
+   ["floor"]=7694,
+},
+-- Table: {499}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8246,
+   ["floor"]=7695,
+},
+-- Table: {500}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8247,
+   ["floor"]=7696,
+},
+-- Table: {501}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8248,
+   ["floor"]=7697,
+},
+-- Table: {502}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8249,
+   ["floor"]=7698,
+},
+-- Table: {503}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8250,
+   ["floor"]=7699,
+},
+-- Table: {504}
+{
+   ["hasCeiling"]=true,
+   ["hasWall"]=true,
+   ["wasVisited"]=false,
+   ["hasFloor"]=true,
+   ["wall"]=7700,
+   ["ceiling"]=8251,
+   ["floor"]=7405,
+},
+-- Table: {505}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8252,
+   ["floor"]=7406,
+},
+-- Table: {506}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8253,
+   ["floor"]=7407,
+},
+-- Table: {507}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8254,
+   ["floor"]=7408,
+},
+-- Table: {508}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8255,
+   ["floor"]=7409,
+},
+-- Table: {509}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8256,
+   ["floor"]=7410,
+},
+-- Table: {510}
+{
+   ["hasWall"]=true,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=false,
+   ["wasVisited"]=false,
+   ["ceiling"]=8257,
+   ["wall"]=7411,
+},
+-- Table: {511}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8258,
+   ["wasVisited"]=false,
+},
+-- Table: {512}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8259,
+   ["wasVisited"]=false,
+},
+-- Table: {513}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8260,
+   ["wasVisited"]=false,
+},
+-- Table: {514}
+{
+   ["wasVisited"]=false,
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+},
+-- Table: {515}
+{
+   ["hasWall"]=true,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=false,
+   ["wasVisited"]=false,
+   ["ceiling"]=8261,
+   ["wall"]=7412,
+},
+-- Table: {516}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8262,
+   ["floor"]=7413,
+},
+-- Table: {517}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8263,
+   ["floor"]=7414,
+},
+-- Table: {518}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8264,
+   ["floor"]=7415,
+},
+-- Table: {519}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8265,
+   ["floor"]=7416,
+},
+-- Table: {520}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8266,
+   ["floor"]=7417,
+},
+-- Table: {521}
+{
+   ["hasCeiling"]=true,
+   ["hasWall"]=true,
+   ["wasVisited"]=false,
+   ["hasFloor"]=true,
+   ["wall"]=7701,
+   ["ceiling"]=8267,
+   ["floor"]=7418,
+},
+-- Table: {522}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8268,
+   ["floor"]=7702,
+},
+-- Table: {523}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8269,
+   ["floor"]=7703,
+},
+-- Table: {524}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8270,
+   ["floor"]=7704,
+},
+-- Table: {525}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8271,
+   ["floor"]=7705,
+},
+-- Table: {526}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8272,
+   ["floor"]=7706,
+},
+-- Table: {527}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8273,
+   ["floor"]=7707,
+},
+-- Table: {528}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8274,
+   ["floor"]=7708,
+},
+-- Table: {529}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8275,
+   ["floor"]=7709,
+},
+-- Table: {530}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8276,
+   ["floor"]=7710,
+},
+-- Table: {531}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8277,
+   ["floor"]=7711,
+},
+-- Table: {532}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8278,
+   ["floor"]=7712,
+},
+-- Table: {533}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8279,
+   ["floor"]=7713,
+},
+-- Table: {534}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8280,
+   ["floor"]=7714,
+},
+-- Table: {535}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8281,
+   ["floor"]=7715,
+},
+-- Table: {536}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8282,
+   ["floor"]=7716,
+},
+-- Table: {537}
+{
+   ["hasCeiling"]=true,
+   ["hasWall"]=true,
+   ["wasVisited"]=false,
+   ["hasFloor"]=true,
+   ["wall"]=7717,
+   ["ceiling"]=8283,
+   ["floor"]=7434,
+},
+-- Table: {538}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8284,
+   ["floor"]=7435,
+},
+-- Table: {539}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8285,
+   ["floor"]=7436,
+},
+-- Table: {540}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8286,
+   ["floor"]=7437,
+},
+-- Table: {541}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8287,
+   ["floor"]=7438,
+},
+-- Table: {542}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8288,
+   ["floor"]=7439,
+},
+-- Table: {543}
+{
+   ["hasWall"]=true,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=false,
+   ["wasVisited"]=false,
+   ["ceiling"]=8289,
+   ["wall"]=7440,
+},
+-- Table: {544}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8290,
+   ["wasVisited"]=false,
+},
+-- Table: {545}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8291,
+   ["wasVisited"]=false,
+},
+-- Table: {546}
+{
+   ["wasVisited"]=false,
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+},
+-- Table: {547}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8292,
+   ["wasVisited"]=false,
+},
+-- Table: {548}
+{
+   ["hasWall"]=true,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=false,
+   ["wasVisited"]=false,
+   ["ceiling"]=8293,
+   ["wall"]=7441,
+},
+-- Table: {549}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8294,
+   ["floor"]=7442,
+},
+-- Table: {550}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8295,
+   ["floor"]=7443,
+},
+-- Table: {551}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8296,
+   ["floor"]=7444,
+},
+-- Table: {552}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8297,
+   ["floor"]=7445,
+},
+-- Table: {553}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8298,
+   ["floor"]=7446,
+},
+-- Table: {554}
+{
+   ["hasCeiling"]=true,
+   ["hasWall"]=true,
+   ["wasVisited"]=false,
+   ["hasFloor"]=true,
+   ["wall"]=7718,
+   ["ceiling"]=8299,
+   ["floor"]=7447,
+},
+-- Table: {555}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8300,
+   ["floor"]=7719,
+},
+-- Table: {556}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8301,
+   ["floor"]=7720,
+},
+-- Table: {557}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8302,
+   ["floor"]=7721,
+},
+-- Table: {558}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8303,
+   ["floor"]=7722,
+},
+-- Table: {559}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8304,
+   ["floor"]=7723,
+},
+-- Table: {560}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8305,
+   ["floor"]=7724,
+},
+-- Table: {561}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8306,
+   ["floor"]=7725,
+},
+-- Table: {562}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8307,
+   ["floor"]=7726,
+},
+-- Table: {563}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8308,
+   ["floor"]=7727,
+},
+-- Table: {564}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8309,
+   ["floor"]=7728,
+},
+-- Table: {565}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8310,
+   ["floor"]=7729,
+},
+-- Table: {566}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8311,
+   ["floor"]=7730,
+},
+-- Table: {567}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8312,
+   ["floor"]=7731,
+},
+-- Table: {568}
+{
+   ["hasCeiling"]=true,
+   ["hasWall"]=true,
+   ["wasVisited"]=false,
+   ["hasFloor"]=true,
+   ["wall"]=7732,
+   ["ceiling"]=8313,
+   ["floor"]=7461,
+},
+-- Table: {569}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8314,
+   ["floor"]=7462,
+},
+-- Table: {570}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8315,
+   ["floor"]=7463,
+},
+-- Table: {571}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8316,
+   ["floor"]=7464,
+},
+-- Table: {572}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8317,
+   ["floor"]=7465,
+},
+-- Table: {573}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8318,
+   ["floor"]=7466,
+},
+-- Table: {574}
+{
+   ["hasWall"]=true,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=false,
+   ["wasVisited"]=false,
+   ["ceiling"]=8319,
+   ["wall"]=7467,
+},
+-- Table: {575}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8320,
+   ["wasVisited"]=false,
+},
+-- Table: {576}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8321,
+   ["wasVisited"]=false,
+},
+-- Table: {577}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8322,
+   ["wasVisited"]=false,
+},
+-- Table: {578}
+{
+   ["wasVisited"]=false,
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+},
+-- Table: {579}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8323,
+   ["wasVisited"]=false,
+},
+-- Table: {580}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8324,
+   ["wasVisited"]=false,
+},
+-- Table: {581}
+{
+   ["hasWall"]=true,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=false,
+   ["wasVisited"]=false,
+   ["ceiling"]=8325,
+   ["wall"]=7468,
+},
+-- Table: {582}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8326,
+   ["floor"]=7469,
+},
+-- Table: {583}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8327,
+   ["floor"]=7470,
+},
+-- Table: {584}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8328,
+   ["floor"]=7471,
+},
+-- Table: {585}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8329,
+   ["floor"]=7472,
+},
+-- Table: {586}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8330,
+   ["floor"]=7473,
+},
+-- Table: {587}
+{
+   ["hasCeiling"]=true,
+   ["hasWall"]=true,
+   ["wasVisited"]=false,
+   ["hasFloor"]=true,
+   ["wall"]=7733,
+   ["ceiling"]=8331,
+   ["floor"]=7474,
+},
+-- Table: {588}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8332,
+   ["floor"]=7734,
+},
+-- Table: {589}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8333,
+   ["floor"]=7735,
+},
+-- Table: {590}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8334,
+   ["floor"]=7736,
+},
+-- Table: {591}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8335,
+   ["floor"]=7737,
+},
+-- Table: {592}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8336,
+   ["floor"]=7738,
+},
+-- Table: {593}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8337,
+   ["floor"]=7739,
+},
+-- Table: {594}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8338,
+   ["floor"]=7740,
+},
+-- Table: {595}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8339,
+   ["floor"]=7741,
+},
+-- Table: {596}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8340,
+   ["floor"]=7742,
+},
+-- Table: {597}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8341,
+   ["floor"]=7743,
+},
+-- Table: {598}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8342,
+   ["floor"]=7744,
+},
+-- Table: {599}
+{
+   ["hasCeiling"]=true,
+   ["hasWall"]=true,
+   ["wasVisited"]=false,
+   ["hasFloor"]=true,
+   ["wall"]=7745,
+   ["ceiling"]=8343,
+   ["floor"]=7486,
+},
+-- Table: {600}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8344,
+   ["floor"]=7487,
+},
+-- Table: {601}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8345,
+   ["floor"]=7488,
+},
+-- Table: {602}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8346,
+   ["floor"]=7489,
+},
+-- Table: {603}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8347,
+   ["floor"]=7490,
+},
+-- Table: {604}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8348,
+   ["floor"]=7491,
+},
+-- Table: {605}
+{
+   ["hasWall"]=true,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=false,
+   ["wasVisited"]=false,
+   ["ceiling"]=8349,
+   ["wall"]=7492,
+},
+-- Table: {606}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8350,
+   ["wasVisited"]=false,
+},
+-- Table: {607}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8351,
+   ["wasVisited"]=false,
+},
+-- Table: {608}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8352,
+   ["wasVisited"]=false,
+},
+-- Table: {609}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8353,
+   ["wasVisited"]=false,
+},
+-- Table: {610}
+{
+   ["wasVisited"]=false,
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+},
+-- Table: {611}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8354,
+   ["wasVisited"]=false,
+},
+-- Table: {612}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8355,
+   ["wasVisited"]=false,
+},
+-- Table: {613}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8356,
+   ["wasVisited"]=false,
+},
+-- Table: {614}
+{
+   ["hasWall"]=true,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=false,
+   ["wasVisited"]=false,
+   ["ceiling"]=8357,
+   ["wall"]=7493,
+},
+-- Table: {615}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8358,
+   ["floor"]=7494,
+},
+-- Table: {616}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8359,
+   ["floor"]=7495,
+},
+-- Table: {617}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8360,
+   ["floor"]=7496,
+},
+-- Table: {618}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8361,
+   ["floor"]=7497,
+},
+-- Table: {619}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8362,
+   ["floor"]=7498,
+},
+-- Table: {620}
+{
+   ["hasCeiling"]=true,
+   ["hasWall"]=true,
+   ["wasVisited"]=false,
+   ["hasFloor"]=true,
+   ["wall"]=7746,
+   ["ceiling"]=8363,
+   ["floor"]=7499,
+},
+-- Table: {621}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8364,
+   ["floor"]=7747,
+},
+-- Table: {622}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8365,
+   ["floor"]=7748,
+},
+-- Table: {623}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8366,
+   ["floor"]=7749,
+},
+-- Table: {624}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8367,
+   ["floor"]=7750,
+},
+-- Table: {625}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8368,
+   ["floor"]=7751,
+},
+-- Table: {626}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8369,
+   ["floor"]=7752,
+},
+-- Table: {627}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8370,
+   ["floor"]=7753,
+},
+-- Table: {628}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8371,
+   ["floor"]=7754,
+},
+-- Table: {629}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8372,
+   ["floor"]=7755,
+},
+-- Table: {630}
+{
+   ["hasCeiling"]=true,
+   ["hasWall"]=true,
+   ["wasVisited"]=false,
+   ["hasFloor"]=true,
+   ["wall"]=7756,
+   ["ceiling"]=8373,
+   ["floor"]=7509,
+},
+-- Table: {631}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8374,
+   ["floor"]=7510,
+},
+-- Table: {632}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8375,
+   ["floor"]=7511,
+},
+-- Table: {633}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8376,
+   ["floor"]=7512,
+},
+-- Table: {634}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8377,
+   ["floor"]=7513,
+},
+-- Table: {635}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8378,
+   ["floor"]=7514,
+},
+-- Table: {636}
+{
+   ["hasWall"]=true,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=false,
+   ["wasVisited"]=false,
+   ["ceiling"]=8379,
+   ["wall"]=7515,
+},
+-- Table: {637}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8380,
+   ["wasVisited"]=false,
+},
+-- Table: {638}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8381,
+   ["wasVisited"]=false,
+},
+-- Table: {639}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8382,
+   ["wasVisited"]=false,
+},
+-- Table: {640}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8383,
+   ["wasVisited"]=false,
+},
+-- Table: {641}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8384,
+   ["wasVisited"]=false,
+},
+-- Table: {642}
+{
+   ["wasVisited"]=false,
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+},
+-- Table: {643}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8385,
+   ["wasVisited"]=false,
+},
+-- Table: {644}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8386,
+   ["wasVisited"]=false,
+},
+-- Table: {645}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8387,
+   ["wasVisited"]=false,
+},
+-- Table: {646}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8388,
+   ["wasVisited"]=false,
+},
+-- Table: {647}
+{
+   ["hasWall"]=true,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=false,
+   ["wasVisited"]=false,
+   ["ceiling"]=8389,
+   ["wall"]=7516,
+},
+-- Table: {648}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8390,
+   ["floor"]=7517,
+},
+-- Table: {649}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8391,
+   ["floor"]=7518,
+},
+-- Table: {650}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8392,
+   ["floor"]=7519,
+},
+-- Table: {651}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8393,
+   ["floor"]=7520,
+},
+-- Table: {652}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8394,
+   ["floor"]=7521,
+},
+-- Table: {653}
+{
+   ["hasCeiling"]=true,
+   ["hasWall"]=true,
+   ["wasVisited"]=false,
+   ["hasFloor"]=true,
+   ["wall"]=7757,
+   ["ceiling"]=8395,
+   ["floor"]=7522,
+},
+-- Table: {654}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8396,
+   ["floor"]=7758,
+},
+-- Table: {655}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8397,
+   ["floor"]=7759,
+},
+-- Table: {656}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8398,
+   ["floor"]=7760,
+},
+-- Table: {657}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8399,
+   ["floor"]=7761,
+},
+-- Table: {658}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8400,
+   ["floor"]=7762,
+},
+-- Table: {659}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8401,
+   ["floor"]=7763,
+},
+-- Table: {660}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8402,
+   ["floor"]=7764,
+},
+-- Table: {661}
+{
+   ["hasCeiling"]=true,
+   ["hasWall"]=true,
+   ["wasVisited"]=false,
+   ["hasFloor"]=true,
+   ["wall"]=7765,
+   ["ceiling"]=8403,
+   ["floor"]=7530,
+},
+-- Table: {662}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8404,
+   ["floor"]=7531,
+},
+-- Table: {663}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8405,
+   ["floor"]=7532,
+},
+-- Table: {664}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8406,
+   ["floor"]=7533,
+},
+-- Table: {665}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8407,
+   ["floor"]=7534,
+},
+-- Table: {666}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8408,
+   ["floor"]=7535,
+},
+-- Table: {667}
+{
+   ["hasWall"]=true,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=false,
+   ["wasVisited"]=false,
+   ["ceiling"]=8409,
+   ["wall"]=7536,
+},
+-- Table: {668}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8410,
+   ["wasVisited"]=false,
+},
+-- Table: {669}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8411,
+   ["wasVisited"]=false,
+},
+-- Table: {670}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8412,
+   ["wasVisited"]=false,
+},
+-- Table: {671}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8413,
+   ["wasVisited"]=false,
+},
+-- Table: {672}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8414,
+   ["wasVisited"]=false,
+},
+-- Table: {673}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8415,
+   ["wasVisited"]=false,
+},
+-- Table: {674}
+{
+   ["wasVisited"]=false,
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+},
+-- Table: {675}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8416,
+   ["wasVisited"]=false,
+},
+-- Table: {676}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8417,
+   ["wasVisited"]=false,
+},
+-- Table: {677}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8418,
+   ["wasVisited"]=false,
+},
+-- Table: {678}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8419,
+   ["wasVisited"]=false,
+},
+-- Table: {679}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8420,
+   ["wasVisited"]=false,
+},
+-- Table: {680}
+{
+   ["hasWall"]=true,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=false,
+   ["wasVisited"]=false,
+   ["ceiling"]=8421,
+   ["wall"]=7537,
+},
+-- Table: {681}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8422,
+   ["floor"]=7538,
+},
+-- Table: {682}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8423,
+   ["floor"]=7539,
+},
+-- Table: {683}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8424,
+   ["floor"]=7540,
+},
+-- Table: {684}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8425,
+   ["floor"]=7541,
+},
+-- Table: {685}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8426,
+   ["floor"]=7542,
+},
+-- Table: {686}
+{
+   ["hasCeiling"]=true,
+   ["hasWall"]=true,
+   ["wasVisited"]=false,
+   ["hasFloor"]=true,
+   ["wall"]=7766,
+   ["ceiling"]=8427,
+   ["floor"]=7543,
+},
+-- Table: {687}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8428,
+   ["floor"]=7767,
+},
+-- Table: {688}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8429,
+   ["floor"]=7768,
+},
+-- Table: {689}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8430,
+   ["floor"]=7769,
+},
+-- Table: {690}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8431,
+   ["floor"]=7770,
+},
+-- Table: {691}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8432,
+   ["floor"]=7771,
+},
+-- Table: {692}
+{
+   ["hasCeiling"]=true,
+   ["hasWall"]=true,
+   ["wasVisited"]=false,
+   ["hasFloor"]=true,
+   ["wall"]=7772,
+   ["ceiling"]=8433,
+   ["floor"]=7549,
+},
+-- Table: {693}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8434,
+   ["floor"]=7550,
+},
+-- Table: {694}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8435,
+   ["floor"]=7551,
+},
+-- Table: {695}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8436,
+   ["floor"]=7552,
+},
+-- Table: {696}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8437,
+   ["floor"]=7553,
+},
+-- Table: {697}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8438,
+   ["floor"]=7554,
+},
+-- Table: {698}
+{
+   ["hasWall"]=true,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=false,
+   ["wasVisited"]=false,
+   ["ceiling"]=8439,
+   ["wall"]=7555,
+},
+-- Table: {699}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8440,
+   ["wasVisited"]=false,
+},
+-- Table: {700}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8441,
+   ["wasVisited"]=false,
+},
+-- Table: {701}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8442,
+   ["wasVisited"]=false,
+},
+-- Table: {702}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8443,
+   ["wasVisited"]=false,
+},
+-- Table: {703}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8444,
+   ["wasVisited"]=false,
+},
+-- Table: {704}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8445,
+   ["wasVisited"]=false,
+},
+-- Table: {705}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8446,
+   ["wasVisited"]=false,
+},
+-- Table: {706}
+{
+   ["wasVisited"]=false,
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+},
+-- Table: {707}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8447,
+   ["wasVisited"]=false,
+},
+-- Table: {708}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8448,
+   ["wasVisited"]=false,
+},
+-- Table: {709}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8449,
+   ["wasVisited"]=false,
+},
+-- Table: {710}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8450,
+   ["wasVisited"]=false,
+},
+-- Table: {711}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8451,
+   ["wasVisited"]=false,
+},
+-- Table: {712}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8452,
+   ["wasVisited"]=false,
+},
+-- Table: {713}
+{
+   ["hasWall"]=true,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=false,
+   ["wasVisited"]=false,
+   ["ceiling"]=8453,
+   ["wall"]=7556,
+},
+-- Table: {714}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8454,
+   ["floor"]=7557,
+},
+-- Table: {715}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8455,
+   ["floor"]=7558,
+},
+-- Table: {716}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8456,
+   ["floor"]=7559,
+},
+-- Table: {717}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8457,
+   ["floor"]=7560,
+},
+-- Table: {718}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8458,
+   ["floor"]=7561,
+},
+-- Table: {719}
+{
+   ["hasCeiling"]=true,
+   ["hasWall"]=true,
+   ["wasVisited"]=false,
+   ["hasFloor"]=true,
+   ["wall"]=7773,
+   ["ceiling"]=8459,
+   ["floor"]=7562,
+},
+-- Table: {720}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8460,
+   ["floor"]=7774,
+},
+-- Table: {721}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8461,
+   ["floor"]=7775,
+},
+-- Table: {722}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8462,
+   ["floor"]=7776,
+},
+-- Table: {723}
+{
+   ["hasCeiling"]=true,
+   ["hasWall"]=true,
+   ["wasVisited"]=false,
+   ["hasFloor"]=true,
+   ["wall"]=7777,
+   ["ceiling"]=8463,
+   ["floor"]=7566,
+},
+-- Table: {724}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8464,
+   ["floor"]=7567,
+},
+-- Table: {725}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8465,
+   ["floor"]=7568,
+},
+-- Table: {726}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8466,
+   ["floor"]=7569,
+},
+-- Table: {727}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8467,
+   ["floor"]=7570,
+},
+-- Table: {728}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8468,
+   ["floor"]=7571,
+},
+-- Table: {729}
+{
+   ["hasWall"]=true,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=false,
+   ["wasVisited"]=false,
+   ["ceiling"]=8469,
+   ["wall"]=7572,
+},
+-- Table: {730}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8470,
+   ["wasVisited"]=false,
+},
+-- Table: {731}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8471,
+   ["wasVisited"]=false,
+},
+-- Table: {732}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8472,
+   ["wasVisited"]=false,
+},
+-- Table: {733}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8473,
+   ["wasVisited"]=false,
+},
+-- Table: {734}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8474,
+   ["wasVisited"]=false,
+},
+-- Table: {735}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8475,
+   ["wasVisited"]=false,
+},
+-- Table: {736}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8476,
+   ["wasVisited"]=false,
+},
+-- Table: {737}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8477,
+   ["wasVisited"]=false,
+},
+-- Table: {738}
+{
+   ["wasVisited"]=false,
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+},
+-- Table: {739}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8478,
+   ["wasVisited"]=false,
+},
+-- Table: {740}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8479,
+   ["wasVisited"]=false,
+},
+-- Table: {741}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8480,
+   ["wasVisited"]=false,
+},
+-- Table: {742}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8481,
+   ["wasVisited"]=false,
+},
+-- Table: {743}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8482,
+   ["wasVisited"]=false,
+},
+-- Table: {744}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8483,
+   ["wasVisited"]=false,
+},
+-- Table: {745}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8484,
+   ["wasVisited"]=false,
+},
+-- Table: {746}
+{
+   ["hasWall"]=true,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=false,
+   ["wasVisited"]=false,
+   ["ceiling"]=8485,
+   ["wall"]=7573,
+},
+-- Table: {747}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8486,
+   ["floor"]=7574,
+},
+-- Table: {748}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8487,
+   ["floor"]=7575,
+},
+-- Table: {749}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8488,
+   ["floor"]=7576,
+},
+-- Table: {750}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8489,
+   ["floor"]=7577,
+},
+-- Table: {751}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8490,
+   ["floor"]=7578,
+},
+-- Table: {752}
+{
+   ["hasCeiling"]=true,
+   ["hasWall"]=true,
+   ["wasVisited"]=false,
+   ["hasFloor"]=true,
+   ["wall"]=7778,
+   ["ceiling"]=8491,
+   ["floor"]=7579,
+},
+-- Table: {753}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8492,
+   ["floor"]=7779,
+},
+-- Table: {754}
+{
+   ["hasCeiling"]=true,
+   ["hasWall"]=true,
+   ["wasVisited"]=false,
+   ["hasFloor"]=true,
+   ["wall"]=7780,
+   ["ceiling"]=8493,
+   ["floor"]=7581,
+},
+-- Table: {755}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8494,
+   ["floor"]=7582,
+},
+-- Table: {756}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8495,
+   ["floor"]=7583,
+},
+-- Table: {757}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8496,
+   ["floor"]=7584,
+},
+-- Table: {758}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8497,
+   ["floor"]=7585,
+},
+-- Table: {759}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8498,
+   ["floor"]=7586,
+},
+-- Table: {760}
+{
+   ["hasWall"]=true,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=false,
+   ["wasVisited"]=false,
+   ["ceiling"]=8499,
+   ["wall"]=7587,
+},
+-- Table: {761}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8500,
+   ["wasVisited"]=false,
+},
+-- Table: {762}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8501,
+   ["wasVisited"]=false,
+},
+-- Table: {763}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8502,
+   ["wasVisited"]=false,
+},
+-- Table: {764}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8503,
+   ["wasVisited"]=false,
+},
+-- Table: {765}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8504,
+   ["wasVisited"]=false,
+},
+-- Table: {766}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8505,
+   ["wasVisited"]=false,
+},
+-- Table: {767}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8506,
+   ["wasVisited"]=false,
+},
+-- Table: {768}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8507,
+   ["wasVisited"]=false,
+},
+-- Table: {769}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8508,
+   ["wasVisited"]=false,
+},
+-- Table: {770}
+{
+   ["wasVisited"]=false,
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+},
+-- Table: {771}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8509,
+   ["wasVisited"]=false,
+},
+-- Table: {772}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8510,
+   ["wasVisited"]=false,
+},
+-- Table: {773}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8511,
+   ["wasVisited"]=false,
+},
+-- Table: {774}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8512,
+   ["wasVisited"]=false,
+},
+-- Table: {775}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8513,
+   ["wasVisited"]=false,
+},
+-- Table: {776}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8514,
+   ["wasVisited"]=false,
+},
+-- Table: {777}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8515,
+   ["wasVisited"]=false,
+},
+-- Table: {778}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8516,
+   ["wasVisited"]=false,
+},
+-- Table: {779}
+{
+   ["hasWall"]=true,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=false,
+   ["wasVisited"]=false,
+   ["ceiling"]=8517,
+   ["wall"]=7588,
+},
+-- Table: {780}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8518,
+   ["floor"]=7589,
+},
+-- Table: {781}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8519,
+   ["floor"]=7590,
+},
+-- Table: {782}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8520,
+   ["floor"]=7591,
+},
+-- Table: {783}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8521,
+   ["floor"]=7592,
+},
+-- Table: {784}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8522,
+   ["floor"]=7593,
+},
+-- Table: {785}
+{
+   ["hasCeiling"]=true,
+   ["hasWall"]=true,
+   ["wasVisited"]=false,
+   ["hasFloor"]=true,
+   ["wall"]=7781,
+   ["ceiling"]=8523,
+   ["floor"]=7594,
+},
+-- Table: {786}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8524,
+   ["floor"]=7595,
+},
+-- Table: {787}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8525,
+   ["floor"]=7596,
+},
+-- Table: {788}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8526,
+   ["floor"]=7597,
+},
+-- Table: {789}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8527,
+   ["floor"]=7598,
+},
+-- Table: {790}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8528,
+   ["floor"]=7599,
+},
+-- Table: {791}
+{
+   ["hasWall"]=true,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=false,
+   ["wasVisited"]=false,
+   ["ceiling"]=8529,
+   ["wall"]=7600,
+},
+-- Table: {792}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8530,
+   ["wasVisited"]=false,
+},
+-- Table: {793}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8531,
+   ["wasVisited"]=false,
+},
+-- Table: {794}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8532,
+   ["wasVisited"]=false,
+},
+-- Table: {795}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8533,
+   ["wasVisited"]=false,
+},
+-- Table: {796}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8534,
+   ["wasVisited"]=false,
+},
+-- Table: {797}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8535,
+   ["wasVisited"]=false,
+},
+-- Table: {798}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8536,
+   ["wasVisited"]=false,
+},
+-- Table: {799}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8537,
+   ["wasVisited"]=false,
+},
+-- Table: {800}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8538,
+   ["wasVisited"]=false,
+},
+-- Table: {801}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8539,
+   ["wasVisited"]=false,
+},
+-- Table: {802}
+{
+   ["wasVisited"]=false,
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+},
+-- Table: {803}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8540,
+   ["wasVisited"]=false,
+},
+-- Table: {804}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8541,
+   ["wasVisited"]=false,
+},
+-- Table: {805}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8542,
+   ["wasVisited"]=false,
+},
+-- Table: {806}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8543,
+   ["wasVisited"]=false,
+},
+-- Table: {807}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8544,
+   ["wasVisited"]=false,
+},
+-- Table: {808}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8545,
+   ["wasVisited"]=false,
+},
+-- Table: {809}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8546,
+   ["wasVisited"]=false,
+},
+-- Table: {810}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8547,
+   ["wasVisited"]=false,
+},
+-- Table: {811}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8548,
+   ["wasVisited"]=false,
+},
+-- Table: {812}
+{
+   ["hasWall"]=true,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=false,
+   ["wasVisited"]=false,
+   ["ceiling"]=8549,
+   ["wall"]=7601,
+},
+-- Table: {813}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8550,
+   ["floor"]=7602,
+},
+-- Table: {814}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8551,
+   ["floor"]=7603,
+},
+-- Table: {815}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8552,
+   ["floor"]=7604,
+},
+-- Table: {816}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8553,
+   ["floor"]=7605,
+},
+-- Table: {817}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8554,
+   ["floor"]=7606,
+},
+-- Table: {818}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8555,
+   ["floor"]=7607,
+},
+-- Table: {819}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8556,
+   ["floor"]=7608,
+},
+-- Table: {820}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8557,
+   ["floor"]=7609,
+},
+-- Table: {821}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8558,
+   ["floor"]=7610,
+},
+-- Table: {822}
+{
+   ["hasWall"]=true,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=false,
+   ["wasVisited"]=false,
+   ["ceiling"]=8559,
+   ["wall"]=7611,
+},
+-- Table: {823}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8560,
+   ["wasVisited"]=false,
+},
+-- Table: {824}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8561,
+   ["wasVisited"]=false,
+},
+-- Table: {825}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8562,
+   ["wasVisited"]=false,
+},
+-- Table: {826}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8563,
+   ["wasVisited"]=false,
+},
+-- Table: {827}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8564,
+   ["wasVisited"]=false,
+},
+-- Table: {828}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8565,
+   ["wasVisited"]=false,
+},
+-- Table: {829}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8566,
+   ["wasVisited"]=false,
+},
+-- Table: {830}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8567,
+   ["wasVisited"]=false,
+},
+-- Table: {831}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8568,
+   ["wasVisited"]=false,
+},
+-- Table: {832}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8569,
+   ["wasVisited"]=false,
+},
+-- Table: {833}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8570,
+   ["wasVisited"]=false,
+},
+-- Table: {834}
+{
+   ["wasVisited"]=false,
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+},
+-- Table: {835}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8571,
+   ["wasVisited"]=false,
+},
+-- Table: {836}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8572,
+   ["wasVisited"]=false,
+},
+-- Table: {837}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8573,
+   ["wasVisited"]=false,
+},
+-- Table: {838}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8574,
+   ["wasVisited"]=false,
+},
+-- Table: {839}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8575,
+   ["wasVisited"]=false,
+},
+-- Table: {840}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8576,
+   ["wasVisited"]=false,
+},
+-- Table: {841}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8577,
+   ["wasVisited"]=false,
+},
+-- Table: {842}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8578,
+   ["wasVisited"]=false,
+},
+-- Table: {843}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8579,
+   ["wasVisited"]=false,
+},
+-- Table: {844}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8580,
+   ["wasVisited"]=false,
+},
+-- Table: {845}
+{
+   ["hasWall"]=true,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=false,
+   ["wasVisited"]=false,
+   ["ceiling"]=8581,
+   ["wall"]=7612,
+},
+-- Table: {846}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8582,
+   ["floor"]=7613,
+},
+-- Table: {847}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8583,
+   ["floor"]=7614,
+},
+-- Table: {848}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8584,
+   ["floor"]=7615,
+},
+-- Table: {849}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8585,
+   ["floor"]=7616,
+},
+-- Table: {850}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8586,
+   ["floor"]=7617,
+},
+-- Table: {851}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8587,
+   ["floor"]=7618,
+},
+-- Table: {852}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8588,
+   ["floor"]=7619,
+},
+-- Table: {853}
+{
+   ["hasWall"]=true,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=false,
+   ["wasVisited"]=false,
+   ["ceiling"]=8589,
+   ["wall"]=7620,
+},
+-- Table: {854}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8590,
+   ["wasVisited"]=false,
+},
+-- Table: {855}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8591,
+   ["wasVisited"]=false,
+},
+-- Table: {856}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8592,
+   ["wasVisited"]=false,
+},
+-- Table: {857}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8593,
+   ["wasVisited"]=false,
+},
+-- Table: {858}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8594,
+   ["wasVisited"]=false,
+},
+-- Table: {859}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8595,
+   ["wasVisited"]=false,
+},
+-- Table: {860}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8596,
+   ["wasVisited"]=false,
+},
+-- Table: {861}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8597,
+   ["wasVisited"]=false,
+},
+-- Table: {862}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8598,
+   ["wasVisited"]=false,
+},
+-- Table: {863}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8599,
+   ["wasVisited"]=false,
+},
+-- Table: {864}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8600,
+   ["wasVisited"]=false,
+},
+-- Table: {865}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8601,
+   ["wasVisited"]=false,
+},
+-- Table: {866}
+{
+   ["wasVisited"]=false,
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+},
+-- Table: {867}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8602,
+   ["wasVisited"]=false,
+},
+-- Table: {868}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8603,
+   ["wasVisited"]=false,
+},
+-- Table: {869}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8604,
+   ["wasVisited"]=false,
+},
+-- Table: {870}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8605,
+   ["wasVisited"]=false,
+},
+-- Table: {871}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8606,
+   ["wasVisited"]=false,
+},
+-- Table: {872}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8607,
+   ["wasVisited"]=false,
+},
+-- Table: {873}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8608,
+   ["wasVisited"]=false,
+},
+-- Table: {874}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8609,
+   ["wasVisited"]=false,
+},
+-- Table: {875}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8610,
+   ["wasVisited"]=false,
+},
+-- Table: {876}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8611,
+   ["wasVisited"]=false,
+},
+-- Table: {877}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8612,
+   ["wasVisited"]=false,
+},
+-- Table: {878}
+{
+   ["hasWall"]=true,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=false,
+   ["wasVisited"]=false,
+   ["ceiling"]=8613,
+   ["wall"]=7621,
+},
+-- Table: {879}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8614,
+   ["floor"]=7622,
+},
+-- Table: {880}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8615,
+   ["floor"]=7623,
+},
+-- Table: {881}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8616,
+   ["floor"]=7624,
+},
+-- Table: {882}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8617,
+   ["floor"]=7625,
+},
+-- Table: {883}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8618,
+   ["floor"]=7626,
+},
+-- Table: {884}
+{
+   ["hasWall"]=true,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=false,
+   ["wasVisited"]=false,
+   ["ceiling"]=8619,
+   ["wall"]=7627,
+},
+-- Table: {885}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8620,
+   ["wasVisited"]=false,
+},
+-- Table: {886}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8621,
+   ["wasVisited"]=false,
+},
+-- Table: {887}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8622,
+   ["wasVisited"]=false,
+},
+-- Table: {888}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8623,
+   ["wasVisited"]=false,
+},
+-- Table: {889}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8624,
+   ["wasVisited"]=false,
+},
+-- Table: {890}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8625,
+   ["wasVisited"]=false,
+},
+-- Table: {891}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8626,
+   ["wasVisited"]=false,
+},
+-- Table: {892}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8627,
+   ["wasVisited"]=false,
+},
+-- Table: {893}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8628,
+   ["wasVisited"]=false,
+},
+-- Table: {894}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8629,
+   ["wasVisited"]=false,
+},
+-- Table: {895}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8630,
+   ["wasVisited"]=false,
+},
+-- Table: {896}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8631,
+   ["wasVisited"]=false,
+},
+-- Table: {897}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8632,
+   ["wasVisited"]=false,
+},
+-- Table: {898}
+{
+   ["wasVisited"]=false,
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+},
+-- Table: {899}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8633,
+   ["wasVisited"]=false,
+},
+-- Table: {900}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8634,
+   ["wasVisited"]=false,
+},
+-- Table: {901}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8635,
+   ["wasVisited"]=false,
+},
+-- Table: {902}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8636,
+   ["wasVisited"]=false,
+},
+-- Table: {903}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8637,
+   ["wasVisited"]=false,
+},
+-- Table: {904}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8638,
+   ["wasVisited"]=false,
+},
+-- Table: {905}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8639,
+   ["wasVisited"]=false,
+},
+-- Table: {906}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8640,
+   ["wasVisited"]=false,
+},
+-- Table: {907}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8641,
+   ["wasVisited"]=false,
+},
+-- Table: {908}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8642,
+   ["wasVisited"]=false,
+},
+-- Table: {909}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8643,
+   ["wasVisited"]=false,
+},
+-- Table: {910}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8644,
+   ["wasVisited"]=false,
+},
+-- Table: {911}
+{
+   ["hasWall"]=true,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=false,
+   ["wasVisited"]=false,
+   ["ceiling"]=8645,
+   ["wall"]=7628,
+},
+-- Table: {912}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8646,
+   ["floor"]=7629,
+},
+-- Table: {913}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8647,
+   ["floor"]=7630,
+},
+-- Table: {914}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8648,
+   ["floor"]=7631,
+},
+-- Table: {915}
+{
+   ["hasWall"]=true,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=false,
+   ["wasVisited"]=false,
+   ["ceiling"]=8649,
+   ["wall"]=7632,
+},
+-- Table: {916}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8650,
+   ["wasVisited"]=false,
+},
+-- Table: {917}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8651,
+   ["wasVisited"]=false,
+},
+-- Table: {918}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8652,
+   ["wasVisited"]=false,
+},
+-- Table: {919}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8653,
+   ["wasVisited"]=false,
+},
+-- Table: {920}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8654,
+   ["wasVisited"]=false,
+},
+-- Table: {921}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8655,
+   ["wasVisited"]=false,
+},
+-- Table: {922}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8656,
+   ["wasVisited"]=false,
+},
+-- Table: {923}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8657,
+   ["wasVisited"]=false,
+},
+-- Table: {924}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8658,
+   ["wasVisited"]=false,
+},
+-- Table: {925}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8659,
+   ["wasVisited"]=false,
+},
+-- Table: {926}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8660,
+   ["wasVisited"]=false,
+},
+-- Table: {927}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8661,
+   ["wasVisited"]=false,
+},
+-- Table: {928}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8662,
+   ["wasVisited"]=false,
+},
+-- Table: {929}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8663,
+   ["wasVisited"]=false,
+},
+-- Table: {930}
+{
+   ["wasVisited"]=false,
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+},
+-- Table: {931}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8664,
+   ["wasVisited"]=false,
+},
+-- Table: {932}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8665,
+   ["wasVisited"]=false,
+},
+-- Table: {933}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8666,
+   ["wasVisited"]=false,
+},
+-- Table: {934}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8667,
+   ["wasVisited"]=false,
+},
+-- Table: {935}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8668,
+   ["wasVisited"]=false,
+},
+-- Table: {936}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8669,
+   ["wasVisited"]=false,
+},
+-- Table: {937}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8670,
+   ["wasVisited"]=false,
+},
+-- Table: {938}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8671,
+   ["wasVisited"]=false,
+},
+-- Table: {939}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8672,
+   ["wasVisited"]=false,
+},
+-- Table: {940}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8673,
+   ["wasVisited"]=false,
+},
+-- Table: {941}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8674,
+   ["wasVisited"]=false,
+},
+-- Table: {942}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8675,
+   ["wasVisited"]=false,
+},
+-- Table: {943}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8676,
+   ["wasVisited"]=false,
+},
+-- Table: {944}
+{
+   ["hasWall"]=true,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=false,
+   ["wasVisited"]=false,
+   ["ceiling"]=8677,
+   ["wall"]=7633,
+},
+-- Table: {945}
+{
+   ["hasWall"]=false,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=true,
+   ["wasVisited"]=false,
+   ["ceiling"]=8678,
+   ["floor"]=7634,
+},
+-- Table: {946}
+{
+   ["hasWall"]=true,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=false,
+   ["wasVisited"]=false,
+   ["ceiling"]=8679,
+   ["wall"]=7635,
+},
+-- Table: {947}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8680,
+   ["wasVisited"]=false,
+},
+-- Table: {948}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8681,
+   ["wasVisited"]=false,
+},
+-- Table: {949}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8682,
+   ["wasVisited"]=false,
+},
+-- Table: {950}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8683,
+   ["wasVisited"]=false,
+},
+-- Table: {951}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8684,
+   ["wasVisited"]=false,
+},
+-- Table: {952}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8685,
+   ["wasVisited"]=false,
+},
+-- Table: {953}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8686,
+   ["wasVisited"]=false,
+},
+-- Table: {954}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8687,
+   ["wasVisited"]=false,
+},
+-- Table: {955}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8688,
+   ["wasVisited"]=false,
+},
+-- Table: {956}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8689,
+   ["wasVisited"]=false,
+},
+-- Table: {957}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8690,
+   ["wasVisited"]=false,
+},
+-- Table: {958}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8691,
+   ["wasVisited"]=false,
+},
+-- Table: {959}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8692,
+   ["wasVisited"]=false,
+},
+-- Table: {960}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8693,
+   ["wasVisited"]=false,
+},
+-- Table: {961}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8694,
+   ["wasVisited"]=false,
+},
+-- Table: {962}
+{
+   ["wasVisited"]=false,
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+},
+-- Table: {963}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8695,
+   ["wasVisited"]=false,
+},
+-- Table: {964}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8696,
+   ["wasVisited"]=false,
+},
+-- Table: {965}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8697,
+   ["wasVisited"]=false,
+},
+-- Table: {966}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8698,
+   ["wasVisited"]=false,
+},
+-- Table: {967}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8699,
+   ["wasVisited"]=false,
+},
+-- Table: {968}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8700,
+   ["wasVisited"]=false,
+},
+-- Table: {969}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8701,
+   ["wasVisited"]=false,
+},
+-- Table: {970}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8702,
+   ["wasVisited"]=false,
+},
+-- Table: {971}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8703,
+   ["wasVisited"]=false,
+},
+-- Table: {972}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8704,
+   ["wasVisited"]=false,
+},
+-- Table: {973}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8705,
+   ["wasVisited"]=false,
+},
+-- Table: {974}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8706,
+   ["wasVisited"]=false,
+},
+-- Table: {975}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8707,
+   ["wasVisited"]=false,
+},
+-- Table: {976}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8708,
+   ["wasVisited"]=false,
+},
+-- Table: {977}
+{
+   ["hasWall"]=true,
+   ["hasCeiling"]=true,
+   ["hasFloor"]=false,
+   ["wasVisited"]=false,
+   ["ceiling"]=8709,
+   ["wall"]=7636,
+},
+-- Table: {978}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8710,
+   ["wasVisited"]=false,
+},
+-- Table: {979}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8711,
+   ["wasVisited"]=false,
+},
+-- Table: {980}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8712,
+   ["wasVisited"]=false,
+},
+-- Table: {981}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8713,
+   ["wasVisited"]=false,
+},
+-- Table: {982}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8714,
+   ["wasVisited"]=false,
+},
+-- Table: {983}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8715,
+   ["wasVisited"]=false,
+},
+-- Table: {984}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8716,
+   ["wasVisited"]=false,
+},
+-- Table: {985}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8717,
+   ["wasVisited"]=false,
+},
+-- Table: {986}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8718,
+   ["wasVisited"]=false,
+},
+-- Table: {987}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8719,
+   ["wasVisited"]=false,
+},
+-- Table: {988}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8720,
+   ["wasVisited"]=false,
+},
+-- Table: {989}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8721,
+   ["wasVisited"]=false,
+},
+-- Table: {990}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8722,
+   ["wasVisited"]=false,
+},
+-- Table: {991}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8723,
+   ["wasVisited"]=false,
+},
+-- Table: {992}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8724,
+   ["wasVisited"]=false,
+},
+-- Table: {993}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8725,
+   ["wasVisited"]=false,
+},
+-- Table: {994}
+{
+   ["wasVisited"]=false,
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+},
+-- Table: {995}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8726,
+   ["wasVisited"]=false,
+},
+-- Table: {996}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8727,
+   ["wasVisited"]=false,
+},
+-- Table: {997}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8728,
+   ["wasVisited"]=false,
+},
+-- Table: {998}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8729,
+   ["wasVisited"]=false,
+},
+-- Table: {999}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8730,
+   ["wasVisited"]=false,
+},
+-- Table: {1000}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8731,
+   ["wasVisited"]=false,
+},
+-- Table: {1001}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8732,
+   ["wasVisited"]=false,
+},
+-- Table: {1002}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8733,
+   ["wasVisited"]=false,
+},
+-- Table: {1003}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8734,
+   ["wasVisited"]=false,
+},
+-- Table: {1004}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8735,
+   ["wasVisited"]=false,
+},
+-- Table: {1005}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8736,
+   ["wasVisited"]=false,
+},
+-- Table: {1006}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8737,
+   ["wasVisited"]=false,
+},
+-- Table: {1007}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8738,
+   ["wasVisited"]=false,
+},
+-- Table: {1008}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8739,
+   ["wasVisited"]=false,
+},
+-- Table: {1009}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8740,
+   ["wasVisited"]=false,
+},
+-- Table: {1010}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8741,
+   ["wasVisited"]=false,
+},
+-- Table: {1011}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8742,
+   ["wasVisited"]=false,
+},
+-- Table: {1012}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8743,
+   ["wasVisited"]=false,
+},
+-- Table: {1013}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8744,
+   ["wasVisited"]=false,
+},
+-- Table: {1014}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8745,
+   ["wasVisited"]=false,
+},
+-- Table: {1015}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8746,
+   ["wasVisited"]=false,
+},
+-- Table: {1016}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8747,
+   ["wasVisited"]=false,
+},
+-- Table: {1017}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8748,
+   ["wasVisited"]=false,
+},
+-- Table: {1018}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8749,
+   ["wasVisited"]=false,
+},
+-- Table: {1019}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8750,
+   ["wasVisited"]=false,
+},
+-- Table: {1020}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8751,
+   ["wasVisited"]=false,
+},
+-- Table: {1021}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8752,
+   ["wasVisited"]=false,
+},
+-- Table: {1022}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8753,
+   ["wasVisited"]=false,
+},
+-- Table: {1023}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8754,
+   ["wasVisited"]=false,
+},
+-- Table: {1024}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8755,
+   ["wasVisited"]=false,
+},
+-- Table: {1025}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8756,
+   ["wasVisited"]=false,
+},
+-- Table: {1026}
+{
+   ["wasVisited"]=false,
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+},
+-- Table: {1027}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8757,
+   ["wasVisited"]=false,
+},
+-- Table: {1028}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8758,
+   ["wasVisited"]=false,
+},
+-- Table: {1029}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8759,
+   ["wasVisited"]=false,
+},
+-- Table: {1030}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8760,
+   ["wasVisited"]=false,
+},
+-- Table: {1031}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8761,
+   ["wasVisited"]=false,
+},
+-- Table: {1032}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8762,
+   ["wasVisited"]=false,
+},
+-- Table: {1033}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8763,
+   ["wasVisited"]=false,
+},
+-- Table: {1034}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8764,
+   ["wasVisited"]=false,
+},
+-- Table: {1035}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8765,
+   ["wasVisited"]=false,
+},
+-- Table: {1036}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8766,
+   ["wasVisited"]=false,
+},
+-- Table: {1037}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8767,
+   ["wasVisited"]=false,
+},
+-- Table: {1038}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8768,
+   ["wasVisited"]=false,
+},
+-- Table: {1039}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8769,
+   ["wasVisited"]=false,
+},
+-- Table: {1040}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8770,
+   ["wasVisited"]=false,
+},
+-- Table: {1041}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8771,
+   ["wasVisited"]=false,
+},
+-- Table: {1042}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8772,
+   ["wasVisited"]=false,
+},
+-- Table: {1043}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8773,
+   ["wasVisited"]=false,
+},
+-- Table: {1044}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8774,
+   ["wasVisited"]=false,
+},
+-- Table: {1045}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8775,
+   ["wasVisited"]=false,
+},
+-- Table: {1046}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8776,
+   ["wasVisited"]=false,
+},
+-- Table: {1047}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8777,
+   ["wasVisited"]=false,
+},
+-- Table: {1048}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8778,
+   ["wasVisited"]=false,
+},
+-- Table: {1049}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8779,
+   ["wasVisited"]=false,
+},
+-- Table: {1050}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8780,
+   ["wasVisited"]=false,
+},
+-- Table: {1051}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8781,
+   ["wasVisited"]=false,
+},
+-- Table: {1052}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8782,
+   ["wasVisited"]=false,
+},
+-- Table: {1053}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8783,
+   ["wasVisited"]=false,
+},
+-- Table: {1054}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8784,
+   ["wasVisited"]=false,
+},
+-- Table: {1055}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8785,
+   ["wasVisited"]=false,
+},
+-- Table: {1056}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8786,
+   ["wasVisited"]=false,
+},
+-- Table: {1057}
+{
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
+   ["hasCeiling"]=true,
+   ["ceiling"]=8787,
+   ["wasVisited"]=false,
+},
+}
