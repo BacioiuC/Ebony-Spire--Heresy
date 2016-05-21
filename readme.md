@@ -9,7 +9,7 @@ Ebony Spire: Heresy
 
 **21/05/2016** - Initial commit! Features are still missing and art style is not final. Expect many commits to happen this week.
 
-**Beer count** (Numbers of beers drank during development) = **28**! 
+**Beer count** (Numbers of beers drank during development) = **30**! 
 
 <dl>
 <dt>Additional libraries:</dt>
@@ -17,7 +17,7 @@ Ebony Spire: Heresy
 </dl>
 * Yonaba's awesome Lua Pathfinding library: [Jumper] [1]
 * Derickd's awesome Layermanager from MOAI-GUI: [Layermgr.lua] [2]
-* My old animation library from Love2D [ found in extended/animation.lua] <-- needs re-write for chaurus.
+* My own ChaurusFramework for quick prototyping: [Chaurus on Github][7]
 * SiENcE's Astray Library [Astray] [3]
 * Lucky's Bestiary for entity/enemies/creature assets [Lucky's Bestiary][4]
 * Temporary sprites from Oryx Design lab [Roguelike/Fantasy Sprites][5] - License acquired last year. Won't be used in the final release. Only temporary usage right now
@@ -29,6 +29,7 @@ Ebony Spire: Heresy
 [4]: https://luckycassette.itch.io/lucky-bestiary		"Lucky's Bestiary"
 [5]: http://oryxdesignlab.com/product-sprites/		"Oryx Design Lab's Sprites"
 [6]: http://opengameart.org/content/16x16-dawnhack-roguelike-tileset		"Dawnlike Tileset"
+[7]: https://github.com/BacioiuC/ChaurusFramework "Chaurus Framework by BacioiUC"
 
 # License for using the game's source code - MIT
 

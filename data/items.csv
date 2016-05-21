@@ -46,3 +46,4 @@ Steel Arbalet,Weapon,OldAssets/steel_arbalet.png,FF0000,nil,This range weapon do
 Ring of Life (+25),Accessories,OldAssets/red_ring.png,FF0000,nil,Increases the wearers health by 6,2,0,0,0,0,0,0,2300,hp,25,yes,7,6
 Fire Knight's Armor,Armor,OldAssets/armor_of_the_red_knight.png,EAFF00,nil,Extremely high physical and arcane damage reduction.,60,0,0,0,0,45,40,5400,nil,0,yes,4,6
 Amulet of Mobility,Goal,OldAssets/mobility_amulet.png,9FC43A,WinCondition,The holy grail – the most sought item – the thing that's worth it,1,2000,2000,2000,200,2000,2000,99999,nil,0,yes,100,10
+Priest Scepter,Artefact,Assets/items/priest_scepter.png,C9C9C9,summon_nextto,A scepter used by Dae’s Priest to summon creatures that can aid him!,4,4,0.7,0,0,0,0,450,nil,0,no,0,2

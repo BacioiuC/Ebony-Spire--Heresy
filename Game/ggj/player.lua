@@ -726,6 +726,8 @@ function player:update( )
 		local nrEnemies = 11
 		if Game.dungeoNLevel == 10 and Game.dungeonType == 1 then
 			nrEnemies = 1
+		elseif Game.dungeoNLevel == 2 and Game.dungeonType == 1 then
+			nrEnemies = 1
 		end
 		for i = 1, nrEnemies do
 			local x, y = rngMap:returnEmptyLocations( )

@@ -82,26 +82,29 @@ function entity:updateHealthModifier(_v, _amount)
 end
 
 function entity:new(_x, _y, _tp, _isTowerLevel)
+	local creatureNewTable = { }
 	if _isTowerLevel ~= true then
 		self._entityCreatureTable = self:makeSpawnListForLevel( )
+		creatureNewTable = self._entityCreatureTable
 	else
-		self._entityCreatureTable = self:makeSpawnListForTowerLevel( )
+		self._entityTowerDwellersTable = self:makeSpawnListForTowerLevel( )
+		creatureNewTable = self._entityTowerDwellersTable
 	end
-	if #self._entityCreatureTable > 0 then
+	if #creatureNewTable > 0 then
 		local temp = {
 			id = #self._entityTable + 1,
 			x = _x,
 			y = _y,
-			prop = image:new3DImage(self._entityCreatureTable[_tp].mesh, _x*100, 100, _y*100, 2),
-			baseDamage = self._entityCreatureTable[_tp].baseDamage,
-			energy = self._entityCreatureTable[_tp].energy,
-			mesh = self._entityCreatureTable[_tp].mesh,
+			prop = image:new3DImage(creatureNewTable[_tp].mesh, _x*100, 100, _y*100, 2),
+			baseDamage = creatureNewTable[_tp].baseDamage,
+			energy = creatureNewTable[_tp].energy,
+			mesh = creatureNewTable[_tp].mesh,
 			angle = 1,
-			speed = tonumber(self._entityCreatureTable[_tp].speed),
+			speed = tonumber(creatureNewTable[_tp].speed),
 			timer = Game.worldTimer,
-			hp = self._entityCreatureTable[_tp].hp,
-			initial_health = self._entityCreatureTable[_tp].hp,
-			name = self._entityCreatureTable[_tp].name,
+			hp = creatureNewTable[_tp].hp,
+			initial_health = creatureNewTable[_tp].hp,
+			name = creatureNewTable[_tp].name,
 			isAttacking = false,
 			state = "Idle", -- YES I USE STRINGS TO COMPARE, GTFO! 
 			path = nil,
@@ -120,20 +123,20 @@ function entity:new(_x, _y, _tp, _isTowerLevel)
 			sightRange = 5,
 
 			inventory = { },
-			inventoryCapacity = self._entityCreatureTable[_tp].inventoryCapacity,
-			inventoryItem = self._entityCreatureTable[_tp].InventoryItem,
+			inventoryCapacity =creatureNewTable[_tp].inventoryCapacity,
+			inventoryItem = creatureNewTable[_tp].InventoryItem,
 
 			}
 		temp.initialEnergy = temp.energy
 		temp.movementR = { }
-		temp.movementR[1] = self._entityCreatureTable[_tp].Ratio1
-		temp.movementR[2] = self._entityCreatureTable[_tp].Ratio2
-		temp.movementR[3] = self._entityCreatureTable[_tp].Ratio3
-		temp.weaponAffinity = self._entityCreatureTable[_tp].weaponAffinity
+		temp.movementR[1] = creatureNewTable[_tp].Ratio1
+		temp.movementR[2] = creatureNewTable[_tp].Ratio2
+		temp.movementR[3] = creatureNewTable[_tp].Ratio3
+		temp.weaponAffinity = creatureNewTable[_tp].weaponAffinity
 		--image:set3DDeck(temp.prop, self._ratTexture)
 		--image:set3DIndex(temp.prop, 1)
 
-		if tostring(self._entityCreatureTable[_tp].hasAnim) ~= "0" then
+		--[[if tostring(self._entityCreatureTable[_tp].hasAnim) ~= "0" then
 			local animFrames = tonumber(self._entityCreatureTable[_tp].hasAnim)
 			local anim = tostring(self._entityCreatureTable[_tp].animName)
 			temp.anim = mAnim:new(temp.mesh, anim, animFrames, 0.4, temp.prop)
@@ -144,8 +147,8 @@ function entity:new(_x, _y, _tp, _isTowerLevel)
 			end
 
 
-		end
-		if self._entityCreatureTable[_tp].isCreature == "yes" then
+		end--]]
+		if creatureNewTable[_tp].isCreature == "yes" then
 			temp.isCreature = true
 		else
 			temp.isCreature = false
@@ -197,16 +200,26 @@ function entity:makeSpawnListForTowerLevel( )
 end
 
 function entity:debugSpawner(_x, _y )
+	local creatureName = ""
 	if rngMap:isTowerLevel( ) then
 		if #self:makeSpawnListForTowerLevel( ) > 0 then
-			self:new(_x, _y, math.random(1, #self:makeSpawnListForTowerLevel( ) ), true)
+			creatureName = self:new(_x, _y, math.random(1, #self:makeSpawnListForTowerLevel( ) ), true)
 		end
 	else
-		if ##self:makeSpawnListForLevel( ) > 0 then
-			self:new(_x, _y, math.random(1, #self:makeSpawnListForLevel( ) ))
+		if #self:makeSpawnListForLevel( ) > 0 then
+			creatureName = self:new(_x, _y, math.random(1, #self:makeSpawnListForLevel( ) ))
 		end
 	end
-	
+	return creatureName
+end
+
+function entity:summonSpawner(_x, _y )
+	local creatureName = " "
+	if #self:makeSpawnListForLevel( ) > 0 then
+		creatureName = self:new(_x, _y, math.random(1, #self:makeSpawnListForLevel( ) ), false)
+	end
+
+	return creatureName
 end
 
 function entity:update( )

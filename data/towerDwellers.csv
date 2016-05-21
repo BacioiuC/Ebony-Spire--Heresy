@@ -1,4 +1,10 @@
 name,_type,gfx,speed,hp,isCreature,hasAnim,animName,attackAnim,Frames,energy,Ratio1,Ratio2,Ratio3,weaponAffinity,baseDamage,inventoryCapacity,dungeonLevel,held_item,InventoryItem
-Devout Follower of Dae,1,assets/follower.png,25,5,yes,0,,,4,4,0,0,20,0.1,1,3,1,0,0
-Priestess of Dae,2,assets/follower_female.png,30,10,yes,0,,,4,4,0,0,20,0.2,2,3,1,0,0
-Dae-Ria,2,assets/daeeria.png,45,500,yes,0,,,4,24,25,25,2,2,16,6,10,0,0
+Devout Follower of Dae,1,assets/follower.png,25,10,yes,0,,,4,4,0,0,20,0.1,1,3,1,0,0
+Devout Follower of Dae,2,assets/follower_female.png,30,10,yes,0,,,4,4,0,0,20,0.2,2,3,1,0,0
+Dae-Ria,2,assets/daeeria.png,45,500,yes,0,,,4,24,25,25,2,1,4,6,10,0,0
+High Priest of Dae,2,assets/priest_of_dae.png,25,25,yes,0,,,4,8,2,1,3,2,4,4,2,48,48
+Priestess of Dae,2,assets/Priestess_of_dae.png,25,25,yes,0,,,4,8,4,2,2,2,4,4,3,48,48
+Devout Follower of Dae,1,assets/follower.png,25,10,yes,0,,,4,4,0,0,20,0.1,1,3,3,0,0
+Devout Follower of Dae,2,assets/follower_female.png,30,10,yes,0,,,4,4,0,0,20,0.2,2,3,3,0,0
+High Priest of Dae,2,assets/priest_of_dae.png,25,25,yes,0,,,4,8,2,1,3,2,4,4,3,48,48
+Priestess of Dae,2,assets/Priestess_of_dae.png,25,25,yes,0,,,4,8,4,2,2,2,4,4,3,0,0

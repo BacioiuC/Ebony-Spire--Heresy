@@ -406,6 +406,8 @@ function item:doItemEffect(_v, _px, _py, _toPlayer)
 		self:createItemEffect_TELEPORT(px, py)
 	elseif v.effect == "summon" then
 		self:createItemEffect_SUMMON(px, py)
+	elseif v.effect == "summon_nextto" then
+		self:createItemEffect_SUMMONNearby(px, py)
 	elseif v.effect == "darkness" then
 		self:createItemEffect_SpawnDarkness(px, py)
 	elseif v.effect == "reveal_map" then
@@ -980,6 +982,82 @@ function item:createItemEffect_SUMMON(_x, _y)
 
 end
 
+-- summong effect 1 and 2
+function item:createItemEffect_SUMMONNearby(_x, _y)
+	--self._effectTable = { }
+	local _mesh = makeBox(40, 40, 0, "assets/effects/summong_fx_1.png")
+	local _mesh2 = makeBox(50, 50, 0, "assets/effects/summong_fx_2.png")
+	local portalCounter = 0
+	for i = 1, 64 do
+		local tmesh = _mesh
+		local rndCheck = math.random(1,2)
+		if portalCounter ~= 1 then
+			tmesh = _mesh2
+		end
+		local temp = {
+			id = #self._effectTable + 1,
+			gfx = image:new3DImage(tmesh, 10, 10-i*20,  10, 2 ), 
+			x = (_x),
+			y = (_y),
+			ix = math.random(-40, 40),
+			iy = math.random(-40, 40),
+			z = 100-i*20,
+			life = 100,
+			speed = 8,
+			_effectType = 2,
+		}
+
+		if portalCounter == 1 then
+			temp.ix = 0
+			temp.iy = 0
+			temp.z = 100
+			temp.life = 100
+			temp.mainElement = true
+		end
+		portalCounter = portalCounter + 1
+		table.insert(self._effectTable, temp)
+
+	end
+
+
+
+	local px, py = player:returnPosition( )
+	--local x, y = rngMap:returnEmptyLocations( )
+	local bool, id 
+	local sumX, sumY
+	local freeSpot = false
+	for i = -1, 1 do
+		for j = -1, 1 do
+			bool, id = entity:isEntityAt(_x+i,_y+j)
+			if bool == false then
+				sumX = _x + i
+				sumY = _y + j
+				freeSpot = true
+			end
+		end
+	end
+	
+	local spawnType = 2
+	local spawnText = " creature"
+	local spawnName = ""
+	if freeSpot == true then
+		--if _x ~= px and _y ~= py then
+			if spawnType == 1 then -- summon an item
+				spawnText = "n item"
+				item:new(sumX, sumY)
+			else
+				spawnName = entity:summonSpawner(sumX, sumY )
+			end
+			log:newMessage("A summoning portal has appeared. "..spawnName.." appeared!")
+		--else
+		--	log:newMessage("A summoning portal has appeared, but nothing can pass through it")
+		--end
+			
+	else
+		log:newMessage("A summoning portal has appeared, but nothing can pass through it")
+	end
+
+end
 
 function item:createItemEffect_FIRE(_x, _y, _ammount)
 	--self._effectTable = { }
