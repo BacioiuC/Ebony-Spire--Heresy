@@ -94,11 +94,12 @@ function environment:accessPortal(_px, _py)
 			local dungeonType = nil
 			if v.isReturnPortal == false then
 			
-				if math.random(0, 1) == 1 then
-					dungeonType = rngMap:returnDungeonLevelType( )--rngMap:returnCaveLevelType( )
+				--[[if math.random(0, 1) == 1 then
+					dungeonType = rngMap:returnCaveLevelType( )
 				else
-					dungeonType =  rngMap:returnDungeonLevelType( )
-				end
+					dungeonType =  rngMap:returnCaveLevelType( )--rngMap:returnDungeonLevelType( )
+				end--]]
+				dungeonType = rngMap:getPortalLevelType( )[Game.dungeoNLevel]
 			else
 				dungeonType = rngMap:returnTowerLevelType( )
 			end

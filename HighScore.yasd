@@ -27,6 +27,8 @@ return {
    {25},
    {26},
    {27},
+   {28},
+   {29},
 },
 -- Table: {2}
 {
@@ -57,7 +59,7 @@ return {
 -- Table: {4}
 {
    ["score"]=52,
-   ["id"]=25,
+   ["id"]=3,
    ["textLine3"]="He was killed by a <c:0B5E87>High Priest of Dae</c>.",
    ["killedBy"]="High Priest of Dae",
    ["name"]="Sir Zapa-nald",
@@ -70,7 +72,7 @@ return {
 -- Table: {5}
 {
    ["score"]=41,
-   ["id"]=3,
+   ["id"]=4,
    ["textLine3"]="He was killed by a <c:0B5E87>One Eyed Ogre</c>.",
    ["killedBy"]="One Eyed Ogre",
    ["name"]="Sir Zapa-nald",
@@ -83,7 +85,7 @@ return {
 -- Table: {6}
 {
    ["score"]=39,
-   ["id"]=4,
+   ["id"]=5,
    ["textLine3"]="He was killed by a <c:0B5E87>Rotting Corpse</c>.",
    ["killedBy"]="Rotting Corpse",
    ["name"]="Sir Zapa-nald",
@@ -96,7 +98,7 @@ return {
 -- Table: {7}
 {
    ["score"]=39,
-   ["id"]=5,
+   ["id"]=6,
    ["textLine3"]="He was killed by a <c:0B5E87></c>.",
    ["killedBy"]="",
    ["name"]="Sir Zapa-nald",
@@ -135,7 +137,7 @@ return {
 -- Table: {10}
 {
    ["score"]=26,
-   ["id"]=6,
+   ["id"]=9,
    ["textLine3"]="He was killed by a <c:0B5E87>Chest of Abandoned Projects</c>.",
    ["killedBy"]="Chest of Abandoned Projects",
    ["name"]="Sir Zapa-nald",
@@ -148,7 +150,7 @@ return {
 -- Table: {11}
 {
    ["score"]=17.5,
-   ["id"]=9,
+   ["id"]=10,
    ["textLine3"]="He was killed by a <c:0B5E87>Chest of Abandoned Projects</c>.",
    ["killedBy"]="Chest of Abandoned Projects",
    ["name"]="Sir Zapa-nald",
@@ -161,7 +163,7 @@ return {
 -- Table: {12}
 {
    ["score"]=15,
-   ["id"]=10,
+   ["id"]=11,
    ["textLine3"]="He was killed by a <c:0B5E87>Priestess of Dae</c>.",
    ["killedBy"]="Priestess of Dae",
    ["name"]="Sir Zapa-nald",
@@ -174,6 +176,32 @@ return {
 -- Table: {13}
 {
    ["score"]=13,
+   ["id"]=13,
+   ["textLine3"]="He was killed by a <c:0B5E87>Rogue</c>.",
+   ["killedBy"]="Rogue",
+   ["name"]="Sir Zapa-nald",
+   ["textLine1"]="<c:9FC43A>Sir Zapa-nald</c> died on 0. He survived for 466 turns.",
+   ["valuableItem"]="<c:CF37E6>Necklace of Life Regen</c>",
+   ["turns"]=466,
+   ["lvDeath"]=0,
+   ["textLine2"]="His most valauble item was: <c:CF37E6>Necklace of Life Regen</c>.",
+},
+-- Table: {14}
+{
+   ["score"]=13,
+   ["id"]=14,
+   ["textLine3"]="He was killed by a <c:0B5E87>High Priest of Dae</c>.",
+   ["killedBy"]="High Priest of Dae",
+   ["name"]="Sir Zapa-nald",
+   ["textLine1"]="<c:9FC43A>Sir Zapa-nald</c> died on 0. He survived for 148 turns.",
+   ["valuableItem"]="<c:155BA9>Scroll of Magic Missile</c>",
+   ["turns"]=148,
+   ["lvDeath"]=0,
+   ["textLine2"]="His most valauble item was: <c:155BA9>Scroll of Magic Missile</c>.",
+},
+-- Table: {15}
+{
+   ["score"]=13,
    ["id"]=12,
    ["textLine3"]="He was killed by a <c:0B5E87>Apprentice Evoker</c>.",
    ["killedBy"]="Apprentice Evoker",
@@ -184,36 +212,10 @@ return {
    ["lvDeath"]=0,
    ["textLine2"]="His most valauble item was: <c:FF0000>Tome of Teleportation</c>.",
 },
--- Table: {14}
-{
-   ["score"]=13,
-   ["id"]=11,
-   ["textLine3"]="He was killed by a <c:0B5E87>Rogue</c>.",
-   ["killedBy"]="Rogue",
-   ["name"]="Sir Zapa-nald",
-   ["textLine1"]="<c:9FC43A>Sir Zapa-nald</c> died on 0. He survived for 466 turns.",
-   ["valuableItem"]="<c:CF37E6>Necklace of Life Regen</c>",
-   ["turns"]=466,
-   ["lvDeath"]=0,
-   ["textLine2"]="His most valauble item was: <c:CF37E6>Necklace of Life Regen</c>.",
-},
--- Table: {15}
-{
-   ["score"]=0,
-   ["id"]=20,
-   ["textLine3"]="He was killed by a <c:0B5E87>Seasoned Intern</c>.",
-   ["killedBy"]="Seasoned Intern",
-   ["name"]="Sir Zapa-nald",
-   ["textLine1"]="<c:9FC43A>Sir Zapa-nald</c> died on 0. He survived for 65 turns.",
-   ["textLine2"]="His most valauble item was: <c:155BA9>Scroll of Magic Missile</c>.",
-   ["turns"]=65,
-   ["lvDeath"]=0,
-   ["valuableItem"]="<c:155BA9>Scroll of Magic Missile</c>",
-},
 -- Table: {16}
 {
    ["score"]=0,
-   ["id"]=23,
+   ["id"]=22,
    ["textLine3"]="He was killed by a <c:0B5E87>Relationship Hymera</c>.",
    ["killedBy"]="Relationship Hymera",
    ["name"]="Sir Zapa-nald",
@@ -227,32 +229,6 @@ return {
 {
    ["score"]=0,
    ["id"]=21,
-   ["textLine3"]="He was killed by a <c:0B5E87>Bahluian Rat</c>.",
-   ["killedBy"]="Bahluian Rat",
-   ["name"]="Sir Zapa-nald",
-   ["textLine1"]="<c:FFF000>Sir Zapa-nald</c> died on 0. He survived for 137 turns.",
-   ["valuableItem"]="<c:FF0000>Leather Armor of Minor Arcane Def</c>",
-   ["turns"]=137,
-   ["lvDeath"]=0,
-   ["textLine2"]="His most valauble item was: <c:FF0000>Leather Armor of Minor Arcane Def</c>.",
-},
--- Table: {18}
-{
-   ["score"]=0,
-   ["id"]=22,
-   ["textLine3"]="He was killed by a <c:0B5E87>Delivery Guy</c>.",
-   ["killedBy"]="Delivery Guy",
-   ["name"]="Sir Zapa-nald",
-   ["textLine1"]="<c:FFF000>Sir Zapa-nald</c> died on 0. He survived for 360 turns.",
-   ["textLine2"]="His most valauble item was: <c:C9C9C9>Iron Sword</c>.",
-   ["turns"]=360,
-   ["lvDeath"]=0,
-   ["valuableItem"]="<c:C9C9C9>Iron Sword</c>",
-},
--- Table: {19}
-{
-   ["score"]=0,
-   ["id"]=19,
    ["textLine3"]="He was killed by a <c:0B5E87>One Eyed Ogre</c>.",
    ["killedBy"]="One Eyed Ogre",
    ["name"]="Sir Zapa-nald",
@@ -262,10 +238,10 @@ return {
    ["lvDeath"]=0,
    ["valuableItem"]="<c:C9C9C9>Potion of Darkness</c>",
 },
--- Table: {20}
+-- Table: {18}
 {
    ["score"]=0,
-   ["id"]=14,
+   ["id"]=23,
    ["textLine3"]="He was killed by a <c:0B5E87>Dungeon Snake</c>.",
    ["killedBy"]="Dungeon Snake",
    ["name"]="Sir Zapa-nald",
@@ -275,10 +251,49 @@ return {
    ["lvDeath"]=0,
    ["textLine2"]="His most valauble item was: <c:155BA9>Scroll of Magic Missile</c>.",
 },
+-- Table: {19}
+{
+   ["score"]=0,
+   ["id"]=25,
+   ["textLine3"]="He was killed by a <c:0B5E87>Delivery Guy</c>.",
+   ["killedBy"]="Delivery Guy",
+   ["name"]="Sir Zapa-nald",
+   ["textLine1"]="<c:FFF000>Sir Zapa-nald</c> died on 0. He survived for 360 turns.",
+   ["textLine2"]="His most valauble item was: <c:C9C9C9>Iron Sword</c>.",
+   ["turns"]=360,
+   ["lvDeath"]=0,
+   ["valuableItem"]="<c:C9C9C9>Iron Sword</c>",
+},
+-- Table: {20}
+{
+   ["score"]=0,
+   ["id"]=24,
+   ["textLine3"]="He was killed by a <c:0B5E87>Bahluian Rat</c>.",
+   ["killedBy"]="Bahluian Rat",
+   ["name"]="Sir Zapa-nald",
+   ["textLine1"]="<c:FFF000>Sir Zapa-nald</c> died on 0. He survived for 137 turns.",
+   ["valuableItem"]="<c:FF0000>Leather Armor of Minor Arcane Def</c>",
+   ["turns"]=137,
+   ["lvDeath"]=0,
+   ["textLine2"]="His most valauble item was: <c:FF0000>Leather Armor of Minor Arcane Def</c>.",
+},
 -- Table: {21}
 {
    ["score"]=0,
-   ["id"]=17,
+   ["id"]=26,
+   ["textLine3"]="He was killed by a <c:0B5E87>Seasoned Intern</c>.",
+   ["killedBy"]="Seasoned Intern",
+   ["name"]="Sir Zapa-nald",
+   ["textLine1"]="<c:9FC43A>Sir Zapa-nald</c> died on 0. He survived for 65 turns.",
+   ["textLine2"]="His most valauble item was: <c:155BA9>Scroll of Magic Missile</c>.",
+   ["turns"]=65,
+   ["lvDeath"]=0,
+   ["valuableItem"]="<c:155BA9>Scroll of Magic Missile</c>",
+},
+-- Table: {22}
+{
+   ["score"]=0,
+   ["id"]=20,
    ["textLine3"]="He was killed by a <c:0B5E87>Scutler</c>.",
    ["killedBy"]="Scutler",
    ["name"]="Sir Zapa-nald",
@@ -288,49 +303,10 @@ return {
    ["lvDeath"]=0,
    ["valuableItem"]="his wit!",
 },
--- Table: {22}
-{
-   ["score"]=0,
-   ["id"]=24,
-   ["textLine3"]="He was killed by a <c:0B5E87></c>.",
-   ["killedBy"]="",
-   ["name"]="Sir Zapa-nald",
-   ["textLine1"]="<c:9FC43A>Sir Zapa-nald</c> died on 0. He survived for 13 turns.",
-   ["valuableItem"]="<c:155BA9>Scroll of Magic Missile</c>",
-   ["turns"]=13,
-   ["lvDeath"]=0,
-   ["textLine2"]="His most valauble item was: <c:155BA9>Scroll of Magic Missile</c>.",
-},
 -- Table: {23}
 {
    ["score"]=0,
    ["id"]=18,
-   ["textLine3"]="He was killed by a <c:0B5E87></c>.",
-   ["killedBy"]="",
-   ["name"]="Sir Zapa-nald",
-   ["textLine1"]="<c:9FC43A>Sir Zapa-nald</c> died on 0. He survived for 57 turns.",
-   ["textLine2"]="His most valauble item was: <c:C9C9C9>Cloak of Darkness</c>.",
-   ["turns"]=57,
-   ["lvDeath"]=0,
-   ["valuableItem"]="<c:C9C9C9>Cloak of Darkness</c>",
-},
--- Table: {24}
-{
-   ["score"]=0,
-   ["id"]=15,
-   ["textLine3"]="He was killed by a <c:0B5E87>Relationship Hymera</c>.",
-   ["killedBy"]="Relationship Hymera",
-   ["name"]="Sir Zapa-nald",
-   ["textLine1"]="<c:FFF000>Sir Zapa-nald</c> died on 0. He survived for 255 turns.",
-   ["textLine2"]="His most valauble item was: <c:9BBA1E>Healing Potion</c>.",
-   ["turns"]=255,
-   ["lvDeath"]=0,
-   ["valuableItem"]="<c:9BBA1E>Healing Potion</c>",
-},
--- Table: {25}
-{
-   ["score"]=0,
-   ["id"]=16,
    ["textLine3"]="He was killed by a <c:0B5E87>Dungeon Snake</c>.",
    ["killedBy"]="Dungeon Snake",
    ["name"]="Sir Zapa-nald",
@@ -340,10 +316,23 @@ return {
    ["lvDeath"]=0,
    ["valuableItem"]="<c:FF0000>Ring of Life (+3)</c>",
 },
--- Table: {26}
+-- Table: {24}
 {
    ["score"]=0,
-   ["id"]=13,
+   ["id"]=15,
+   ["textLine3"]="He was killed by a <c:0B5E87></c>.",
+   ["killedBy"]="",
+   ["name"]="Sir Zapa-nald",
+   ["textLine1"]="<c:9FC43A>Sir Zapa-nald</c> died on 0. He survived for 57 turns.",
+   ["textLine2"]="His most valauble item was: <c:C9C9C9>Cloak of Darkness</c>.",
+   ["turns"]=57,
+   ["lvDeath"]=0,
+   ["valuableItem"]="<c:C9C9C9>Cloak of Darkness</c>",
+},
+-- Table: {25}
+{
+   ["score"]=0,
+   ["id"]=19,
    ["textLine3"]="He was killed by a <c:0B5E87>Relationship Hymera</c>.",
    ["killedBy"]="Relationship Hymera",
    ["name"]="Sir Zapa-nald",
@@ -353,17 +342,56 @@ return {
    ["lvDeath"]=1,
    ["textLine2"]="His most valauble item was: <c:9BBA1E>Healing Potion</c>.",
 },
+-- Table: {26}
+{
+   ["score"]=0,
+   ["id"]=16,
+   ["textLine3"]="He was killed by a <c:0B5E87></c>.",
+   ["killedBy"]="",
+   ["name"]="Sir Zapa-nald",
+   ["textLine1"]="<c:9FC43A>Sir Zapa-nald</c> died on 0. He survived for 13 turns.",
+   ["valuableItem"]="<c:155BA9>Scroll of Magic Missile</c>",
+   ["turns"]=13,
+   ["lvDeath"]=0,
+   ["textLine2"]="His most valauble item was: <c:155BA9>Scroll of Magic Missile</c>.",
+},
 -- Table: {27}
 {
-   ["score"]=13,
-   ["id"]=26,
+   ["score"]=0,
+   ["id"]=17,
+   ["textLine3"]="He was killed by a <c:0B5E87>Relationship Hymera</c>.",
+   ["killedBy"]="Relationship Hymera",
+   ["name"]="Sir Zapa-nald",
+   ["textLine1"]="<c:FFF000>Sir Zapa-nald</c> died on 0. He survived for 255 turns.",
+   ["textLine2"]="His most valauble item was: <c:9BBA1E>Healing Potion</c>.",
+   ["turns"]=255,
+   ["lvDeath"]=0,
+   ["valuableItem"]="<c:9BBA1E>Healing Potion</c>",
+},
+-- Table: {28}
+{
+   ["score"]=0,
+   ["id"]=27,
    ["textLine3"]="He was killed by a <c:0B5E87>High Priest of Dae</c>.",
    ["killedBy"]="High Priest of Dae",
    ["name"]="Sir Zapa-nald",
-   ["textLine1"]="<c:9FC43A>Sir Zapa-nald</c> died on 0. He survived for 148 turns.",
-   ["valuableItem"]="<c:155BA9>Scroll of Magic Missile</c>",
-   ["turns"]=148,
-   ["lvDeath"]=0,
+   ["textLine1"]="<c:9FC43A>Sir Zapa-nald</c> died on 0. He survived for 341 turns.",
    ["textLine2"]="His most valauble item was: <c:155BA9>Scroll of Magic Missile</c>.",
+   ["turns"]=341,
+   ["lvDeath"]=0,
+   ["valuableItem"]="<c:155BA9>Scroll of Magic Missile</c>",
+},
+-- Table: {29}
+{
+   ["score"]=85,
+   ["id"]=28,
+   ["textLine3"]="He was killed by a <c:0B5E87>Deformed Slimification</c>.",
+   ["killedBy"]="Deformed Slimification",
+   ["name"]="Sir Zapa-nald",
+   ["textLine1"]="<c:9FC43A>Sir Zapa-nald</c> died on 0. He survived for 921 turns.",
+   ["valuableItem"]="<c:CF37E6>Potion of Summoning</c>",
+   ["turns"]=921,
+   ["lvDeath"]=0,
+   ["textLine2"]="His most valauble item was: <c:CF37E6>Potion of Summoning</c>.",
 },
 }

@@ -19,7 +19,18 @@ function rngMap:init( )
 	self._dungeonTower = 1
 	self._dungeonRooms = 2
 	self._dungeonCave = 3
-		
+	
+	self._portalLevelType = { }
+	self._portalLevelType[1] = 2
+	self._portalLevelType[2] = 2
+	self._portalLevelType[3] = 3
+	self._portalLevelType[4] = 2
+	self._portalLevelType[5] = 3
+	self._portalLevelType[6] = 3
+	self._portalLevelType[7] = 2
+	self._portalLevelType[8] = 3
+	self._portalLevelType[9] = 2
+	self._portalLevelType[10] = 2
 	self._levelTiles = { }
 
 	--[[self._levelTiles[1] = "1"
@@ -154,12 +165,16 @@ function rngMap:init( )
 	if self:isTowerLevel( ) then
 		self:generateTowerInterior( )
 	elseif self._dungeonType == self._dungeonCave then
-		self:GenerateCave(self._mapWidth, self._mapHeight, math.random(1, 25225))
+		self:generateCaveDungeon( )
 	else
 		self:generate( )
 	end
 	
 	--self:load( )
+end
+
+function rngMap:getPortalLevelType( )
+	return self._portalLevelType
 end
 
 function rngMap:isTowerLevel( )
@@ -456,7 +471,7 @@ function rngMap:setPatherWalkableAt(_x, _y, _walkState)
 end
 
 function rngMap:GenerateCave(w,h,seed)
-	self._dungeonType = self._dungeonCave
+	
    local dir = {
       {-1,-1}, --nw
       {0,-1}, --n
@@ -519,6 +534,41 @@ function rngMap:GenerateCave(w,h,seed)
       end
    end
    return map
+end
+
+function rngMap:generateCaveDungeon( )
+	self._map = {}
+	self._dungeonType = self._dungeonCave
+	local caveMap = self:GenerateCave(self._mapWidth, self._mapHeight, math.random(0, 2616123))
+	for x = 1, self._mapWidth do
+		self._map[x] = { }
+		for y = 1, self._mapHeight do
+			self._map[x][y] = { }
+
+			-- for starts, we make the floor and cover it with walls
+			self._map[x][y].floor = image:new3DImage(self._mapFloors[math.random(1, #self._mapFloors)], x*self._blockSize, self._floorElevation, y*self._blockSize, self._mainMapLayer) -- set floors to be random
+			image:set3DIndex(self._map[x][y].floor, math.random(1,5))
+			self._map[x][y].hasFloor = true -- there is a floor there :)
+			self._map[x][y].wasVisited = false
+
+			-- fill the map with walls
+			self._map[x][y].wall = image:new3DImage(self._mapWalls[math.random(1, #self._mapWalls)], x*self._blockSize, self._floorElevation+self._blockSize, y*self._blockSize, self._mainMapLayer) --math.random(1, #self._mapWalls)
+			image:set3DIndex(self._map[x][y].wall, math.random(1,5))
+			self._map[x][y].hasWall = true
+
+			if caveMap[x][y] ~= "." then -- wall
+				self:removeFloorAt(x, y)
+			else
+				self:removeWallAt(x, y)
+			end
+		end
+	end
+
+	self:addBoundaries( )
+	local _px, _py = self:returnEmptyLocations( )
+	environment:createPortal(_px, _py, true)
+	print("ASTA")
+	self._doneGenerating = true
 end
 
 function rngMap:generateTowerInterior( )

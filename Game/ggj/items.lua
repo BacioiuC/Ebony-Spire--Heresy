@@ -13,8 +13,8 @@ function item:init( )
 		--if v.canSpawn == "yes" then
 			table.insert(self._spawnableItems, v)
 		--end
-		print("V: "..i.."")
-		print("V NAME: "..v.description.."")
+		--print("V: "..i.."")
+		--print("V NAME: "..v.description.."")
 	end
 
 	self._itemFakeLabel = { }
