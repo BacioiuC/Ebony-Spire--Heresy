@@ -7,6 +7,8 @@ Ebony Spire: Heresy
 
 **21/05/2016** - Initial commit! Features are still missing and art style is not final. Expect many commits to happen this week.
 
+**Beer count** (Numbers of beers drank during development) = **28**! 
+
 <dl>
 <dt>Additional libraries:</dt>
 <dd>The following libraries are included with Chaurus: </dd>

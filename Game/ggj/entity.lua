@@ -7,12 +7,17 @@ function entity:init( )
 	self._entityCreatureTable = loadCSVData("data/creatures.csv")
 	self._actionQue = { }
 
+	self._entityTowerDwellersTable = {}
+	self._entityTowerDwellersTable = loadCSVData("data/towerDwellers.csv")
 	self._movementAnimSpeed = 10
 
 	-- generate their mesh from data
 	for i,v in pairs(self._entityCreatureTable) do
 		v.mesh = makeBox(100, 100, 0, ""..v.gfx.."")
+	end
 
+	for i,v in pairs(self._entityTowerDwellersTable) do
+		v.mesh = makeBox(100, 100, 0, ""..v.gfx.."")
 	end
 
 	--[[self._fountain = makeBox(100, 100, 0, "fountain.png")
@@ -76,44 +81,49 @@ function entity:updateHealthModifier(_v, _amount)
 	v.healthModifier = _amount
 end
 
-function entity:new(_x, _y, _tp)
-	self._entityCreatureTable = self:makeSpawnListForLevel( )
-	local temp = {
-		id = #self._entityTable + 1,
-		x = _x,
-		y = _y,
-		prop = image:new3DImage(self._entityCreatureTable[_tp].mesh, _x*100, 100, _y*100, 2),
-		baseDamage = self._entityCreatureTable[_tp].baseDamage,
-		energy = self._entityCreatureTable[_tp].energy,
-		mesh = self._entityCreatureTable[_tp].mesh,
-		angle = 1,
-		speed = tonumber(self._entityCreatureTable[_tp].speed),
-		timer = Game.worldTimer,
-		hp = self._entityCreatureTable[_tp].hp,
-		initial_health = self._entityCreatureTable[_tp].hp,
-		name = self._entityCreatureTable[_tp].name,
-		isAttacking = false,
-		state = "Idle", -- YES I USE STRINGS TO COMPARE, GTFO! 
-		path = nil,
-		hasGoal = false,
-		destX = _x,
-		destY = _y,
-		cur = 1,
-		isFollowing = false,
-		mvRange = 1,--math.random(1,3),
-		isDone = false,
-		healthModifier = 0,
-		regenModifier = 0,
-		--isCreature = ,
+function entity:new(_x, _y, _tp, _isTowerLevel)
+	if _isTowerLevel ~= true then
+		self._entityCreatureTable = self:makeSpawnListForLevel( )
+	else
+		self._entityCreatureTable = self:makeSpawnListForTowerLevel( )
+	end
+	if #self._entityCreatureTable > 0 then
+		local temp = {
+			id = #self._entityTable + 1,
+			x = _x,
+			y = _y,
+			prop = image:new3DImage(self._entityCreatureTable[_tp].mesh, _x*100, 100, _y*100, 2),
+			baseDamage = self._entityCreatureTable[_tp].baseDamage,
+			energy = self._entityCreatureTable[_tp].energy,
+			mesh = self._entityCreatureTable[_tp].mesh,
+			angle = 1,
+			speed = tonumber(self._entityCreatureTable[_tp].speed),
+			timer = Game.worldTimer,
+			hp = self._entityCreatureTable[_tp].hp,
+			initial_health = self._entityCreatureTable[_tp].hp,
+			name = self._entityCreatureTable[_tp].name,
+			isAttacking = false,
+			state = "Idle", -- YES I USE STRINGS TO COMPARE, GTFO! 
+			path = nil,
+			hasGoal = false,
+			destX = _x,
+			destY = _y,
+			cur = 1,
+			isFollowing = false,
+			mvRange = 1,--math.random(1,3),
+			isDone = false,
+			healthModifier = 0,
+			regenModifier = 0,
+			--isCreature = ,
 
-		nilCounter = 0,
-		sightRange = 5,
+			nilCounter = 0,
+			sightRange = 5,
 
-		inventory = { },
-		inventoryCapacity = self._entityCreatureTable[_tp].inventoryCapacity,
-		inventoryItem = self._entityCreatureTable[_tp].InventoryItem,
+			inventory = { },
+			inventoryCapacity = self._entityCreatureTable[_tp].inventoryCapacity,
+			inventoryItem = self._entityCreatureTable[_tp].InventoryItem,
 
-		}
+			}
 		temp.initialEnergy = temp.energy
 		temp.movementR = { }
 		temp.movementR[1] = self._entityCreatureTable[_tp].Ratio1
@@ -158,6 +168,7 @@ function entity:new(_x, _y, _tp)
 		table.insert(self._entityTable, temp)
 
 		return temp.name
+	end
 end
 
 
@@ -173,8 +184,25 @@ function entity:makeSpawnListForLevel( )
 	return spawnList
 end
 
+function entity:makeSpawnListForTowerLevel( )
+	local level = Game.dungeoNLevel
+	local spawnList = { }
+	for i,v in ipairs(self._entityTowerDwellersTable) do
+		if v.dungeonLevel == level then
+			table.insert(spawnList, v)
+		end
+	end
+
+	return spawnList
+end
+
 function entity:debugSpawner(_x, _y )
-	self:new(_x, _y, math.random(1, #self:makeSpawnListForLevel( ) ))
+	if rngMap:isTowerLevel( ) then
+		self:new(_x, _y, math.random(1, #self:makeSpawnListForTowerLevel( ) ), true)
+	else
+		self:new(_x, _y, math.random(1, #self:makeSpawnListForLevel( ) ))
+	end
+	
 end
 
 function entity:update( )
