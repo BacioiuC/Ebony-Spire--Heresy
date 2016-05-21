@@ -104,6 +104,8 @@ function environment:accessPortal(_px, _py)
 			end
 			rngMap:setLevelType(dungeonType)
 			currentState = 16
+			--player:saveStats( )
+			Game.iteration = Game.iteration + 1
 		end
 	end
 end

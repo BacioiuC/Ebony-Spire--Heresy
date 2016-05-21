@@ -671,7 +671,8 @@ function player:update( )
 		self._acceptInput = false
 	elseif rngMap:returnGenStatus( ) == true then
 
-		local tx, ty = rngMap:returnEmptyLocations( )
+		local tx, ty = rngMap:returnEmptyLocations( ) 
+		
 		self._cameraX = tx * 100
 		self._cameraY = ty * 100
 		player:setLoc(tx, ty)
@@ -681,7 +682,8 @@ function player:update( )
 		self:setCameraToFPS( )
 
 				--add item to the world
-		if Game.dungeoNLevel == 1 then
+		if Game.dungeoNLevel == 1 and Game.iteration == 0 then
+			Game.iteration = Game.iteration + 1
 			for i, v in ipairs(Game.classOptions[1]) do
 				local eqItem = v
 				if type(v) == "table" then
@@ -697,25 +699,9 @@ function player:update( )
 					item:dropitem(_id)
 				end			--]]
 			end
+			
 			Game.turn = 0
 			Game.score = 0
-			--item:new(self._playerX, self._playerY, 4)
-			--[[item:new(self._playerX, self._playerY, 23)
-			item:new(self._playerX, self._playerY, 24)
-			item:new(self._playerX, self._playerY, 13)
-			item:new(self._playerX, self._playerY, 17)
-			item:new(self._playerX, self._playerY, 15)
-			item:new(self._playerX, self._playerY, 17)
-			item:new(self._playerX, self._playerY, 15)
-			item:new(self._playerX, self._playerY, 15)
-			item:new(self._playerX, self._playerY, 17)--]]
-			--[[item:new(self._playerX, self._playerY, 18)
-			item:new(self._playerX, self._playerY, 11)
-			item:new(self._playerX, self._playerY, 18)
-			item:new(self._playerX, self._playerY, 10)
-			item:new(self._playerX, self._playerY, 1)
-			item:new(self._playerX, self._playerY, 14)
-			item:new(self._playerX, self._playerY, 15)--]]
 		else
 			self:loadStats( )
 		end

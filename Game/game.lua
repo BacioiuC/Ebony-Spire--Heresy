@@ -103,7 +103,7 @@ _gTouchPressed = false -- global TOUCH PRESSED
 Game.firstTurn = 1
 Game.victor = nil
 Game.buildingID = nil
-
+Game.iteration = 0
 Game.bgColor = {}
 Game.bgColor[1] = { r = 0, g = 0.3, b = 0.8 }
 Game.bgColor[2] = { r = 0.99, g = 0.2, b = 0.2 }

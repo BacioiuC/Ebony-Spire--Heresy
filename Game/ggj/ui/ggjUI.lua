@@ -163,7 +163,7 @@ end
 function interface:loadInventory( )
 
 
-	if Game.dungeoNLevel ~= 1 then
+	if Game.iteration ~= 0 then
 		if Game.inventorySave[1] ~= nil then
 			self._inventoryTabel = { }
 			for i,v in ipairs(Game.inventorySave[1]) do

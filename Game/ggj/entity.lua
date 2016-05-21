@@ -187,6 +187,18 @@ function entity:makeSpawnListForLevel( )
 	return spawnList
 end
 
+function entity:makeSpawnListForLevelSummoning( )
+	local level = Game.dungeoNLevel
+	local spawnList = { }
+	for i,v in ipairs(self._entityCreatureTable) do
+		if v.dungeonLevel <= level then
+			table.insert(spawnList, v)
+		end
+	end
+
+	return spawnList
+end
+
 function entity:makeSpawnListForTowerLevel( )
 	local level = Game.dungeoNLevel
 	local spawnList = { }
