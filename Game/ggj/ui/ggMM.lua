@@ -339,9 +339,9 @@ classDescription
 
 	self._classButtonTable = { }
 	self._classButtonText = { }
-	self._classButtonText[1] = "WARRIOR"
-	self._classButtonText[2] = "ROGUE"
-	self._classButtonText[3] = "CASTER"
+	self._classButtonText[1] = "Berserker"
+	self._classButtonText[2] = "Night Shade"
+	self._classButtonText[3] = "Scroll Mage"
 
 	self._classDash = { }
 	self._classDash[1] = "--"
@@ -360,33 +360,34 @@ function interface:_createClassDescriptions( )
 	self._classTable = { }
 
 	self._classTable[1] = { 
-		" The mighty programmer is known for his",
-		" endurance and ingenuity. Armed with ",
-		" nothing but his keyboard and wit he",
-		" hacks away at unsuspecting code and ",
-		" foes alike. The programmer starts with: ",
-		" - 1X Keyboard",
-		" - 1X Armor",
+		" The mighty berserker is known for his",
+		" endurance and ruthlessness. Armed with ",
+		" nothing but a sword and courage he",
+		" hacks away at unsuspecting creatures and ",
+		" foes alike. The berserker starts with: ",
+		" - 1X Iron Sword",
+		" - 1X Leather Armor",
 		" ",
 	} -- programmer
 
 	self._classTable[2] = { 
-		" The QA Tester cares not about the road",
+		" The Night Shade cares not about the road",
 		" or destination. Their only goal is to",
 		" wreak havok uppon creation and probe it",
 		" for any flaws he might be able to ",
-		" exploit! QA Guy starts with: ",
+		" exploit! Night Shade starts with: ",
 		" - 1X Rock",
 		" - 1X Potion of Polymorph",
 		" - 2X Potion of Teleportation",
 	} -- programmer
 
 	self._classTable[3] = { 
-		" The designer is an odd and versatile",
-		" fellow. He can engage both in range",
-		" and melee combat, always ready to",
-		" bump map his foes.",
-		" The designer starts with: ",
+		" The Scroll Mage is an odd and versatile",
+		" fellow. He is not an innate caster and",
+		" as such cannot cast magic by",
+		" regular means. Instead he relies on",
+		" Magic imbued items. The Scroll mage starts",
+		" with the following items:",
 		" - 2X Scroll of Magic Missile",
 		" - 1X Scroll of Discharge",
 		" - 1X Small Potion of Health",
@@ -907,37 +908,34 @@ function interface:_createHelpTextBox( )
 	self:_createHelpText( )
 end
 
+--[[
+
+**ES:Heresy** is a **first person roguelike** in which the player (a **berserker**, **night shade** or **scroll mage**) invades the *sacred tower* of *Dae'eria*, 
+the *Ebony Spire*, in an attempt to slay the fervent goddess! 
+The player has to climb up all 10 tower levels to reach the most sacred of places. 
+Each floor contains one or more portals to other realms that the player must visit in order to obtain equipment that can aid him in his quest.
+]]
 function interface:_createHelpText( )
 	self._helpTextBox:addText("<c:9FC43A>Introduction</c>")
 	self._helpTextBox:newLine()
 	self._helpTextBox:addText("<c:9FC43A>-------------</c>")
 	self._helpTextBox:newLine( )
 	self._helpTextBox:newLine( )
-	self._helpTextBox:addText("Crow's Nest Tower is an all 3D dungeon crawling roguelike")
+	self._helpTextBox:addText("Ebony Spire: Heresy is an all 3D dungeon crawling roguelike")
 	self._helpTextBox:newLine( )
 	self._helpTextBox:addText("for PC (Windows and Linux), that takes inspiration from")
 	self._helpTextBox:newLine( )
 	self._helpTextBox:addText("games such as ADOM and Cardinal Quest. The action")
 	self._helpTextBox:newLine( )
-	self._helpTextBox:addText("takes place inside a tower, where you play as a ")
+	self._helpTextBox:addText("takes place inside the Ebony Spire, where you play as a berserker,")
 	self._helpTextBox:newLine( )
-	self._helpTextBox:addText("devout follow of <c:9FC43A>Inaria</c> tasked with replacing the old ")
+	self._helpTextBox:addText("night shade or a scroll mage. Your goal is to invade the sacred tower" )
 	self._helpTextBox:newLine( )
-	self._helpTextBox:addText("guardian atop the tower. As you step inside you notice")
-	self._helpTextBox:newLine( )
-	self._helpTextBox:addText("that it's covered in an unnatural darkness. A voice")
-	self._helpTextBox:newLine( )
-	self._helpTextBox:addText("whispers in your ear: 'You have arived! Climb to the top and take")
-	self._helpTextBox:newLine( )
-	self._helpTextBox:addText("your place at my side, at the very top of the world!")
-	self._helpTextBox:newLine( )
-	self._helpTextBox:addText("Reach the 10th level and defeat <c:9FC43A>The old Guardian</c>")
-	self._helpTextBox:newLine( )
-	self._helpTextBox:addText("Fail and you shall die!'")
+	self._helpTextBox:addText("of Dae'eria, in an attempt to slay the fervent goddess!")
 	self._helpTextBox:newLine( )
 	self._helpTextBox:newLine( )
 
-	self._helpTextBox:addText("How to play <c:9FC43A>Crow's Nest Tower</c>")
+	self._helpTextBox:addText("How to play <c:9FC43A>Ebony Spire: Heresy</c>")
 	self._helpTextBox:newLine()
 	self._helpTextBox:addText("------------------")
 	self._helpTextBox:newLine( )

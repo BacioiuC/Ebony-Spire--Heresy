@@ -213,9 +213,6 @@ function entity:update( )
 			image:setRot3D(v.prop, rx, ry, 0)
 			--self:handleMovement(i)
 		end
-
-
-
 		if v.hp <= 1 then
 			self:dropEntity(i)
 		end
