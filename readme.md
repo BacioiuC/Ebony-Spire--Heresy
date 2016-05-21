@@ -5,6 +5,8 @@ Ebony Spire: Heresy
 
 **ES:H** is played from a first person perspective. You can move around using W, A, S, D and look/turn around with Q and E. Inventory can be accessed using the I key. You can pick up items with P, equip them with Space (from the inventory) or throw them using the T key. **Gameplay revolves around acquiring items and using them to defeat enemies you encounter. **
 
+![alt tag](https://raw.githubusercontent.com/BacioiuC/Ebony-Spire--Heresy/master/priest_of_dae2.gif)
+
 **21/05/2016** - Initial commit! Features are still missing and art style is not final. Expect many commits to happen this week.
 
 **Beer count** (Numbers of beers drank during development) = **28**! 
