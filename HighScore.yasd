@@ -7,8 +7,23 @@ return {
    {5},
    {6},
    {7},
+   {8},
+   {9},
 },
 -- Table: {2}
+{
+   ["score"]=890.5,
+   ["id"]=7,
+   ["textLine3"]="He was killed by a <c:0B5E87>Upper Level Guardian</c>.",
+   ["killedBy"]="Upper Level Guardian",
+   ["name"]="Sir Zapa-nald",
+   ["textLine1"]="<c:9FC43A>Sir Zapa-nald</c> died on 0. He survived for 956 turns.",
+   ["textLine2"]="His most valauble item was: <c:FF0000>Potion of Body Displacement</c>.",
+   ["turns"]=956,
+   ["lvDeath"]=0,
+   ["valuableItem"]="<c:FF0000>Potion of Body Displacement</c>",
+},
+-- Table: {3}
 {
    ["score"]=553,
    ["id"]=1,
@@ -21,7 +36,7 @@ return {
    ["lvDeath"]=0,
    ["textLine2"]="His most valauble item was: <c:FF0000>Potion of Body Displacement</c>.",
 },
--- Table: {3}
+-- Table: {4}
 {
    ["score"]=30,
    ["id"]=2,
@@ -34,31 +49,18 @@ return {
    ["lvDeath"]=0,
    ["valuableItem"]="<c:DBD75D>Paladin Armor</c>",
 },
--- Table: {4}
-{
-   ["score"]=0,
-   ["id"]=4,
-   ["textLine3"]="He was killed by a <c:0B5E87>Revived King Salamander</c>.",
-   ["killedBy"]="Revived King Salamander",
-   ["name"]="Sir Zapa-nald",
-   ["textLine1"]="<c:9FC43A>Sir Zapa-nald</c> died on 0. He survived for 32 turns.",
-   ["valuableItem"]="<c:C9C9C9>Iron Sword</c>",
-   ["turns"]=32,
-   ["lvDeath"]=0,
-   ["textLine2"]="His most valauble item was: <c:C9C9C9>Iron Sword</c>.",
-},
 -- Table: {5}
 {
-   ["score"]=0,
+   ["score"]=19,
    ["id"]=3,
-   ["textLine3"]="He was killed by a <c:0B5E87>Dae-Ria</c>.",
-   ["killedBy"]="Dae-Ria",
+   ["textLine3"]="He was killed by a <c:0B5E87>Dae’s Reaper</c>.",
+   ["killedBy"]="Dae’s Reaper",
    ["name"]="Sir Zapa-nald",
-   ["textLine1"]="<c:9FC43A>Sir Zapa-nald</c> died on 0. He survived for 5 turns.",
-   ["textLine2"]="His most valauble item was: <c:FF0000>Potion of Body Displacement</c>.",
-   ["turns"]=5,
-   ["lvDeath"]=0,
+   ["textLine1"]="<c:9FC43A>Sir Zapa-nald</c> died on 0. He survived for 64 turns.",
    ["valuableItem"]="<c:FF0000>Potion of Body Displacement</c>",
+   ["turns"]=64,
+   ["lvDeath"]=0,
+   ["textLine2"]="His most valauble item was: <c:FF0000>Potion of Body Displacement</c>.",
 },
 -- Table: {6}
 {
@@ -75,14 +77,40 @@ return {
 },
 -- Table: {7}
 {
-   ["score"]=19,
+   ["score"]=0,
    ["id"]=6,
-   ["textLine3"]="He was killed by a <c:0B5E87>Dae’s Reaper</c>.",
-   ["killedBy"]="Dae’s Reaper",
+   ["textLine3"]="He was killed by a <c:0B5E87>Revived King Salamander</c>.",
+   ["killedBy"]="Revived King Salamander",
    ["name"]="Sir Zapa-nald",
-   ["textLine1"]="<c:9FC43A>Sir Zapa-nald</c> died on 0. He survived for 64 turns.",
+   ["textLine1"]="<c:9FC43A>Sir Zapa-nald</c> died on 0. He survived for 32 turns.",
+   ["valuableItem"]="<c:C9C9C9>Iron Sword</c>",
+   ["turns"]=32,
+   ["lvDeath"]=0,
+   ["textLine2"]="His most valauble item was: <c:C9C9C9>Iron Sword</c>.",
+},
+-- Table: {8}
+{
+   ["score"]=0,
+   ["id"]=4,
+   ["textLine3"]="He was killed by a <c:0B5E87>Dae-Ria</c>.",
+   ["killedBy"]="Dae-Ria",
+   ["name"]="Sir Zapa-nald",
+   ["textLine1"]="<c:9FC43A>Sir Zapa-nald</c> died on 0. He survived for 5 turns.",
+   ["textLine2"]="His most valauble item was: <c:FF0000>Potion of Body Displacement</c>.",
+   ["turns"]=5,
+   ["lvDeath"]=0,
    ["valuableItem"]="<c:FF0000>Potion of Body Displacement</c>",
-   ["turns"]=64,
+},
+-- Table: {9}
+{
+   ["score"]=19,
+   ["id"]=8,
+   ["textLine3"]="He was killed by a <c:0B5E87>High Priest of Dae</c>.",
+   ["killedBy"]="High Priest of Dae",
+   ["name"]="Sir Zapa-nald",
+   ["textLine1"]="<c:9FC43A>Sir Zapa-nald</c> died on 0. He survived for 28 turns.",
+   ["valuableItem"]="<c:FF0000>Potion of Body Displacement</c>",
+   ["turns"]=28,
    ["lvDeath"]=0,
    ["textLine2"]="His most valauble item was: <c:FF0000>Potion of Body Displacement</c>.",
 },

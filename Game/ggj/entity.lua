@@ -157,8 +157,8 @@ function entity:new(_x, _y, _tp, _isTowerLevel)
 		end
 		local itemList = {} 
 		print("UM INV: "..creatureNewTable[_tp].InventoryItem.."")
-				-- inventoryItem = creatureNewTable[_tp].InventoryItem,
-		if type(creatureNewTable[_tp].InventoryItem) == "string" then
+				-- ,
+		if string.len(creatureNewTable[_tp].InventoryItem) > 2 then
 
 			counter = 1;
 			for newItem in string.gmatch(creatureNewTable[_tp].InventoryItem, '([^;]+)') do
@@ -175,8 +175,11 @@ function entity:new(_x, _y, _tp, _isTowerLevel)
 					self:pickupItem(temp)
 				end
 			else
-				item:new(temp.x, temp.y, temp.inventoryItem)
-				self:pickupItem(temp)
+				temp.inventoryItem = creatureNewTable[_tp].InventoryItem
+				if temp.inventoryItem ~= 0 then
+					item:new(temp.x, temp.y, temp.inventoryItem)
+					self:pickupItem(temp)
+				end
 			end
 		end
 
@@ -852,10 +855,12 @@ function entity:_combatDebug(_entityID, _forcedDamage)
 		end
 
 		if combatResult > 0 then
-			v.hp = v.hp - math.abs(combatResult)
+			v.hp = v.hp - math.floor(combatResult)
+		else
+			combatResult = 0
 		end
 
-		log:newMessage("You dealt <c:0B5E87>"..math.abs(combatResult).."</c> to <c:0B5E87>"..v.name.."</c>  <c:296B29>HP Left: "..math.abs(math.floor(v.hp)).."</c>")
+		log:newMessage("You dealt <c:0B5E87>"..math.abs(math.floor(combatResult)).."</c> to <c:0B5E87>"..v.name.."</c>  <c:296B29>HP Left: "..math.abs(math.floor(v.hp)).."</c>")
 		--v.hp = v.hp - 10
 	end
 end
@@ -872,7 +877,7 @@ function entity:_doDamage(_entityID, _dmgValue)
 			v.hp = v.hp - math.abs(combatResult)
 		end
 
-		log:newMessage("You dealt <c:0B5E87>"..math.abs(combatResult).."</c> to <c:0B5E87>"..v.name.."</c>  <c:296B29>HP Left: "..math.abs(math.floor(v.hp)).."</c>")
+		log:newMessage("You dealt <c:0B5E87>"..math.abs(math.floor(combatResult)).."</c> to <c:0B5E87>"..v.name.."</c>  <c:296B29>HP Left: "..math.abs(math.floor(v.hp)).."</c>")
 		--player:setKilledBy(""..v.name.."")
 		player:addToScore(combatResult)		--v.hp = v.hp - 10
 	end
@@ -973,7 +978,7 @@ function entity:pickupItem(_v)
 			self:addItemToInventory(v, _item)
 			item:dropitem(_id)
 			local dist = self:getDistanceFromPlayer(v)
-			if dist < 10 then
+			if dist < 5 then
 				log:newMessage(""..v.name.." picked up ".._item.name.."")
 			end
 		end 

@@ -47,12 +47,12 @@ Ring of Life (+25),Accessories,OldAssets/red_ring.png,FF0000,nil,Increases the w
 Fire Knight's Armor,Armor,OldAssets/armor_of_the_red_knight.png,EAFF00,nil,Extremely high physical and arcane damage reduction.,60,0,0,0,0,45,40,5400,nil,0,yes,4,67
 Old Amulet,Goal,Assets/items/priest_scepter.png,9FC43A,WinCondition,The holy grail – the most sought item – the thing that's worth it,1,2000,2000,2000,200,2000,2000,99999,nil,0,yes,100,68
 Priest Scepter,Artefact,Assets/items/priest_scepter.png,C9C9C9,summon_nextto,A scepter used by Dae’s Priest to summon creatures that can aid him!,4,4,0.7,0,0,0,0,450,nil,0,no,0,2
-Iron Sword,Weapon,Assets/items/iron_sword.png,C9C9C9,none,A plain iron sword.,5,6,1.1,9,9,9,9,200,nil,0,yes,15,1
-Iron Axe,Weapon,Assets/items/iron_axe.png,C9C9C9,none,A plain iron axe! Weights more than a sword but it hits hard when thrown,20,4,1.1,9,9,9,9,200,nil,0,yes,15,1
+Iron Sword,Weapon,Assets/items/iron_sword.png,C9C9C9,none,A plain iron sword.,5,6,1.1,9,9,9,9,200,nil,0,yes,25,1
+Iron Axe,Weapon,Assets/items/iron_axe.png,C9C9C9,none,A plain iron axe! Weights more than a sword but it hits hard when thrown,20,4,1.1,9,9,9,9,200,nil,0,yes,24,1
 Throwing Dagger,Weapon,Assets/items/throwing_daggers.png,C9C9C9,none,A Night Shade’s favorite weapon! ,15,5,1.2,0,0,0,0,190,nil,2,yes,25,1
 Potion of Body Displacement,Potion,Assets/items/potion_of_teleportation.png,FF0000,teleport,Displaces the target from it’s current position!,2,0,0,0,0,0,0,350,nil,0,yes,14,1
 Leather Armor,Armor,Assets/items/leather_armor.png,FF0000,nil,Provides the wearer “\n” with minimal protection!,3,0,0,0,0,2,0,45,nil,1,yes,19,1
-Small Potion of Health,Potion,Assets/items/health_potion.png,9BBA1E,heal,Restores the users HP!,2,0,0,0,0,0,0,500,nil,0,yes,17,1
+Small Potion of Health,Potion,Assets/items/health_potion.png,9BBA1E,heal,Restores the users HP!,2,0,0,0,0,0,0,500,nil,0,yes,26,1
 Iron Armor,Armor,Assets/items/iron_armor.png,C9C9C9,nil,Provides some defense against physical attacks. Useless against most arcane/magic attacks,12.5,0,0,0,0,3,1,98,nil,0,yes,14,2
 Steel Armor,Armor,Assets/items/steel_armor.png,C9C9C9,nil,High tier steel armor!,25,0,0,0,0,5,1,98,nil,2,yes,13,3
 Paladin Armor,Armor,Assets/items/paladin_armor.png,DBD75D,nil,Armor worn by Dae’s Paladins! Provides both magical and physical protection!,22,0,0,0,0,10,8,9800,nil,2,no,13,4
@@ -60,3 +60,6 @@ Robes of Minor Arcane Abatment,Armor,Assets/items/robes_of_minor_arcade_defense.
 Amulet of Vitality,Accessories,Assets/items/amulet_of_health.png,FF0000,nil,Increases the wearers health by 3,2,0,0,0,0,0,0,1500,hp,3,yes,10,49
 Rapier,Weapon,Assets/items/rapier.png,DBD75D,nil,Uncommon weapon with a deadly slash technique,2,11,0.7,0,0,0,0,2200,nil,3,no,0,9
 Reaper’s Scite,Artefact,Assets/items/reapear_scite.png,DAD45E,,The most sought out weapon! Regen’s the wielders HP every turn!,45,0,0,0,0,0,0,1800,hp_regen,10,yes,0,9
+Small Potion of Health,Potion,Assets/items/health_potion.png,9BBA1E,heal,Restores the users HP!,2,0,0,0,0,0,0,500,nil,0,yes,26,1
+Scroll of Light,Scroll,Assets/items/scroll_of_reveal.png,EAFF00,reveal_map,Removes all dark patches!,1,0,0,0,0,0,0,100,nil,0,yes,16,1
+Stack of Gold Coins,misc,Assets/items/stack_of_gold_coins.png,EAFF00,nil,Stack of gold coins!,3,0,0,0,0,0,0,255,nil,0,yes,15,29
