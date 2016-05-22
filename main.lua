@@ -162,7 +162,7 @@ require "Game.game" -- THE ACTUAL MAIN FILE! MAIN LUA is AREA 51, front for area
 
 sound:init( )
 
-app_name = "YASD - Yet another stupid death"
+app_name = "Ebony Spire: Heresy"
 
 
 layermgr = require "layermgr"
