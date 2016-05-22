@@ -39,11 +39,11 @@ function rngMap:init( )
 	self._enemyLevelRatio[3] = 2
 	self._enemyLevelRatio[4] = 4
 	self._enemyLevelRatio[5] = 7
-	self._enemyLevelRatio[6] = 7
+	self._enemyLevelRatio[6] = 5
 	self._enemyLevelRatio[7] = 7
-	self._enemyLevelRatio[8] = 7
-	self._enemyLevelRatio[9] = 7
-	self._enemyLevelRatio[10] = 7
+	self._enemyLevelRatio[8] = 1
+	self._enemyLevelRatio[9] = 1
+	self._enemyLevelRatio[10] = 1
 
 	--[[self._levelTiles[1] = "1"
 	self._levelTiles[2] = "2"

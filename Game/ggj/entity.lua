@@ -124,9 +124,11 @@ function entity:new(_x, _y, _tp, _isTowerLevel)
 
 			inventory = { },
 			inventoryCapacity =creatureNewTable[_tp].inventoryCapacity,
-			inventoryItem = creatureNewTable[_tp].InventoryItem,
+			
 
 			}
+
+
 		temp.initialEnergy = temp.energy
 		temp.movementR = { }
 		temp.movementR[1] = creatureNewTable[_tp].Ratio1
@@ -153,10 +155,29 @@ function entity:new(_x, _y, _tp, _isTowerLevel)
 		else
 			temp.isCreature = false
 		end
+		local itemList = {} 
+		print("UM INV: "..creatureNewTable[_tp].InventoryItem.."")
+				-- inventoryItem = creatureNewTable[_tp].InventoryItem,
+		if type(creatureNewTable[_tp].InventoryItem) == "string" then
+
+			counter = 1;
+			for newItem in string.gmatch(creatureNewTable[_tp].InventoryItem, '([^;]+)') do
+			    itemList[counter] = tonumber(newItem)
+			    print("DEH NUMBERS: "..tonumber(newItem).."")
+			    counter = counter + 1
+			end
+		end
 
 		if temp.inventoryItem ~= 0 then
-			item:new(temp.x, temp.y, temp.inventoryItem)
-			self:pickupItem(temp)
+			if #itemList > 0 then
+				for i = 1, #itemList do
+					item:new(temp.x, temp.y, itemList[i])
+					self:pickupItem(temp)
+				end
+			else
+				item:new(temp.x, temp.y, temp.inventoryItem)
+				self:pickupItem(temp)
+			end
 		end
 
 		-- create a default item and add it to the entity's inventory
@@ -1098,11 +1119,20 @@ function entity:_scoreInventory(_v)
 	end
 
 
+
+
 	if evaluationTable ~= nil then
 		emptyTableEva = true
 	end
 
-	return emptyTableEva, evaluationTable[1]
+	local rndChanceForSeconds = math.random(1, 2)
+	local item = 1
+	if #evaluationTable > 1 then
+		if rndChanceForSeconds == 2 then
+			item = 2
+		end
+	end
+	return emptyTableEva, evaluationTable[item]
 
 
 	--[[

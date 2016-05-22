@@ -1354,252 +1354,190 @@ return {
 },
 -- Table: {67}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41679,
-   ["wasVisited"]=false,
 },
 -- Table: {68}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41680,
-   ["wasVisited"]=false,
 },
 -- Table: {69}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41681,
-   ["wasVisited"]=false,
 },
 -- Table: {70}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41682,
-   ["wasVisited"]=false,
 },
 -- Table: {71}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41683,
-   ["wasVisited"]=false,
 },
 -- Table: {72}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41684,
-   ["wasVisited"]=false,
 },
 -- Table: {73}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41685,
-   ["wasVisited"]=false,
 },
 -- Table: {74}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41686,
-   ["wasVisited"]=false,
 },
 -- Table: {75}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41687,
-   ["wasVisited"]=false,
 },
 -- Table: {76}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41688,
-   ["wasVisited"]=false,
 },
 -- Table: {77}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41689,
-   ["wasVisited"]=false,
 },
 -- Table: {78}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41690,
-   ["wasVisited"]=false,
 },
 -- Table: {79}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41691,
-   ["wasVisited"]=false,
 },
 -- Table: {80}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41692,
-   ["wasVisited"]=false,
 },
 -- Table: {81}
 {
-   ["hasWall"]=true,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=false,
    ["wasVisited"]=false,
-   ["ceiling"]=41693,
-   ["wall"]=41076,
+   ["wall"]=9922,
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
 },
 -- Table: {82}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41694,
-   ["wasVisited"]=false,
 },
 -- Table: {83}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41695,
-   ["wasVisited"]=false,
 },
 -- Table: {84}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41696,
-   ["wasVisited"]=false,
 },
 -- Table: {85}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41697,
-   ["wasVisited"]=false,
 },
 -- Table: {86}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41698,
-   ["wasVisited"]=false,
 },
 -- Table: {87}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41699,
-   ["wasVisited"]=false,
 },
 -- Table: {88}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41700,
-   ["wasVisited"]=false,
 },
 -- Table: {89}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41701,
-   ["wasVisited"]=false,
 },
 -- Table: {90}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41702,
-   ["wasVisited"]=false,
 },
 -- Table: {91}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41703,
-   ["wasVisited"]=false,
 },
 -- Table: {92}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41704,
-   ["wasVisited"]=false,
 },
 -- Table: {93}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41705,
-   ["wasVisited"]=false,
 },
 -- Table: {94}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41706,
-   ["wasVisited"]=false,
 },
 -- Table: {95}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41707,
-   ["wasVisited"]=false,
 },
 -- Table: {96}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41708,
-   ["wasVisited"]=false,
 },
 -- Table: {97}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41709,
-   ["wasVisited"]=false,
 },
 -- Table: {98}
 {
@@ -1609,254 +1547,192 @@ return {
 },
 -- Table: {99}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41710,
-   ["wasVisited"]=false,
 },
 -- Table: {100}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41711,
-   ["wasVisited"]=false,
 },
 -- Table: {101}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41712,
-   ["wasVisited"]=false,
 },
 -- Table: {102}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41713,
-   ["wasVisited"]=false,
 },
 -- Table: {103}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41714,
-   ["wasVisited"]=false,
 },
 -- Table: {104}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41715,
-   ["wasVisited"]=false,
 },
 -- Table: {105}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41716,
-   ["wasVisited"]=false,
 },
 -- Table: {106}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41717,
-   ["wasVisited"]=false,
 },
 -- Table: {107}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41718,
-   ["wasVisited"]=false,
 },
 -- Table: {108}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41719,
-   ["wasVisited"]=false,
 },
 -- Table: {109}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41720,
-   ["wasVisited"]=false,
 },
 -- Table: {110}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41721,
-   ["wasVisited"]=false,
 },
 -- Table: {111}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41722,
-   ["wasVisited"]=false,
 },
 -- Table: {112}
 {
-   ["hasWall"]=true,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=false,
    ["wasVisited"]=false,
-   ["ceiling"]=41723,
-   ["wall"]=41077,
+   ["wall"]=9923,
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
 },
 -- Table: {113}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=41724,
-   ["floor"]=41078,
+   ["floor"]=9924,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {114}
 {
-   ["hasWall"]=true,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=false,
    ["wasVisited"]=false,
-   ["ceiling"]=41725,
-   ["wall"]=41079,
+   ["wall"]=9925,
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
 },
 -- Table: {115}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41726,
-   ["wasVisited"]=false,
 },
 -- Table: {116}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41727,
-   ["wasVisited"]=false,
 },
 -- Table: {117}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41728,
-   ["wasVisited"]=false,
 },
 -- Table: {118}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41729,
-   ["wasVisited"]=false,
 },
 -- Table: {119}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41730,
-   ["wasVisited"]=false,
 },
 -- Table: {120}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41731,
-   ["wasVisited"]=false,
 },
 -- Table: {121}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41732,
-   ["wasVisited"]=false,
 },
 -- Table: {122}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41733,
-   ["wasVisited"]=false,
 },
 -- Table: {123}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41734,
-   ["wasVisited"]=false,
 },
 -- Table: {124}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41735,
-   ["wasVisited"]=false,
 },
 -- Table: {125}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41736,
-   ["wasVisited"]=false,
 },
 -- Table: {126}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41737,
-   ["wasVisited"]=false,
 },
 -- Table: {127}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41738,
-   ["wasVisited"]=false,
 },
 -- Table: {128}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41739,
-   ["wasVisited"]=false,
 },
 -- Table: {129}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41740,
-   ["wasVisited"]=false,
 },
 -- Table: {130}
 {
@@ -1866,256 +1742,194 @@ return {
 },
 -- Table: {131}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41741,
-   ["wasVisited"]=false,
 },
 -- Table: {132}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41742,
-   ["wasVisited"]=false,
 },
 -- Table: {133}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41743,
-   ["wasVisited"]=false,
 },
 -- Table: {134}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41744,
-   ["wasVisited"]=false,
 },
 -- Table: {135}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41745,
-   ["wasVisited"]=false,
 },
 -- Table: {136}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41746,
-   ["wasVisited"]=false,
 },
 -- Table: {137}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41747,
-   ["wasVisited"]=false,
 },
 -- Table: {138}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41748,
-   ["wasVisited"]=false,
 },
 -- Table: {139}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41749,
-   ["wasVisited"]=false,
 },
 -- Table: {140}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41750,
-   ["wasVisited"]=false,
 },
 -- Table: {141}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41751,
-   ["wasVisited"]=false,
 },
 -- Table: {142}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41752,
-   ["wasVisited"]=false,
 },
 -- Table: {143}
 {
-   ["hasWall"]=true,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=false,
    ["wasVisited"]=false,
-   ["ceiling"]=41753,
-   ["wall"]=41080,
+   ["wall"]=9926,
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
 },
 -- Table: {144}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=41754,
-   ["floor"]=41081,
+   ["floor"]=9927,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {145}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=41755,
-   ["floor"]=41082,
+   ["floor"]=9928,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {146}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=41756,
-   ["floor"]=41083,
+   ["floor"]=9929,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {147}
 {
-   ["hasWall"]=true,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=false,
    ["wasVisited"]=false,
-   ["ceiling"]=41757,
-   ["wall"]=41084,
+   ["wall"]=9930,
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
 },
 -- Table: {148}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41758,
-   ["wasVisited"]=false,
 },
 -- Table: {149}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41759,
-   ["wasVisited"]=false,
 },
 -- Table: {150}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41760,
-   ["wasVisited"]=false,
 },
 -- Table: {151}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41761,
-   ["wasVisited"]=false,
 },
 -- Table: {152}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41762,
-   ["wasVisited"]=false,
 },
 -- Table: {153}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41763,
-   ["wasVisited"]=false,
 },
 -- Table: {154}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41764,
-   ["wasVisited"]=false,
 },
 -- Table: {155}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41765,
-   ["wasVisited"]=false,
 },
 -- Table: {156}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41766,
-   ["wasVisited"]=false,
 },
 -- Table: {157}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41767,
-   ["wasVisited"]=false,
 },
 -- Table: {158}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41768,
-   ["wasVisited"]=false,
 },
 -- Table: {159}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41769,
-   ["wasVisited"]=false,
 },
 -- Table: {160}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41770,
-   ["wasVisited"]=false,
 },
 -- Table: {161}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41771,
-   ["wasVisited"]=false,
 },
 -- Table: {162}
 {
@@ -2125,258 +1939,196 @@ return {
 },
 -- Table: {163}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41772,
-   ["wasVisited"]=false,
 },
 -- Table: {164}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41773,
-   ["wasVisited"]=false,
 },
 -- Table: {165}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41774,
-   ["wasVisited"]=false,
 },
 -- Table: {166}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41775,
-   ["wasVisited"]=false,
 },
 -- Table: {167}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41776,
-   ["wasVisited"]=false,
 },
 -- Table: {168}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41777,
-   ["wasVisited"]=false,
 },
 -- Table: {169}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41778,
-   ["wasVisited"]=false,
 },
 -- Table: {170}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41779,
-   ["wasVisited"]=false,
 },
 -- Table: {171}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41780,
-   ["wasVisited"]=false,
 },
 -- Table: {172}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41781,
-   ["wasVisited"]=false,
 },
 -- Table: {173}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41782,
-   ["wasVisited"]=false,
 },
 -- Table: {174}
 {
-   ["hasWall"]=true,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=false,
    ["wasVisited"]=false,
-   ["ceiling"]=41783,
-   ["wall"]=41085,
+   ["wall"]=9931,
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
 },
 -- Table: {175}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=41784,
-   ["floor"]=41086,
+   ["floor"]=9932,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {176}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=41785,
-   ["floor"]=41087,
+   ["floor"]=9933,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {177}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=41786,
-   ["floor"]=41088,
+   ["floor"]=9934,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {178}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=41787,
-   ["floor"]=41089,
+   ["floor"]=9935,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {179}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=41788,
-   ["floor"]=41090,
+   ["floor"]=9936,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {180}
 {
-   ["hasWall"]=true,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=false,
    ["wasVisited"]=false,
-   ["ceiling"]=41789,
-   ["wall"]=41091,
+   ["wall"]=9937,
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
 },
 -- Table: {181}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41790,
-   ["wasVisited"]=false,
 },
 -- Table: {182}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41791,
-   ["wasVisited"]=false,
 },
 -- Table: {183}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41792,
-   ["wasVisited"]=false,
 },
 -- Table: {184}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41793,
-   ["wasVisited"]=false,
 },
 -- Table: {185}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41794,
-   ["wasVisited"]=false,
 },
 -- Table: {186}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41795,
-   ["wasVisited"]=false,
 },
 -- Table: {187}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41796,
-   ["wasVisited"]=false,
 },
 -- Table: {188}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41797,
-   ["wasVisited"]=false,
 },
 -- Table: {189}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41798,
-   ["wasVisited"]=false,
 },
 -- Table: {190}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41799,
-   ["wasVisited"]=false,
 },
 -- Table: {191}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41800,
-   ["wasVisited"]=false,
 },
 -- Table: {192}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41801,
-   ["wasVisited"]=false,
 },
 -- Table: {193}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41802,
-   ["wasVisited"]=false,
 },
 -- Table: {194}
 {
@@ -2386,260 +2138,198 @@ return {
 },
 -- Table: {195}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41803,
-   ["wasVisited"]=false,
 },
 -- Table: {196}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41804,
-   ["wasVisited"]=false,
 },
 -- Table: {197}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41805,
-   ["wasVisited"]=false,
 },
 -- Table: {198}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41806,
-   ["wasVisited"]=false,
 },
 -- Table: {199}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41807,
-   ["wasVisited"]=false,
 },
 -- Table: {200}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41808,
-   ["wasVisited"]=false,
 },
 -- Table: {201}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41809,
-   ["wasVisited"]=false,
 },
 -- Table: {202}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41810,
-   ["wasVisited"]=false,
 },
 -- Table: {203}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41811,
-   ["wasVisited"]=false,
 },
 -- Table: {204}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41812,
-   ["wasVisited"]=false,
 },
 -- Table: {205}
 {
-   ["hasWall"]=true,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=false,
    ["wasVisited"]=false,
-   ["ceiling"]=41813,
-   ["wall"]=41092,
+   ["wall"]=9938,
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
 },
 -- Table: {206}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=41814,
-   ["floor"]=41093,
+   ["floor"]=9939,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {207}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=41815,
-   ["floor"]=41094,
+   ["floor"]=9940,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {208}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=41816,
-   ["floor"]=41095,
+   ["floor"]=9941,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {209}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=41817,
-   ["floor"]=41096,
+   ["floor"]=9942,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {210}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=41818,
-   ["floor"]=41097,
+   ["floor"]=9943,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {211}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=41819,
-   ["floor"]=41098,
+   ["floor"]=9944,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {212}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=41820,
-   ["floor"]=41099,
+   ["floor"]=9945,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {213}
 {
-   ["hasWall"]=true,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=false,
    ["wasVisited"]=false,
-   ["ceiling"]=41821,
-   ["wall"]=41100,
+   ["wall"]=9946,
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
 },
 -- Table: {214}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41822,
-   ["wasVisited"]=false,
 },
 -- Table: {215}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41823,
-   ["wasVisited"]=false,
 },
 -- Table: {216}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41824,
-   ["wasVisited"]=false,
 },
 -- Table: {217}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41825,
-   ["wasVisited"]=false,
 },
 -- Table: {218}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41826,
-   ["wasVisited"]=false,
 },
 -- Table: {219}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41827,
-   ["wasVisited"]=false,
 },
 -- Table: {220}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41828,
-   ["wasVisited"]=false,
 },
 -- Table: {221}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41829,
-   ["wasVisited"]=false,
 },
 -- Table: {222}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41830,
-   ["wasVisited"]=false,
 },
 -- Table: {223}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41831,
-   ["wasVisited"]=false,
 },
 -- Table: {224}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41832,
-   ["wasVisited"]=false,
 },
 -- Table: {225}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41833,
-   ["wasVisited"]=false,
 },
 -- Table: {226}
 {
@@ -2649,262 +2339,200 @@ return {
 },
 -- Table: {227}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41834,
-   ["wasVisited"]=false,
 },
 -- Table: {228}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41835,
-   ["wasVisited"]=false,
 },
 -- Table: {229}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41836,
-   ["wasVisited"]=false,
 },
 -- Table: {230}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41837,
-   ["wasVisited"]=false,
 },
 -- Table: {231}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41838,
-   ["wasVisited"]=false,
 },
 -- Table: {232}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41839,
-   ["wasVisited"]=false,
 },
 -- Table: {233}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41840,
-   ["wasVisited"]=false,
 },
 -- Table: {234}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41841,
-   ["wasVisited"]=false,
 },
 -- Table: {235}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41842,
-   ["wasVisited"]=false,
 },
 -- Table: {236}
 {
-   ["hasWall"]=true,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=false,
    ["wasVisited"]=false,
-   ["ceiling"]=41843,
-   ["wall"]=41101,
+   ["wall"]=9947,
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
 },
 -- Table: {237}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=41844,
-   ["floor"]=41102,
+   ["floor"]=9948,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {238}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=41845,
-   ["floor"]=41103,
+   ["floor"]=9949,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {239}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=41846,
-   ["floor"]=41104,
+   ["floor"]=9950,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {240}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=41847,
-   ["floor"]=41105,
+   ["floor"]=9951,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {241}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=41848,
-   ["floor"]=41106,
+   ["floor"]=9952,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {242}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=41849,
-   ["floor"]=41107,
+   ["floor"]=9953,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {243}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=41850,
-   ["floor"]=41108,
+   ["floor"]=9954,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {244}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=41851,
-   ["floor"]=41109,
+   ["floor"]=9955,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {245}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=41852,
-   ["floor"]=41110,
+   ["floor"]=9956,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {246}
 {
-   ["hasWall"]=true,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=false,
    ["wasVisited"]=false,
-   ["ceiling"]=41853,
-   ["wall"]=41111,
+   ["wall"]=9957,
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
 },
 -- Table: {247}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41854,
-   ["wasVisited"]=false,
 },
 -- Table: {248}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41855,
-   ["wasVisited"]=false,
 },
 -- Table: {249}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41856,
-   ["wasVisited"]=false,
 },
 -- Table: {250}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41857,
-   ["wasVisited"]=false,
 },
 -- Table: {251}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41858,
-   ["wasVisited"]=false,
 },
 -- Table: {252}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41859,
-   ["wasVisited"]=false,
 },
 -- Table: {253}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41860,
-   ["wasVisited"]=false,
 },
 -- Table: {254}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41861,
-   ["wasVisited"]=false,
 },
 -- Table: {255}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41862,
-   ["wasVisited"]=false,
 },
 -- Table: {256}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41863,
-   ["wasVisited"]=false,
 },
 -- Table: {257}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41864,
-   ["wasVisited"]=false,
 },
 -- Table: {258}
 {
@@ -2914,264 +2542,202 @@ return {
 },
 -- Table: {259}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41865,
-   ["wasVisited"]=false,
 },
 -- Table: {260}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41866,
-   ["wasVisited"]=false,
 },
 -- Table: {261}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41867,
-   ["wasVisited"]=false,
 },
 -- Table: {262}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41868,
-   ["wasVisited"]=false,
 },
 -- Table: {263}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41869,
-   ["wasVisited"]=false,
 },
 -- Table: {264}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41870,
-   ["wasVisited"]=false,
 },
 -- Table: {265}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41871,
-   ["wasVisited"]=false,
 },
 -- Table: {266}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41872,
-   ["wasVisited"]=false,
 },
 -- Table: {267}
 {
-   ["hasWall"]=true,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=false,
    ["wasVisited"]=false,
-   ["ceiling"]=41873,
-   ["wall"]=41112,
+   ["wall"]=9958,
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
 },
 -- Table: {268}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=41874,
-   ["floor"]=41113,
+   ["floor"]=9959,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {269}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=41875,
-   ["floor"]=41114,
+   ["floor"]=9960,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {270}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=41876,
-   ["floor"]=41115,
+   ["floor"]=9961,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {271}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=41877,
-   ["floor"]=41116,
+   ["floor"]=9962,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {272}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=41878,
-   ["floor"]=41117,
+   ["floor"]=9963,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {273}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=41879,
-   ["floor"]=41118,
+   ["floor"]=9964,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {274}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=41880,
-   ["floor"]=41119,
+   ["floor"]=9965,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {275}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=41881,
-   ["floor"]=41120,
+   ["floor"]=9966,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {276}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=41882,
-   ["floor"]=41121,
+   ["floor"]=9967,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {277}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=41883,
-   ["floor"]=41122,
+   ["floor"]=9968,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {278}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=41884,
-   ["floor"]=41123,
+   ["floor"]=9969,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {279}
 {
-   ["hasWall"]=true,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=false,
    ["wasVisited"]=false,
-   ["ceiling"]=41885,
-   ["wall"]=41124,
+   ["wall"]=9970,
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
 },
 -- Table: {280}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41886,
-   ["wasVisited"]=false,
 },
 -- Table: {281}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41887,
-   ["wasVisited"]=false,
 },
 -- Table: {282}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41888,
-   ["wasVisited"]=false,
 },
 -- Table: {283}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41889,
-   ["wasVisited"]=false,
 },
 -- Table: {284}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41890,
-   ["wasVisited"]=false,
 },
 -- Table: {285}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41891,
-   ["wasVisited"]=false,
 },
 -- Table: {286}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41892,
-   ["wasVisited"]=false,
 },
 -- Table: {287}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41893,
-   ["wasVisited"]=false,
 },
 -- Table: {288}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41894,
-   ["wasVisited"]=false,
 },
 -- Table: {289}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41895,
-   ["wasVisited"]=false,
 },
 -- Table: {290}
 {
@@ -3181,268 +2747,206 @@ return {
 },
 -- Table: {291}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41896,
-   ["wasVisited"]=false,
 },
 -- Table: {292}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41897,
-   ["wasVisited"]=false,
 },
 -- Table: {293}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41898,
-   ["wasVisited"]=false,
 },
 -- Table: {294}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41899,
-   ["wasVisited"]=false,
 },
 -- Table: {295}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41900,
-   ["wasVisited"]=false,
 },
 -- Table: {296}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41901,
-   ["wasVisited"]=false,
 },
 -- Table: {297}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41902,
-   ["wasVisited"]=false,
 },
 -- Table: {298}
 {
-   ["hasWall"]=true,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=false,
    ["wasVisited"]=false,
-   ["ceiling"]=41903,
-   ["wall"]=41125,
+   ["wall"]=9971,
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
 },
 -- Table: {299}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=41904,
-   ["floor"]=41126,
+   ["floor"]=9972,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {300}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=41905,
-   ["floor"]=41127,
+   ["floor"]=9973,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {301}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=41906,
-   ["floor"]=41128,
+   ["floor"]=9974,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {302}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=41907,
-   ["floor"]=41129,
+   ["floor"]=9975,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {303}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=41908,
-   ["floor"]=41130,
+   ["floor"]=9976,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {304}
 {
-   ["hasCeiling"]=true,
    ["hasWall"]=true,
-   ["wasVisited"]=false,
    ["hasFloor"]=true,
-   ["wall"]=41498,
-   ["ceiling"]=41909,
-   ["floor"]=41131,
+   ["wall"]=10344,
+   ["wasVisited"]=false,
+   ["floor"]=9977,
 },
 -- Table: {305}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=41910,
-   ["floor"]=41499,
+   ["floor"]=10345,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {306}
 {
-   ["hasCeiling"]=true,
    ["hasWall"]=true,
-   ["wasVisited"]=false,
    ["hasFloor"]=true,
-   ["wall"]=41500,
-   ["ceiling"]=41911,
-   ["floor"]=41133,
+   ["wall"]=10346,
+   ["wasVisited"]=false,
+   ["floor"]=9979,
 },
 -- Table: {307}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=41912,
-   ["floor"]=41134,
+   ["floor"]=9980,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {308}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=41913,
-   ["floor"]=41135,
+   ["floor"]=9981,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {309}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=41914,
-   ["floor"]=41136,
+   ["floor"]=9982,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {310}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=41915,
-   ["floor"]=41137,
+   ["floor"]=9983,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {311}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=41916,
-   ["floor"]=41138,
+   ["floor"]=9984,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {312}
 {
-   ["hasWall"]=true,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=false,
    ["wasVisited"]=false,
-   ["ceiling"]=41917,
-   ["wall"]=41139,
+   ["wall"]=9985,
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
 },
 -- Table: {313}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41918,
-   ["wasVisited"]=false,
 },
 -- Table: {314}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41919,
-   ["wasVisited"]=false,
 },
 -- Table: {315}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41920,
-   ["wasVisited"]=false,
 },
 -- Table: {316}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41921,
-   ["wasVisited"]=false,
 },
 -- Table: {317}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41922,
-   ["wasVisited"]=false,
 },
 -- Table: {318}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41923,
-   ["wasVisited"]=false,
 },
 -- Table: {319}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41924,
-   ["wasVisited"]=false,
 },
 -- Table: {320}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41925,
-   ["wasVisited"]=false,
 },
 -- Table: {321}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41926,
-   ["wasVisited"]=false,
 },
 -- Table: {322}
 {
@@ -3452,270 +2956,208 @@ return {
 },
 -- Table: {323}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41927,
-   ["wasVisited"]=false,
 },
 -- Table: {324}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41928,
-   ["wasVisited"]=false,
 },
 -- Table: {325}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41929,
-   ["wasVisited"]=false,
 },
 -- Table: {326}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41930,
-   ["wasVisited"]=false,
 },
 -- Table: {327}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41931,
-   ["wasVisited"]=false,
 },
 -- Table: {328}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41932,
-   ["wasVisited"]=false,
 },
 -- Table: {329}
 {
-   ["hasWall"]=true,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=false,
    ["wasVisited"]=false,
-   ["ceiling"]=41933,
-   ["wall"]=41140,
+   ["wall"]=9986,
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
 },
 -- Table: {330}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=41934,
-   ["floor"]=41141,
+   ["floor"]=9987,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {331}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=41935,
-   ["floor"]=41142,
+   ["floor"]=9988,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {332}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=41936,
-   ["floor"]=41143,
+   ["floor"]=9989,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {333}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=41937,
-   ["floor"]=41144,
+   ["floor"]=9990,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {334}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=41938,
-   ["floor"]=41145,
+   ["floor"]=9991,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {335}
 {
-   ["hasCeiling"]=true,
    ["hasWall"]=true,
-   ["wasVisited"]=false,
    ["hasFloor"]=true,
-   ["wall"]=41501,
-   ["ceiling"]=41939,
-   ["floor"]=41146,
+   ["wall"]=10347,
+   ["wasVisited"]=false,
+   ["floor"]=9992,
 },
 -- Table: {336}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=41940,
-   ["floor"]=41502,
+   ["floor"]=10348,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {337}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=41941,
-   ["floor"]=41503,
+   ["floor"]=10349,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {338}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=41942,
-   ["floor"]=41504,
+   ["floor"]=10350,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {339}
 {
-   ["hasCeiling"]=true,
    ["hasWall"]=true,
-   ["wasVisited"]=false,
    ["hasFloor"]=true,
-   ["wall"]=41505,
-   ["ceiling"]=41943,
-   ["floor"]=41150,
+   ["wall"]=10351,
+   ["wasVisited"]=false,
+   ["floor"]=9996,
 },
 -- Table: {340}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=41944,
-   ["floor"]=41151,
+   ["floor"]=9997,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {341}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=41945,
-   ["floor"]=41152,
+   ["floor"]=9998,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {342}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=41946,
-   ["floor"]=41153,
+   ["floor"]=9999,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {343}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=41947,
-   ["floor"]=41154,
+   ["floor"]=10000,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {344}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=41948,
-   ["floor"]=41155,
+   ["floor"]=10001,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {345}
 {
-   ["hasWall"]=true,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=false,
    ["wasVisited"]=false,
-   ["ceiling"]=41949,
-   ["wall"]=41156,
+   ["wall"]=10002,
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
 },
 -- Table: {346}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41950,
-   ["wasVisited"]=false,
 },
 -- Table: {347}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41951,
-   ["wasVisited"]=false,
 },
 -- Table: {348}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41952,
-   ["wasVisited"]=false,
 },
 -- Table: {349}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41953,
-   ["wasVisited"]=false,
 },
 -- Table: {350}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41954,
-   ["wasVisited"]=false,
 },
 -- Table: {351}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41955,
-   ["wasVisited"]=false,
 },
 -- Table: {352}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41956,
-   ["wasVisited"]=false,
 },
 -- Table: {353}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41957,
-   ["wasVisited"]=false,
 },
 -- Table: {354}
 {
@@ -3725,272 +3167,210 @@ return {
 },
 -- Table: {355}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41958,
-   ["wasVisited"]=false,
 },
 -- Table: {356}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41959,
-   ["wasVisited"]=false,
 },
 -- Table: {357}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41960,
-   ["wasVisited"]=false,
 },
 -- Table: {358}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41961,
-   ["wasVisited"]=false,
 },
 -- Table: {359}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41962,
-   ["wasVisited"]=false,
 },
 -- Table: {360}
 {
-   ["hasWall"]=true,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=false,
    ["wasVisited"]=false,
-   ["ceiling"]=41963,
-   ["wall"]=41157,
+   ["wall"]=10003,
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
 },
 -- Table: {361}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=41964,
-   ["floor"]=41158,
+   ["floor"]=10004,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {362}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=41965,
-   ["floor"]=41159,
+   ["floor"]=10005,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {363}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=41966,
-   ["floor"]=41160,
+   ["floor"]=10006,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {364}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=41967,
-   ["floor"]=41161,
+   ["floor"]=10007,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {365}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=41968,
-   ["floor"]=41162,
+   ["floor"]=10008,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {366}
 {
-   ["hasCeiling"]=true,
    ["hasWall"]=true,
-   ["wasVisited"]=false,
    ["hasFloor"]=true,
-   ["wall"]=41506,
-   ["ceiling"]=41969,
-   ["floor"]=41163,
+   ["wall"]=10352,
+   ["wasVisited"]=false,
+   ["floor"]=10009,
 },
 -- Table: {367}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=41970,
-   ["floor"]=41507,
+   ["floor"]=10353,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {368}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=41971,
-   ["floor"]=41508,
+   ["floor"]=10354,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {369}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=41972,
-   ["floor"]=41509,
+   ["floor"]=10355,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {370}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=41973,
-   ["floor"]=41510,
+   ["floor"]=10356,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {371}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=41974,
-   ["floor"]=41511,
+   ["floor"]=10357,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {372}
 {
-   ["hasCeiling"]=true,
    ["hasWall"]=true,
-   ["wasVisited"]=false,
    ["hasFloor"]=true,
-   ["wall"]=41512,
-   ["ceiling"]=41975,
-   ["floor"]=41169,
+   ["wall"]=10358,
+   ["wasVisited"]=false,
+   ["floor"]=10015,
 },
 -- Table: {373}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=41976,
-   ["floor"]=41170,
+   ["floor"]=10016,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {374}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=41977,
-   ["floor"]=41171,
+   ["floor"]=10017,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {375}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=41978,
-   ["floor"]=41172,
+   ["floor"]=10018,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {376}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=41979,
-   ["floor"]=41173,
+   ["floor"]=10019,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {377}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=41980,
-   ["floor"]=41174,
+   ["floor"]=10020,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {378}
 {
-   ["hasWall"]=true,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=false,
    ["wasVisited"]=false,
-   ["ceiling"]=41981,
-   ["wall"]=41175,
+   ["wall"]=10021,
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
 },
 -- Table: {379}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41982,
-   ["wasVisited"]=false,
 },
 -- Table: {380}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41983,
-   ["wasVisited"]=false,
 },
 -- Table: {381}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41984,
-   ["wasVisited"]=false,
 },
 -- Table: {382}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41985,
-   ["wasVisited"]=false,
 },
 -- Table: {383}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41986,
-   ["wasVisited"]=false,
 },
 -- Table: {384}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41987,
-   ["wasVisited"]=false,
 },
 -- Table: {385}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41988,
-   ["wasVisited"]=false,
 },
 -- Table: {386}
 {
@@ -4000,274 +3380,212 @@ return {
 },
 -- Table: {387}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41989,
-   ["wasVisited"]=false,
 },
 -- Table: {388}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41990,
-   ["wasVisited"]=false,
 },
 -- Table: {389}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41991,
-   ["wasVisited"]=false,
 },
 -- Table: {390}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=41992,
-   ["wasVisited"]=false,
 },
 -- Table: {391}
 {
-   ["hasWall"]=true,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=false,
    ["wasVisited"]=false,
-   ["ceiling"]=41993,
-   ["wall"]=41176,
+   ["wall"]=10022,
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
 },
 -- Table: {392}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=41994,
-   ["floor"]=41177,
+   ["floor"]=10023,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {393}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=41995,
-   ["floor"]=41178,
+   ["floor"]=10024,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {394}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=41996,
-   ["floor"]=41179,
+   ["floor"]=10025,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {395}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=41997,
-   ["floor"]=41180,
+   ["floor"]=10026,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {396}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=41998,
-   ["floor"]=41181,
+   ["floor"]=10027,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {397}
 {
-   ["hasCeiling"]=true,
    ["hasWall"]=true,
-   ["wasVisited"]=false,
    ["hasFloor"]=true,
-   ["wall"]=41513,
-   ["ceiling"]=41999,
-   ["floor"]=41182,
+   ["wall"]=10359,
+   ["wasVisited"]=false,
+   ["floor"]=10028,
 },
 -- Table: {398}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42000,
-   ["floor"]=41514,
+   ["floor"]=10360,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {399}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42001,
-   ["floor"]=41515,
+   ["floor"]=10361,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {400}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42002,
-   ["floor"]=41516,
+   ["floor"]=10362,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {401}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42003,
-   ["floor"]=41517,
+   ["floor"]=10363,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {402}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42004,
-   ["floor"]=41518,
+   ["floor"]=10364,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {403}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42005,
-   ["floor"]=41519,
+   ["floor"]=10365,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {404}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42006,
-   ["floor"]=41520,
+   ["floor"]=10366,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {405}
 {
-   ["hasCeiling"]=true,
    ["hasWall"]=true,
-   ["wasVisited"]=false,
    ["hasFloor"]=true,
-   ["wall"]=41521,
-   ["ceiling"]=42007,
-   ["floor"]=41190,
+   ["wall"]=10367,
+   ["wasVisited"]=false,
+   ["floor"]=10036,
 },
 -- Table: {406}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42008,
-   ["floor"]=41191,
+   ["floor"]=10037,
+   ["hasWall"]=true,
+   ["hasFloor"]=true,
 },
 -- Table: {407}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42009,
-   ["floor"]=41192,
+   ["floor"]=10038,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {408}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42010,
-   ["floor"]=41193,
+   ["floor"]=10039,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {409}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42011,
-   ["floor"]=41194,
+   ["floor"]=10040,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {410}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42012,
-   ["floor"]=41195,
+   ["floor"]=10041,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {411}
 {
-   ["hasWall"]=true,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=false,
    ["wasVisited"]=false,
-   ["ceiling"]=42013,
-   ["wall"]=41196,
+   ["wall"]=10042,
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
 },
 -- Table: {412}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42014,
-   ["wasVisited"]=false,
 },
 -- Table: {413}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42015,
-   ["wasVisited"]=false,
 },
 -- Table: {414}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42016,
-   ["wasVisited"]=false,
 },
 -- Table: {415}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42017,
-   ["wasVisited"]=false,
 },
 -- Table: {416}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42018,
-   ["wasVisited"]=false,
 },
 -- Table: {417}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42019,
-   ["wasVisited"]=false,
 },
 -- Table: {418}
 {
@@ -4277,276 +3595,214 @@ return {
 },
 -- Table: {419}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42020,
-   ["wasVisited"]=false,
 },
 -- Table: {420}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42021,
-   ["wasVisited"]=false,
 },
 -- Table: {421}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42022,
-   ["wasVisited"]=false,
 },
 -- Table: {422}
 {
-   ["hasWall"]=true,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=false,
    ["wasVisited"]=false,
-   ["ceiling"]=42023,
-   ["wall"]=41197,
+   ["wall"]=10043,
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
 },
 -- Table: {423}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42024,
-   ["floor"]=41198,
+   ["floor"]=10044,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {424}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42025,
-   ["floor"]=41199,
+   ["floor"]=10045,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {425}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42026,
-   ["floor"]=41200,
+   ["floor"]=10046,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {426}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42027,
-   ["floor"]=41201,
+   ["floor"]=10047,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {427}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42028,
-   ["floor"]=41202,
+   ["floor"]=10048,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {428}
 {
-   ["hasCeiling"]=true,
    ["hasWall"]=true,
-   ["wasVisited"]=false,
    ["hasFloor"]=true,
-   ["wall"]=41522,
-   ["ceiling"]=42029,
-   ["floor"]=41203,
+   ["wall"]=10368,
+   ["wasVisited"]=false,
+   ["floor"]=10049,
 },
 -- Table: {429}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42030,
-   ["floor"]=41523,
+   ["floor"]=10369,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {430}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42031,
-   ["floor"]=41524,
+   ["floor"]=10370,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {431}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42032,
-   ["floor"]=41525,
+   ["floor"]=10371,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {432}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42033,
-   ["floor"]=41526,
+   ["floor"]=10372,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {433}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42034,
-   ["floor"]=41527,
+   ["floor"]=10373,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {434}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42035,
-   ["floor"]=41528,
+   ["floor"]=10374,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {435}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42036,
-   ["floor"]=41529,
+   ["floor"]=10375,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {436}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42037,
-   ["floor"]=41530,
+   ["floor"]=10376,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {437}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42038,
-   ["floor"]=41531,
+   ["floor"]=10377,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {438}
 {
-   ["hasCeiling"]=true,
    ["hasWall"]=true,
-   ["wasVisited"]=false,
    ["hasFloor"]=true,
-   ["wall"]=41532,
-   ["ceiling"]=42039,
-   ["floor"]=41213,
+   ["wall"]=10378,
+   ["wasVisited"]=false,
+   ["floor"]=10059,
 },
 -- Table: {439}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42040,
-   ["floor"]=41214,
+   ["floor"]=10060,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {440}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42041,
-   ["floor"]=41215,
+   ["floor"]=10061,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {441}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42042,
-   ["floor"]=41216,
+   ["floor"]=10062,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {442}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42043,
-   ["floor"]=41217,
+   ["floor"]=10063,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {443}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42044,
-   ["floor"]=41218,
+   ["floor"]=10064,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {444}
 {
-   ["hasWall"]=true,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=false,
    ["wasVisited"]=false,
-   ["ceiling"]=42045,
-   ["wall"]=41219,
+   ["wall"]=10065,
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
 },
 -- Table: {445}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42046,
-   ["wasVisited"]=false,
 },
 -- Table: {446}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42047,
-   ["wasVisited"]=false,
 },
 -- Table: {447}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42048,
-   ["wasVisited"]=false,
 },
 -- Table: {448}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42049,
-   ["wasVisited"]=false,
 },
 -- Table: {449}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42050,
-   ["wasVisited"]=false,
 },
 -- Table: {450}
 {
@@ -4556,278 +3812,216 @@ return {
 },
 -- Table: {451}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42051,
-   ["wasVisited"]=false,
 },
 -- Table: {452}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42052,
-   ["wasVisited"]=false,
 },
 -- Table: {453}
 {
-   ["hasWall"]=true,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=false,
    ["wasVisited"]=false,
-   ["ceiling"]=42053,
-   ["wall"]=41220,
+   ["wall"]=10066,
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
 },
 -- Table: {454}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42054,
-   ["floor"]=41221,
+   ["floor"]=10067,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {455}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42055,
-   ["floor"]=41222,
+   ["floor"]=10068,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {456}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42056,
-   ["floor"]=41223,
+   ["floor"]=10069,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {457}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42057,
-   ["floor"]=41224,
+   ["floor"]=10070,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {458}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42058,
-   ["floor"]=41225,
+   ["floor"]=10071,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {459}
 {
-   ["hasCeiling"]=true,
    ["hasWall"]=true,
-   ["wasVisited"]=false,
    ["hasFloor"]=true,
-   ["wall"]=41533,
-   ["ceiling"]=42059,
-   ["floor"]=41226,
+   ["wall"]=10379,
+   ["wasVisited"]=false,
+   ["floor"]=10072,
 },
 -- Table: {460}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42060,
-   ["floor"]=41534,
+   ["floor"]=10380,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {461}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42061,
-   ["floor"]=41535,
+   ["floor"]=10381,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {462}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42062,
-   ["floor"]=41536,
+   ["floor"]=10382,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {463}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42063,
-   ["floor"]=41537,
+   ["floor"]=10383,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {464}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42064,
-   ["floor"]=41538,
+   ["floor"]=10384,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {465}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42065,
-   ["floor"]=41539,
+   ["floor"]=10385,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {466}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42066,
-   ["floor"]=41540,
+   ["floor"]=10386,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {467}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42067,
-   ["floor"]=41541,
+   ["floor"]=10387,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {468}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42068,
-   ["floor"]=41542,
+   ["floor"]=10388,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {469}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42069,
-   ["floor"]=41543,
+   ["floor"]=10389,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {470}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42070,
-   ["floor"]=41544,
+   ["floor"]=10390,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {471}
 {
-   ["hasCeiling"]=true,
    ["hasWall"]=true,
-   ["wasVisited"]=false,
    ["hasFloor"]=true,
-   ["wall"]=41545,
-   ["ceiling"]=42071,
-   ["floor"]=41238,
+   ["wall"]=10391,
+   ["wasVisited"]=false,
+   ["floor"]=10084,
 },
 -- Table: {472}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42072,
-   ["floor"]=41239,
+   ["floor"]=10085,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {473}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42073,
-   ["floor"]=41240,
+   ["floor"]=10086,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {474}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42074,
-   ["floor"]=41241,
+   ["floor"]=10087,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {475}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42075,
-   ["floor"]=41242,
+   ["floor"]=10088,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {476}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42076,
-   ["floor"]=41243,
+   ["floor"]=10089,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {477}
 {
-   ["hasWall"]=true,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=false,
    ["wasVisited"]=false,
-   ["ceiling"]=42077,
-   ["wall"]=41244,
+   ["wall"]=10090,
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
 },
 -- Table: {478}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42078,
-   ["wasVisited"]=false,
 },
 -- Table: {479}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42079,
-   ["wasVisited"]=false,
 },
 -- Table: {480}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42080,
-   ["wasVisited"]=false,
 },
 -- Table: {481}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42081,
-   ["wasVisited"]=false,
 },
 -- Table: {482}
 {
@@ -4837,280 +4031,218 @@ return {
 },
 -- Table: {483}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42082,
-   ["wasVisited"]=false,
 },
 -- Table: {484}
 {
-   ["hasWall"]=true,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=false,
    ["wasVisited"]=false,
-   ["ceiling"]=42083,
-   ["wall"]=41245,
+   ["wall"]=10091,
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
 },
 -- Table: {485}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42084,
-   ["floor"]=41246,
+   ["floor"]=10092,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {486}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42085,
-   ["floor"]=41247,
+   ["floor"]=10093,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {487}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42086,
-   ["floor"]=41248,
+   ["floor"]=10094,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {488}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42087,
-   ["floor"]=41249,
+   ["floor"]=10095,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {489}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42088,
-   ["floor"]=41250,
+   ["floor"]=10096,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {490}
 {
-   ["hasCeiling"]=true,
    ["hasWall"]=true,
-   ["wasVisited"]=false,
    ["hasFloor"]=true,
-   ["wall"]=41546,
-   ["ceiling"]=42089,
-   ["floor"]=41251,
+   ["wall"]=10392,
+   ["wasVisited"]=false,
+   ["floor"]=10097,
 },
 -- Table: {491}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42090,
-   ["floor"]=41547,
+   ["floor"]=10393,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {492}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42091,
-   ["floor"]=41548,
+   ["floor"]=10394,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {493}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42092,
-   ["floor"]=41549,
+   ["floor"]=10395,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {494}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42093,
-   ["floor"]=41550,
+   ["floor"]=10396,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {495}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42094,
-   ["floor"]=41551,
+   ["floor"]=10397,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {496}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42095,
-   ["floor"]=41552,
+   ["floor"]=10398,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {497}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42096,
-   ["floor"]=41553,
+   ["floor"]=10399,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {498}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42097,
-   ["floor"]=41554,
+   ["floor"]=10400,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {499}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42098,
-   ["floor"]=41555,
+   ["floor"]=10401,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {500}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42099,
-   ["floor"]=41556,
+   ["floor"]=10402,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {501}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42100,
-   ["floor"]=41557,
+   ["floor"]=10403,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {502}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42101,
-   ["floor"]=41558,
+   ["floor"]=10404,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {503}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42102,
-   ["floor"]=41559,
+   ["floor"]=10405,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {504}
 {
-   ["hasCeiling"]=true,
    ["hasWall"]=true,
-   ["wasVisited"]=false,
    ["hasFloor"]=true,
-   ["wall"]=41560,
-   ["ceiling"]=42103,
-   ["floor"]=41265,
+   ["wall"]=10406,
+   ["wasVisited"]=false,
+   ["floor"]=10111,
 },
 -- Table: {505}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42104,
-   ["floor"]=41266,
+   ["floor"]=10112,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {506}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42105,
-   ["floor"]=41267,
+   ["floor"]=10113,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {507}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42106,
-   ["floor"]=41268,
+   ["floor"]=10114,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {508}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42107,
-   ["floor"]=41269,
+   ["floor"]=10115,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {509}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42108,
-   ["floor"]=41270,
+   ["floor"]=10116,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {510}
 {
-   ["hasWall"]=true,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=false,
    ["wasVisited"]=false,
-   ["ceiling"]=42109,
-   ["wall"]=41271,
+   ["wall"]=10117,
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
 },
 -- Table: {511}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42110,
-   ["wasVisited"]=false,
 },
 -- Table: {512}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42111,
-   ["wasVisited"]=false,
 },
 -- Table: {513}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42112,
-   ["wasVisited"]=false,
 },
 -- Table: {514}
 {
@@ -5120,282 +4252,220 @@ return {
 },
 -- Table: {515}
 {
-   ["hasWall"]=true,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=false,
    ["wasVisited"]=false,
-   ["ceiling"]=42113,
-   ["wall"]=41272,
+   ["wall"]=10118,
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
 },
 -- Table: {516}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42114,
-   ["floor"]=41273,
+   ["floor"]=10119,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {517}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42115,
-   ["floor"]=41274,
+   ["floor"]=10120,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {518}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42116,
-   ["floor"]=41275,
+   ["floor"]=10121,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {519}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42117,
-   ["floor"]=41276,
+   ["floor"]=10122,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {520}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42118,
-   ["floor"]=41277,
+   ["floor"]=10123,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {521}
 {
-   ["hasCeiling"]=true,
    ["hasWall"]=true,
-   ["wasVisited"]=false,
    ["hasFloor"]=true,
-   ["wall"]=41561,
-   ["ceiling"]=42119,
-   ["floor"]=41278,
+   ["wall"]=10407,
+   ["wasVisited"]=false,
+   ["floor"]=10124,
 },
 -- Table: {522}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42120,
-   ["floor"]=41562,
+   ["floor"]=10408,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {523}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42121,
-   ["floor"]=41563,
+   ["floor"]=10409,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {524}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42122,
-   ["floor"]=41564,
+   ["floor"]=10410,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {525}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42123,
-   ["floor"]=41565,
+   ["floor"]=10411,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {526}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42124,
-   ["floor"]=41566,
+   ["floor"]=10412,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {527}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42125,
-   ["floor"]=41567,
+   ["floor"]=10413,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {528}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42126,
-   ["floor"]=41568,
+   ["floor"]=10414,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {529}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42127,
-   ["floor"]=41569,
+   ["floor"]=10415,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {530}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42128,
-   ["floor"]=41570,
+   ["floor"]=10416,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {531}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42129,
-   ["floor"]=41571,
+   ["floor"]=10417,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {532}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42130,
-   ["floor"]=41572,
+   ["floor"]=10418,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {533}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42131,
-   ["floor"]=41573,
+   ["floor"]=10419,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {534}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42132,
-   ["floor"]=41574,
+   ["floor"]=10420,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {535}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42133,
-   ["floor"]=41575,
+   ["floor"]=10421,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {536}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42134,
-   ["floor"]=41576,
+   ["floor"]=10422,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {537}
 {
-   ["hasCeiling"]=true,
    ["hasWall"]=true,
-   ["wasVisited"]=false,
    ["hasFloor"]=true,
-   ["wall"]=41577,
-   ["ceiling"]=42135,
-   ["floor"]=41294,
+   ["wall"]=10423,
+   ["wasVisited"]=false,
+   ["floor"]=10140,
 },
 -- Table: {538}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42136,
-   ["floor"]=41295,
+   ["floor"]=10141,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {539}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42137,
-   ["floor"]=41296,
+   ["floor"]=10142,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {540}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42138,
-   ["floor"]=41297,
+   ["floor"]=10143,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {541}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42139,
-   ["floor"]=41298,
+   ["floor"]=10144,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {542}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42140,
-   ["floor"]=41299,
+   ["floor"]=10145,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {543}
 {
-   ["hasWall"]=true,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=false,
    ["wasVisited"]=false,
-   ["ceiling"]=42141,
-   ["wall"]=41300,
+   ["wall"]=10146,
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
 },
 -- Table: {544}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42142,
-   ["wasVisited"]=false,
 },
 -- Table: {545}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42143,
-   ["wasVisited"]=false,
 },
 -- Table: {546}
 {
@@ -5405,280 +4475,218 @@ return {
 },
 -- Table: {547}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42144,
-   ["wasVisited"]=false,
 },
 -- Table: {548}
 {
-   ["hasWall"]=true,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=false,
    ["wasVisited"]=false,
-   ["ceiling"]=42145,
-   ["wall"]=41301,
+   ["wall"]=10147,
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
 },
 -- Table: {549}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42146,
-   ["floor"]=41302,
+   ["floor"]=10148,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {550}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42147,
-   ["floor"]=41303,
+   ["floor"]=10149,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {551}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42148,
-   ["floor"]=41304,
+   ["floor"]=10150,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {552}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42149,
-   ["floor"]=41305,
+   ["floor"]=10151,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {553}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42150,
-   ["floor"]=41306,
+   ["floor"]=10152,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {554}
 {
-   ["hasCeiling"]=true,
    ["hasWall"]=true,
-   ["wasVisited"]=false,
    ["hasFloor"]=true,
-   ["wall"]=41578,
-   ["ceiling"]=42151,
-   ["floor"]=41307,
+   ["wall"]=10424,
+   ["wasVisited"]=false,
+   ["floor"]=10153,
 },
 -- Table: {555}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42152,
-   ["floor"]=41579,
+   ["floor"]=10425,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {556}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42153,
-   ["floor"]=41580,
+   ["floor"]=10426,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {557}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42154,
-   ["floor"]=41581,
+   ["floor"]=10427,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {558}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42155,
-   ["floor"]=41582,
+   ["floor"]=10428,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {559}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42156,
-   ["floor"]=41583,
+   ["floor"]=10429,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {560}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42157,
-   ["floor"]=41584,
+   ["floor"]=10430,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {561}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42158,
-   ["floor"]=41585,
+   ["floor"]=10431,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {562}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42159,
-   ["floor"]=41586,
+   ["floor"]=10432,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {563}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42160,
-   ["floor"]=41587,
+   ["floor"]=10433,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {564}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42161,
-   ["floor"]=41588,
+   ["floor"]=10434,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {565}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42162,
-   ["floor"]=41589,
+   ["floor"]=10435,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {566}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42163,
-   ["floor"]=41590,
+   ["floor"]=10436,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {567}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42164,
-   ["floor"]=41591,
+   ["floor"]=10437,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {568}
 {
-   ["hasCeiling"]=true,
    ["hasWall"]=true,
-   ["wasVisited"]=false,
    ["hasFloor"]=true,
-   ["wall"]=41592,
-   ["ceiling"]=42165,
-   ["floor"]=41321,
+   ["wall"]=10438,
+   ["wasVisited"]=false,
+   ["floor"]=10167,
 },
 -- Table: {569}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42166,
-   ["floor"]=41322,
+   ["floor"]=10168,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {570}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42167,
-   ["floor"]=41323,
+   ["floor"]=10169,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {571}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42168,
-   ["floor"]=41324,
+   ["floor"]=10170,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {572}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42169,
-   ["floor"]=41325,
+   ["floor"]=10171,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {573}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42170,
-   ["floor"]=41326,
+   ["floor"]=10172,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {574}
 {
-   ["hasWall"]=true,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=false,
    ["wasVisited"]=false,
-   ["ceiling"]=42171,
-   ["wall"]=41327,
+   ["wall"]=10173,
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
 },
 -- Table: {575}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42172,
-   ["wasVisited"]=false,
 },
 -- Table: {576}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42173,
-   ["wasVisited"]=false,
 },
 -- Table: {577}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42174,
-   ["wasVisited"]=false,
 },
 -- Table: {578}
 {
@@ -5688,278 +4696,216 @@ return {
 },
 -- Table: {579}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42175,
-   ["wasVisited"]=false,
 },
 -- Table: {580}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42176,
-   ["wasVisited"]=false,
 },
 -- Table: {581}
 {
-   ["hasWall"]=true,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=false,
    ["wasVisited"]=false,
-   ["ceiling"]=42177,
-   ["wall"]=41328,
+   ["wall"]=10174,
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
 },
 -- Table: {582}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42178,
-   ["floor"]=41329,
+   ["floor"]=10175,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {583}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42179,
-   ["floor"]=41330,
+   ["floor"]=10176,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {584}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42180,
-   ["floor"]=41331,
+   ["floor"]=10177,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {585}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42181,
-   ["floor"]=41332,
+   ["floor"]=10178,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {586}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42182,
-   ["floor"]=41333,
+   ["floor"]=10179,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {587}
 {
-   ["hasCeiling"]=true,
    ["hasWall"]=true,
-   ["wasVisited"]=false,
    ["hasFloor"]=true,
-   ["wall"]=41593,
-   ["ceiling"]=42183,
-   ["floor"]=41334,
+   ["wall"]=10439,
+   ["wasVisited"]=false,
+   ["floor"]=10180,
 },
 -- Table: {588}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42184,
-   ["floor"]=41594,
+   ["floor"]=10440,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {589}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42185,
-   ["floor"]=41595,
+   ["floor"]=10441,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {590}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42186,
-   ["floor"]=41596,
+   ["floor"]=10442,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {591}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42187,
-   ["floor"]=41597,
+   ["floor"]=10443,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {592}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42188,
-   ["floor"]=41598,
+   ["floor"]=10444,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {593}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42189,
-   ["floor"]=41599,
+   ["floor"]=10445,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {594}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42190,
-   ["floor"]=41600,
+   ["floor"]=10446,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {595}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42191,
-   ["floor"]=41601,
+   ["floor"]=10447,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {596}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42192,
-   ["floor"]=41602,
+   ["floor"]=10448,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {597}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42193,
-   ["floor"]=41603,
+   ["floor"]=10449,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {598}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42194,
-   ["floor"]=41604,
+   ["floor"]=10450,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {599}
 {
-   ["hasCeiling"]=true,
    ["hasWall"]=true,
-   ["wasVisited"]=false,
    ["hasFloor"]=true,
-   ["wall"]=41605,
-   ["ceiling"]=42195,
-   ["floor"]=41346,
+   ["wall"]=10451,
+   ["wasVisited"]=false,
+   ["floor"]=10192,
 },
 -- Table: {600}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42196,
-   ["floor"]=41347,
+   ["floor"]=10193,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {601}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42197,
-   ["floor"]=41348,
+   ["floor"]=10194,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {602}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42198,
-   ["floor"]=41349,
+   ["floor"]=10195,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {603}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42199,
-   ["floor"]=41350,
+   ["floor"]=10196,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {604}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42200,
-   ["floor"]=41351,
+   ["floor"]=10197,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {605}
 {
-   ["hasWall"]=true,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=false,
    ["wasVisited"]=false,
-   ["ceiling"]=42201,
-   ["wall"]=41352,
+   ["wall"]=10198,
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
 },
 -- Table: {606}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42202,
-   ["wasVisited"]=false,
 },
 -- Table: {607}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42203,
-   ["wasVisited"]=false,
 },
 -- Table: {608}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42204,
-   ["wasVisited"]=false,
 },
 -- Table: {609}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42205,
-   ["wasVisited"]=false,
 },
 -- Table: {610}
 {
@@ -5969,276 +4915,214 @@ return {
 },
 -- Table: {611}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42206,
-   ["wasVisited"]=false,
 },
 -- Table: {612}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42207,
-   ["wasVisited"]=false,
 },
 -- Table: {613}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42208,
-   ["wasVisited"]=false,
 },
 -- Table: {614}
 {
-   ["hasWall"]=true,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=false,
    ["wasVisited"]=false,
-   ["ceiling"]=42209,
-   ["wall"]=41353,
+   ["wall"]=10199,
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
 },
 -- Table: {615}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42210,
-   ["floor"]=41354,
+   ["floor"]=10200,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {616}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42211,
-   ["floor"]=41355,
+   ["floor"]=10201,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {617}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42212,
-   ["floor"]=41356,
+   ["floor"]=10202,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {618}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42213,
-   ["floor"]=41357,
+   ["floor"]=10203,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {619}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42214,
-   ["floor"]=41358,
+   ["floor"]=10204,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {620}
 {
-   ["hasCeiling"]=true,
    ["hasWall"]=true,
-   ["wasVisited"]=false,
    ["hasFloor"]=true,
-   ["wall"]=41606,
-   ["ceiling"]=42215,
-   ["floor"]=41359,
+   ["wall"]=10452,
+   ["wasVisited"]=false,
+   ["floor"]=10205,
 },
 -- Table: {621}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42216,
-   ["floor"]=41607,
+   ["floor"]=10453,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {622}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42217,
-   ["floor"]=41608,
+   ["floor"]=10454,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {623}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42218,
-   ["floor"]=41609,
+   ["floor"]=10455,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {624}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42219,
-   ["floor"]=41610,
+   ["floor"]=10456,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {625}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42220,
-   ["floor"]=41611,
+   ["floor"]=10457,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {626}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42221,
-   ["floor"]=41612,
+   ["floor"]=10458,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {627}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42222,
-   ["floor"]=41613,
+   ["floor"]=10459,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {628}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42223,
-   ["floor"]=41614,
+   ["floor"]=10460,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {629}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42224,
-   ["floor"]=41615,
+   ["floor"]=10461,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {630}
 {
-   ["hasCeiling"]=true,
    ["hasWall"]=true,
-   ["wasVisited"]=false,
    ["hasFloor"]=true,
-   ["wall"]=41616,
-   ["ceiling"]=42225,
-   ["floor"]=41369,
+   ["wall"]=10462,
+   ["wasVisited"]=false,
+   ["floor"]=10215,
 },
 -- Table: {631}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42226,
-   ["floor"]=41370,
+   ["floor"]=10216,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {632}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42227,
-   ["floor"]=41371,
+   ["floor"]=10217,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {633}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42228,
-   ["floor"]=41372,
+   ["floor"]=10218,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {634}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42229,
-   ["floor"]=41373,
+   ["floor"]=10219,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {635}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42230,
-   ["floor"]=41374,
+   ["floor"]=10220,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {636}
 {
-   ["hasWall"]=true,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=false,
    ["wasVisited"]=false,
-   ["ceiling"]=42231,
-   ["wall"]=41375,
+   ["wall"]=10221,
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
 },
 -- Table: {637}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42232,
-   ["wasVisited"]=false,
 },
 -- Table: {638}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42233,
-   ["wasVisited"]=false,
 },
 -- Table: {639}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42234,
-   ["wasVisited"]=false,
 },
 -- Table: {640}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42235,
-   ["wasVisited"]=false,
 },
 -- Table: {641}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42236,
-   ["wasVisited"]=false,
 },
 -- Table: {642}
 {
@@ -6248,274 +5132,212 @@ return {
 },
 -- Table: {643}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42237,
-   ["wasVisited"]=false,
 },
 -- Table: {644}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42238,
-   ["wasVisited"]=false,
 },
 -- Table: {645}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42239,
-   ["wasVisited"]=false,
 },
 -- Table: {646}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42240,
-   ["wasVisited"]=false,
 },
 -- Table: {647}
 {
-   ["hasWall"]=true,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=false,
    ["wasVisited"]=false,
-   ["ceiling"]=42241,
-   ["wall"]=41376,
+   ["wall"]=10222,
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
 },
 -- Table: {648}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42242,
-   ["floor"]=41377,
+   ["floor"]=10223,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {649}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42243,
-   ["floor"]=41378,
+   ["floor"]=10224,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {650}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42244,
-   ["floor"]=41379,
+   ["floor"]=10225,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {651}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42245,
-   ["floor"]=41380,
+   ["floor"]=10226,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {652}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42246,
-   ["floor"]=41381,
+   ["floor"]=10227,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {653}
 {
-   ["hasCeiling"]=true,
    ["hasWall"]=true,
-   ["wasVisited"]=false,
    ["hasFloor"]=true,
-   ["wall"]=41617,
-   ["ceiling"]=42247,
-   ["floor"]=41382,
+   ["wall"]=10463,
+   ["wasVisited"]=false,
+   ["floor"]=10228,
 },
 -- Table: {654}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42248,
-   ["floor"]=41618,
+   ["floor"]=10464,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {655}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42249,
-   ["floor"]=41619,
+   ["floor"]=10465,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {656}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42250,
-   ["floor"]=41620,
+   ["floor"]=10466,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {657}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42251,
-   ["floor"]=41621,
+   ["floor"]=10467,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {658}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42252,
-   ["floor"]=41622,
+   ["floor"]=10468,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {659}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42253,
-   ["floor"]=41623,
+   ["floor"]=10469,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {660}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42254,
-   ["floor"]=41624,
+   ["floor"]=10470,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {661}
 {
-   ["hasCeiling"]=true,
    ["hasWall"]=true,
-   ["wasVisited"]=false,
    ["hasFloor"]=true,
-   ["wall"]=41625,
-   ["ceiling"]=42255,
-   ["floor"]=41390,
+   ["wall"]=10471,
+   ["wasVisited"]=false,
+   ["floor"]=10236,
 },
 -- Table: {662}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42256,
-   ["floor"]=41391,
+   ["floor"]=10237,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {663}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42257,
-   ["floor"]=41392,
+   ["floor"]=10238,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {664}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42258,
-   ["floor"]=41393,
+   ["floor"]=10239,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {665}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42259,
-   ["floor"]=41394,
+   ["floor"]=10240,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {666}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42260,
-   ["floor"]=41395,
+   ["floor"]=10241,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {667}
 {
-   ["hasWall"]=true,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=false,
    ["wasVisited"]=false,
-   ["ceiling"]=42261,
-   ["wall"]=41396,
+   ["wall"]=10242,
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
 },
 -- Table: {668}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42262,
-   ["wasVisited"]=false,
 },
 -- Table: {669}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42263,
-   ["wasVisited"]=false,
 },
 -- Table: {670}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42264,
-   ["wasVisited"]=false,
 },
 -- Table: {671}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42265,
-   ["wasVisited"]=false,
 },
 -- Table: {672}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42266,
-   ["wasVisited"]=false,
 },
 -- Table: {673}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42267,
-   ["wasVisited"]=false,
 },
 -- Table: {674}
 {
@@ -6525,272 +5347,210 @@ return {
 },
 -- Table: {675}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42268,
-   ["wasVisited"]=false,
 },
 -- Table: {676}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42269,
-   ["wasVisited"]=false,
 },
 -- Table: {677}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42270,
-   ["wasVisited"]=false,
 },
 -- Table: {678}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42271,
-   ["wasVisited"]=false,
 },
 -- Table: {679}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42272,
-   ["wasVisited"]=false,
 },
 -- Table: {680}
 {
-   ["hasWall"]=true,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=false,
    ["wasVisited"]=false,
-   ["ceiling"]=42273,
-   ["wall"]=41397,
+   ["wall"]=10243,
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
 },
 -- Table: {681}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42274,
-   ["floor"]=41398,
+   ["floor"]=10244,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {682}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42275,
-   ["floor"]=41399,
+   ["floor"]=10245,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {683}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42276,
-   ["floor"]=41400,
+   ["floor"]=10246,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {684}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42277,
-   ["floor"]=41401,
+   ["floor"]=10247,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {685}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42278,
-   ["floor"]=41402,
+   ["floor"]=10248,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {686}
 {
-   ["hasCeiling"]=true,
    ["hasWall"]=true,
-   ["wasVisited"]=false,
    ["hasFloor"]=true,
-   ["wall"]=41626,
-   ["ceiling"]=42279,
-   ["floor"]=41403,
+   ["wall"]=10472,
+   ["wasVisited"]=false,
+   ["floor"]=10249,
 },
 -- Table: {687}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42280,
-   ["floor"]=41627,
+   ["floor"]=10473,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {688}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42281,
-   ["floor"]=41628,
+   ["floor"]=10474,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {689}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42282,
-   ["floor"]=41629,
+   ["floor"]=10475,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {690}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42283,
-   ["floor"]=41630,
+   ["floor"]=10476,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {691}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42284,
-   ["floor"]=41631,
+   ["floor"]=10477,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {692}
 {
-   ["hasCeiling"]=true,
    ["hasWall"]=true,
-   ["wasVisited"]=false,
    ["hasFloor"]=true,
-   ["wall"]=41632,
-   ["ceiling"]=42285,
-   ["floor"]=41409,
+   ["wall"]=10478,
+   ["wasVisited"]=false,
+   ["floor"]=10255,
 },
 -- Table: {693}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42286,
-   ["floor"]=41410,
+   ["floor"]=10256,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {694}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42287,
-   ["floor"]=41411,
+   ["floor"]=10257,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {695}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42288,
-   ["floor"]=41412,
+   ["floor"]=10258,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {696}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42289,
-   ["floor"]=41413,
+   ["floor"]=10259,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {697}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42290,
-   ["floor"]=41414,
+   ["floor"]=10260,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {698}
 {
-   ["hasWall"]=true,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=false,
    ["wasVisited"]=false,
-   ["ceiling"]=42291,
-   ["wall"]=41415,
+   ["wall"]=10261,
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
 },
 -- Table: {699}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42292,
-   ["wasVisited"]=false,
 },
 -- Table: {700}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42293,
-   ["wasVisited"]=false,
 },
 -- Table: {701}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42294,
-   ["wasVisited"]=false,
 },
 -- Table: {702}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42295,
-   ["wasVisited"]=false,
 },
 -- Table: {703}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42296,
-   ["wasVisited"]=false,
 },
 -- Table: {704}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42297,
-   ["wasVisited"]=false,
 },
 -- Table: {705}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42298,
-   ["wasVisited"]=false,
 },
 -- Table: {706}
 {
@@ -6800,270 +5560,208 @@ return {
 },
 -- Table: {707}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42299,
-   ["wasVisited"]=false,
 },
 -- Table: {708}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42300,
-   ["wasVisited"]=false,
 },
 -- Table: {709}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42301,
-   ["wasVisited"]=false,
 },
 -- Table: {710}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42302,
-   ["wasVisited"]=false,
 },
 -- Table: {711}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42303,
-   ["wasVisited"]=false,
 },
 -- Table: {712}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42304,
-   ["wasVisited"]=false,
 },
 -- Table: {713}
 {
-   ["hasWall"]=true,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=false,
    ["wasVisited"]=false,
-   ["ceiling"]=42305,
-   ["wall"]=41416,
+   ["wall"]=10262,
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
 },
 -- Table: {714}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42306,
-   ["floor"]=41417,
+   ["floor"]=10263,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {715}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42307,
-   ["floor"]=41418,
+   ["floor"]=10264,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {716}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42308,
-   ["floor"]=41419,
+   ["floor"]=10265,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {717}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42309,
-   ["floor"]=41420,
+   ["floor"]=10266,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {718}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42310,
-   ["floor"]=41421,
+   ["floor"]=10267,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {719}
 {
-   ["hasCeiling"]=true,
    ["hasWall"]=true,
-   ["wasVisited"]=false,
    ["hasFloor"]=true,
-   ["wall"]=41633,
-   ["ceiling"]=42311,
-   ["floor"]=41422,
+   ["wall"]=10479,
+   ["wasVisited"]=false,
+   ["floor"]=10268,
 },
 -- Table: {720}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42312,
-   ["floor"]=41634,
+   ["floor"]=10480,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {721}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42313,
-   ["floor"]=41635,
+   ["floor"]=10481,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {722}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42314,
-   ["floor"]=41636,
+   ["floor"]=10482,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {723}
 {
-   ["hasCeiling"]=true,
    ["hasWall"]=true,
-   ["wasVisited"]=false,
    ["hasFloor"]=true,
-   ["wall"]=41637,
-   ["ceiling"]=42315,
-   ["floor"]=41426,
+   ["wall"]=10483,
+   ["wasVisited"]=false,
+   ["floor"]=10272,
 },
 -- Table: {724}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42316,
-   ["floor"]=41427,
+   ["floor"]=10273,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {725}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42317,
-   ["floor"]=41428,
+   ["floor"]=10274,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {726}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42318,
-   ["floor"]=41429,
+   ["floor"]=10275,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {727}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42319,
-   ["floor"]=41430,
+   ["floor"]=10276,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {728}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42320,
-   ["floor"]=41431,
+   ["floor"]=10277,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {729}
 {
-   ["hasWall"]=true,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=false,
    ["wasVisited"]=false,
-   ["ceiling"]=42321,
-   ["wall"]=41432,
+   ["wall"]=10278,
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
 },
 -- Table: {730}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42322,
-   ["wasVisited"]=false,
 },
 -- Table: {731}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42323,
-   ["wasVisited"]=false,
 },
 -- Table: {732}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42324,
-   ["wasVisited"]=false,
 },
 -- Table: {733}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42325,
-   ["wasVisited"]=false,
 },
 -- Table: {734}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42326,
-   ["wasVisited"]=false,
 },
 -- Table: {735}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42327,
-   ["wasVisited"]=false,
 },
 -- Table: {736}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42328,
-   ["wasVisited"]=false,
 },
 -- Table: {737}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42329,
-   ["wasVisited"]=false,
 },
 -- Table: {738}
 {
@@ -7073,268 +5771,206 @@ return {
 },
 -- Table: {739}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42330,
-   ["wasVisited"]=false,
 },
 -- Table: {740}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42331,
-   ["wasVisited"]=false,
 },
 -- Table: {741}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42332,
-   ["wasVisited"]=false,
 },
 -- Table: {742}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42333,
-   ["wasVisited"]=false,
 },
 -- Table: {743}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42334,
-   ["wasVisited"]=false,
 },
 -- Table: {744}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42335,
-   ["wasVisited"]=false,
 },
 -- Table: {745}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42336,
-   ["wasVisited"]=false,
 },
 -- Table: {746}
 {
-   ["hasWall"]=true,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=false,
    ["wasVisited"]=false,
-   ["ceiling"]=42337,
-   ["wall"]=41433,
+   ["wall"]=10279,
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
 },
 -- Table: {747}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42338,
-   ["floor"]=41434,
+   ["floor"]=10280,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {748}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42339,
-   ["floor"]=41435,
+   ["floor"]=10281,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {749}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42340,
-   ["floor"]=41436,
+   ["floor"]=10282,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {750}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42341,
-   ["floor"]=41437,
+   ["floor"]=10283,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {751}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42342,
-   ["floor"]=41438,
+   ["floor"]=10284,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {752}
 {
-   ["hasCeiling"]=true,
    ["hasWall"]=true,
-   ["wasVisited"]=false,
    ["hasFloor"]=true,
-   ["wall"]=41638,
-   ["ceiling"]=42343,
-   ["floor"]=41439,
+   ["wall"]=10484,
+   ["wasVisited"]=false,
+   ["floor"]=10285,
 },
 -- Table: {753}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42344,
-   ["floor"]=41639,
+   ["floor"]=10485,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {754}
 {
-   ["hasCeiling"]=true,
    ["hasWall"]=true,
-   ["wasVisited"]=false,
    ["hasFloor"]=true,
-   ["wall"]=41640,
-   ["ceiling"]=42345,
-   ["floor"]=41441,
+   ["wall"]=10486,
+   ["wasVisited"]=false,
+   ["floor"]=10287,
 },
 -- Table: {755}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42346,
-   ["floor"]=41442,
+   ["floor"]=10288,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {756}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42347,
-   ["floor"]=41443,
+   ["floor"]=10289,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {757}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42348,
-   ["floor"]=41444,
+   ["floor"]=10290,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {758}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42349,
-   ["floor"]=41445,
+   ["floor"]=10291,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {759}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42350,
-   ["floor"]=41446,
+   ["floor"]=10292,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {760}
 {
-   ["hasWall"]=true,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=false,
    ["wasVisited"]=false,
-   ["ceiling"]=42351,
-   ["wall"]=41447,
+   ["wall"]=10293,
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
 },
 -- Table: {761}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42352,
-   ["wasVisited"]=false,
 },
 -- Table: {762}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42353,
-   ["wasVisited"]=false,
 },
 -- Table: {763}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42354,
-   ["wasVisited"]=false,
 },
 -- Table: {764}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42355,
-   ["wasVisited"]=false,
 },
 -- Table: {765}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42356,
-   ["wasVisited"]=false,
 },
 -- Table: {766}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42357,
-   ["wasVisited"]=false,
 },
 -- Table: {767}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42358,
-   ["wasVisited"]=false,
 },
 -- Table: {768}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42359,
-   ["wasVisited"]=false,
 },
 -- Table: {769}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42360,
-   ["wasVisited"]=false,
 },
 -- Table: {770}
 {
@@ -7344,265 +5980,203 @@ return {
 },
 -- Table: {771}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42361,
-   ["wasVisited"]=false,
 },
 -- Table: {772}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42362,
-   ["wasVisited"]=false,
 },
 -- Table: {773}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42363,
-   ["wasVisited"]=false,
 },
 -- Table: {774}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42364,
-   ["wasVisited"]=false,
 },
 -- Table: {775}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42365,
-   ["wasVisited"]=false,
 },
 -- Table: {776}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42366,
-   ["wasVisited"]=false,
 },
 -- Table: {777}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42367,
-   ["wasVisited"]=false,
 },
 -- Table: {778}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42368,
-   ["wasVisited"]=false,
 },
 -- Table: {779}
 {
-   ["hasWall"]=true,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=false,
    ["wasVisited"]=false,
-   ["ceiling"]=42369,
-   ["wall"]=41448,
+   ["wall"]=10294,
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
 },
 -- Table: {780}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42370,
-   ["floor"]=41449,
+   ["floor"]=10295,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {781}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42371,
-   ["floor"]=41450,
+   ["floor"]=10296,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {782}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42372,
-   ["floor"]=41451,
+   ["floor"]=10297,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {783}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42373,
-   ["floor"]=41452,
+   ["floor"]=10298,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {784}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42374,
-   ["floor"]=41453,
+   ["floor"]=10299,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {785}
 {
-   ["hasCeiling"]=true,
    ["hasWall"]=true,
-   ["wasVisited"]=false,
    ["hasFloor"]=true,
-   ["wall"]=41641,
-   ["ceiling"]=42375,
-   ["floor"]=41454,
+   ["wall"]=10487,
+   ["wasVisited"]=false,
+   ["floor"]=10300,
 },
 -- Table: {786}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42376,
-   ["floor"]=41455,
+   ["floor"]=10301,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {787}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42377,
-   ["floor"]=41456,
+   ["floor"]=10302,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {788}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42378,
-   ["floor"]=41457,
+   ["floor"]=10303,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {789}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42379,
-   ["floor"]=41458,
+   ["floor"]=10304,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {790}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42380,
-   ["floor"]=41459,
+   ["floor"]=10305,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {791}
 {
-   ["hasWall"]=true,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=false,
    ["wasVisited"]=false,
-   ["ceiling"]=42381,
-   ["wall"]=41460,
+   ["wall"]=10306,
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
 },
 -- Table: {792}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42382,
-   ["wasVisited"]=false,
 },
 -- Table: {793}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42383,
-   ["wasVisited"]=false,
 },
 -- Table: {794}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42384,
-   ["wasVisited"]=false,
 },
 -- Table: {795}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42385,
-   ["wasVisited"]=false,
 },
 -- Table: {796}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42386,
-   ["wasVisited"]=false,
 },
 -- Table: {797}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42387,
-   ["wasVisited"]=false,
 },
 -- Table: {798}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42388,
-   ["wasVisited"]=false,
 },
 -- Table: {799}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42389,
-   ["wasVisited"]=false,
 },
 -- Table: {800}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42390,
-   ["wasVisited"]=false,
 },
 -- Table: {801}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42391,
-   ["wasVisited"]=false,
 },
 -- Table: {802}
 {
@@ -7612,262 +6186,200 @@ return {
 },
 -- Table: {803}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42392,
-   ["wasVisited"]=false,
 },
 -- Table: {804}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42393,
-   ["wasVisited"]=false,
 },
 -- Table: {805}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42394,
-   ["wasVisited"]=false,
 },
 -- Table: {806}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42395,
-   ["wasVisited"]=false,
 },
 -- Table: {807}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42396,
-   ["wasVisited"]=false,
 },
 -- Table: {808}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42397,
-   ["wasVisited"]=false,
 },
 -- Table: {809}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42398,
-   ["wasVisited"]=false,
 },
 -- Table: {810}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42399,
-   ["wasVisited"]=false,
 },
 -- Table: {811}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42400,
-   ["wasVisited"]=false,
 },
 -- Table: {812}
 {
-   ["hasWall"]=true,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=false,
    ["wasVisited"]=false,
-   ["ceiling"]=42401,
-   ["wall"]=41461,
+   ["wall"]=10307,
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
 },
 -- Table: {813}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42402,
-   ["floor"]=41462,
+   ["floor"]=10308,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {814}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42403,
-   ["floor"]=41463,
+   ["floor"]=10309,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {815}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42404,
-   ["floor"]=41464,
+   ["floor"]=10310,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {816}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42405,
-   ["floor"]=41465,
+   ["floor"]=10311,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {817}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42406,
-   ["floor"]=41466,
+   ["floor"]=10312,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {818}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42407,
-   ["floor"]=41467,
+   ["floor"]=10313,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {819}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42408,
-   ["floor"]=41468,
+   ["floor"]=10314,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {820}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42409,
-   ["floor"]=41469,
+   ["floor"]=10315,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {821}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42410,
-   ["floor"]=41470,
+   ["floor"]=10316,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {822}
 {
-   ["hasWall"]=true,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=false,
    ["wasVisited"]=false,
-   ["ceiling"]=42411,
-   ["wall"]=41471,
+   ["wall"]=10317,
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
 },
 -- Table: {823}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42412,
-   ["wasVisited"]=false,
 },
 -- Table: {824}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42413,
-   ["wasVisited"]=false,
 },
 -- Table: {825}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42414,
-   ["wasVisited"]=false,
 },
 -- Table: {826}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42415,
-   ["wasVisited"]=false,
 },
 -- Table: {827}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42416,
-   ["wasVisited"]=false,
 },
 -- Table: {828}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42417,
-   ["wasVisited"]=false,
 },
 -- Table: {829}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42418,
-   ["wasVisited"]=false,
 },
 -- Table: {830}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42419,
-   ["wasVisited"]=false,
 },
 -- Table: {831}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42420,
-   ["wasVisited"]=false,
 },
 -- Table: {832}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42421,
-   ["wasVisited"]=false,
 },
 -- Table: {833}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42422,
-   ["wasVisited"]=false,
 },
 -- Table: {834}
 {
@@ -7877,260 +6389,198 @@ return {
 },
 -- Table: {835}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42423,
-   ["wasVisited"]=false,
 },
 -- Table: {836}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42424,
-   ["wasVisited"]=false,
 },
 -- Table: {837}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42425,
-   ["wasVisited"]=false,
 },
 -- Table: {838}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42426,
-   ["wasVisited"]=false,
 },
 -- Table: {839}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42427,
-   ["wasVisited"]=false,
 },
 -- Table: {840}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42428,
-   ["wasVisited"]=false,
 },
 -- Table: {841}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42429,
-   ["wasVisited"]=false,
 },
 -- Table: {842}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42430,
-   ["wasVisited"]=false,
 },
 -- Table: {843}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42431,
-   ["wasVisited"]=false,
 },
 -- Table: {844}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42432,
-   ["wasVisited"]=false,
 },
 -- Table: {845}
 {
-   ["hasWall"]=true,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=false,
    ["wasVisited"]=false,
-   ["ceiling"]=42433,
-   ["wall"]=41472,
+   ["wall"]=10318,
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
 },
 -- Table: {846}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42434,
-   ["floor"]=41473,
+   ["floor"]=10319,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {847}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42435,
-   ["floor"]=41474,
+   ["floor"]=10320,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {848}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42436,
-   ["floor"]=41475,
+   ["floor"]=10321,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {849}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42437,
-   ["floor"]=41476,
+   ["floor"]=10322,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {850}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42438,
-   ["floor"]=41477,
+   ["floor"]=10323,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {851}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42439,
-   ["floor"]=41478,
+   ["floor"]=10324,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {852}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42440,
-   ["floor"]=41479,
+   ["floor"]=10325,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {853}
 {
-   ["hasWall"]=true,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=false,
    ["wasVisited"]=false,
-   ["ceiling"]=42441,
-   ["wall"]=41480,
+   ["wall"]=10326,
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
 },
 -- Table: {854}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42442,
-   ["wasVisited"]=false,
 },
 -- Table: {855}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42443,
-   ["wasVisited"]=false,
 },
 -- Table: {856}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42444,
-   ["wasVisited"]=false,
 },
 -- Table: {857}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42445,
-   ["wasVisited"]=false,
 },
 -- Table: {858}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42446,
-   ["wasVisited"]=false,
 },
 -- Table: {859}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42447,
-   ["wasVisited"]=false,
 },
 -- Table: {860}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42448,
-   ["wasVisited"]=false,
 },
 -- Table: {861}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42449,
-   ["wasVisited"]=false,
 },
 -- Table: {862}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42450,
-   ["wasVisited"]=false,
 },
 -- Table: {863}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42451,
-   ["wasVisited"]=false,
 },
 -- Table: {864}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42452,
-   ["wasVisited"]=false,
 },
 -- Table: {865}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42453,
-   ["wasVisited"]=false,
 },
 -- Table: {866}
 {
@@ -8140,258 +6590,196 @@ return {
 },
 -- Table: {867}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42454,
-   ["wasVisited"]=false,
 },
 -- Table: {868}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42455,
-   ["wasVisited"]=false,
 },
 -- Table: {869}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42456,
-   ["wasVisited"]=false,
 },
 -- Table: {870}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42457,
-   ["wasVisited"]=false,
 },
 -- Table: {871}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42458,
-   ["wasVisited"]=false,
 },
 -- Table: {872}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42459,
-   ["wasVisited"]=false,
 },
 -- Table: {873}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42460,
-   ["wasVisited"]=false,
 },
 -- Table: {874}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42461,
-   ["wasVisited"]=false,
 },
 -- Table: {875}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42462,
-   ["wasVisited"]=false,
 },
 -- Table: {876}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42463,
-   ["wasVisited"]=false,
 },
 -- Table: {877}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42464,
-   ["wasVisited"]=false,
 },
 -- Table: {878}
 {
-   ["hasWall"]=true,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=false,
    ["wasVisited"]=false,
-   ["ceiling"]=42465,
-   ["wall"]=41481,
+   ["wall"]=10327,
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
 },
 -- Table: {879}
 {
-   ["hasWall"]=true,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42466,
-   ["floor"]=41482,
+   ["floor"]=10328,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {880}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42467,
-   ["floor"]=41483,
+   ["floor"]=10329,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {881}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42468,
-   ["floor"]=41484,
+   ["floor"]=10330,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {882}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42469,
-   ["floor"]=41485,
+   ["floor"]=10331,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {883}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42470,
-   ["floor"]=41486,
+   ["floor"]=10332,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {884}
 {
-   ["hasWall"]=true,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=false,
    ["wasVisited"]=false,
-   ["ceiling"]=42471,
-   ["wall"]=41487,
+   ["wall"]=10333,
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
 },
 -- Table: {885}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42472,
-   ["wasVisited"]=false,
 },
 -- Table: {886}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42473,
-   ["wasVisited"]=false,
 },
 -- Table: {887}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42474,
-   ["wasVisited"]=false,
 },
 -- Table: {888}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42475,
-   ["wasVisited"]=false,
 },
 -- Table: {889}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42476,
-   ["wasVisited"]=false,
 },
 -- Table: {890}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42477,
-   ["wasVisited"]=false,
 },
 -- Table: {891}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42478,
-   ["wasVisited"]=false,
 },
 -- Table: {892}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42479,
-   ["wasVisited"]=false,
 },
 -- Table: {893}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42480,
-   ["wasVisited"]=false,
 },
 -- Table: {894}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42481,
-   ["wasVisited"]=false,
 },
 -- Table: {895}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42482,
-   ["wasVisited"]=false,
 },
 -- Table: {896}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42483,
-   ["wasVisited"]=false,
 },
 -- Table: {897}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42484,
-   ["wasVisited"]=false,
 },
 -- Table: {898}
 {
@@ -8401,256 +6789,194 @@ return {
 },
 -- Table: {899}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42485,
-   ["wasVisited"]=false,
 },
 -- Table: {900}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42486,
-   ["wasVisited"]=false,
 },
 -- Table: {901}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42487,
-   ["wasVisited"]=false,
 },
 -- Table: {902}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42488,
-   ["wasVisited"]=false,
 },
 -- Table: {903}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42489,
-   ["wasVisited"]=false,
 },
 -- Table: {904}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42490,
-   ["wasVisited"]=false,
 },
 -- Table: {905}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42491,
-   ["wasVisited"]=false,
 },
 -- Table: {906}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42492,
-   ["wasVisited"]=false,
 },
 -- Table: {907}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42493,
-   ["wasVisited"]=false,
 },
 -- Table: {908}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42494,
-   ["wasVisited"]=false,
 },
 -- Table: {909}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42495,
-   ["wasVisited"]=false,
 },
 -- Table: {910}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42496,
-   ["wasVisited"]=false,
 },
 -- Table: {911}
 {
-   ["hasWall"]=true,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=false,
    ["wasVisited"]=false,
-   ["ceiling"]=42497,
-   ["wall"]=41488,
+   ["wall"]=10334,
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
 },
 -- Table: {912}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42498,
-   ["floor"]=41489,
+   ["floor"]=10335,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {913}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42499,
-   ["floor"]=41490,
+   ["floor"]=10336,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {914}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42500,
-   ["floor"]=41491,
+   ["floor"]=10337,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {915}
 {
-   ["hasWall"]=true,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=false,
    ["wasVisited"]=false,
-   ["ceiling"]=42501,
-   ["wall"]=41492,
+   ["wall"]=10338,
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
 },
 -- Table: {916}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42502,
-   ["wasVisited"]=false,
 },
 -- Table: {917}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42503,
-   ["wasVisited"]=false,
 },
 -- Table: {918}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42504,
-   ["wasVisited"]=false,
 },
 -- Table: {919}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42505,
-   ["wasVisited"]=false,
 },
 -- Table: {920}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42506,
-   ["wasVisited"]=false,
 },
 -- Table: {921}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42507,
-   ["wasVisited"]=false,
 },
 -- Table: {922}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42508,
-   ["wasVisited"]=false,
 },
 -- Table: {923}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42509,
-   ["wasVisited"]=false,
 },
 -- Table: {924}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42510,
-   ["wasVisited"]=false,
 },
 -- Table: {925}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42511,
-   ["wasVisited"]=false,
 },
 -- Table: {926}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42512,
-   ["wasVisited"]=false,
 },
 -- Table: {927}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42513,
-   ["wasVisited"]=false,
 },
 -- Table: {928}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42514,
-   ["wasVisited"]=false,
 },
 -- Table: {929}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42515,
-   ["wasVisited"]=false,
 },
 -- Table: {930}
 {
@@ -8660,254 +6986,192 @@ return {
 },
 -- Table: {931}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42516,
-   ["wasVisited"]=false,
 },
 -- Table: {932}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42517,
-   ["wasVisited"]=false,
 },
 -- Table: {933}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42518,
-   ["wasVisited"]=false,
 },
 -- Table: {934}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42519,
-   ["wasVisited"]=false,
 },
 -- Table: {935}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42520,
-   ["wasVisited"]=false,
 },
 -- Table: {936}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42521,
-   ["wasVisited"]=false,
 },
 -- Table: {937}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42522,
-   ["wasVisited"]=false,
 },
 -- Table: {938}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42523,
-   ["wasVisited"]=false,
 },
 -- Table: {939}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42524,
-   ["wasVisited"]=false,
 },
 -- Table: {940}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42525,
-   ["wasVisited"]=false,
 },
 -- Table: {941}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42526,
-   ["wasVisited"]=false,
 },
 -- Table: {942}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42527,
-   ["wasVisited"]=false,
 },
 -- Table: {943}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42528,
-   ["wasVisited"]=false,
 },
 -- Table: {944}
 {
-   ["hasWall"]=true,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=false,
    ["wasVisited"]=false,
-   ["ceiling"]=42529,
-   ["wall"]=41493,
+   ["wall"]=10339,
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
 },
 -- Table: {945}
 {
-   ["hasWall"]=false,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=42530,
-   ["floor"]=41494,
+   ["floor"]=10340,
+   ["hasWall"]=false,
+   ["hasFloor"]=true,
 },
 -- Table: {946}
 {
-   ["hasWall"]=true,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=false,
    ["wasVisited"]=false,
-   ["ceiling"]=42531,
-   ["wall"]=41495,
+   ["wall"]=10341,
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
 },
 -- Table: {947}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42532,
-   ["wasVisited"]=false,
 },
 -- Table: {948}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42533,
-   ["wasVisited"]=false,
 },
 -- Table: {949}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42534,
-   ["wasVisited"]=false,
 },
 -- Table: {950}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42535,
-   ["wasVisited"]=false,
 },
 -- Table: {951}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42536,
-   ["wasVisited"]=false,
 },
 -- Table: {952}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42537,
-   ["wasVisited"]=false,
 },
 -- Table: {953}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42538,
-   ["wasVisited"]=false,
 },
 -- Table: {954}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42539,
-   ["wasVisited"]=false,
 },
 -- Table: {955}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42540,
-   ["wasVisited"]=false,
 },
 -- Table: {956}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42541,
-   ["wasVisited"]=false,
 },
 -- Table: {957}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42542,
-   ["wasVisited"]=false,
 },
 -- Table: {958}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42543,
-   ["wasVisited"]=false,
 },
 -- Table: {959}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42544,
-   ["wasVisited"]=false,
 },
 -- Table: {960}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42545,
-   ["wasVisited"]=false,
 },
 -- Table: {961}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42546,
-   ["wasVisited"]=false,
 },
 -- Table: {962}
 {
@@ -8917,252 +7181,190 @@ return {
 },
 -- Table: {963}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42547,
-   ["wasVisited"]=false,
 },
 -- Table: {964}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42548,
-   ["wasVisited"]=false,
 },
 -- Table: {965}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42549,
-   ["wasVisited"]=false,
 },
 -- Table: {966}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42550,
-   ["wasVisited"]=false,
 },
 -- Table: {967}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42551,
-   ["wasVisited"]=false,
 },
 -- Table: {968}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42552,
-   ["wasVisited"]=false,
 },
 -- Table: {969}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42553,
-   ["wasVisited"]=false,
 },
 -- Table: {970}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42554,
-   ["wasVisited"]=false,
 },
 -- Table: {971}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42555,
-   ["wasVisited"]=false,
 },
 -- Table: {972}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42556,
-   ["wasVisited"]=false,
 },
 -- Table: {973}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42557,
-   ["wasVisited"]=false,
 },
 -- Table: {974}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42558,
-   ["wasVisited"]=false,
 },
 -- Table: {975}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42559,
-   ["wasVisited"]=false,
 },
 -- Table: {976}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42560,
-   ["wasVisited"]=false,
 },
 -- Table: {977}
 {
-   ["hasWall"]=true,
-   ["hasCeiling"]=true,
-   ["hasFloor"]=false,
    ["wasVisited"]=false,
-   ["ceiling"]=42561,
-   ["wall"]=41496,
+   ["wall"]=10342,
+   ["hasWall"]=true,
+   ["hasFloor"]=false,
 },
 -- Table: {978}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42562,
-   ["wasVisited"]=false,
 },
 -- Table: {979}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42563,
-   ["wasVisited"]=false,
 },
 -- Table: {980}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42564,
-   ["wasVisited"]=false,
 },
 -- Table: {981}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42565,
-   ["wasVisited"]=false,
 },
 -- Table: {982}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42566,
-   ["wasVisited"]=false,
 },
 -- Table: {983}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42567,
-   ["wasVisited"]=false,
 },
 -- Table: {984}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42568,
-   ["wasVisited"]=false,
 },
 -- Table: {985}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42569,
-   ["wasVisited"]=false,
 },
 -- Table: {986}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42570,
-   ["wasVisited"]=false,
 },
 -- Table: {987}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42571,
-   ["wasVisited"]=false,
 },
 -- Table: {988}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42572,
-   ["wasVisited"]=false,
 },
 -- Table: {989}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42573,
-   ["wasVisited"]=false,
 },
 -- Table: {990}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42574,
-   ["wasVisited"]=false,
 },
 -- Table: {991}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42575,
-   ["wasVisited"]=false,
 },
 -- Table: {992}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42576,
-   ["wasVisited"]=false,
 },
 -- Table: {993}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42577,
-   ["wasVisited"]=false,
 },
 -- Table: {994}
 {
@@ -9172,251 +7374,189 @@ return {
 },
 -- Table: {995}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42578,
-   ["wasVisited"]=false,
 },
 -- Table: {996}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42579,
-   ["wasVisited"]=false,
 },
 -- Table: {997}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42580,
-   ["wasVisited"]=false,
 },
 -- Table: {998}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42581,
-   ["wasVisited"]=false,
 },
 -- Table: {999}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42582,
-   ["wasVisited"]=false,
 },
 -- Table: {1000}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42583,
-   ["wasVisited"]=false,
 },
 -- Table: {1001}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42584,
-   ["wasVisited"]=false,
 },
 -- Table: {1002}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42585,
-   ["wasVisited"]=false,
 },
 -- Table: {1003}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42586,
-   ["wasVisited"]=false,
 },
 -- Table: {1004}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42587,
-   ["wasVisited"]=false,
 },
 -- Table: {1005}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42588,
-   ["wasVisited"]=false,
 },
 -- Table: {1006}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42589,
-   ["wasVisited"]=false,
 },
 -- Table: {1007}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42590,
-   ["wasVisited"]=false,
 },
 -- Table: {1008}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42591,
-   ["wasVisited"]=false,
 },
 -- Table: {1009}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42592,
-   ["wasVisited"]=false,
 },
 -- Table: {1010}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42593,
-   ["wasVisited"]=false,
 },
 -- Table: {1011}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42594,
-   ["wasVisited"]=false,
 },
 -- Table: {1012}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42595,
-   ["wasVisited"]=false,
 },
 -- Table: {1013}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42596,
-   ["wasVisited"]=false,
 },
 -- Table: {1014}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42597,
-   ["wasVisited"]=false,
 },
 -- Table: {1015}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42598,
-   ["wasVisited"]=false,
 },
 -- Table: {1016}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42599,
-   ["wasVisited"]=false,
 },
 -- Table: {1017}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42600,
-   ["wasVisited"]=false,
 },
 -- Table: {1018}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42601,
-   ["wasVisited"]=false,
 },
 -- Table: {1019}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42602,
-   ["wasVisited"]=false,
 },
 -- Table: {1020}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42603,
-   ["wasVisited"]=false,
 },
 -- Table: {1021}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42604,
-   ["wasVisited"]=false,
 },
 -- Table: {1022}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42605,
-   ["wasVisited"]=false,
 },
 -- Table: {1023}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42606,
-   ["wasVisited"]=false,
 },
 -- Table: {1024}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42607,
-   ["wasVisited"]=false,
 },
 -- Table: {1025}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42608,
-   ["wasVisited"]=false,
 },
 -- Table: {1026}
 {
@@ -9426,250 +7566,188 @@ return {
 },
 -- Table: {1027}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42609,
-   ["wasVisited"]=false,
 },
 -- Table: {1028}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42610,
-   ["wasVisited"]=false,
 },
 -- Table: {1029}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42611,
-   ["wasVisited"]=false,
 },
 -- Table: {1030}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42612,
-   ["wasVisited"]=false,
 },
 -- Table: {1031}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42613,
-   ["wasVisited"]=false,
 },
 -- Table: {1032}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42614,
-   ["wasVisited"]=false,
 },
 -- Table: {1033}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42615,
-   ["wasVisited"]=false,
 },
 -- Table: {1034}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42616,
-   ["wasVisited"]=false,
 },
 -- Table: {1035}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42617,
-   ["wasVisited"]=false,
 },
 -- Table: {1036}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42618,
-   ["wasVisited"]=false,
 },
 -- Table: {1037}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42619,
-   ["wasVisited"]=false,
 },
 -- Table: {1038}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42620,
-   ["wasVisited"]=false,
 },
 -- Table: {1039}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42621,
-   ["wasVisited"]=false,
 },
 -- Table: {1040}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42622,
-   ["wasVisited"]=false,
 },
 -- Table: {1041}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42623,
-   ["wasVisited"]=false,
 },
 -- Table: {1042}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42624,
-   ["wasVisited"]=false,
 },
 -- Table: {1043}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42625,
-   ["wasVisited"]=false,
 },
 -- Table: {1044}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42626,
-   ["wasVisited"]=false,
 },
 -- Table: {1045}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42627,
-   ["wasVisited"]=false,
 },
 -- Table: {1046}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42628,
-   ["wasVisited"]=false,
 },
 -- Table: {1047}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42629,
-   ["wasVisited"]=false,
 },
 -- Table: {1048}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42630,
-   ["wasVisited"]=false,
 },
 -- Table: {1049}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42631,
-   ["wasVisited"]=false,
 },
 -- Table: {1050}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42632,
-   ["wasVisited"]=false,
 },
 -- Table: {1051}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42633,
-   ["wasVisited"]=false,
 },
 -- Table: {1052}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42634,
-   ["wasVisited"]=false,
 },
 -- Table: {1053}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42635,
-   ["wasVisited"]=false,
 },
 -- Table: {1054}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42636,
-   ["wasVisited"]=false,
 },
 -- Table: {1055}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42637,
-   ["wasVisited"]=false,
 },
 -- Table: {1056}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42638,
-   ["wasVisited"]=false,
 },
 -- Table: {1057}
 {
+   ["wasVisited"]=false,
    ["hasWall"]=true,
    ["hasFloor"]=false,
-   ["hasCeiling"]=true,
-   ["ceiling"]=42639,
-   ["wasVisited"]=false,
 },
 }

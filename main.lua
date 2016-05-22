@@ -322,9 +322,9 @@ end
 MOAIGfxDevice.setListener(MOAIGfxDevice.EVENT_RESIZE, OnScreenResize )
 Game:init( )
 
-function print( )
+--function print( )
 
-end
+--end
 
 function GameLoop( )
 	while true do
