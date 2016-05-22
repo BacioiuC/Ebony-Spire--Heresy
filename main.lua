@@ -29,8 +29,10 @@ resY = MOAIEnvironment.verticalResolution
 MOAILogMgr.setLogLevel (MOAILogMgr.LOG_NONE)
 io.stdout:setvbuf("no")
 
-units_x = 1024
-units_y = 768
+units_x = 1280
+units_y = 720
+
+MOAISim.enterFullscreenMode ()
 
 SCREEN_X_OFFSET = 0
 SCREEN_Y_OFFSET = 0
@@ -56,8 +58,8 @@ if scale == false then
 	--div = resX / units_x * multiplier
 	--div2 = resY / units_y * multiplier
 else
-	resX = MOAIEnvironment.horizontalResolution or 1024
-	resY = MOAIEnvironment.verticalResolution or 768
+	resX = MOAIEnvironment.horizontalResolution or 1280
+	resY = MOAIEnvironment.verticalResolution or 720
 	--div = resX / units_x * multiplier
 	--div2 = resY / units_y *multiplier 
 	
@@ -319,6 +321,10 @@ end
 
 MOAIGfxDevice.setListener(MOAIGfxDevice.EVENT_RESIZE, OnScreenResize )
 Game:init( )
+
+function print( )
+
+end
 
 function GameLoop( )
 	while true do

@@ -10,6 +10,12 @@ local data = {
 			},
 		},
 		children = {
+			--[[charName = {
+				widget = "edit box",
+				dim = {21, 22},
+				pos = {29, 10},
+				text = "Hero",
+			},--]]
 			classPanel = {
 				widget = "image",
 				dim = {21, 22},

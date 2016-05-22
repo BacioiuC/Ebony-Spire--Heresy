@@ -20,7 +20,7 @@ Ebony Spire: Heresy
 * My own ChaurusFramework for quick prototyping: [Chaurus on Github][7]
 * SiENcE's Astray Library [Astray] [3]
 * Lucky's Bestiary for entity/enemies/creature assets [Lucky's Bestiary][4]
-* Temporary sprites from Oryx Design lab [Roguelike/Fantasy Sprites][5] - License acquired last year. Won't be used in the final release. Only placeholder usage right now
+* Temporary sprites from Oryx Design lab [Roguelike/Fantasy Sprites][5] - License acquired last year. Only placeholder usage right now!
 * Environment tiles based on Dawnlike tile set, licensed under CC-BY-SA 3.0. Environment tilesets are work in progress and will be the reason for many intense commits through out next week! [Dawnlike 16x16 Universal Rogue-like Tileset][6]
 * Cave Generation using [Cavity][8] by Lightcycle
 

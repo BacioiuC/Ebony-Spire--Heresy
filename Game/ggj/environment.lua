@@ -168,6 +168,7 @@ function environment:accessPortal(_px, _py)
 			else
 				dungeonType = rngMap:returnTowerLevelType( )
 			end
+			--interface:saveInventory( )
 			rngMap:setLevelType(dungeonType)
 			currentState = 16
 			--player:saveStats( )

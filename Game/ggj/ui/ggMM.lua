@@ -394,8 +394,8 @@ function interface:_createClassDescriptions( )
 	} -- programmer
 	self._classInventory = { }
 	self._classInventory[1] = {
-		4,
-		{49, 6},
+		53,
+		49,
 
 	}
 	self._classInventory[2] = {

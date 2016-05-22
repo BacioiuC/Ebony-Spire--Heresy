@@ -5,6 +5,6 @@ Slime,3,assets/slime.png,4,5,yes,0,,,,4,1,0,20,0.1,1,2,2,0,0
 Deformed Slimification,1,assets/slimeclops.png,6,15,yes,0,,,,5,3,0,1,0.4,6,3,2,0,0
 Centipede,2,assets/centipede.png,4,4,yes,0,,,,4,1,1,1,0.6,4,0,1,0,0
 Gastropodus,2,assets/Gastropoda.png,2,20,yes,0,,,,4,3,0,3,0.4,5,2,2,0,0
-Lizardman,2,assets/lizardman.png,25,25,yes,0,,,,5,4,0,20,0.9,10,2,3,0,0
-Thief,2,assets/thief.png,20,25,yes,0,,,,5,5,0,9,1,7,4,3,0,0
+Lizardman,2,assets/lizardman.png,25,25,yes,0,,,,5,4,0,20,0.4,6,2,3,0,0
+Thief,2,assets/thief.png,20,25,yes,0,,,,5,5,0,9,1,6,4,3,0,0
 Thief,2,assets/thief.png,20,25,yes,0,,,,5,5,0,3,0.8,4,4,4,0,0

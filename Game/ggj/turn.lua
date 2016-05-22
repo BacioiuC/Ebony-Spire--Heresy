@@ -125,7 +125,7 @@ function evTurn:_checkPlayerNextToPortal( )
 	local px, py = player:returnPosition( )
 	local sx, sy = environment:returnPortalPosition( )
 
-	if math.dist(px, py, sx, sy) < 2 then
+	if math.dist(px, py, sx, sy) <= 1 then
 		log:newMessage("Do you want to enter <c:EAFF00> the portal?</c> Press O to acess it!")
 	end
 end

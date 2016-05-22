@@ -682,6 +682,9 @@ function player:update( )
 		self:setCameraToFPS( )
 
 				--add item to the world
+		if Game.iteration ~= 0 then
+			--interface:loadInventory( )
+		end
 		if Game.dungeoNLevel == 1 and Game.iteration == 0 then
 			Game.iteration = Game.iteration + 1
 			for i, v in ipairs(Game.classOptions[1]) do

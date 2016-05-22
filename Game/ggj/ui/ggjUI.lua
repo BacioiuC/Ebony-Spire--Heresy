@@ -59,7 +59,7 @@ function interface:setupHud( )
 	-- Player name
 	self._playerNameLabel = element.gui:createLabel( )
 	self._playerNameLabel:setDim(100, 4)
-	self._playerNameLabel:setPos(left_aling, col_y)
+	self._playerNameLabel:setPos(left_aling-100, col_y)
 	textstyles.update("inventory", 16, 14)
 	self._playerNameLabel:setTextStyle(textstyles.get("inventory"))
 	self._playerNameLabel:setText(""..Game.scoreTable.name.."")
@@ -420,7 +420,7 @@ function interface:setupInventoryDescriptionArea( )
 	self._descriptionTextBox:setLineHeight(4)
 	self._inventoryBg:addChild(self._descriptionTextBox)	
 
-	self._descriptionTextBox:addText("Lorem Ipsum Doloret Sit Amet MURICA I CURICA  FUCK MY DOG AND CALL ME  CORNHOLIO")
+	self._descriptionTextBox:addText("")
 	--self._descriptionTextBox:setImage(resources.getPath("mb_box.png"), 1, 1, 1, 1)
 
 	self._descriptionTextBox:_setTextStyle("inventoryItem")
