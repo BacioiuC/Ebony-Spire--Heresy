@@ -580,6 +580,8 @@ function interface:_destroyClassMenu( )
 	end
 
 	image:removeProp( self._skyTileBg, self._mainMapLayer);
+	self._skyTileBg = nil
+	self._towerGenerated = false
 end
 
 function interface:_classMenuGoToGame( )
