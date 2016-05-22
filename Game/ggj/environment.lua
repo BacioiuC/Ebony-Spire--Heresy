@@ -50,6 +50,18 @@ function environment:removeDoor(_posX, _posY)
 	end
 end
 
+function environment:isDoorNearby(_posX, _posY)
+	local bool = false
+	for i,v in ipairs(self._doorTable) do
+		if math.dist(v.x, v.y, _posX, _posY) < 3 then
+			bool = true
+		end
+	end
+
+	return bool
+
+end
+
 function environment:removeUnusedDoors( )
 	for i,v in ipairs(self._doorTable) do
 		if v.orientation == 1 then -- forward door
@@ -131,9 +143,13 @@ function environment:createPortal(_posX, _posY, _returnPortal)
 	if _returnPortal == true then
 		temp.isReturnPortal = _returnPortal
 	end
-
+	rngMap:setWall(temp.x, temp.y, true)
 	image:setRot3D(temp.gfx, 0, 0, 0)
 	table.insert(self._portalTable, temp)
+end
+
+function environment:returnPortalPosition( )
+	return self._portalTable[1].x, self._portalTable[1].y
 end
 
 -- Opens all doors at a distance of less than 1.5/2 tiles away :D

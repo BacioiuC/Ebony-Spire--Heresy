@@ -9,11 +9,11 @@ Ebony Spire: Heresy
 
 **21/05/2016** - Initial commit! Features are still missing and art style is not final. Expect many commits to happen this week.
 
-**Beer count** (Numbers of beers drank during development) = **35**! 
+**Beer count** (Numbers of beers drank during development) = **36**! 
 
 <dl>
 <dt>Additional libraries:</dt>
-<dd>The following libraries are included with Chaurus: </dd>
+<dd>The following libraries are used in ES:Heresy </dd>
 </dl>
 * Yonaba's awesome Lua Pathfinding library: [Jumper] [1]
 * Derickd's awesome Layermanager from MOAI-GUI: [Layermgr.lua] [2]
@@ -22,6 +22,7 @@ Ebony Spire: Heresy
 * Lucky's Bestiary for entity/enemies/creature assets [Lucky's Bestiary][4]
 * Temporary sprites from Oryx Design lab [Roguelike/Fantasy Sprites][5] - License acquired last year. Won't be used in the final release. Only temporary usage right now
 * Environment tiles based on Dawnlike tile set, licensed under CC-BY-SA 3.0. Environment tilesets are work in progress and will be the reason for many intense commits through out next week! [Dawnlike 16x16 Universal Rogue-like Tileset][6]
+* Cave Generation using [Cavity][8] by Lightcycle
 
 [1]: https://github.com/Yonaba/Jumper        "Yonaba's Jumper - Pathfinding Library"
 [2]: https://github.com/derickd/moaigui/blob/master/layermgr.lua        "DerickD's Layer Manager"
@@ -30,6 +31,7 @@ Ebony Spire: Heresy
 [5]: http://oryxdesignlab.com/product-sprites/		"Oryx Design Lab's Sprites"
 [6]: http://opengameart.org/content/16x16-dawnhack-roguelike-tileset		"Dawnlike Tileset"
 [7]: https://github.com/BacioiuC/ChaurusFramework "Chaurus Framework by BacioiUC"
+[8]: https://love2d.org/forums/viewtopic.php?t=79276 "Cavity by Lightcycler"
 
 # License for using the game's source code - MIT
 

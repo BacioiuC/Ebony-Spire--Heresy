@@ -21,7 +21,7 @@ function rngMap:init( )
 	self._dungeonCave = 3
 	
 	self._portalLevelType = { }
-	self._portalLevelType[1] = 2
+	self._portalLevelType[1] = 2 --1
 	self._portalLevelType[2] = 2
 	self._portalLevelType[3] = 3
 	self._portalLevelType[4] = 2
@@ -51,14 +51,22 @@ function rngMap:init( )
 	self._mapFloors[2] = makeCube (self._blockSize, "tiles/"..self._levelTiles[Game.dungeoNLevel].."/floor2.png" )
 
 	self._mapWalls = { }
-	self._mapWalls[1] = makeCube( self._blockSize, "tiles/"..self._levelTiles[Game.dungeoNLevel].."/wall.png" )
-	self._mapWalls[2] = makeCube( self._blockSize, "tiles/"..self._levelTiles[Game.dungeoNLevel].."/wall2.png" )
-	self._mapWalls[3] = makeCube( self._blockSize, "tiles/"..self._levelTiles[Game.dungeoNLevel].."/wall3.png" )
-	self._mapWalls[4] = makeCube( self._blockSize, "tiles/"..self._levelTiles[Game.dungeoNLevel].."/wall4.png" )
-	self._mapWalls[5] = makeCube( self._blockSize, "tiles/"..self._levelTiles[Game.dungeoNLevel].."/wall.png" )
-	self._mapWalls[6] = makeCube( self._blockSize, "tiles/"..self._levelTiles[Game.dungeoNLevel].."/wall.png" )
-	self._mapWalls[7] = makeCube( self._blockSize, "tiles/"..self._levelTiles[Game.dungeoNLevel].."/wall5.png" )
+	local textureToUse = Game.dungeoNLevel
+	if self:isTowerLevel( ) then
+		textureToUse = 1
+	end
+	self._mapWalls[1] = makeCube( self._blockSize, "tiles/"..self._levelTiles[textureToUse].."/wall.png" )
+	self._mapWalls[2] = makeCube( self._blockSize, "tiles/"..self._levelTiles[textureToUse].."/wall2.png" )
+	self._mapWalls[3] = makeCube( self._blockSize, "tiles/"..self._levelTiles[textureToUse].."/wall3.png" )
+	self._mapWalls[4] = makeCube( self._blockSize, "tiles/"..self._levelTiles[textureToUse].."/wall4.png" )
+	self._mapWalls[5] = makeCube( self._blockSize, "tiles/"..self._levelTiles[textureToUse].."/wall.png" )
+	self._mapWalls[6] = makeCube( self._blockSize, "tiles/"..self._levelTiles[textureToUse].."/wall.png" )
+	self._mapWalls[7] = makeCube( self._blockSize, "tiles/"..self._levelTiles[textureToUse].."/wall5.png" )
 	--self._mapWalls[8] = makeCube( self._blockSize, "tiles/"..self._levelTiles[Game.dungeoNLevel].."/wall_special.png" )
+
+
+	--self._caveWalls[1] = makeCube( self._blockSize, "tiles/cave/1/wall.png" )
+	--self._caveWalls[1] = makeCube( self._blockSize, "tiles/cave/1/wall.png" )
 
 	--self._mapWalls[9] = makeCube( self._blockSize, "tiles/"..self._levelTiles[1].."/wall_special_2.png")
 
@@ -436,6 +444,7 @@ function rngMap:addWallAt(_x, _y, _optional)
 	if _optional ~= nil then
 		textureIDX = _optional
 	end
+
 	if self._map[_x] ~= nil and self._map[_x][_y] ~= nil then
 		self._map[_x][_y].wall = image:new3DImage(self._mapWalls[textureIDX], _x*self._blockSize, self._floorElevation+self._blockSize, _y*self._blockSize, self._mainMapLayer)
 		self._map[_x][_y].hasWall = true
@@ -472,18 +481,9 @@ end
 
 function rngMap:GenerateCave(w,h,seed)
 	
-   local dir = {
-      {-1,-1}, --nw
-      {0,-1}, --n
-      {1,-1}, --ne
-      {-1,0}, --w
-      {1,0}, --e
-      {-1,1}, --sw
-      {0,1}, --s
-      {1,1} --se
-   }
+
    local map = {}
-   for x = 1, w do
+   --[[for x = 1, w do
       map[x] = {}
       for y = 1, h do
          if math.random(0,100) < 45 then
@@ -493,46 +493,17 @@ function rngMap:GenerateCave(w,h,seed)
          end
       end
    end
-   for i = 1, 4 do
-      for x = 1, w do
-         for y = 1,h do
-            neighbors = 0
-            for ii = 1,#dir do
-               if map[x+dir[ii][1]] then
-                  if map[x+dir[ii][1]][y+dir[ii][2]] then
-                     if map[x+dir[ii][1]][y+dir[ii][2]] == "#" then
-                        neighbors = neighbors + 1
-                     end
-                  else
-                     neighbors = neighbors+1
-                  end
-               else
-                  neighbors = neighbors+1
-               end
-            end
-            if map[x][y] == "#" then
-               if neighbors >= 3 then
-                  map[x][y] = "#"
-               else
-                  map[x][y] = "."
-               end
-            elseif map[x][y] == "." then
-               if neighbors >= 6 then
-                  map[x][y] = "#"
-               else
-                  map[x][y] = "."
-               end
-            end
-         end
-      end
-   end
+
    for x = 1, w do
       for y = 1, h do
          if x == 1 or x == w or y == 1 or y == h then
             map[x][y] = "#"
          end
       end
-   end
+   end--]]
+   -- a,b,c,d, seed, it1,it2
+   -- width, height, lowest percentage of open space, amount of initial wall(44 or nil works best), random seed, growing iterations, smoothing iterations
+   map = cavity.makemap(w,h, 12,nil,math.random(os.time()))
    return map
 end
 
@@ -556,15 +527,17 @@ function rngMap:generateCaveDungeon( )
 			image:set3DIndex(self._map[x][y].wall, math.random(1,5))
 			self._map[x][y].hasWall = true
 
-			if caveMap[x][y] ~= "." then -- wall
+			if caveMap[x][y] ~= " " then -- wall
 				self:removeFloorAt(x, y)
-			else
+			elseif caveMap[x][y] ~= "#" then
 				self:removeWallAt(x, y)
 			end
+			print(""..caveMap[x][y].."")
+
 		end
 	end
 
-	self:addBoundaries( )
+	self:addBoundaries(true)
 	local _px, _py = self:returnEmptyLocations( )
 	environment:createPortal(_px, _py, true)
 	print("ASTA")
@@ -914,7 +887,7 @@ function rngMap:addBoundaries(_optional)
 				end				
 			end--]]
 
-			if self:isWallAt(x, y) == false then
+			if self:isWallAt(x, y) == false and environment:isDoorNearby(x, y) == false then
 				self._emptyCellTable[emptyCellIdx] = {_x = x, _y = y}
 				emptyCellIdx = emptyCellIdx + 1
 			end
@@ -924,6 +897,7 @@ function rngMap:addBoundaries(_optional)
 
 	self:makeMiniMap( )
 	self:removeUnusedWalls( )
+	self._darknessTable = { }
 	if(_optional == nill) then
 		self:addDarkness( )
 	end
@@ -935,7 +909,7 @@ function rngMap:returnDarknessTable( )
 end
 
 function rngMap:addDarkness(_isStatic)
-	self._darknessTable = { }
+	
 	local _mesh = self._darkness
 	if _isStatic ~= nil then
 		_mesh = self._darkpatch

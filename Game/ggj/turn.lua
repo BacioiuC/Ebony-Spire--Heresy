@@ -51,7 +51,7 @@ function evTurn:prepareList( )
 end
 
 function handlePCTurn( )
-
+	evTurn:_checkPlayerNextToPortal( )
 	evTurn:_checkPlayerOnStairs( )
 	evTurn:prepareList( )
 	evTurn:loopThroughListAndPerform( )
@@ -66,6 +66,7 @@ function evTurn:handlePCTurn()
 	
 	player:incTurn( )
 	player:regenLife( )
+	evTurn:_checkPlayerNextToPortal( )
 	self:_checkPlayerOnStairs( )
 	self:prepareList( )
 	self:loopThroughListAndPerform( )
@@ -117,6 +118,15 @@ function evTurn:_checkPlayerOnStairs( )
 
 	if px == sx and py == sy then
 		log:newMessage("Do you want to go <c:EAFF00> up the stairs? Press > to climb</c>")
+	end
+end
+
+function evTurn:_checkPlayerNextToPortal( )
+	local px, py = player:returnPosition( )
+	local sx, sy = environment:returnPortalPosition( )
+
+	if math.dist(px, py, sx, sy) < 2 then
+		log:newMessage("Do you want to enter <c:EAFF00> the portal?</c> Press O to acess it!")
 	end
 end
 

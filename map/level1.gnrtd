@@ -1357,7 +1357,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6255,
+   ["ceiling"]=32139,
    ["wasVisited"]=false,
 },
 -- Table: {68}
@@ -1365,7 +1365,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6256,
+   ["ceiling"]=32140,
    ["wasVisited"]=false,
 },
 -- Table: {69}
@@ -1373,7 +1373,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6257,
+   ["ceiling"]=32141,
    ["wasVisited"]=false,
 },
 -- Table: {70}
@@ -1381,7 +1381,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6258,
+   ["ceiling"]=32142,
    ["wasVisited"]=false,
 },
 -- Table: {71}
@@ -1389,7 +1389,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6259,
+   ["ceiling"]=32143,
    ["wasVisited"]=false,
 },
 -- Table: {72}
@@ -1397,7 +1397,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6260,
+   ["ceiling"]=32144,
    ["wasVisited"]=false,
 },
 -- Table: {73}
@@ -1405,7 +1405,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6261,
+   ["ceiling"]=32145,
    ["wasVisited"]=false,
 },
 -- Table: {74}
@@ -1413,7 +1413,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6262,
+   ["ceiling"]=32146,
    ["wasVisited"]=false,
 },
 -- Table: {75}
@@ -1421,7 +1421,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6263,
+   ["ceiling"]=32147,
    ["wasVisited"]=false,
 },
 -- Table: {76}
@@ -1429,7 +1429,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6264,
+   ["ceiling"]=32148,
    ["wasVisited"]=false,
 },
 -- Table: {77}
@@ -1437,7 +1437,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6265,
+   ["ceiling"]=32149,
    ["wasVisited"]=false,
 },
 -- Table: {78}
@@ -1445,7 +1445,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6266,
+   ["ceiling"]=32150,
    ["wasVisited"]=false,
 },
 -- Table: {79}
@@ -1453,7 +1453,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6267,
+   ["ceiling"]=32151,
    ["wasVisited"]=false,
 },
 -- Table: {80}
@@ -1461,7 +1461,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6268,
+   ["ceiling"]=32152,
    ["wasVisited"]=false,
 },
 -- Table: {81}
@@ -1470,15 +1470,15 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=false,
    ["wasVisited"]=false,
-   ["ceiling"]=6269,
-   ["wall"]=5644,
+   ["ceiling"]=32153,
+   ["wall"]=31534,
 },
 -- Table: {82}
 {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6270,
+   ["ceiling"]=32154,
    ["wasVisited"]=false,
 },
 -- Table: {83}
@@ -1486,7 +1486,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6271,
+   ["ceiling"]=32155,
    ["wasVisited"]=false,
 },
 -- Table: {84}
@@ -1494,7 +1494,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6272,
+   ["ceiling"]=32156,
    ["wasVisited"]=false,
 },
 -- Table: {85}
@@ -1502,7 +1502,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6273,
+   ["ceiling"]=32157,
    ["wasVisited"]=false,
 },
 -- Table: {86}
@@ -1510,7 +1510,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6274,
+   ["ceiling"]=32158,
    ["wasVisited"]=false,
 },
 -- Table: {87}
@@ -1518,7 +1518,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6275,
+   ["ceiling"]=32159,
    ["wasVisited"]=false,
 },
 -- Table: {88}
@@ -1526,7 +1526,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6276,
+   ["ceiling"]=32160,
    ["wasVisited"]=false,
 },
 -- Table: {89}
@@ -1534,7 +1534,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6277,
+   ["ceiling"]=32161,
    ["wasVisited"]=false,
 },
 -- Table: {90}
@@ -1542,7 +1542,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6278,
+   ["ceiling"]=32162,
    ["wasVisited"]=false,
 },
 -- Table: {91}
@@ -1550,7 +1550,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6279,
+   ["ceiling"]=32163,
    ["wasVisited"]=false,
 },
 -- Table: {92}
@@ -1558,7 +1558,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6280,
+   ["ceiling"]=32164,
    ["wasVisited"]=false,
 },
 -- Table: {93}
@@ -1566,7 +1566,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6281,
+   ["ceiling"]=32165,
    ["wasVisited"]=false,
 },
 -- Table: {94}
@@ -1574,7 +1574,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6282,
+   ["ceiling"]=32166,
    ["wasVisited"]=false,
 },
 -- Table: {95}
@@ -1582,7 +1582,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6283,
+   ["ceiling"]=32167,
    ["wasVisited"]=false,
 },
 -- Table: {96}
@@ -1590,7 +1590,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6284,
+   ["ceiling"]=32168,
    ["wasVisited"]=false,
 },
 -- Table: {97}
@@ -1598,7 +1598,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6285,
+   ["ceiling"]=32169,
    ["wasVisited"]=false,
 },
 -- Table: {98}
@@ -1612,7 +1612,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6286,
+   ["ceiling"]=32170,
    ["wasVisited"]=false,
 },
 -- Table: {100}
@@ -1620,7 +1620,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6287,
+   ["ceiling"]=32171,
    ["wasVisited"]=false,
 },
 -- Table: {101}
@@ -1628,7 +1628,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6288,
+   ["ceiling"]=32172,
    ["wasVisited"]=false,
 },
 -- Table: {102}
@@ -1636,7 +1636,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6289,
+   ["ceiling"]=32173,
    ["wasVisited"]=false,
 },
 -- Table: {103}
@@ -1644,7 +1644,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6290,
+   ["ceiling"]=32174,
    ["wasVisited"]=false,
 },
 -- Table: {104}
@@ -1652,7 +1652,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6291,
+   ["ceiling"]=32175,
    ["wasVisited"]=false,
 },
 -- Table: {105}
@@ -1660,7 +1660,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6292,
+   ["ceiling"]=32176,
    ["wasVisited"]=false,
 },
 -- Table: {106}
@@ -1668,7 +1668,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6293,
+   ["ceiling"]=32177,
    ["wasVisited"]=false,
 },
 -- Table: {107}
@@ -1676,7 +1676,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6294,
+   ["ceiling"]=32178,
    ["wasVisited"]=false,
 },
 -- Table: {108}
@@ -1684,7 +1684,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6295,
+   ["ceiling"]=32179,
    ["wasVisited"]=false,
 },
 -- Table: {109}
@@ -1692,7 +1692,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6296,
+   ["ceiling"]=32180,
    ["wasVisited"]=false,
 },
 -- Table: {110}
@@ -1700,7 +1700,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6297,
+   ["ceiling"]=32181,
    ["wasVisited"]=false,
 },
 -- Table: {111}
@@ -1708,7 +1708,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6298,
+   ["ceiling"]=32182,
    ["wasVisited"]=false,
 },
 -- Table: {112}
@@ -1717,8 +1717,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=false,
    ["wasVisited"]=false,
-   ["ceiling"]=6299,
-   ["wall"]=5645,
+   ["ceiling"]=32183,
+   ["wall"]=31535,
 },
 -- Table: {113}
 {
@@ -1726,8 +1726,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6300,
-   ["floor"]=5646,
+   ["ceiling"]=32184,
+   ["floor"]=31536,
 },
 -- Table: {114}
 {
@@ -1735,15 +1735,15 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=false,
    ["wasVisited"]=false,
-   ["ceiling"]=6301,
-   ["wall"]=5647,
+   ["ceiling"]=32185,
+   ["wall"]=31537,
 },
 -- Table: {115}
 {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6302,
+   ["ceiling"]=32186,
    ["wasVisited"]=false,
 },
 -- Table: {116}
@@ -1751,7 +1751,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6303,
+   ["ceiling"]=32187,
    ["wasVisited"]=false,
 },
 -- Table: {117}
@@ -1759,7 +1759,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6304,
+   ["ceiling"]=32188,
    ["wasVisited"]=false,
 },
 -- Table: {118}
@@ -1767,7 +1767,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6305,
+   ["ceiling"]=32189,
    ["wasVisited"]=false,
 },
 -- Table: {119}
@@ -1775,7 +1775,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6306,
+   ["ceiling"]=32190,
    ["wasVisited"]=false,
 },
 -- Table: {120}
@@ -1783,7 +1783,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6307,
+   ["ceiling"]=32191,
    ["wasVisited"]=false,
 },
 -- Table: {121}
@@ -1791,7 +1791,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6308,
+   ["ceiling"]=32192,
    ["wasVisited"]=false,
 },
 -- Table: {122}
@@ -1799,7 +1799,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6309,
+   ["ceiling"]=32193,
    ["wasVisited"]=false,
 },
 -- Table: {123}
@@ -1807,7 +1807,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6310,
+   ["ceiling"]=32194,
    ["wasVisited"]=false,
 },
 -- Table: {124}
@@ -1815,7 +1815,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6311,
+   ["ceiling"]=32195,
    ["wasVisited"]=false,
 },
 -- Table: {125}
@@ -1823,7 +1823,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6312,
+   ["ceiling"]=32196,
    ["wasVisited"]=false,
 },
 -- Table: {126}
@@ -1831,7 +1831,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6313,
+   ["ceiling"]=32197,
    ["wasVisited"]=false,
 },
 -- Table: {127}
@@ -1839,7 +1839,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6314,
+   ["ceiling"]=32198,
    ["wasVisited"]=false,
 },
 -- Table: {128}
@@ -1847,7 +1847,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6315,
+   ["ceiling"]=32199,
    ["wasVisited"]=false,
 },
 -- Table: {129}
@@ -1855,7 +1855,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6316,
+   ["ceiling"]=32200,
    ["wasVisited"]=false,
 },
 -- Table: {130}
@@ -1869,7 +1869,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6317,
+   ["ceiling"]=32201,
    ["wasVisited"]=false,
 },
 -- Table: {132}
@@ -1877,7 +1877,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6318,
+   ["ceiling"]=32202,
    ["wasVisited"]=false,
 },
 -- Table: {133}
@@ -1885,7 +1885,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6319,
+   ["ceiling"]=32203,
    ["wasVisited"]=false,
 },
 -- Table: {134}
@@ -1893,7 +1893,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6320,
+   ["ceiling"]=32204,
    ["wasVisited"]=false,
 },
 -- Table: {135}
@@ -1901,7 +1901,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6321,
+   ["ceiling"]=32205,
    ["wasVisited"]=false,
 },
 -- Table: {136}
@@ -1909,7 +1909,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6322,
+   ["ceiling"]=32206,
    ["wasVisited"]=false,
 },
 -- Table: {137}
@@ -1917,7 +1917,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6323,
+   ["ceiling"]=32207,
    ["wasVisited"]=false,
 },
 -- Table: {138}
@@ -1925,7 +1925,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6324,
+   ["ceiling"]=32208,
    ["wasVisited"]=false,
 },
 -- Table: {139}
@@ -1933,7 +1933,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6325,
+   ["ceiling"]=32209,
    ["wasVisited"]=false,
 },
 -- Table: {140}
@@ -1941,7 +1941,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6326,
+   ["ceiling"]=32210,
    ["wasVisited"]=false,
 },
 -- Table: {141}
@@ -1949,7 +1949,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6327,
+   ["ceiling"]=32211,
    ["wasVisited"]=false,
 },
 -- Table: {142}
@@ -1957,7 +1957,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6328,
+   ["ceiling"]=32212,
    ["wasVisited"]=false,
 },
 -- Table: {143}
@@ -1966,8 +1966,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=false,
    ["wasVisited"]=false,
-   ["ceiling"]=6329,
-   ["wall"]=5648,
+   ["ceiling"]=32213,
+   ["wall"]=31538,
 },
 -- Table: {144}
 {
@@ -1975,8 +1975,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6330,
-   ["floor"]=5649,
+   ["ceiling"]=32214,
+   ["floor"]=31539,
 },
 -- Table: {145}
 {
@@ -1984,8 +1984,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6331,
-   ["floor"]=5650,
+   ["ceiling"]=32215,
+   ["floor"]=31540,
 },
 -- Table: {146}
 {
@@ -1993,8 +1993,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6332,
-   ["floor"]=5651,
+   ["ceiling"]=32216,
+   ["floor"]=31541,
 },
 -- Table: {147}
 {
@@ -2002,15 +2002,15 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=false,
    ["wasVisited"]=false,
-   ["ceiling"]=6333,
-   ["wall"]=5652,
+   ["ceiling"]=32217,
+   ["wall"]=31542,
 },
 -- Table: {148}
 {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6334,
+   ["ceiling"]=32218,
    ["wasVisited"]=false,
 },
 -- Table: {149}
@@ -2018,7 +2018,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6335,
+   ["ceiling"]=32219,
    ["wasVisited"]=false,
 },
 -- Table: {150}
@@ -2026,7 +2026,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6336,
+   ["ceiling"]=32220,
    ["wasVisited"]=false,
 },
 -- Table: {151}
@@ -2034,7 +2034,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6337,
+   ["ceiling"]=32221,
    ["wasVisited"]=false,
 },
 -- Table: {152}
@@ -2042,7 +2042,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6338,
+   ["ceiling"]=32222,
    ["wasVisited"]=false,
 },
 -- Table: {153}
@@ -2050,7 +2050,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6339,
+   ["ceiling"]=32223,
    ["wasVisited"]=false,
 },
 -- Table: {154}
@@ -2058,7 +2058,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6340,
+   ["ceiling"]=32224,
    ["wasVisited"]=false,
 },
 -- Table: {155}
@@ -2066,7 +2066,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6341,
+   ["ceiling"]=32225,
    ["wasVisited"]=false,
 },
 -- Table: {156}
@@ -2074,7 +2074,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6342,
+   ["ceiling"]=32226,
    ["wasVisited"]=false,
 },
 -- Table: {157}
@@ -2082,7 +2082,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6343,
+   ["ceiling"]=32227,
    ["wasVisited"]=false,
 },
 -- Table: {158}
@@ -2090,7 +2090,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6344,
+   ["ceiling"]=32228,
    ["wasVisited"]=false,
 },
 -- Table: {159}
@@ -2098,7 +2098,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6345,
+   ["ceiling"]=32229,
    ["wasVisited"]=false,
 },
 -- Table: {160}
@@ -2106,7 +2106,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6346,
+   ["ceiling"]=32230,
    ["wasVisited"]=false,
 },
 -- Table: {161}
@@ -2114,7 +2114,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6347,
+   ["ceiling"]=32231,
    ["wasVisited"]=false,
 },
 -- Table: {162}
@@ -2128,7 +2128,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6348,
+   ["ceiling"]=32232,
    ["wasVisited"]=false,
 },
 -- Table: {164}
@@ -2136,7 +2136,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6349,
+   ["ceiling"]=32233,
    ["wasVisited"]=false,
 },
 -- Table: {165}
@@ -2144,7 +2144,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6350,
+   ["ceiling"]=32234,
    ["wasVisited"]=false,
 },
 -- Table: {166}
@@ -2152,7 +2152,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6351,
+   ["ceiling"]=32235,
    ["wasVisited"]=false,
 },
 -- Table: {167}
@@ -2160,7 +2160,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6352,
+   ["ceiling"]=32236,
    ["wasVisited"]=false,
 },
 -- Table: {168}
@@ -2168,7 +2168,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6353,
+   ["ceiling"]=32237,
    ["wasVisited"]=false,
 },
 -- Table: {169}
@@ -2176,7 +2176,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6354,
+   ["ceiling"]=32238,
    ["wasVisited"]=false,
 },
 -- Table: {170}
@@ -2184,7 +2184,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6355,
+   ["ceiling"]=32239,
    ["wasVisited"]=false,
 },
 -- Table: {171}
@@ -2192,7 +2192,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6356,
+   ["ceiling"]=32240,
    ["wasVisited"]=false,
 },
 -- Table: {172}
@@ -2200,7 +2200,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6357,
+   ["ceiling"]=32241,
    ["wasVisited"]=false,
 },
 -- Table: {173}
@@ -2208,7 +2208,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6358,
+   ["ceiling"]=32242,
    ["wasVisited"]=false,
 },
 -- Table: {174}
@@ -2217,8 +2217,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=false,
    ["wasVisited"]=false,
-   ["ceiling"]=6359,
-   ["wall"]=5653,
+   ["ceiling"]=32243,
+   ["wall"]=31543,
 },
 -- Table: {175}
 {
@@ -2226,8 +2226,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6360,
-   ["floor"]=5654,
+   ["ceiling"]=32244,
+   ["floor"]=31544,
 },
 -- Table: {176}
 {
@@ -2235,8 +2235,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6361,
-   ["floor"]=5655,
+   ["ceiling"]=32245,
+   ["floor"]=31545,
 },
 -- Table: {177}
 {
@@ -2244,8 +2244,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6362,
-   ["floor"]=5656,
+   ["ceiling"]=32246,
+   ["floor"]=31546,
 },
 -- Table: {178}
 {
@@ -2253,8 +2253,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6363,
-   ["floor"]=5657,
+   ["ceiling"]=32247,
+   ["floor"]=31547,
 },
 -- Table: {179}
 {
@@ -2262,8 +2262,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6364,
-   ["floor"]=5658,
+   ["ceiling"]=32248,
+   ["floor"]=31548,
 },
 -- Table: {180}
 {
@@ -2271,15 +2271,15 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=false,
    ["wasVisited"]=false,
-   ["ceiling"]=6365,
-   ["wall"]=5659,
+   ["ceiling"]=32249,
+   ["wall"]=31549,
 },
 -- Table: {181}
 {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6366,
+   ["ceiling"]=32250,
    ["wasVisited"]=false,
 },
 -- Table: {182}
@@ -2287,7 +2287,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6367,
+   ["ceiling"]=32251,
    ["wasVisited"]=false,
 },
 -- Table: {183}
@@ -2295,7 +2295,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6368,
+   ["ceiling"]=32252,
    ["wasVisited"]=false,
 },
 -- Table: {184}
@@ -2303,7 +2303,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6369,
+   ["ceiling"]=32253,
    ["wasVisited"]=false,
 },
 -- Table: {185}
@@ -2311,7 +2311,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6370,
+   ["ceiling"]=32254,
    ["wasVisited"]=false,
 },
 -- Table: {186}
@@ -2319,7 +2319,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6371,
+   ["ceiling"]=32255,
    ["wasVisited"]=false,
 },
 -- Table: {187}
@@ -2327,7 +2327,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6372,
+   ["ceiling"]=32256,
    ["wasVisited"]=false,
 },
 -- Table: {188}
@@ -2335,7 +2335,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6373,
+   ["ceiling"]=32257,
    ["wasVisited"]=false,
 },
 -- Table: {189}
@@ -2343,7 +2343,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6374,
+   ["ceiling"]=32258,
    ["wasVisited"]=false,
 },
 -- Table: {190}
@@ -2351,7 +2351,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6375,
+   ["ceiling"]=32259,
    ["wasVisited"]=false,
 },
 -- Table: {191}
@@ -2359,7 +2359,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6376,
+   ["ceiling"]=32260,
    ["wasVisited"]=false,
 },
 -- Table: {192}
@@ -2367,7 +2367,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6377,
+   ["ceiling"]=32261,
    ["wasVisited"]=false,
 },
 -- Table: {193}
@@ -2375,7 +2375,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6378,
+   ["ceiling"]=32262,
    ["wasVisited"]=false,
 },
 -- Table: {194}
@@ -2389,7 +2389,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6379,
+   ["ceiling"]=32263,
    ["wasVisited"]=false,
 },
 -- Table: {196}
@@ -2397,7 +2397,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6380,
+   ["ceiling"]=32264,
    ["wasVisited"]=false,
 },
 -- Table: {197}
@@ -2405,7 +2405,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6381,
+   ["ceiling"]=32265,
    ["wasVisited"]=false,
 },
 -- Table: {198}
@@ -2413,7 +2413,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6382,
+   ["ceiling"]=32266,
    ["wasVisited"]=false,
 },
 -- Table: {199}
@@ -2421,7 +2421,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6383,
+   ["ceiling"]=32267,
    ["wasVisited"]=false,
 },
 -- Table: {200}
@@ -2429,7 +2429,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6384,
+   ["ceiling"]=32268,
    ["wasVisited"]=false,
 },
 -- Table: {201}
@@ -2437,7 +2437,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6385,
+   ["ceiling"]=32269,
    ["wasVisited"]=false,
 },
 -- Table: {202}
@@ -2445,7 +2445,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6386,
+   ["ceiling"]=32270,
    ["wasVisited"]=false,
 },
 -- Table: {203}
@@ -2453,7 +2453,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6387,
+   ["ceiling"]=32271,
    ["wasVisited"]=false,
 },
 -- Table: {204}
@@ -2461,7 +2461,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6388,
+   ["ceiling"]=32272,
    ["wasVisited"]=false,
 },
 -- Table: {205}
@@ -2470,8 +2470,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=false,
    ["wasVisited"]=false,
-   ["ceiling"]=6389,
-   ["wall"]=5660,
+   ["ceiling"]=32273,
+   ["wall"]=31550,
 },
 -- Table: {206}
 {
@@ -2479,8 +2479,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6390,
-   ["floor"]=5661,
+   ["ceiling"]=32274,
+   ["floor"]=31551,
 },
 -- Table: {207}
 {
@@ -2488,8 +2488,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6391,
-   ["floor"]=5662,
+   ["ceiling"]=32275,
+   ["floor"]=31552,
 },
 -- Table: {208}
 {
@@ -2497,8 +2497,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6392,
-   ["floor"]=5663,
+   ["ceiling"]=32276,
+   ["floor"]=31553,
 },
 -- Table: {209}
 {
@@ -2506,8 +2506,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6393,
-   ["floor"]=5664,
+   ["ceiling"]=32277,
+   ["floor"]=31554,
 },
 -- Table: {210}
 {
@@ -2515,8 +2515,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6394,
-   ["floor"]=5665,
+   ["ceiling"]=32278,
+   ["floor"]=31555,
 },
 -- Table: {211}
 {
@@ -2524,8 +2524,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6395,
-   ["floor"]=5666,
+   ["ceiling"]=32279,
+   ["floor"]=31556,
 },
 -- Table: {212}
 {
@@ -2533,8 +2533,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6396,
-   ["floor"]=5667,
+   ["ceiling"]=32280,
+   ["floor"]=31557,
 },
 -- Table: {213}
 {
@@ -2542,15 +2542,15 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=false,
    ["wasVisited"]=false,
-   ["ceiling"]=6397,
-   ["wall"]=5668,
+   ["ceiling"]=32281,
+   ["wall"]=31558,
 },
 -- Table: {214}
 {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6398,
+   ["ceiling"]=32282,
    ["wasVisited"]=false,
 },
 -- Table: {215}
@@ -2558,7 +2558,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6399,
+   ["ceiling"]=32283,
    ["wasVisited"]=false,
 },
 -- Table: {216}
@@ -2566,7 +2566,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6400,
+   ["ceiling"]=32284,
    ["wasVisited"]=false,
 },
 -- Table: {217}
@@ -2574,7 +2574,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6401,
+   ["ceiling"]=32285,
    ["wasVisited"]=false,
 },
 -- Table: {218}
@@ -2582,7 +2582,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6402,
+   ["ceiling"]=32286,
    ["wasVisited"]=false,
 },
 -- Table: {219}
@@ -2590,7 +2590,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6403,
+   ["ceiling"]=32287,
    ["wasVisited"]=false,
 },
 -- Table: {220}
@@ -2598,7 +2598,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6404,
+   ["ceiling"]=32288,
    ["wasVisited"]=false,
 },
 -- Table: {221}
@@ -2606,7 +2606,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6405,
+   ["ceiling"]=32289,
    ["wasVisited"]=false,
 },
 -- Table: {222}
@@ -2614,7 +2614,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6406,
+   ["ceiling"]=32290,
    ["wasVisited"]=false,
 },
 -- Table: {223}
@@ -2622,7 +2622,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6407,
+   ["ceiling"]=32291,
    ["wasVisited"]=false,
 },
 -- Table: {224}
@@ -2630,7 +2630,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6408,
+   ["ceiling"]=32292,
    ["wasVisited"]=false,
 },
 -- Table: {225}
@@ -2638,7 +2638,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6409,
+   ["ceiling"]=32293,
    ["wasVisited"]=false,
 },
 -- Table: {226}
@@ -2652,7 +2652,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6410,
+   ["ceiling"]=32294,
    ["wasVisited"]=false,
 },
 -- Table: {228}
@@ -2660,7 +2660,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6411,
+   ["ceiling"]=32295,
    ["wasVisited"]=false,
 },
 -- Table: {229}
@@ -2668,7 +2668,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6412,
+   ["ceiling"]=32296,
    ["wasVisited"]=false,
 },
 -- Table: {230}
@@ -2676,7 +2676,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6413,
+   ["ceiling"]=32297,
    ["wasVisited"]=false,
 },
 -- Table: {231}
@@ -2684,7 +2684,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6414,
+   ["ceiling"]=32298,
    ["wasVisited"]=false,
 },
 -- Table: {232}
@@ -2692,7 +2692,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6415,
+   ["ceiling"]=32299,
    ["wasVisited"]=false,
 },
 -- Table: {233}
@@ -2700,7 +2700,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6416,
+   ["ceiling"]=32300,
    ["wasVisited"]=false,
 },
 -- Table: {234}
@@ -2708,7 +2708,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6417,
+   ["ceiling"]=32301,
    ["wasVisited"]=false,
 },
 -- Table: {235}
@@ -2716,7 +2716,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6418,
+   ["ceiling"]=32302,
    ["wasVisited"]=false,
 },
 -- Table: {236}
@@ -2725,8 +2725,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=false,
    ["wasVisited"]=false,
-   ["ceiling"]=6419,
-   ["wall"]=5669,
+   ["ceiling"]=32303,
+   ["wall"]=31559,
 },
 -- Table: {237}
 {
@@ -2734,8 +2734,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6420,
-   ["floor"]=5670,
+   ["ceiling"]=32304,
+   ["floor"]=31560,
 },
 -- Table: {238}
 {
@@ -2743,8 +2743,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6421,
-   ["floor"]=5671,
+   ["ceiling"]=32305,
+   ["floor"]=31561,
 },
 -- Table: {239}
 {
@@ -2752,8 +2752,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6422,
-   ["floor"]=5672,
+   ["ceiling"]=32306,
+   ["floor"]=31562,
 },
 -- Table: {240}
 {
@@ -2761,8 +2761,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6423,
-   ["floor"]=5673,
+   ["ceiling"]=32307,
+   ["floor"]=31563,
 },
 -- Table: {241}
 {
@@ -2770,8 +2770,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6424,
-   ["floor"]=5674,
+   ["ceiling"]=32308,
+   ["floor"]=31564,
 },
 -- Table: {242}
 {
@@ -2779,8 +2779,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6425,
-   ["floor"]=5675,
+   ["ceiling"]=32309,
+   ["floor"]=31565,
 },
 -- Table: {243}
 {
@@ -2788,8 +2788,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6426,
-   ["floor"]=5676,
+   ["ceiling"]=32310,
+   ["floor"]=31566,
 },
 -- Table: {244}
 {
@@ -2797,8 +2797,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6427,
-   ["floor"]=5677,
+   ["ceiling"]=32311,
+   ["floor"]=31567,
 },
 -- Table: {245}
 {
@@ -2806,8 +2806,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6428,
-   ["floor"]=5678,
+   ["ceiling"]=32312,
+   ["floor"]=31568,
 },
 -- Table: {246}
 {
@@ -2815,15 +2815,15 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=false,
    ["wasVisited"]=false,
-   ["ceiling"]=6429,
-   ["wall"]=5679,
+   ["ceiling"]=32313,
+   ["wall"]=31569,
 },
 -- Table: {247}
 {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6430,
+   ["ceiling"]=32314,
    ["wasVisited"]=false,
 },
 -- Table: {248}
@@ -2831,7 +2831,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6431,
+   ["ceiling"]=32315,
    ["wasVisited"]=false,
 },
 -- Table: {249}
@@ -2839,7 +2839,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6432,
+   ["ceiling"]=32316,
    ["wasVisited"]=false,
 },
 -- Table: {250}
@@ -2847,7 +2847,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6433,
+   ["ceiling"]=32317,
    ["wasVisited"]=false,
 },
 -- Table: {251}
@@ -2855,7 +2855,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6434,
+   ["ceiling"]=32318,
    ["wasVisited"]=false,
 },
 -- Table: {252}
@@ -2863,7 +2863,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6435,
+   ["ceiling"]=32319,
    ["wasVisited"]=false,
 },
 -- Table: {253}
@@ -2871,7 +2871,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6436,
+   ["ceiling"]=32320,
    ["wasVisited"]=false,
 },
 -- Table: {254}
@@ -2879,7 +2879,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6437,
+   ["ceiling"]=32321,
    ["wasVisited"]=false,
 },
 -- Table: {255}
@@ -2887,7 +2887,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6438,
+   ["ceiling"]=32322,
    ["wasVisited"]=false,
 },
 -- Table: {256}
@@ -2895,7 +2895,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6439,
+   ["ceiling"]=32323,
    ["wasVisited"]=false,
 },
 -- Table: {257}
@@ -2903,7 +2903,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6440,
+   ["ceiling"]=32324,
    ["wasVisited"]=false,
 },
 -- Table: {258}
@@ -2917,7 +2917,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6441,
+   ["ceiling"]=32325,
    ["wasVisited"]=false,
 },
 -- Table: {260}
@@ -2925,7 +2925,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6442,
+   ["ceiling"]=32326,
    ["wasVisited"]=false,
 },
 -- Table: {261}
@@ -2933,7 +2933,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6443,
+   ["ceiling"]=32327,
    ["wasVisited"]=false,
 },
 -- Table: {262}
@@ -2941,7 +2941,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6444,
+   ["ceiling"]=32328,
    ["wasVisited"]=false,
 },
 -- Table: {263}
@@ -2949,7 +2949,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6445,
+   ["ceiling"]=32329,
    ["wasVisited"]=false,
 },
 -- Table: {264}
@@ -2957,7 +2957,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6446,
+   ["ceiling"]=32330,
    ["wasVisited"]=false,
 },
 -- Table: {265}
@@ -2965,7 +2965,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6447,
+   ["ceiling"]=32331,
    ["wasVisited"]=false,
 },
 -- Table: {266}
@@ -2973,7 +2973,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6448,
+   ["ceiling"]=32332,
    ["wasVisited"]=false,
 },
 -- Table: {267}
@@ -2982,8 +2982,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=false,
    ["wasVisited"]=false,
-   ["ceiling"]=6449,
-   ["wall"]=5680,
+   ["ceiling"]=32333,
+   ["wall"]=31570,
 },
 -- Table: {268}
 {
@@ -2991,8 +2991,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6450,
-   ["floor"]=5681,
+   ["ceiling"]=32334,
+   ["floor"]=31571,
 },
 -- Table: {269}
 {
@@ -3000,8 +3000,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6451,
-   ["floor"]=5682,
+   ["ceiling"]=32335,
+   ["floor"]=31572,
 },
 -- Table: {270}
 {
@@ -3009,8 +3009,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6452,
-   ["floor"]=5683,
+   ["ceiling"]=32336,
+   ["floor"]=31573,
 },
 -- Table: {271}
 {
@@ -3018,8 +3018,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6453,
-   ["floor"]=5684,
+   ["ceiling"]=32337,
+   ["floor"]=31574,
 },
 -- Table: {272}
 {
@@ -3027,8 +3027,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6454,
-   ["floor"]=5685,
+   ["ceiling"]=32338,
+   ["floor"]=31575,
 },
 -- Table: {273}
 {
@@ -3036,8 +3036,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6455,
-   ["floor"]=5686,
+   ["ceiling"]=32339,
+   ["floor"]=31576,
 },
 -- Table: {274}
 {
@@ -3045,8 +3045,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6456,
-   ["floor"]=5687,
+   ["ceiling"]=32340,
+   ["floor"]=31577,
 },
 -- Table: {275}
 {
@@ -3054,8 +3054,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6457,
-   ["floor"]=5688,
+   ["ceiling"]=32341,
+   ["floor"]=31578,
 },
 -- Table: {276}
 {
@@ -3063,8 +3063,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6458,
-   ["floor"]=5689,
+   ["ceiling"]=32342,
+   ["floor"]=31579,
 },
 -- Table: {277}
 {
@@ -3072,8 +3072,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6459,
-   ["floor"]=5690,
+   ["ceiling"]=32343,
+   ["floor"]=31580,
 },
 -- Table: {278}
 {
@@ -3081,8 +3081,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6460,
-   ["floor"]=5691,
+   ["ceiling"]=32344,
+   ["floor"]=31581,
 },
 -- Table: {279}
 {
@@ -3090,15 +3090,15 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=false,
    ["wasVisited"]=false,
-   ["ceiling"]=6461,
-   ["wall"]=5692,
+   ["ceiling"]=32345,
+   ["wall"]=31582,
 },
 -- Table: {280}
 {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6462,
+   ["ceiling"]=32346,
    ["wasVisited"]=false,
 },
 -- Table: {281}
@@ -3106,7 +3106,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6463,
+   ["ceiling"]=32347,
    ["wasVisited"]=false,
 },
 -- Table: {282}
@@ -3114,7 +3114,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6464,
+   ["ceiling"]=32348,
    ["wasVisited"]=false,
 },
 -- Table: {283}
@@ -3122,7 +3122,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6465,
+   ["ceiling"]=32349,
    ["wasVisited"]=false,
 },
 -- Table: {284}
@@ -3130,7 +3130,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6466,
+   ["ceiling"]=32350,
    ["wasVisited"]=false,
 },
 -- Table: {285}
@@ -3138,7 +3138,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6467,
+   ["ceiling"]=32351,
    ["wasVisited"]=false,
 },
 -- Table: {286}
@@ -3146,7 +3146,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6468,
+   ["ceiling"]=32352,
    ["wasVisited"]=false,
 },
 -- Table: {287}
@@ -3154,7 +3154,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6469,
+   ["ceiling"]=32353,
    ["wasVisited"]=false,
 },
 -- Table: {288}
@@ -3162,7 +3162,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6470,
+   ["ceiling"]=32354,
    ["wasVisited"]=false,
 },
 -- Table: {289}
@@ -3170,7 +3170,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6471,
+   ["ceiling"]=32355,
    ["wasVisited"]=false,
 },
 -- Table: {290}
@@ -3184,7 +3184,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6472,
+   ["ceiling"]=32356,
    ["wasVisited"]=false,
 },
 -- Table: {292}
@@ -3192,7 +3192,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6473,
+   ["ceiling"]=32357,
    ["wasVisited"]=false,
 },
 -- Table: {293}
@@ -3200,7 +3200,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6474,
+   ["ceiling"]=32358,
    ["wasVisited"]=false,
 },
 -- Table: {294}
@@ -3208,7 +3208,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6475,
+   ["ceiling"]=32359,
    ["wasVisited"]=false,
 },
 -- Table: {295}
@@ -3216,7 +3216,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6476,
+   ["ceiling"]=32360,
    ["wasVisited"]=false,
 },
 -- Table: {296}
@@ -3224,7 +3224,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6477,
+   ["ceiling"]=32361,
    ["wasVisited"]=false,
 },
 -- Table: {297}
@@ -3232,7 +3232,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6478,
+   ["ceiling"]=32362,
    ["wasVisited"]=false,
 },
 -- Table: {298}
@@ -3241,8 +3241,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=false,
    ["wasVisited"]=false,
-   ["ceiling"]=6479,
-   ["wall"]=5693,
+   ["ceiling"]=32363,
+   ["wall"]=31583,
 },
 -- Table: {299}
 {
@@ -3250,8 +3250,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6480,
-   ["floor"]=5694,
+   ["ceiling"]=32364,
+   ["floor"]=31584,
 },
 -- Table: {300}
 {
@@ -3259,8 +3259,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6481,
-   ["floor"]=5695,
+   ["ceiling"]=32365,
+   ["floor"]=31585,
 },
 -- Table: {301}
 {
@@ -3268,8 +3268,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6482,
-   ["floor"]=5696,
+   ["ceiling"]=32366,
+   ["floor"]=31586,
 },
 -- Table: {302}
 {
@@ -3277,8 +3277,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6483,
-   ["floor"]=5697,
+   ["ceiling"]=32367,
+   ["floor"]=31587,
 },
 -- Table: {303}
 {
@@ -3286,8 +3286,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6484,
-   ["floor"]=5698,
+   ["ceiling"]=32368,
+   ["floor"]=31588,
 },
 -- Table: {304}
 {
@@ -3295,9 +3295,9 @@ return {
    ["hasWall"]=true,
    ["wasVisited"]=false,
    ["hasFloor"]=true,
-   ["wall"]=6066,
-   ["ceiling"]=6485,
-   ["floor"]=5699,
+   ["wall"]=31956,
+   ["ceiling"]=32369,
+   ["floor"]=31589,
 },
 -- Table: {305}
 {
@@ -3305,8 +3305,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6486,
-   ["floor"]=6067,
+   ["ceiling"]=32370,
+   ["floor"]=31957,
 },
 -- Table: {306}
 {
@@ -3314,9 +3314,9 @@ return {
    ["hasWall"]=true,
    ["wasVisited"]=false,
    ["hasFloor"]=true,
-   ["wall"]=6068,
-   ["ceiling"]=6487,
-   ["floor"]=5701,
+   ["wall"]=31958,
+   ["ceiling"]=32371,
+   ["floor"]=31591,
 },
 -- Table: {307}
 {
@@ -3324,8 +3324,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6488,
-   ["floor"]=5702,
+   ["ceiling"]=32372,
+   ["floor"]=31592,
 },
 -- Table: {308}
 {
@@ -3333,8 +3333,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6489,
-   ["floor"]=5703,
+   ["ceiling"]=32373,
+   ["floor"]=31593,
 },
 -- Table: {309}
 {
@@ -3342,8 +3342,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6490,
-   ["floor"]=5704,
+   ["ceiling"]=32374,
+   ["floor"]=31594,
 },
 -- Table: {310}
 {
@@ -3351,8 +3351,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6491,
-   ["floor"]=5705,
+   ["ceiling"]=32375,
+   ["floor"]=31595,
 },
 -- Table: {311}
 {
@@ -3360,8 +3360,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6492,
-   ["floor"]=5706,
+   ["ceiling"]=32376,
+   ["floor"]=31596,
 },
 -- Table: {312}
 {
@@ -3369,15 +3369,15 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=false,
    ["wasVisited"]=false,
-   ["ceiling"]=6493,
-   ["wall"]=5707,
+   ["ceiling"]=32377,
+   ["wall"]=31597,
 },
 -- Table: {313}
 {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6494,
+   ["ceiling"]=32378,
    ["wasVisited"]=false,
 },
 -- Table: {314}
@@ -3385,7 +3385,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6495,
+   ["ceiling"]=32379,
    ["wasVisited"]=false,
 },
 -- Table: {315}
@@ -3393,7 +3393,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6496,
+   ["ceiling"]=32380,
    ["wasVisited"]=false,
 },
 -- Table: {316}
@@ -3401,7 +3401,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6497,
+   ["ceiling"]=32381,
    ["wasVisited"]=false,
 },
 -- Table: {317}
@@ -3409,7 +3409,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6498,
+   ["ceiling"]=32382,
    ["wasVisited"]=false,
 },
 -- Table: {318}
@@ -3417,7 +3417,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6499,
+   ["ceiling"]=32383,
    ["wasVisited"]=false,
 },
 -- Table: {319}
@@ -3425,7 +3425,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6500,
+   ["ceiling"]=32384,
    ["wasVisited"]=false,
 },
 -- Table: {320}
@@ -3433,7 +3433,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6501,
+   ["ceiling"]=32385,
    ["wasVisited"]=false,
 },
 -- Table: {321}
@@ -3441,7 +3441,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6502,
+   ["ceiling"]=32386,
    ["wasVisited"]=false,
 },
 -- Table: {322}
@@ -3455,7 +3455,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6503,
+   ["ceiling"]=32387,
    ["wasVisited"]=false,
 },
 -- Table: {324}
@@ -3463,7 +3463,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6504,
+   ["ceiling"]=32388,
    ["wasVisited"]=false,
 },
 -- Table: {325}
@@ -3471,7 +3471,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6505,
+   ["ceiling"]=32389,
    ["wasVisited"]=false,
 },
 -- Table: {326}
@@ -3479,7 +3479,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6506,
+   ["ceiling"]=32390,
    ["wasVisited"]=false,
 },
 -- Table: {327}
@@ -3487,7 +3487,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6507,
+   ["ceiling"]=32391,
    ["wasVisited"]=false,
 },
 -- Table: {328}
@@ -3495,7 +3495,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6508,
+   ["ceiling"]=32392,
    ["wasVisited"]=false,
 },
 -- Table: {329}
@@ -3504,8 +3504,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=false,
    ["wasVisited"]=false,
-   ["ceiling"]=6509,
-   ["wall"]=5708,
+   ["ceiling"]=32393,
+   ["wall"]=31598,
 },
 -- Table: {330}
 {
@@ -3513,8 +3513,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6510,
-   ["floor"]=5709,
+   ["ceiling"]=32394,
+   ["floor"]=31599,
 },
 -- Table: {331}
 {
@@ -3522,8 +3522,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6511,
-   ["floor"]=5710,
+   ["ceiling"]=32395,
+   ["floor"]=31600,
 },
 -- Table: {332}
 {
@@ -3531,8 +3531,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6512,
-   ["floor"]=5711,
+   ["ceiling"]=32396,
+   ["floor"]=31601,
 },
 -- Table: {333}
 {
@@ -3540,8 +3540,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6513,
-   ["floor"]=5712,
+   ["ceiling"]=32397,
+   ["floor"]=31602,
 },
 -- Table: {334}
 {
@@ -3549,8 +3549,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6514,
-   ["floor"]=5713,
+   ["ceiling"]=32398,
+   ["floor"]=31603,
 },
 -- Table: {335}
 {
@@ -3558,9 +3558,9 @@ return {
    ["hasWall"]=true,
    ["wasVisited"]=false,
    ["hasFloor"]=true,
-   ["wall"]=6069,
-   ["ceiling"]=6515,
-   ["floor"]=5714,
+   ["wall"]=31959,
+   ["ceiling"]=32399,
+   ["floor"]=31604,
 },
 -- Table: {336}
 {
@@ -3568,8 +3568,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6516,
-   ["floor"]=6070,
+   ["ceiling"]=32400,
+   ["floor"]=31960,
 },
 -- Table: {337}
 {
@@ -3577,8 +3577,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6517,
-   ["floor"]=6071,
+   ["ceiling"]=32401,
+   ["floor"]=31961,
 },
 -- Table: {338}
 {
@@ -3586,8 +3586,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6518,
-   ["floor"]=6072,
+   ["ceiling"]=32402,
+   ["floor"]=31962,
 },
 -- Table: {339}
 {
@@ -3595,9 +3595,9 @@ return {
    ["hasWall"]=true,
    ["wasVisited"]=false,
    ["hasFloor"]=true,
-   ["wall"]=6073,
-   ["ceiling"]=6519,
-   ["floor"]=5718,
+   ["wall"]=31963,
+   ["ceiling"]=32403,
+   ["floor"]=31608,
 },
 -- Table: {340}
 {
@@ -3605,8 +3605,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6520,
-   ["floor"]=5719,
+   ["ceiling"]=32404,
+   ["floor"]=31609,
 },
 -- Table: {341}
 {
@@ -3614,8 +3614,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6521,
-   ["floor"]=5720,
+   ["ceiling"]=32405,
+   ["floor"]=31610,
 },
 -- Table: {342}
 {
@@ -3623,8 +3623,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6522,
-   ["floor"]=5721,
+   ["ceiling"]=32406,
+   ["floor"]=31611,
 },
 -- Table: {343}
 {
@@ -3632,8 +3632,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6523,
-   ["floor"]=5722,
+   ["ceiling"]=32407,
+   ["floor"]=31612,
 },
 -- Table: {344}
 {
@@ -3641,8 +3641,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6524,
-   ["floor"]=5723,
+   ["ceiling"]=32408,
+   ["floor"]=31613,
 },
 -- Table: {345}
 {
@@ -3650,15 +3650,15 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=false,
    ["wasVisited"]=false,
-   ["ceiling"]=6525,
-   ["wall"]=5724,
+   ["ceiling"]=32409,
+   ["wall"]=31614,
 },
 -- Table: {346}
 {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6526,
+   ["ceiling"]=32410,
    ["wasVisited"]=false,
 },
 -- Table: {347}
@@ -3666,7 +3666,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6527,
+   ["ceiling"]=32411,
    ["wasVisited"]=false,
 },
 -- Table: {348}
@@ -3674,7 +3674,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6528,
+   ["ceiling"]=32412,
    ["wasVisited"]=false,
 },
 -- Table: {349}
@@ -3682,7 +3682,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6529,
+   ["ceiling"]=32413,
    ["wasVisited"]=false,
 },
 -- Table: {350}
@@ -3690,7 +3690,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6530,
+   ["ceiling"]=32414,
    ["wasVisited"]=false,
 },
 -- Table: {351}
@@ -3698,7 +3698,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6531,
+   ["ceiling"]=32415,
    ["wasVisited"]=false,
 },
 -- Table: {352}
@@ -3706,7 +3706,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6532,
+   ["ceiling"]=32416,
    ["wasVisited"]=false,
 },
 -- Table: {353}
@@ -3714,7 +3714,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6533,
+   ["ceiling"]=32417,
    ["wasVisited"]=false,
 },
 -- Table: {354}
@@ -3728,7 +3728,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6534,
+   ["ceiling"]=32418,
    ["wasVisited"]=false,
 },
 -- Table: {356}
@@ -3736,7 +3736,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6535,
+   ["ceiling"]=32419,
    ["wasVisited"]=false,
 },
 -- Table: {357}
@@ -3744,7 +3744,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6536,
+   ["ceiling"]=32420,
    ["wasVisited"]=false,
 },
 -- Table: {358}
@@ -3752,7 +3752,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6537,
+   ["ceiling"]=32421,
    ["wasVisited"]=false,
 },
 -- Table: {359}
@@ -3760,7 +3760,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6538,
+   ["ceiling"]=32422,
    ["wasVisited"]=false,
 },
 -- Table: {360}
@@ -3769,8 +3769,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=false,
    ["wasVisited"]=false,
-   ["ceiling"]=6539,
-   ["wall"]=5725,
+   ["ceiling"]=32423,
+   ["wall"]=31615,
 },
 -- Table: {361}
 {
@@ -3778,8 +3778,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6540,
-   ["floor"]=5726,
+   ["ceiling"]=32424,
+   ["floor"]=31616,
 },
 -- Table: {362}
 {
@@ -3787,8 +3787,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6541,
-   ["floor"]=5727,
+   ["ceiling"]=32425,
+   ["floor"]=31617,
 },
 -- Table: {363}
 {
@@ -3796,8 +3796,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6542,
-   ["floor"]=5728,
+   ["ceiling"]=32426,
+   ["floor"]=31618,
 },
 -- Table: {364}
 {
@@ -3805,8 +3805,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6543,
-   ["floor"]=5729,
+   ["ceiling"]=32427,
+   ["floor"]=31619,
 },
 -- Table: {365}
 {
@@ -3814,8 +3814,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6544,
-   ["floor"]=5730,
+   ["ceiling"]=32428,
+   ["floor"]=31620,
 },
 -- Table: {366}
 {
@@ -3823,9 +3823,9 @@ return {
    ["hasWall"]=true,
    ["wasVisited"]=false,
    ["hasFloor"]=true,
-   ["wall"]=6074,
-   ["ceiling"]=6545,
-   ["floor"]=5731,
+   ["wall"]=31964,
+   ["ceiling"]=32429,
+   ["floor"]=31621,
 },
 -- Table: {367}
 {
@@ -3833,8 +3833,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6546,
-   ["floor"]=6075,
+   ["ceiling"]=32430,
+   ["floor"]=31965,
 },
 -- Table: {368}
 {
@@ -3842,8 +3842,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6547,
-   ["floor"]=6076,
+   ["ceiling"]=32431,
+   ["floor"]=31966,
 },
 -- Table: {369}
 {
@@ -3851,8 +3851,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6548,
-   ["floor"]=6077,
+   ["ceiling"]=32432,
+   ["floor"]=31967,
 },
 -- Table: {370}
 {
@@ -3860,8 +3860,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6549,
-   ["floor"]=6078,
+   ["ceiling"]=32433,
+   ["floor"]=31968,
 },
 -- Table: {371}
 {
@@ -3869,8 +3869,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6550,
-   ["floor"]=6079,
+   ["ceiling"]=32434,
+   ["floor"]=31969,
 },
 -- Table: {372}
 {
@@ -3878,9 +3878,9 @@ return {
    ["hasWall"]=true,
    ["wasVisited"]=false,
    ["hasFloor"]=true,
-   ["wall"]=6080,
-   ["ceiling"]=6551,
-   ["floor"]=5737,
+   ["wall"]=31970,
+   ["ceiling"]=32435,
+   ["floor"]=31627,
 },
 -- Table: {373}
 {
@@ -3888,8 +3888,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6552,
-   ["floor"]=5738,
+   ["ceiling"]=32436,
+   ["floor"]=31628,
 },
 -- Table: {374}
 {
@@ -3897,8 +3897,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6553,
-   ["floor"]=5739,
+   ["ceiling"]=32437,
+   ["floor"]=31629,
 },
 -- Table: {375}
 {
@@ -3906,8 +3906,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6554,
-   ["floor"]=5740,
+   ["ceiling"]=32438,
+   ["floor"]=31630,
 },
 -- Table: {376}
 {
@@ -3915,8 +3915,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6555,
-   ["floor"]=5741,
+   ["ceiling"]=32439,
+   ["floor"]=31631,
 },
 -- Table: {377}
 {
@@ -3924,8 +3924,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6556,
-   ["floor"]=5742,
+   ["ceiling"]=32440,
+   ["floor"]=31632,
 },
 -- Table: {378}
 {
@@ -3933,15 +3933,15 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=false,
    ["wasVisited"]=false,
-   ["ceiling"]=6557,
-   ["wall"]=5743,
+   ["ceiling"]=32441,
+   ["wall"]=31633,
 },
 -- Table: {379}
 {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6558,
+   ["ceiling"]=32442,
    ["wasVisited"]=false,
 },
 -- Table: {380}
@@ -3949,7 +3949,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6559,
+   ["ceiling"]=32443,
    ["wasVisited"]=false,
 },
 -- Table: {381}
@@ -3957,7 +3957,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6560,
+   ["ceiling"]=32444,
    ["wasVisited"]=false,
 },
 -- Table: {382}
@@ -3965,7 +3965,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6561,
+   ["ceiling"]=32445,
    ["wasVisited"]=false,
 },
 -- Table: {383}
@@ -3973,7 +3973,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6562,
+   ["ceiling"]=32446,
    ["wasVisited"]=false,
 },
 -- Table: {384}
@@ -3981,7 +3981,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6563,
+   ["ceiling"]=32447,
    ["wasVisited"]=false,
 },
 -- Table: {385}
@@ -3989,7 +3989,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6564,
+   ["ceiling"]=32448,
    ["wasVisited"]=false,
 },
 -- Table: {386}
@@ -4003,7 +4003,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6565,
+   ["ceiling"]=32449,
    ["wasVisited"]=false,
 },
 -- Table: {388}
@@ -4011,7 +4011,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6566,
+   ["ceiling"]=32450,
    ["wasVisited"]=false,
 },
 -- Table: {389}
@@ -4019,7 +4019,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6567,
+   ["ceiling"]=32451,
    ["wasVisited"]=false,
 },
 -- Table: {390}
@@ -4027,7 +4027,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6568,
+   ["ceiling"]=32452,
    ["wasVisited"]=false,
 },
 -- Table: {391}
@@ -4036,8 +4036,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=false,
    ["wasVisited"]=false,
-   ["ceiling"]=6569,
-   ["wall"]=5744,
+   ["ceiling"]=32453,
+   ["wall"]=31634,
 },
 -- Table: {392}
 {
@@ -4045,8 +4045,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6570,
-   ["floor"]=5745,
+   ["ceiling"]=32454,
+   ["floor"]=31635,
 },
 -- Table: {393}
 {
@@ -4054,8 +4054,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6571,
-   ["floor"]=5746,
+   ["ceiling"]=32455,
+   ["floor"]=31636,
 },
 -- Table: {394}
 {
@@ -4063,8 +4063,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6572,
-   ["floor"]=5747,
+   ["ceiling"]=32456,
+   ["floor"]=31637,
 },
 -- Table: {395}
 {
@@ -4072,8 +4072,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6573,
-   ["floor"]=5748,
+   ["ceiling"]=32457,
+   ["floor"]=31638,
 },
 -- Table: {396}
 {
@@ -4081,8 +4081,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6574,
-   ["floor"]=5749,
+   ["ceiling"]=32458,
+   ["floor"]=31639,
 },
 -- Table: {397}
 {
@@ -4090,9 +4090,9 @@ return {
    ["hasWall"]=true,
    ["wasVisited"]=false,
    ["hasFloor"]=true,
-   ["wall"]=6081,
-   ["ceiling"]=6575,
-   ["floor"]=5750,
+   ["wall"]=31971,
+   ["ceiling"]=32459,
+   ["floor"]=31640,
 },
 -- Table: {398}
 {
@@ -4100,8 +4100,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6576,
-   ["floor"]=6082,
+   ["ceiling"]=32460,
+   ["floor"]=31972,
 },
 -- Table: {399}
 {
@@ -4109,8 +4109,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6577,
-   ["floor"]=6083,
+   ["ceiling"]=32461,
+   ["floor"]=31973,
 },
 -- Table: {400}
 {
@@ -4118,8 +4118,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6578,
-   ["floor"]=6084,
+   ["ceiling"]=32462,
+   ["floor"]=31974,
 },
 -- Table: {401}
 {
@@ -4127,8 +4127,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6579,
-   ["floor"]=6085,
+   ["ceiling"]=32463,
+   ["floor"]=31975,
 },
 -- Table: {402}
 {
@@ -4136,8 +4136,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6580,
-   ["floor"]=6086,
+   ["ceiling"]=32464,
+   ["floor"]=31976,
 },
 -- Table: {403}
 {
@@ -4145,8 +4145,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6581,
-   ["floor"]=6087,
+   ["ceiling"]=32465,
+   ["floor"]=31977,
 },
 -- Table: {404}
 {
@@ -4154,8 +4154,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6582,
-   ["floor"]=6088,
+   ["ceiling"]=32466,
+   ["floor"]=31978,
 },
 -- Table: {405}
 {
@@ -4163,9 +4163,9 @@ return {
    ["hasWall"]=true,
    ["wasVisited"]=false,
    ["hasFloor"]=true,
-   ["wall"]=6089,
-   ["ceiling"]=6583,
-   ["floor"]=5758,
+   ["wall"]=31979,
+   ["ceiling"]=32467,
+   ["floor"]=31648,
 },
 -- Table: {406}
 {
@@ -4173,8 +4173,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6584,
-   ["floor"]=5759,
+   ["ceiling"]=32468,
+   ["floor"]=31649,
 },
 -- Table: {407}
 {
@@ -4182,8 +4182,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6585,
-   ["floor"]=5760,
+   ["ceiling"]=32469,
+   ["floor"]=31650,
 },
 -- Table: {408}
 {
@@ -4191,8 +4191,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6586,
-   ["floor"]=5761,
+   ["ceiling"]=32470,
+   ["floor"]=31651,
 },
 -- Table: {409}
 {
@@ -4200,8 +4200,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6587,
-   ["floor"]=5762,
+   ["ceiling"]=32471,
+   ["floor"]=31652,
 },
 -- Table: {410}
 {
@@ -4209,8 +4209,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6588,
-   ["floor"]=5763,
+   ["ceiling"]=32472,
+   ["floor"]=31653,
 },
 -- Table: {411}
 {
@@ -4218,15 +4218,15 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=false,
    ["wasVisited"]=false,
-   ["ceiling"]=6589,
-   ["wall"]=5764,
+   ["ceiling"]=32473,
+   ["wall"]=31654,
 },
 -- Table: {412}
 {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6590,
+   ["ceiling"]=32474,
    ["wasVisited"]=false,
 },
 -- Table: {413}
@@ -4234,7 +4234,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6591,
+   ["ceiling"]=32475,
    ["wasVisited"]=false,
 },
 -- Table: {414}
@@ -4242,7 +4242,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6592,
+   ["ceiling"]=32476,
    ["wasVisited"]=false,
 },
 -- Table: {415}
@@ -4250,7 +4250,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6593,
+   ["ceiling"]=32477,
    ["wasVisited"]=false,
 },
 -- Table: {416}
@@ -4258,7 +4258,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6594,
+   ["ceiling"]=32478,
    ["wasVisited"]=false,
 },
 -- Table: {417}
@@ -4266,7 +4266,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6595,
+   ["ceiling"]=32479,
    ["wasVisited"]=false,
 },
 -- Table: {418}
@@ -4280,7 +4280,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6596,
+   ["ceiling"]=32480,
    ["wasVisited"]=false,
 },
 -- Table: {420}
@@ -4288,7 +4288,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6597,
+   ["ceiling"]=32481,
    ["wasVisited"]=false,
 },
 -- Table: {421}
@@ -4296,7 +4296,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6598,
+   ["ceiling"]=32482,
    ["wasVisited"]=false,
 },
 -- Table: {422}
@@ -4305,8 +4305,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=false,
    ["wasVisited"]=false,
-   ["ceiling"]=6599,
-   ["wall"]=5765,
+   ["ceiling"]=32483,
+   ["wall"]=31655,
 },
 -- Table: {423}
 {
@@ -4314,8 +4314,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6600,
-   ["floor"]=5766,
+   ["ceiling"]=32484,
+   ["floor"]=31656,
 },
 -- Table: {424}
 {
@@ -4323,8 +4323,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6601,
-   ["floor"]=5767,
+   ["ceiling"]=32485,
+   ["floor"]=31657,
 },
 -- Table: {425}
 {
@@ -4332,8 +4332,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6602,
-   ["floor"]=5768,
+   ["ceiling"]=32486,
+   ["floor"]=31658,
 },
 -- Table: {426}
 {
@@ -4341,8 +4341,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6603,
-   ["floor"]=5769,
+   ["ceiling"]=32487,
+   ["floor"]=31659,
 },
 -- Table: {427}
 {
@@ -4350,8 +4350,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6604,
-   ["floor"]=5770,
+   ["ceiling"]=32488,
+   ["floor"]=31660,
 },
 -- Table: {428}
 {
@@ -4359,9 +4359,9 @@ return {
    ["hasWall"]=true,
    ["wasVisited"]=false,
    ["hasFloor"]=true,
-   ["wall"]=6090,
-   ["ceiling"]=6605,
-   ["floor"]=5771,
+   ["wall"]=31980,
+   ["ceiling"]=32489,
+   ["floor"]=31661,
 },
 -- Table: {429}
 {
@@ -4369,8 +4369,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6606,
-   ["floor"]=6091,
+   ["ceiling"]=32490,
+   ["floor"]=31981,
 },
 -- Table: {430}
 {
@@ -4378,8 +4378,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6607,
-   ["floor"]=6092,
+   ["ceiling"]=32491,
+   ["floor"]=31982,
 },
 -- Table: {431}
 {
@@ -4387,8 +4387,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6608,
-   ["floor"]=6093,
+   ["ceiling"]=32492,
+   ["floor"]=31983,
 },
 -- Table: {432}
 {
@@ -4396,8 +4396,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6609,
-   ["floor"]=6094,
+   ["ceiling"]=32493,
+   ["floor"]=31984,
 },
 -- Table: {433}
 {
@@ -4405,8 +4405,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6610,
-   ["floor"]=6095,
+   ["ceiling"]=32494,
+   ["floor"]=31985,
 },
 -- Table: {434}
 {
@@ -4414,8 +4414,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6611,
-   ["floor"]=6096,
+   ["ceiling"]=32495,
+   ["floor"]=31986,
 },
 -- Table: {435}
 {
@@ -4423,8 +4423,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6612,
-   ["floor"]=6097,
+   ["ceiling"]=32496,
+   ["floor"]=31987,
 },
 -- Table: {436}
 {
@@ -4432,8 +4432,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6613,
-   ["floor"]=6098,
+   ["ceiling"]=32497,
+   ["floor"]=31988,
 },
 -- Table: {437}
 {
@@ -4441,8 +4441,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6614,
-   ["floor"]=6099,
+   ["ceiling"]=32498,
+   ["floor"]=31989,
 },
 -- Table: {438}
 {
@@ -4450,9 +4450,9 @@ return {
    ["hasWall"]=true,
    ["wasVisited"]=false,
    ["hasFloor"]=true,
-   ["wall"]=6100,
-   ["ceiling"]=6615,
-   ["floor"]=5781,
+   ["wall"]=31990,
+   ["ceiling"]=32499,
+   ["floor"]=31671,
 },
 -- Table: {439}
 {
@@ -4460,8 +4460,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6616,
-   ["floor"]=5782,
+   ["ceiling"]=32500,
+   ["floor"]=31672,
 },
 -- Table: {440}
 {
@@ -4469,8 +4469,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6617,
-   ["floor"]=5783,
+   ["ceiling"]=32501,
+   ["floor"]=31673,
 },
 -- Table: {441}
 {
@@ -4478,8 +4478,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6618,
-   ["floor"]=5784,
+   ["ceiling"]=32502,
+   ["floor"]=31674,
 },
 -- Table: {442}
 {
@@ -4487,8 +4487,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6619,
-   ["floor"]=5785,
+   ["ceiling"]=32503,
+   ["floor"]=31675,
 },
 -- Table: {443}
 {
@@ -4496,8 +4496,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6620,
-   ["floor"]=5786,
+   ["ceiling"]=32504,
+   ["floor"]=31676,
 },
 -- Table: {444}
 {
@@ -4505,15 +4505,15 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=false,
    ["wasVisited"]=false,
-   ["ceiling"]=6621,
-   ["wall"]=5787,
+   ["ceiling"]=32505,
+   ["wall"]=31677,
 },
 -- Table: {445}
 {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6622,
+   ["ceiling"]=32506,
    ["wasVisited"]=false,
 },
 -- Table: {446}
@@ -4521,7 +4521,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6623,
+   ["ceiling"]=32507,
    ["wasVisited"]=false,
 },
 -- Table: {447}
@@ -4529,7 +4529,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6624,
+   ["ceiling"]=32508,
    ["wasVisited"]=false,
 },
 -- Table: {448}
@@ -4537,7 +4537,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6625,
+   ["ceiling"]=32509,
    ["wasVisited"]=false,
 },
 -- Table: {449}
@@ -4545,7 +4545,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6626,
+   ["ceiling"]=32510,
    ["wasVisited"]=false,
 },
 -- Table: {450}
@@ -4559,7 +4559,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6627,
+   ["ceiling"]=32511,
    ["wasVisited"]=false,
 },
 -- Table: {452}
@@ -4567,7 +4567,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6628,
+   ["ceiling"]=32512,
    ["wasVisited"]=false,
 },
 -- Table: {453}
@@ -4576,8 +4576,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=false,
    ["wasVisited"]=false,
-   ["ceiling"]=6629,
-   ["wall"]=5788,
+   ["ceiling"]=32513,
+   ["wall"]=31678,
 },
 -- Table: {454}
 {
@@ -4585,8 +4585,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6630,
-   ["floor"]=5789,
+   ["ceiling"]=32514,
+   ["floor"]=31679,
 },
 -- Table: {455}
 {
@@ -4594,8 +4594,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6631,
-   ["floor"]=5790,
+   ["ceiling"]=32515,
+   ["floor"]=31680,
 },
 -- Table: {456}
 {
@@ -4603,8 +4603,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6632,
-   ["floor"]=5791,
+   ["ceiling"]=32516,
+   ["floor"]=31681,
 },
 -- Table: {457}
 {
@@ -4612,8 +4612,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6633,
-   ["floor"]=5792,
+   ["ceiling"]=32517,
+   ["floor"]=31682,
 },
 -- Table: {458}
 {
@@ -4621,8 +4621,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6634,
-   ["floor"]=5793,
+   ["ceiling"]=32518,
+   ["floor"]=31683,
 },
 -- Table: {459}
 {
@@ -4630,9 +4630,9 @@ return {
    ["hasWall"]=true,
    ["wasVisited"]=false,
    ["hasFloor"]=true,
-   ["wall"]=6101,
-   ["ceiling"]=6635,
-   ["floor"]=5794,
+   ["wall"]=31991,
+   ["ceiling"]=32519,
+   ["floor"]=31684,
 },
 -- Table: {460}
 {
@@ -4640,8 +4640,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6636,
-   ["floor"]=6102,
+   ["ceiling"]=32520,
+   ["floor"]=31992,
 },
 -- Table: {461}
 {
@@ -4649,8 +4649,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6637,
-   ["floor"]=6103,
+   ["ceiling"]=32521,
+   ["floor"]=31993,
 },
 -- Table: {462}
 {
@@ -4658,8 +4658,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6638,
-   ["floor"]=6104,
+   ["ceiling"]=32522,
+   ["floor"]=31994,
 },
 -- Table: {463}
 {
@@ -4667,8 +4667,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6639,
-   ["floor"]=6105,
+   ["ceiling"]=32523,
+   ["floor"]=31995,
 },
 -- Table: {464}
 {
@@ -4676,8 +4676,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6640,
-   ["floor"]=6106,
+   ["ceiling"]=32524,
+   ["floor"]=31996,
 },
 -- Table: {465}
 {
@@ -4685,8 +4685,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6641,
-   ["floor"]=6107,
+   ["ceiling"]=32525,
+   ["floor"]=31997,
 },
 -- Table: {466}
 {
@@ -4694,8 +4694,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6642,
-   ["floor"]=6108,
+   ["ceiling"]=32526,
+   ["floor"]=31998,
 },
 -- Table: {467}
 {
@@ -4703,8 +4703,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6643,
-   ["floor"]=6109,
+   ["ceiling"]=32527,
+   ["floor"]=31999,
 },
 -- Table: {468}
 {
@@ -4712,8 +4712,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6644,
-   ["floor"]=6110,
+   ["ceiling"]=32528,
+   ["floor"]=32000,
 },
 -- Table: {469}
 {
@@ -4721,8 +4721,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6645,
-   ["floor"]=6111,
+   ["ceiling"]=32529,
+   ["floor"]=32001,
 },
 -- Table: {470}
 {
@@ -4730,8 +4730,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6646,
-   ["floor"]=6112,
+   ["ceiling"]=32530,
+   ["floor"]=32002,
 },
 -- Table: {471}
 {
@@ -4739,9 +4739,9 @@ return {
    ["hasWall"]=true,
    ["wasVisited"]=false,
    ["hasFloor"]=true,
-   ["wall"]=6113,
-   ["ceiling"]=6647,
-   ["floor"]=5806,
+   ["wall"]=32003,
+   ["ceiling"]=32531,
+   ["floor"]=31696,
 },
 -- Table: {472}
 {
@@ -4749,8 +4749,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6648,
-   ["floor"]=5807,
+   ["ceiling"]=32532,
+   ["floor"]=31697,
 },
 -- Table: {473}
 {
@@ -4758,8 +4758,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6649,
-   ["floor"]=5808,
+   ["ceiling"]=32533,
+   ["floor"]=31698,
 },
 -- Table: {474}
 {
@@ -4767,8 +4767,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6650,
-   ["floor"]=5809,
+   ["ceiling"]=32534,
+   ["floor"]=31699,
 },
 -- Table: {475}
 {
@@ -4776,8 +4776,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6651,
-   ["floor"]=5810,
+   ["ceiling"]=32535,
+   ["floor"]=31700,
 },
 -- Table: {476}
 {
@@ -4785,8 +4785,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6652,
-   ["floor"]=5811,
+   ["ceiling"]=32536,
+   ["floor"]=31701,
 },
 -- Table: {477}
 {
@@ -4794,15 +4794,15 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=false,
    ["wasVisited"]=false,
-   ["ceiling"]=6653,
-   ["wall"]=5812,
+   ["ceiling"]=32537,
+   ["wall"]=31702,
 },
 -- Table: {478}
 {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6654,
+   ["ceiling"]=32538,
    ["wasVisited"]=false,
 },
 -- Table: {479}
@@ -4810,7 +4810,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6655,
+   ["ceiling"]=32539,
    ["wasVisited"]=false,
 },
 -- Table: {480}
@@ -4818,7 +4818,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6656,
+   ["ceiling"]=32540,
    ["wasVisited"]=false,
 },
 -- Table: {481}
@@ -4826,7 +4826,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6657,
+   ["ceiling"]=32541,
    ["wasVisited"]=false,
 },
 -- Table: {482}
@@ -4840,7 +4840,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6658,
+   ["ceiling"]=32542,
    ["wasVisited"]=false,
 },
 -- Table: {484}
@@ -4849,8 +4849,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=false,
    ["wasVisited"]=false,
-   ["ceiling"]=6659,
-   ["wall"]=5813,
+   ["ceiling"]=32543,
+   ["wall"]=31703,
 },
 -- Table: {485}
 {
@@ -4858,8 +4858,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6660,
-   ["floor"]=5814,
+   ["ceiling"]=32544,
+   ["floor"]=31704,
 },
 -- Table: {486}
 {
@@ -4867,8 +4867,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6661,
-   ["floor"]=5815,
+   ["ceiling"]=32545,
+   ["floor"]=31705,
 },
 -- Table: {487}
 {
@@ -4876,8 +4876,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6662,
-   ["floor"]=5816,
+   ["ceiling"]=32546,
+   ["floor"]=31706,
 },
 -- Table: {488}
 {
@@ -4885,8 +4885,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6663,
-   ["floor"]=5817,
+   ["ceiling"]=32547,
+   ["floor"]=31707,
 },
 -- Table: {489}
 {
@@ -4894,8 +4894,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6664,
-   ["floor"]=5818,
+   ["ceiling"]=32548,
+   ["floor"]=31708,
 },
 -- Table: {490}
 {
@@ -4903,9 +4903,9 @@ return {
    ["hasWall"]=true,
    ["wasVisited"]=false,
    ["hasFloor"]=true,
-   ["wall"]=6114,
-   ["ceiling"]=6665,
-   ["floor"]=5819,
+   ["wall"]=32004,
+   ["ceiling"]=32549,
+   ["floor"]=31709,
 },
 -- Table: {491}
 {
@@ -4913,8 +4913,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6666,
-   ["floor"]=6115,
+   ["ceiling"]=32550,
+   ["floor"]=32005,
 },
 -- Table: {492}
 {
@@ -4922,8 +4922,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6667,
-   ["floor"]=6116,
+   ["ceiling"]=32551,
+   ["floor"]=32006,
 },
 -- Table: {493}
 {
@@ -4931,8 +4931,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6668,
-   ["floor"]=6117,
+   ["ceiling"]=32552,
+   ["floor"]=32007,
 },
 -- Table: {494}
 {
@@ -4940,8 +4940,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6669,
-   ["floor"]=6118,
+   ["ceiling"]=32553,
+   ["floor"]=32008,
 },
 -- Table: {495}
 {
@@ -4949,8 +4949,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6670,
-   ["floor"]=6119,
+   ["ceiling"]=32554,
+   ["floor"]=32009,
 },
 -- Table: {496}
 {
@@ -4958,8 +4958,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6671,
-   ["floor"]=6120,
+   ["ceiling"]=32555,
+   ["floor"]=32010,
 },
 -- Table: {497}
 {
@@ -4967,8 +4967,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6672,
-   ["floor"]=6121,
+   ["ceiling"]=32556,
+   ["floor"]=32011,
 },
 -- Table: {498}
 {
@@ -4976,8 +4976,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6673,
-   ["floor"]=6122,
+   ["ceiling"]=32557,
+   ["floor"]=32012,
 },
 -- Table: {499}
 {
@@ -4985,8 +4985,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6674,
-   ["floor"]=6123,
+   ["ceiling"]=32558,
+   ["floor"]=32013,
 },
 -- Table: {500}
 {
@@ -4994,8 +4994,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6675,
-   ["floor"]=6124,
+   ["ceiling"]=32559,
+   ["floor"]=32014,
 },
 -- Table: {501}
 {
@@ -5003,8 +5003,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6676,
-   ["floor"]=6125,
+   ["ceiling"]=32560,
+   ["floor"]=32015,
 },
 -- Table: {502}
 {
@@ -5012,8 +5012,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6677,
-   ["floor"]=6126,
+   ["ceiling"]=32561,
+   ["floor"]=32016,
 },
 -- Table: {503}
 {
@@ -5021,8 +5021,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6678,
-   ["floor"]=6127,
+   ["ceiling"]=32562,
+   ["floor"]=32017,
 },
 -- Table: {504}
 {
@@ -5030,9 +5030,9 @@ return {
    ["hasWall"]=true,
    ["wasVisited"]=false,
    ["hasFloor"]=true,
-   ["wall"]=6128,
-   ["ceiling"]=6679,
-   ["floor"]=5833,
+   ["wall"]=32018,
+   ["ceiling"]=32563,
+   ["floor"]=31723,
 },
 -- Table: {505}
 {
@@ -5040,8 +5040,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6680,
-   ["floor"]=5834,
+   ["ceiling"]=32564,
+   ["floor"]=31724,
 },
 -- Table: {506}
 {
@@ -5049,8 +5049,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6681,
-   ["floor"]=5835,
+   ["ceiling"]=32565,
+   ["floor"]=31725,
 },
 -- Table: {507}
 {
@@ -5058,8 +5058,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6682,
-   ["floor"]=5836,
+   ["ceiling"]=32566,
+   ["floor"]=31726,
 },
 -- Table: {508}
 {
@@ -5067,8 +5067,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6683,
-   ["floor"]=5837,
+   ["ceiling"]=32567,
+   ["floor"]=31727,
 },
 -- Table: {509}
 {
@@ -5076,8 +5076,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6684,
-   ["floor"]=5838,
+   ["ceiling"]=32568,
+   ["floor"]=31728,
 },
 -- Table: {510}
 {
@@ -5085,15 +5085,15 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=false,
    ["wasVisited"]=false,
-   ["ceiling"]=6685,
-   ["wall"]=5839,
+   ["ceiling"]=32569,
+   ["wall"]=31729,
 },
 -- Table: {511}
 {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6686,
+   ["ceiling"]=32570,
    ["wasVisited"]=false,
 },
 -- Table: {512}
@@ -5101,7 +5101,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6687,
+   ["ceiling"]=32571,
    ["wasVisited"]=false,
 },
 -- Table: {513}
@@ -5109,7 +5109,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6688,
+   ["ceiling"]=32572,
    ["wasVisited"]=false,
 },
 -- Table: {514}
@@ -5124,8 +5124,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=false,
    ["wasVisited"]=false,
-   ["ceiling"]=6689,
-   ["wall"]=5840,
+   ["ceiling"]=32573,
+   ["wall"]=31730,
 },
 -- Table: {516}
 {
@@ -5133,8 +5133,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6690,
-   ["floor"]=5841,
+   ["ceiling"]=32574,
+   ["floor"]=31731,
 },
 -- Table: {517}
 {
@@ -5142,8 +5142,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6691,
-   ["floor"]=5842,
+   ["ceiling"]=32575,
+   ["floor"]=31732,
 },
 -- Table: {518}
 {
@@ -5151,8 +5151,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6692,
-   ["floor"]=5843,
+   ["ceiling"]=32576,
+   ["floor"]=31733,
 },
 -- Table: {519}
 {
@@ -5160,8 +5160,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6693,
-   ["floor"]=5844,
+   ["ceiling"]=32577,
+   ["floor"]=31734,
 },
 -- Table: {520}
 {
@@ -5169,8 +5169,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6694,
-   ["floor"]=5845,
+   ["ceiling"]=32578,
+   ["floor"]=31735,
 },
 -- Table: {521}
 {
@@ -5178,9 +5178,9 @@ return {
    ["hasWall"]=true,
    ["wasVisited"]=false,
    ["hasFloor"]=true,
-   ["wall"]=6129,
-   ["ceiling"]=6695,
-   ["floor"]=5846,
+   ["wall"]=32019,
+   ["ceiling"]=32579,
+   ["floor"]=31736,
 },
 -- Table: {522}
 {
@@ -5188,8 +5188,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6696,
-   ["floor"]=6130,
+   ["ceiling"]=32580,
+   ["floor"]=32020,
 },
 -- Table: {523}
 {
@@ -5197,8 +5197,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6697,
-   ["floor"]=6131,
+   ["ceiling"]=32581,
+   ["floor"]=32021,
 },
 -- Table: {524}
 {
@@ -5206,8 +5206,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6698,
-   ["floor"]=6132,
+   ["ceiling"]=32582,
+   ["floor"]=32022,
 },
 -- Table: {525}
 {
@@ -5215,8 +5215,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6699,
-   ["floor"]=6133,
+   ["ceiling"]=32583,
+   ["floor"]=32023,
 },
 -- Table: {526}
 {
@@ -5224,8 +5224,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6700,
-   ["floor"]=6134,
+   ["ceiling"]=32584,
+   ["floor"]=32024,
 },
 -- Table: {527}
 {
@@ -5233,8 +5233,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6701,
-   ["floor"]=6135,
+   ["ceiling"]=32585,
+   ["floor"]=32025,
 },
 -- Table: {528}
 {
@@ -5242,8 +5242,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6702,
-   ["floor"]=6136,
+   ["ceiling"]=32586,
+   ["floor"]=32026,
 },
 -- Table: {529}
 {
@@ -5251,8 +5251,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6703,
-   ["floor"]=6137,
+   ["ceiling"]=32587,
+   ["floor"]=32027,
 },
 -- Table: {530}
 {
@@ -5260,8 +5260,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6704,
-   ["floor"]=6138,
+   ["ceiling"]=32588,
+   ["floor"]=32028,
 },
 -- Table: {531}
 {
@@ -5269,8 +5269,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6705,
-   ["floor"]=6139,
+   ["ceiling"]=32589,
+   ["floor"]=32029,
 },
 -- Table: {532}
 {
@@ -5278,8 +5278,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6706,
-   ["floor"]=6140,
+   ["ceiling"]=32590,
+   ["floor"]=32030,
 },
 -- Table: {533}
 {
@@ -5287,8 +5287,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6707,
-   ["floor"]=6141,
+   ["ceiling"]=32591,
+   ["floor"]=32031,
 },
 -- Table: {534}
 {
@@ -5296,8 +5296,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6708,
-   ["floor"]=6142,
+   ["ceiling"]=32592,
+   ["floor"]=32032,
 },
 -- Table: {535}
 {
@@ -5305,8 +5305,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6709,
-   ["floor"]=6143,
+   ["ceiling"]=32593,
+   ["floor"]=32033,
 },
 -- Table: {536}
 {
@@ -5314,8 +5314,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6710,
-   ["floor"]=6144,
+   ["ceiling"]=32594,
+   ["floor"]=32034,
 },
 -- Table: {537}
 {
@@ -5323,9 +5323,9 @@ return {
    ["hasWall"]=true,
    ["wasVisited"]=false,
    ["hasFloor"]=true,
-   ["wall"]=6145,
-   ["ceiling"]=6711,
-   ["floor"]=5862,
+   ["wall"]=32035,
+   ["ceiling"]=32595,
+   ["floor"]=31752,
 },
 -- Table: {538}
 {
@@ -5333,8 +5333,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6712,
-   ["floor"]=5863,
+   ["ceiling"]=32596,
+   ["floor"]=31753,
 },
 -- Table: {539}
 {
@@ -5342,8 +5342,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6713,
-   ["floor"]=5864,
+   ["ceiling"]=32597,
+   ["floor"]=31754,
 },
 -- Table: {540}
 {
@@ -5351,8 +5351,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6714,
-   ["floor"]=5865,
+   ["ceiling"]=32598,
+   ["floor"]=31755,
 },
 -- Table: {541}
 {
@@ -5360,8 +5360,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6715,
-   ["floor"]=5866,
+   ["ceiling"]=32599,
+   ["floor"]=31756,
 },
 -- Table: {542}
 {
@@ -5369,8 +5369,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6716,
-   ["floor"]=5867,
+   ["ceiling"]=32600,
+   ["floor"]=31757,
 },
 -- Table: {543}
 {
@@ -5378,15 +5378,15 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=false,
    ["wasVisited"]=false,
-   ["ceiling"]=6717,
-   ["wall"]=5868,
+   ["ceiling"]=32601,
+   ["wall"]=31758,
 },
 -- Table: {544}
 {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6718,
+   ["ceiling"]=32602,
    ["wasVisited"]=false,
 },
 -- Table: {545}
@@ -5394,7 +5394,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6719,
+   ["ceiling"]=32603,
    ["wasVisited"]=false,
 },
 -- Table: {546}
@@ -5408,7 +5408,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6720,
+   ["ceiling"]=32604,
    ["wasVisited"]=false,
 },
 -- Table: {548}
@@ -5417,8 +5417,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=false,
    ["wasVisited"]=false,
-   ["ceiling"]=6721,
-   ["wall"]=5869,
+   ["ceiling"]=32605,
+   ["wall"]=31759,
 },
 -- Table: {549}
 {
@@ -5426,8 +5426,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6722,
-   ["floor"]=5870,
+   ["ceiling"]=32606,
+   ["floor"]=31760,
 },
 -- Table: {550}
 {
@@ -5435,8 +5435,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6723,
-   ["floor"]=5871,
+   ["ceiling"]=32607,
+   ["floor"]=31761,
 },
 -- Table: {551}
 {
@@ -5444,8 +5444,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6724,
-   ["floor"]=5872,
+   ["ceiling"]=32608,
+   ["floor"]=31762,
 },
 -- Table: {552}
 {
@@ -5453,8 +5453,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6725,
-   ["floor"]=5873,
+   ["ceiling"]=32609,
+   ["floor"]=31763,
 },
 -- Table: {553}
 {
@@ -5462,8 +5462,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6726,
-   ["floor"]=5874,
+   ["ceiling"]=32610,
+   ["floor"]=31764,
 },
 -- Table: {554}
 {
@@ -5471,9 +5471,9 @@ return {
    ["hasWall"]=true,
    ["wasVisited"]=false,
    ["hasFloor"]=true,
-   ["wall"]=6146,
-   ["ceiling"]=6727,
-   ["floor"]=5875,
+   ["wall"]=32036,
+   ["ceiling"]=32611,
+   ["floor"]=31765,
 },
 -- Table: {555}
 {
@@ -5481,8 +5481,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6728,
-   ["floor"]=6147,
+   ["ceiling"]=32612,
+   ["floor"]=32037,
 },
 -- Table: {556}
 {
@@ -5490,8 +5490,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6729,
-   ["floor"]=6148,
+   ["ceiling"]=32613,
+   ["floor"]=32038,
 },
 -- Table: {557}
 {
@@ -5499,8 +5499,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6730,
-   ["floor"]=6149,
+   ["ceiling"]=32614,
+   ["floor"]=32039,
 },
 -- Table: {558}
 {
@@ -5508,8 +5508,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6731,
-   ["floor"]=6150,
+   ["ceiling"]=32615,
+   ["floor"]=32040,
 },
 -- Table: {559}
 {
@@ -5517,8 +5517,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6732,
-   ["floor"]=6151,
+   ["ceiling"]=32616,
+   ["floor"]=32041,
 },
 -- Table: {560}
 {
@@ -5526,8 +5526,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6733,
-   ["floor"]=6152,
+   ["ceiling"]=32617,
+   ["floor"]=32042,
 },
 -- Table: {561}
 {
@@ -5535,8 +5535,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6734,
-   ["floor"]=6153,
+   ["ceiling"]=32618,
+   ["floor"]=32043,
 },
 -- Table: {562}
 {
@@ -5544,8 +5544,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6735,
-   ["floor"]=6154,
+   ["ceiling"]=32619,
+   ["floor"]=32044,
 },
 -- Table: {563}
 {
@@ -5553,8 +5553,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6736,
-   ["floor"]=6155,
+   ["ceiling"]=32620,
+   ["floor"]=32045,
 },
 -- Table: {564}
 {
@@ -5562,8 +5562,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6737,
-   ["floor"]=6156,
+   ["ceiling"]=32621,
+   ["floor"]=32046,
 },
 -- Table: {565}
 {
@@ -5571,8 +5571,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6738,
-   ["floor"]=6157,
+   ["ceiling"]=32622,
+   ["floor"]=32047,
 },
 -- Table: {566}
 {
@@ -5580,8 +5580,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6739,
-   ["floor"]=6158,
+   ["ceiling"]=32623,
+   ["floor"]=32048,
 },
 -- Table: {567}
 {
@@ -5589,8 +5589,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6740,
-   ["floor"]=6159,
+   ["ceiling"]=32624,
+   ["floor"]=32049,
 },
 -- Table: {568}
 {
@@ -5598,9 +5598,9 @@ return {
    ["hasWall"]=true,
    ["wasVisited"]=false,
    ["hasFloor"]=true,
-   ["wall"]=6160,
-   ["ceiling"]=6741,
-   ["floor"]=5889,
+   ["wall"]=32050,
+   ["ceiling"]=32625,
+   ["floor"]=31779,
 },
 -- Table: {569}
 {
@@ -5608,8 +5608,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6742,
-   ["floor"]=5890,
+   ["ceiling"]=32626,
+   ["floor"]=31780,
 },
 -- Table: {570}
 {
@@ -5617,8 +5617,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6743,
-   ["floor"]=5891,
+   ["ceiling"]=32627,
+   ["floor"]=31781,
 },
 -- Table: {571}
 {
@@ -5626,8 +5626,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6744,
-   ["floor"]=5892,
+   ["ceiling"]=32628,
+   ["floor"]=31782,
 },
 -- Table: {572}
 {
@@ -5635,8 +5635,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6745,
-   ["floor"]=5893,
+   ["ceiling"]=32629,
+   ["floor"]=31783,
 },
 -- Table: {573}
 {
@@ -5644,8 +5644,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6746,
-   ["floor"]=5894,
+   ["ceiling"]=32630,
+   ["floor"]=31784,
 },
 -- Table: {574}
 {
@@ -5653,15 +5653,15 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=false,
    ["wasVisited"]=false,
-   ["ceiling"]=6747,
-   ["wall"]=5895,
+   ["ceiling"]=32631,
+   ["wall"]=31785,
 },
 -- Table: {575}
 {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6748,
+   ["ceiling"]=32632,
    ["wasVisited"]=false,
 },
 -- Table: {576}
@@ -5669,7 +5669,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6749,
+   ["ceiling"]=32633,
    ["wasVisited"]=false,
 },
 -- Table: {577}
@@ -5677,7 +5677,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6750,
+   ["ceiling"]=32634,
    ["wasVisited"]=false,
 },
 -- Table: {578}
@@ -5691,7 +5691,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6751,
+   ["ceiling"]=32635,
    ["wasVisited"]=false,
 },
 -- Table: {580}
@@ -5699,7 +5699,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6752,
+   ["ceiling"]=32636,
    ["wasVisited"]=false,
 },
 -- Table: {581}
@@ -5708,8 +5708,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=false,
    ["wasVisited"]=false,
-   ["ceiling"]=6753,
-   ["wall"]=5896,
+   ["ceiling"]=32637,
+   ["wall"]=31786,
 },
 -- Table: {582}
 {
@@ -5717,8 +5717,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6754,
-   ["floor"]=5897,
+   ["ceiling"]=32638,
+   ["floor"]=31787,
 },
 -- Table: {583}
 {
@@ -5726,8 +5726,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6755,
-   ["floor"]=5898,
+   ["ceiling"]=32639,
+   ["floor"]=31788,
 },
 -- Table: {584}
 {
@@ -5735,8 +5735,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6756,
-   ["floor"]=5899,
+   ["ceiling"]=32640,
+   ["floor"]=31789,
 },
 -- Table: {585}
 {
@@ -5744,8 +5744,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6757,
-   ["floor"]=5900,
+   ["ceiling"]=32641,
+   ["floor"]=31790,
 },
 -- Table: {586}
 {
@@ -5753,8 +5753,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6758,
-   ["floor"]=5901,
+   ["ceiling"]=32642,
+   ["floor"]=31791,
 },
 -- Table: {587}
 {
@@ -5762,9 +5762,9 @@ return {
    ["hasWall"]=true,
    ["wasVisited"]=false,
    ["hasFloor"]=true,
-   ["wall"]=6161,
-   ["ceiling"]=6759,
-   ["floor"]=5902,
+   ["wall"]=32051,
+   ["ceiling"]=32643,
+   ["floor"]=31792,
 },
 -- Table: {588}
 {
@@ -5772,8 +5772,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6760,
-   ["floor"]=6162,
+   ["ceiling"]=32644,
+   ["floor"]=32052,
 },
 -- Table: {589}
 {
@@ -5781,8 +5781,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6761,
-   ["floor"]=6163,
+   ["ceiling"]=32645,
+   ["floor"]=32053,
 },
 -- Table: {590}
 {
@@ -5790,8 +5790,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6762,
-   ["floor"]=6164,
+   ["ceiling"]=32646,
+   ["floor"]=32054,
 },
 -- Table: {591}
 {
@@ -5799,8 +5799,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6763,
-   ["floor"]=6165,
+   ["ceiling"]=32647,
+   ["floor"]=32055,
 },
 -- Table: {592}
 {
@@ -5808,8 +5808,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6764,
-   ["floor"]=6166,
+   ["ceiling"]=32648,
+   ["floor"]=32056,
 },
 -- Table: {593}
 {
@@ -5817,8 +5817,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6765,
-   ["floor"]=6167,
+   ["ceiling"]=32649,
+   ["floor"]=32057,
 },
 -- Table: {594}
 {
@@ -5826,8 +5826,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6766,
-   ["floor"]=6168,
+   ["ceiling"]=32650,
+   ["floor"]=32058,
 },
 -- Table: {595}
 {
@@ -5835,8 +5835,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6767,
-   ["floor"]=6169,
+   ["ceiling"]=32651,
+   ["floor"]=32059,
 },
 -- Table: {596}
 {
@@ -5844,8 +5844,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6768,
-   ["floor"]=6170,
+   ["ceiling"]=32652,
+   ["floor"]=32060,
 },
 -- Table: {597}
 {
@@ -5853,8 +5853,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6769,
-   ["floor"]=6171,
+   ["ceiling"]=32653,
+   ["floor"]=32061,
 },
 -- Table: {598}
 {
@@ -5862,8 +5862,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6770,
-   ["floor"]=6172,
+   ["ceiling"]=32654,
+   ["floor"]=32062,
 },
 -- Table: {599}
 {
@@ -5871,9 +5871,9 @@ return {
    ["hasWall"]=true,
    ["wasVisited"]=false,
    ["hasFloor"]=true,
-   ["wall"]=6173,
-   ["ceiling"]=6771,
-   ["floor"]=5914,
+   ["wall"]=32063,
+   ["ceiling"]=32655,
+   ["floor"]=31804,
 },
 -- Table: {600}
 {
@@ -5881,8 +5881,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6772,
-   ["floor"]=5915,
+   ["ceiling"]=32656,
+   ["floor"]=31805,
 },
 -- Table: {601}
 {
@@ -5890,8 +5890,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6773,
-   ["floor"]=5916,
+   ["ceiling"]=32657,
+   ["floor"]=31806,
 },
 -- Table: {602}
 {
@@ -5899,8 +5899,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6774,
-   ["floor"]=5917,
+   ["ceiling"]=32658,
+   ["floor"]=31807,
 },
 -- Table: {603}
 {
@@ -5908,8 +5908,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6775,
-   ["floor"]=5918,
+   ["ceiling"]=32659,
+   ["floor"]=31808,
 },
 -- Table: {604}
 {
@@ -5917,8 +5917,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6776,
-   ["floor"]=5919,
+   ["ceiling"]=32660,
+   ["floor"]=31809,
 },
 -- Table: {605}
 {
@@ -5926,15 +5926,15 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=false,
    ["wasVisited"]=false,
-   ["ceiling"]=6777,
-   ["wall"]=5920,
+   ["ceiling"]=32661,
+   ["wall"]=31810,
 },
 -- Table: {606}
 {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6778,
+   ["ceiling"]=32662,
    ["wasVisited"]=false,
 },
 -- Table: {607}
@@ -5942,7 +5942,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6779,
+   ["ceiling"]=32663,
    ["wasVisited"]=false,
 },
 -- Table: {608}
@@ -5950,7 +5950,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6780,
+   ["ceiling"]=32664,
    ["wasVisited"]=false,
 },
 -- Table: {609}
@@ -5958,7 +5958,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6781,
+   ["ceiling"]=32665,
    ["wasVisited"]=false,
 },
 -- Table: {610}
@@ -5972,7 +5972,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6782,
+   ["ceiling"]=32666,
    ["wasVisited"]=false,
 },
 -- Table: {612}
@@ -5980,7 +5980,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6783,
+   ["ceiling"]=32667,
    ["wasVisited"]=false,
 },
 -- Table: {613}
@@ -5988,7 +5988,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6784,
+   ["ceiling"]=32668,
    ["wasVisited"]=false,
 },
 -- Table: {614}
@@ -5997,8 +5997,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=false,
    ["wasVisited"]=false,
-   ["ceiling"]=6785,
-   ["wall"]=5921,
+   ["ceiling"]=32669,
+   ["wall"]=31811,
 },
 -- Table: {615}
 {
@@ -6006,8 +6006,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6786,
-   ["floor"]=5922,
+   ["ceiling"]=32670,
+   ["floor"]=31812,
 },
 -- Table: {616}
 {
@@ -6015,8 +6015,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6787,
-   ["floor"]=5923,
+   ["ceiling"]=32671,
+   ["floor"]=31813,
 },
 -- Table: {617}
 {
@@ -6024,8 +6024,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6788,
-   ["floor"]=5924,
+   ["ceiling"]=32672,
+   ["floor"]=31814,
 },
 -- Table: {618}
 {
@@ -6033,8 +6033,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6789,
-   ["floor"]=5925,
+   ["ceiling"]=32673,
+   ["floor"]=31815,
 },
 -- Table: {619}
 {
@@ -6042,8 +6042,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6790,
-   ["floor"]=5926,
+   ["ceiling"]=32674,
+   ["floor"]=31816,
 },
 -- Table: {620}
 {
@@ -6051,9 +6051,9 @@ return {
    ["hasWall"]=true,
    ["wasVisited"]=false,
    ["hasFloor"]=true,
-   ["wall"]=6174,
-   ["ceiling"]=6791,
-   ["floor"]=5927,
+   ["wall"]=32064,
+   ["ceiling"]=32675,
+   ["floor"]=31817,
 },
 -- Table: {621}
 {
@@ -6061,8 +6061,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6792,
-   ["floor"]=6175,
+   ["ceiling"]=32676,
+   ["floor"]=32065,
 },
 -- Table: {622}
 {
@@ -6070,8 +6070,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6793,
-   ["floor"]=6176,
+   ["ceiling"]=32677,
+   ["floor"]=32066,
 },
 -- Table: {623}
 {
@@ -6079,8 +6079,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6794,
-   ["floor"]=6177,
+   ["ceiling"]=32678,
+   ["floor"]=32067,
 },
 -- Table: {624}
 {
@@ -6088,8 +6088,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6795,
-   ["floor"]=6178,
+   ["ceiling"]=32679,
+   ["floor"]=32068,
 },
 -- Table: {625}
 {
@@ -6097,8 +6097,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6796,
-   ["floor"]=6179,
+   ["ceiling"]=32680,
+   ["floor"]=32069,
 },
 -- Table: {626}
 {
@@ -6106,8 +6106,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6797,
-   ["floor"]=6180,
+   ["ceiling"]=32681,
+   ["floor"]=32070,
 },
 -- Table: {627}
 {
@@ -6115,8 +6115,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6798,
-   ["floor"]=6181,
+   ["ceiling"]=32682,
+   ["floor"]=32071,
 },
 -- Table: {628}
 {
@@ -6124,8 +6124,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6799,
-   ["floor"]=6182,
+   ["ceiling"]=32683,
+   ["floor"]=32072,
 },
 -- Table: {629}
 {
@@ -6133,8 +6133,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6800,
-   ["floor"]=6183,
+   ["ceiling"]=32684,
+   ["floor"]=32073,
 },
 -- Table: {630}
 {
@@ -6142,9 +6142,9 @@ return {
    ["hasWall"]=true,
    ["wasVisited"]=false,
    ["hasFloor"]=true,
-   ["wall"]=6184,
-   ["ceiling"]=6801,
-   ["floor"]=5937,
+   ["wall"]=32074,
+   ["ceiling"]=32685,
+   ["floor"]=31827,
 },
 -- Table: {631}
 {
@@ -6152,8 +6152,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6802,
-   ["floor"]=5938,
+   ["ceiling"]=32686,
+   ["floor"]=31828,
 },
 -- Table: {632}
 {
@@ -6161,8 +6161,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6803,
-   ["floor"]=5939,
+   ["ceiling"]=32687,
+   ["floor"]=31829,
 },
 -- Table: {633}
 {
@@ -6170,8 +6170,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6804,
-   ["floor"]=5940,
+   ["ceiling"]=32688,
+   ["floor"]=31830,
 },
 -- Table: {634}
 {
@@ -6179,8 +6179,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6805,
-   ["floor"]=5941,
+   ["ceiling"]=32689,
+   ["floor"]=31831,
 },
 -- Table: {635}
 {
@@ -6188,8 +6188,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6806,
-   ["floor"]=5942,
+   ["ceiling"]=32690,
+   ["floor"]=31832,
 },
 -- Table: {636}
 {
@@ -6197,15 +6197,15 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=false,
    ["wasVisited"]=false,
-   ["ceiling"]=6807,
-   ["wall"]=5943,
+   ["ceiling"]=32691,
+   ["wall"]=31833,
 },
 -- Table: {637}
 {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6808,
+   ["ceiling"]=32692,
    ["wasVisited"]=false,
 },
 -- Table: {638}
@@ -6213,7 +6213,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6809,
+   ["ceiling"]=32693,
    ["wasVisited"]=false,
 },
 -- Table: {639}
@@ -6221,7 +6221,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6810,
+   ["ceiling"]=32694,
    ["wasVisited"]=false,
 },
 -- Table: {640}
@@ -6229,7 +6229,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6811,
+   ["ceiling"]=32695,
    ["wasVisited"]=false,
 },
 -- Table: {641}
@@ -6237,7 +6237,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6812,
+   ["ceiling"]=32696,
    ["wasVisited"]=false,
 },
 -- Table: {642}
@@ -6251,7 +6251,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6813,
+   ["ceiling"]=32697,
    ["wasVisited"]=false,
 },
 -- Table: {644}
@@ -6259,7 +6259,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6814,
+   ["ceiling"]=32698,
    ["wasVisited"]=false,
 },
 -- Table: {645}
@@ -6267,7 +6267,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6815,
+   ["ceiling"]=32699,
    ["wasVisited"]=false,
 },
 -- Table: {646}
@@ -6275,7 +6275,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6816,
+   ["ceiling"]=32700,
    ["wasVisited"]=false,
 },
 -- Table: {647}
@@ -6284,8 +6284,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=false,
    ["wasVisited"]=false,
-   ["ceiling"]=6817,
-   ["wall"]=5944,
+   ["ceiling"]=32701,
+   ["wall"]=31834,
 },
 -- Table: {648}
 {
@@ -6293,8 +6293,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6818,
-   ["floor"]=5945,
+   ["ceiling"]=32702,
+   ["floor"]=31835,
 },
 -- Table: {649}
 {
@@ -6302,8 +6302,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6819,
-   ["floor"]=5946,
+   ["ceiling"]=32703,
+   ["floor"]=31836,
 },
 -- Table: {650}
 {
@@ -6311,8 +6311,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6820,
-   ["floor"]=5947,
+   ["ceiling"]=32704,
+   ["floor"]=31837,
 },
 -- Table: {651}
 {
@@ -6320,8 +6320,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6821,
-   ["floor"]=5948,
+   ["ceiling"]=32705,
+   ["floor"]=31838,
 },
 -- Table: {652}
 {
@@ -6329,8 +6329,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6822,
-   ["floor"]=5949,
+   ["ceiling"]=32706,
+   ["floor"]=31839,
 },
 -- Table: {653}
 {
@@ -6338,9 +6338,9 @@ return {
    ["hasWall"]=true,
    ["wasVisited"]=false,
    ["hasFloor"]=true,
-   ["wall"]=6185,
-   ["ceiling"]=6823,
-   ["floor"]=5950,
+   ["wall"]=32075,
+   ["ceiling"]=32707,
+   ["floor"]=31840,
 },
 -- Table: {654}
 {
@@ -6348,8 +6348,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6824,
-   ["floor"]=6186,
+   ["ceiling"]=32708,
+   ["floor"]=32076,
 },
 -- Table: {655}
 {
@@ -6357,8 +6357,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6825,
-   ["floor"]=6187,
+   ["ceiling"]=32709,
+   ["floor"]=32077,
 },
 -- Table: {656}
 {
@@ -6366,8 +6366,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6826,
-   ["floor"]=6188,
+   ["ceiling"]=32710,
+   ["floor"]=32078,
 },
 -- Table: {657}
 {
@@ -6375,8 +6375,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6827,
-   ["floor"]=6189,
+   ["ceiling"]=32711,
+   ["floor"]=32079,
 },
 -- Table: {658}
 {
@@ -6384,8 +6384,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6828,
-   ["floor"]=6190,
+   ["ceiling"]=32712,
+   ["floor"]=32080,
 },
 -- Table: {659}
 {
@@ -6393,8 +6393,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6829,
-   ["floor"]=6191,
+   ["ceiling"]=32713,
+   ["floor"]=32081,
 },
 -- Table: {660}
 {
@@ -6402,8 +6402,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6830,
-   ["floor"]=6192,
+   ["ceiling"]=32714,
+   ["floor"]=32082,
 },
 -- Table: {661}
 {
@@ -6411,9 +6411,9 @@ return {
    ["hasWall"]=true,
    ["wasVisited"]=false,
    ["hasFloor"]=true,
-   ["wall"]=6193,
-   ["ceiling"]=6831,
-   ["floor"]=5958,
+   ["wall"]=32083,
+   ["ceiling"]=32715,
+   ["floor"]=31848,
 },
 -- Table: {662}
 {
@@ -6421,8 +6421,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6832,
-   ["floor"]=5959,
+   ["ceiling"]=32716,
+   ["floor"]=31849,
 },
 -- Table: {663}
 {
@@ -6430,8 +6430,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6833,
-   ["floor"]=5960,
+   ["ceiling"]=32717,
+   ["floor"]=31850,
 },
 -- Table: {664}
 {
@@ -6439,8 +6439,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6834,
-   ["floor"]=5961,
+   ["ceiling"]=32718,
+   ["floor"]=31851,
 },
 -- Table: {665}
 {
@@ -6448,8 +6448,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6835,
-   ["floor"]=5962,
+   ["ceiling"]=32719,
+   ["floor"]=31852,
 },
 -- Table: {666}
 {
@@ -6457,8 +6457,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6836,
-   ["floor"]=5963,
+   ["ceiling"]=32720,
+   ["floor"]=31853,
 },
 -- Table: {667}
 {
@@ -6466,15 +6466,15 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=false,
    ["wasVisited"]=false,
-   ["ceiling"]=6837,
-   ["wall"]=5964,
+   ["ceiling"]=32721,
+   ["wall"]=31854,
 },
 -- Table: {668}
 {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6838,
+   ["ceiling"]=32722,
    ["wasVisited"]=false,
 },
 -- Table: {669}
@@ -6482,7 +6482,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6839,
+   ["ceiling"]=32723,
    ["wasVisited"]=false,
 },
 -- Table: {670}
@@ -6490,7 +6490,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6840,
+   ["ceiling"]=32724,
    ["wasVisited"]=false,
 },
 -- Table: {671}
@@ -6498,7 +6498,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6841,
+   ["ceiling"]=32725,
    ["wasVisited"]=false,
 },
 -- Table: {672}
@@ -6506,7 +6506,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6842,
+   ["ceiling"]=32726,
    ["wasVisited"]=false,
 },
 -- Table: {673}
@@ -6514,7 +6514,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6843,
+   ["ceiling"]=32727,
    ["wasVisited"]=false,
 },
 -- Table: {674}
@@ -6528,7 +6528,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6844,
+   ["ceiling"]=32728,
    ["wasVisited"]=false,
 },
 -- Table: {676}
@@ -6536,7 +6536,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6845,
+   ["ceiling"]=32729,
    ["wasVisited"]=false,
 },
 -- Table: {677}
@@ -6544,7 +6544,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6846,
+   ["ceiling"]=32730,
    ["wasVisited"]=false,
 },
 -- Table: {678}
@@ -6552,7 +6552,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6847,
+   ["ceiling"]=32731,
    ["wasVisited"]=false,
 },
 -- Table: {679}
@@ -6560,7 +6560,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6848,
+   ["ceiling"]=32732,
    ["wasVisited"]=false,
 },
 -- Table: {680}
@@ -6569,8 +6569,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=false,
    ["wasVisited"]=false,
-   ["ceiling"]=6849,
-   ["wall"]=5965,
+   ["ceiling"]=32733,
+   ["wall"]=31855,
 },
 -- Table: {681}
 {
@@ -6578,8 +6578,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6850,
-   ["floor"]=5966,
+   ["ceiling"]=32734,
+   ["floor"]=31856,
 },
 -- Table: {682}
 {
@@ -6587,8 +6587,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6851,
-   ["floor"]=5967,
+   ["ceiling"]=32735,
+   ["floor"]=31857,
 },
 -- Table: {683}
 {
@@ -6596,8 +6596,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6852,
-   ["floor"]=5968,
+   ["ceiling"]=32736,
+   ["floor"]=31858,
 },
 -- Table: {684}
 {
@@ -6605,8 +6605,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6853,
-   ["floor"]=5969,
+   ["ceiling"]=32737,
+   ["floor"]=31859,
 },
 -- Table: {685}
 {
@@ -6614,8 +6614,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6854,
-   ["floor"]=5970,
+   ["ceiling"]=32738,
+   ["floor"]=31860,
 },
 -- Table: {686}
 {
@@ -6623,9 +6623,9 @@ return {
    ["hasWall"]=true,
    ["wasVisited"]=false,
    ["hasFloor"]=true,
-   ["wall"]=6194,
-   ["ceiling"]=6855,
-   ["floor"]=5971,
+   ["wall"]=32084,
+   ["ceiling"]=32739,
+   ["floor"]=31861,
 },
 -- Table: {687}
 {
@@ -6633,8 +6633,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6856,
-   ["floor"]=6195,
+   ["ceiling"]=32740,
+   ["floor"]=32085,
 },
 -- Table: {688}
 {
@@ -6642,8 +6642,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6857,
-   ["floor"]=6196,
+   ["ceiling"]=32741,
+   ["floor"]=32086,
 },
 -- Table: {689}
 {
@@ -6651,8 +6651,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6858,
-   ["floor"]=6197,
+   ["ceiling"]=32742,
+   ["floor"]=32087,
 },
 -- Table: {690}
 {
@@ -6660,8 +6660,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6859,
-   ["floor"]=6198,
+   ["ceiling"]=32743,
+   ["floor"]=32088,
 },
 -- Table: {691}
 {
@@ -6669,8 +6669,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6860,
-   ["floor"]=6199,
+   ["ceiling"]=32744,
+   ["floor"]=32089,
 },
 -- Table: {692}
 {
@@ -6678,9 +6678,9 @@ return {
    ["hasWall"]=true,
    ["wasVisited"]=false,
    ["hasFloor"]=true,
-   ["wall"]=6200,
-   ["ceiling"]=6861,
-   ["floor"]=5977,
+   ["wall"]=32090,
+   ["ceiling"]=32745,
+   ["floor"]=31867,
 },
 -- Table: {693}
 {
@@ -6688,8 +6688,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6862,
-   ["floor"]=5978,
+   ["ceiling"]=32746,
+   ["floor"]=31868,
 },
 -- Table: {694}
 {
@@ -6697,8 +6697,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6863,
-   ["floor"]=5979,
+   ["ceiling"]=32747,
+   ["floor"]=31869,
 },
 -- Table: {695}
 {
@@ -6706,8 +6706,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6864,
-   ["floor"]=5980,
+   ["ceiling"]=32748,
+   ["floor"]=31870,
 },
 -- Table: {696}
 {
@@ -6715,8 +6715,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6865,
-   ["floor"]=5981,
+   ["ceiling"]=32749,
+   ["floor"]=31871,
 },
 -- Table: {697}
 {
@@ -6724,8 +6724,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6866,
-   ["floor"]=5982,
+   ["ceiling"]=32750,
+   ["floor"]=31872,
 },
 -- Table: {698}
 {
@@ -6733,15 +6733,15 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=false,
    ["wasVisited"]=false,
-   ["ceiling"]=6867,
-   ["wall"]=5983,
+   ["ceiling"]=32751,
+   ["wall"]=31873,
 },
 -- Table: {699}
 {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6868,
+   ["ceiling"]=32752,
    ["wasVisited"]=false,
 },
 -- Table: {700}
@@ -6749,7 +6749,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6869,
+   ["ceiling"]=32753,
    ["wasVisited"]=false,
 },
 -- Table: {701}
@@ -6757,7 +6757,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6870,
+   ["ceiling"]=32754,
    ["wasVisited"]=false,
 },
 -- Table: {702}
@@ -6765,7 +6765,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6871,
+   ["ceiling"]=32755,
    ["wasVisited"]=false,
 },
 -- Table: {703}
@@ -6773,7 +6773,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6872,
+   ["ceiling"]=32756,
    ["wasVisited"]=false,
 },
 -- Table: {704}
@@ -6781,7 +6781,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6873,
+   ["ceiling"]=32757,
    ["wasVisited"]=false,
 },
 -- Table: {705}
@@ -6789,7 +6789,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6874,
+   ["ceiling"]=32758,
    ["wasVisited"]=false,
 },
 -- Table: {706}
@@ -6803,7 +6803,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6875,
+   ["ceiling"]=32759,
    ["wasVisited"]=false,
 },
 -- Table: {708}
@@ -6811,7 +6811,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6876,
+   ["ceiling"]=32760,
    ["wasVisited"]=false,
 },
 -- Table: {709}
@@ -6819,7 +6819,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6877,
+   ["ceiling"]=32761,
    ["wasVisited"]=false,
 },
 -- Table: {710}
@@ -6827,7 +6827,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6878,
+   ["ceiling"]=32762,
    ["wasVisited"]=false,
 },
 -- Table: {711}
@@ -6835,7 +6835,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6879,
+   ["ceiling"]=32763,
    ["wasVisited"]=false,
 },
 -- Table: {712}
@@ -6843,7 +6843,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6880,
+   ["ceiling"]=32764,
    ["wasVisited"]=false,
 },
 -- Table: {713}
@@ -6852,8 +6852,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=false,
    ["wasVisited"]=false,
-   ["ceiling"]=6881,
-   ["wall"]=5984,
+   ["ceiling"]=32765,
+   ["wall"]=31874,
 },
 -- Table: {714}
 {
@@ -6861,8 +6861,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6882,
-   ["floor"]=5985,
+   ["ceiling"]=32766,
+   ["floor"]=31875,
 },
 -- Table: {715}
 {
@@ -6870,8 +6870,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6883,
-   ["floor"]=5986,
+   ["ceiling"]=32767,
+   ["floor"]=31876,
 },
 -- Table: {716}
 {
@@ -6879,8 +6879,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6884,
-   ["floor"]=5987,
+   ["ceiling"]=32768,
+   ["floor"]=31877,
 },
 -- Table: {717}
 {
@@ -6888,8 +6888,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6885,
-   ["floor"]=5988,
+   ["ceiling"]=32769,
+   ["floor"]=31878,
 },
 -- Table: {718}
 {
@@ -6897,8 +6897,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6886,
-   ["floor"]=5989,
+   ["ceiling"]=32770,
+   ["floor"]=31879,
 },
 -- Table: {719}
 {
@@ -6906,9 +6906,9 @@ return {
    ["hasWall"]=true,
    ["wasVisited"]=false,
    ["hasFloor"]=true,
-   ["wall"]=6201,
-   ["ceiling"]=6887,
-   ["floor"]=5990,
+   ["wall"]=32091,
+   ["ceiling"]=32771,
+   ["floor"]=31880,
 },
 -- Table: {720}
 {
@@ -6916,8 +6916,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6888,
-   ["floor"]=6202,
+   ["ceiling"]=32772,
+   ["floor"]=32092,
 },
 -- Table: {721}
 {
@@ -6925,8 +6925,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6889,
-   ["floor"]=6203,
+   ["ceiling"]=32773,
+   ["floor"]=32093,
 },
 -- Table: {722}
 {
@@ -6934,8 +6934,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6890,
-   ["floor"]=6204,
+   ["ceiling"]=32774,
+   ["floor"]=32094,
 },
 -- Table: {723}
 {
@@ -6943,9 +6943,9 @@ return {
    ["hasWall"]=true,
    ["wasVisited"]=false,
    ["hasFloor"]=true,
-   ["wall"]=6205,
-   ["ceiling"]=6891,
-   ["floor"]=5994,
+   ["wall"]=32095,
+   ["ceiling"]=32775,
+   ["floor"]=31884,
 },
 -- Table: {724}
 {
@@ -6953,8 +6953,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6892,
-   ["floor"]=5995,
+   ["ceiling"]=32776,
+   ["floor"]=31885,
 },
 -- Table: {725}
 {
@@ -6962,8 +6962,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6893,
-   ["floor"]=5996,
+   ["ceiling"]=32777,
+   ["floor"]=31886,
 },
 -- Table: {726}
 {
@@ -6971,8 +6971,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6894,
-   ["floor"]=5997,
+   ["ceiling"]=32778,
+   ["floor"]=31887,
 },
 -- Table: {727}
 {
@@ -6980,8 +6980,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6895,
-   ["floor"]=5998,
+   ["ceiling"]=32779,
+   ["floor"]=31888,
 },
 -- Table: {728}
 {
@@ -6989,8 +6989,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6896,
-   ["floor"]=5999,
+   ["ceiling"]=32780,
+   ["floor"]=31889,
 },
 -- Table: {729}
 {
@@ -6998,15 +6998,15 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=false,
    ["wasVisited"]=false,
-   ["ceiling"]=6897,
-   ["wall"]=6000,
+   ["ceiling"]=32781,
+   ["wall"]=31890,
 },
 -- Table: {730}
 {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6898,
+   ["ceiling"]=32782,
    ["wasVisited"]=false,
 },
 -- Table: {731}
@@ -7014,7 +7014,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6899,
+   ["ceiling"]=32783,
    ["wasVisited"]=false,
 },
 -- Table: {732}
@@ -7022,7 +7022,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6900,
+   ["ceiling"]=32784,
    ["wasVisited"]=false,
 },
 -- Table: {733}
@@ -7030,7 +7030,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6901,
+   ["ceiling"]=32785,
    ["wasVisited"]=false,
 },
 -- Table: {734}
@@ -7038,7 +7038,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6902,
+   ["ceiling"]=32786,
    ["wasVisited"]=false,
 },
 -- Table: {735}
@@ -7046,7 +7046,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6903,
+   ["ceiling"]=32787,
    ["wasVisited"]=false,
 },
 -- Table: {736}
@@ -7054,7 +7054,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6904,
+   ["ceiling"]=32788,
    ["wasVisited"]=false,
 },
 -- Table: {737}
@@ -7062,7 +7062,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6905,
+   ["ceiling"]=32789,
    ["wasVisited"]=false,
 },
 -- Table: {738}
@@ -7076,7 +7076,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6906,
+   ["ceiling"]=32790,
    ["wasVisited"]=false,
 },
 -- Table: {740}
@@ -7084,7 +7084,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6907,
+   ["ceiling"]=32791,
    ["wasVisited"]=false,
 },
 -- Table: {741}
@@ -7092,7 +7092,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6908,
+   ["ceiling"]=32792,
    ["wasVisited"]=false,
 },
 -- Table: {742}
@@ -7100,7 +7100,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6909,
+   ["ceiling"]=32793,
    ["wasVisited"]=false,
 },
 -- Table: {743}
@@ -7108,7 +7108,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6910,
+   ["ceiling"]=32794,
    ["wasVisited"]=false,
 },
 -- Table: {744}
@@ -7116,7 +7116,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6911,
+   ["ceiling"]=32795,
    ["wasVisited"]=false,
 },
 -- Table: {745}
@@ -7124,7 +7124,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6912,
+   ["ceiling"]=32796,
    ["wasVisited"]=false,
 },
 -- Table: {746}
@@ -7133,8 +7133,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=false,
    ["wasVisited"]=false,
-   ["ceiling"]=6913,
-   ["wall"]=6001,
+   ["ceiling"]=32797,
+   ["wall"]=31891,
 },
 -- Table: {747}
 {
@@ -7142,8 +7142,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6914,
-   ["floor"]=6002,
+   ["ceiling"]=32798,
+   ["floor"]=31892,
 },
 -- Table: {748}
 {
@@ -7151,8 +7151,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6915,
-   ["floor"]=6003,
+   ["ceiling"]=32799,
+   ["floor"]=31893,
 },
 -- Table: {749}
 {
@@ -7160,8 +7160,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6916,
-   ["floor"]=6004,
+   ["ceiling"]=32800,
+   ["floor"]=31894,
 },
 -- Table: {750}
 {
@@ -7169,8 +7169,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6917,
-   ["floor"]=6005,
+   ["ceiling"]=32801,
+   ["floor"]=31895,
 },
 -- Table: {751}
 {
@@ -7178,8 +7178,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6918,
-   ["floor"]=6006,
+   ["ceiling"]=32802,
+   ["floor"]=31896,
 },
 -- Table: {752}
 {
@@ -7187,9 +7187,9 @@ return {
    ["hasWall"]=true,
    ["wasVisited"]=false,
    ["hasFloor"]=true,
-   ["wall"]=6206,
-   ["ceiling"]=6919,
-   ["floor"]=6007,
+   ["wall"]=32096,
+   ["ceiling"]=32803,
+   ["floor"]=31897,
 },
 -- Table: {753}
 {
@@ -7197,8 +7197,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6920,
-   ["floor"]=6207,
+   ["ceiling"]=32804,
+   ["floor"]=32097,
 },
 -- Table: {754}
 {
@@ -7206,9 +7206,9 @@ return {
    ["hasWall"]=true,
    ["wasVisited"]=false,
    ["hasFloor"]=true,
-   ["wall"]=6208,
-   ["ceiling"]=6921,
-   ["floor"]=6009,
+   ["wall"]=32098,
+   ["ceiling"]=32805,
+   ["floor"]=31899,
 },
 -- Table: {755}
 {
@@ -7216,8 +7216,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6922,
-   ["floor"]=6010,
+   ["ceiling"]=32806,
+   ["floor"]=31900,
 },
 -- Table: {756}
 {
@@ -7225,8 +7225,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6923,
-   ["floor"]=6011,
+   ["ceiling"]=32807,
+   ["floor"]=31901,
 },
 -- Table: {757}
 {
@@ -7234,8 +7234,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6924,
-   ["floor"]=6012,
+   ["ceiling"]=32808,
+   ["floor"]=31902,
 },
 -- Table: {758}
 {
@@ -7243,8 +7243,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6925,
-   ["floor"]=6013,
+   ["ceiling"]=32809,
+   ["floor"]=31903,
 },
 -- Table: {759}
 {
@@ -7252,8 +7252,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6926,
-   ["floor"]=6014,
+   ["ceiling"]=32810,
+   ["floor"]=31904,
 },
 -- Table: {760}
 {
@@ -7261,15 +7261,15 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=false,
    ["wasVisited"]=false,
-   ["ceiling"]=6927,
-   ["wall"]=6015,
+   ["ceiling"]=32811,
+   ["wall"]=31905,
 },
 -- Table: {761}
 {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6928,
+   ["ceiling"]=32812,
    ["wasVisited"]=false,
 },
 -- Table: {762}
@@ -7277,7 +7277,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6929,
+   ["ceiling"]=32813,
    ["wasVisited"]=false,
 },
 -- Table: {763}
@@ -7285,7 +7285,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6930,
+   ["ceiling"]=32814,
    ["wasVisited"]=false,
 },
 -- Table: {764}
@@ -7293,7 +7293,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6931,
+   ["ceiling"]=32815,
    ["wasVisited"]=false,
 },
 -- Table: {765}
@@ -7301,7 +7301,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6932,
+   ["ceiling"]=32816,
    ["wasVisited"]=false,
 },
 -- Table: {766}
@@ -7309,7 +7309,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6933,
+   ["ceiling"]=32817,
    ["wasVisited"]=false,
 },
 -- Table: {767}
@@ -7317,7 +7317,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6934,
+   ["ceiling"]=32818,
    ["wasVisited"]=false,
 },
 -- Table: {768}
@@ -7325,7 +7325,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6935,
+   ["ceiling"]=32819,
    ["wasVisited"]=false,
 },
 -- Table: {769}
@@ -7333,7 +7333,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6936,
+   ["ceiling"]=32820,
    ["wasVisited"]=false,
 },
 -- Table: {770}
@@ -7347,7 +7347,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6937,
+   ["ceiling"]=32821,
    ["wasVisited"]=false,
 },
 -- Table: {772}
@@ -7355,7 +7355,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6938,
+   ["ceiling"]=32822,
    ["wasVisited"]=false,
 },
 -- Table: {773}
@@ -7363,7 +7363,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6939,
+   ["ceiling"]=32823,
    ["wasVisited"]=false,
 },
 -- Table: {774}
@@ -7371,7 +7371,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6940,
+   ["ceiling"]=32824,
    ["wasVisited"]=false,
 },
 -- Table: {775}
@@ -7379,7 +7379,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6941,
+   ["ceiling"]=32825,
    ["wasVisited"]=false,
 },
 -- Table: {776}
@@ -7387,7 +7387,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6942,
+   ["ceiling"]=32826,
    ["wasVisited"]=false,
 },
 -- Table: {777}
@@ -7395,7 +7395,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6943,
+   ["ceiling"]=32827,
    ["wasVisited"]=false,
 },
 -- Table: {778}
@@ -7403,7 +7403,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6944,
+   ["ceiling"]=32828,
    ["wasVisited"]=false,
 },
 -- Table: {779}
@@ -7412,8 +7412,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=false,
    ["wasVisited"]=false,
-   ["ceiling"]=6945,
-   ["wall"]=6016,
+   ["ceiling"]=32829,
+   ["wall"]=31906,
 },
 -- Table: {780}
 {
@@ -7421,8 +7421,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6946,
-   ["floor"]=6017,
+   ["ceiling"]=32830,
+   ["floor"]=31907,
 },
 -- Table: {781}
 {
@@ -7430,8 +7430,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6947,
-   ["floor"]=6018,
+   ["ceiling"]=32831,
+   ["floor"]=31908,
 },
 -- Table: {782}
 {
@@ -7439,8 +7439,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6948,
-   ["floor"]=6019,
+   ["ceiling"]=32832,
+   ["floor"]=31909,
 },
 -- Table: {783}
 {
@@ -7448,8 +7448,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6949,
-   ["floor"]=6020,
+   ["ceiling"]=32833,
+   ["floor"]=31910,
 },
 -- Table: {784}
 {
@@ -7457,8 +7457,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6950,
-   ["floor"]=6021,
+   ["ceiling"]=32834,
+   ["floor"]=31911,
 },
 -- Table: {785}
 {
@@ -7466,9 +7466,9 @@ return {
    ["hasWall"]=true,
    ["wasVisited"]=false,
    ["hasFloor"]=true,
-   ["wall"]=6209,
-   ["ceiling"]=6951,
-   ["floor"]=6022,
+   ["wall"]=32099,
+   ["ceiling"]=32835,
+   ["floor"]=31912,
 },
 -- Table: {786}
 {
@@ -7476,8 +7476,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6952,
-   ["floor"]=6023,
+   ["ceiling"]=32836,
+   ["floor"]=31913,
 },
 -- Table: {787}
 {
@@ -7485,8 +7485,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6953,
-   ["floor"]=6024,
+   ["ceiling"]=32837,
+   ["floor"]=31914,
 },
 -- Table: {788}
 {
@@ -7494,8 +7494,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6954,
-   ["floor"]=6025,
+   ["ceiling"]=32838,
+   ["floor"]=31915,
 },
 -- Table: {789}
 {
@@ -7503,8 +7503,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6955,
-   ["floor"]=6026,
+   ["ceiling"]=32839,
+   ["floor"]=31916,
 },
 -- Table: {790}
 {
@@ -7512,8 +7512,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6956,
-   ["floor"]=6027,
+   ["ceiling"]=32840,
+   ["floor"]=31917,
 },
 -- Table: {791}
 {
@@ -7521,15 +7521,15 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=false,
    ["wasVisited"]=false,
-   ["ceiling"]=6957,
-   ["wall"]=6028,
+   ["ceiling"]=32841,
+   ["wall"]=31918,
 },
 -- Table: {792}
 {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6958,
+   ["ceiling"]=32842,
    ["wasVisited"]=false,
 },
 -- Table: {793}
@@ -7537,7 +7537,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6959,
+   ["ceiling"]=32843,
    ["wasVisited"]=false,
 },
 -- Table: {794}
@@ -7545,7 +7545,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6960,
+   ["ceiling"]=32844,
    ["wasVisited"]=false,
 },
 -- Table: {795}
@@ -7553,7 +7553,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6961,
+   ["ceiling"]=32845,
    ["wasVisited"]=false,
 },
 -- Table: {796}
@@ -7561,7 +7561,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6962,
+   ["ceiling"]=32846,
    ["wasVisited"]=false,
 },
 -- Table: {797}
@@ -7569,7 +7569,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6963,
+   ["ceiling"]=32847,
    ["wasVisited"]=false,
 },
 -- Table: {798}
@@ -7577,7 +7577,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6964,
+   ["ceiling"]=32848,
    ["wasVisited"]=false,
 },
 -- Table: {799}
@@ -7585,7 +7585,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6965,
+   ["ceiling"]=32849,
    ["wasVisited"]=false,
 },
 -- Table: {800}
@@ -7593,7 +7593,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6966,
+   ["ceiling"]=32850,
    ["wasVisited"]=false,
 },
 -- Table: {801}
@@ -7601,7 +7601,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6967,
+   ["ceiling"]=32851,
    ["wasVisited"]=false,
 },
 -- Table: {802}
@@ -7615,7 +7615,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6968,
+   ["ceiling"]=32852,
    ["wasVisited"]=false,
 },
 -- Table: {804}
@@ -7623,7 +7623,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6969,
+   ["ceiling"]=32853,
    ["wasVisited"]=false,
 },
 -- Table: {805}
@@ -7631,7 +7631,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6970,
+   ["ceiling"]=32854,
    ["wasVisited"]=false,
 },
 -- Table: {806}
@@ -7639,7 +7639,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6971,
+   ["ceiling"]=32855,
    ["wasVisited"]=false,
 },
 -- Table: {807}
@@ -7647,7 +7647,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6972,
+   ["ceiling"]=32856,
    ["wasVisited"]=false,
 },
 -- Table: {808}
@@ -7655,7 +7655,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6973,
+   ["ceiling"]=32857,
    ["wasVisited"]=false,
 },
 -- Table: {809}
@@ -7663,7 +7663,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6974,
+   ["ceiling"]=32858,
    ["wasVisited"]=false,
 },
 -- Table: {810}
@@ -7671,7 +7671,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6975,
+   ["ceiling"]=32859,
    ["wasVisited"]=false,
 },
 -- Table: {811}
@@ -7679,7 +7679,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6976,
+   ["ceiling"]=32860,
    ["wasVisited"]=false,
 },
 -- Table: {812}
@@ -7688,8 +7688,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=false,
    ["wasVisited"]=false,
-   ["ceiling"]=6977,
-   ["wall"]=6029,
+   ["ceiling"]=32861,
+   ["wall"]=31919,
 },
 -- Table: {813}
 {
@@ -7697,8 +7697,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6978,
-   ["floor"]=6030,
+   ["ceiling"]=32862,
+   ["floor"]=31920,
 },
 -- Table: {814}
 {
@@ -7706,8 +7706,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6979,
-   ["floor"]=6031,
+   ["ceiling"]=32863,
+   ["floor"]=31921,
 },
 -- Table: {815}
 {
@@ -7715,8 +7715,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6980,
-   ["floor"]=6032,
+   ["ceiling"]=32864,
+   ["floor"]=31922,
 },
 -- Table: {816}
 {
@@ -7724,8 +7724,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6981,
-   ["floor"]=6033,
+   ["ceiling"]=32865,
+   ["floor"]=31923,
 },
 -- Table: {817}
 {
@@ -7733,8 +7733,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6982,
-   ["floor"]=6034,
+   ["ceiling"]=32866,
+   ["floor"]=31924,
 },
 -- Table: {818}
 {
@@ -7742,8 +7742,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6983,
-   ["floor"]=6035,
+   ["ceiling"]=32867,
+   ["floor"]=31925,
 },
 -- Table: {819}
 {
@@ -7751,8 +7751,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6984,
-   ["floor"]=6036,
+   ["ceiling"]=32868,
+   ["floor"]=31926,
 },
 -- Table: {820}
 {
@@ -7760,8 +7760,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6985,
-   ["floor"]=6037,
+   ["ceiling"]=32869,
+   ["floor"]=31927,
 },
 -- Table: {821}
 {
@@ -7769,8 +7769,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=6986,
-   ["floor"]=6038,
+   ["ceiling"]=32870,
+   ["floor"]=31928,
 },
 -- Table: {822}
 {
@@ -7778,15 +7778,15 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=false,
    ["wasVisited"]=false,
-   ["ceiling"]=6987,
-   ["wall"]=6039,
+   ["ceiling"]=32871,
+   ["wall"]=31929,
 },
 -- Table: {823}
 {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6988,
+   ["ceiling"]=32872,
    ["wasVisited"]=false,
 },
 -- Table: {824}
@@ -7794,7 +7794,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6989,
+   ["ceiling"]=32873,
    ["wasVisited"]=false,
 },
 -- Table: {825}
@@ -7802,7 +7802,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6990,
+   ["ceiling"]=32874,
    ["wasVisited"]=false,
 },
 -- Table: {826}
@@ -7810,7 +7810,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6991,
+   ["ceiling"]=32875,
    ["wasVisited"]=false,
 },
 -- Table: {827}
@@ -7818,7 +7818,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6992,
+   ["ceiling"]=32876,
    ["wasVisited"]=false,
 },
 -- Table: {828}
@@ -7826,7 +7826,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6993,
+   ["ceiling"]=32877,
    ["wasVisited"]=false,
 },
 -- Table: {829}
@@ -7834,7 +7834,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6994,
+   ["ceiling"]=32878,
    ["wasVisited"]=false,
 },
 -- Table: {830}
@@ -7842,7 +7842,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6995,
+   ["ceiling"]=32879,
    ["wasVisited"]=false,
 },
 -- Table: {831}
@@ -7850,7 +7850,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6996,
+   ["ceiling"]=32880,
    ["wasVisited"]=false,
 },
 -- Table: {832}
@@ -7858,7 +7858,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6997,
+   ["ceiling"]=32881,
    ["wasVisited"]=false,
 },
 -- Table: {833}
@@ -7866,7 +7866,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6998,
+   ["ceiling"]=32882,
    ["wasVisited"]=false,
 },
 -- Table: {834}
@@ -7880,7 +7880,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=6999,
+   ["ceiling"]=32883,
    ["wasVisited"]=false,
 },
 -- Table: {836}
@@ -7888,7 +7888,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7000,
+   ["ceiling"]=32884,
    ["wasVisited"]=false,
 },
 -- Table: {837}
@@ -7896,7 +7896,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7001,
+   ["ceiling"]=32885,
    ["wasVisited"]=false,
 },
 -- Table: {838}
@@ -7904,7 +7904,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7002,
+   ["ceiling"]=32886,
    ["wasVisited"]=false,
 },
 -- Table: {839}
@@ -7912,7 +7912,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7003,
+   ["ceiling"]=32887,
    ["wasVisited"]=false,
 },
 -- Table: {840}
@@ -7920,7 +7920,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7004,
+   ["ceiling"]=32888,
    ["wasVisited"]=false,
 },
 -- Table: {841}
@@ -7928,7 +7928,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7005,
+   ["ceiling"]=32889,
    ["wasVisited"]=false,
 },
 -- Table: {842}
@@ -7936,7 +7936,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7006,
+   ["ceiling"]=32890,
    ["wasVisited"]=false,
 },
 -- Table: {843}
@@ -7944,7 +7944,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7007,
+   ["ceiling"]=32891,
    ["wasVisited"]=false,
 },
 -- Table: {844}
@@ -7952,7 +7952,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7008,
+   ["ceiling"]=32892,
    ["wasVisited"]=false,
 },
 -- Table: {845}
@@ -7961,8 +7961,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=false,
    ["wasVisited"]=false,
-   ["ceiling"]=7009,
-   ["wall"]=6040,
+   ["ceiling"]=32893,
+   ["wall"]=31930,
 },
 -- Table: {846}
 {
@@ -7970,8 +7970,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=7010,
-   ["floor"]=6041,
+   ["ceiling"]=32894,
+   ["floor"]=31931,
 },
 -- Table: {847}
 {
@@ -7979,8 +7979,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=7011,
-   ["floor"]=6042,
+   ["ceiling"]=32895,
+   ["floor"]=31932,
 },
 -- Table: {848}
 {
@@ -7988,8 +7988,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=7012,
-   ["floor"]=6043,
+   ["ceiling"]=32896,
+   ["floor"]=31933,
 },
 -- Table: {849}
 {
@@ -7997,8 +7997,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=7013,
-   ["floor"]=6044,
+   ["ceiling"]=32897,
+   ["floor"]=31934,
 },
 -- Table: {850}
 {
@@ -8006,8 +8006,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=7014,
-   ["floor"]=6045,
+   ["ceiling"]=32898,
+   ["floor"]=31935,
 },
 -- Table: {851}
 {
@@ -8015,8 +8015,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=7015,
-   ["floor"]=6046,
+   ["ceiling"]=32899,
+   ["floor"]=31936,
 },
 -- Table: {852}
 {
@@ -8024,8 +8024,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=7016,
-   ["floor"]=6047,
+   ["ceiling"]=32900,
+   ["floor"]=31937,
 },
 -- Table: {853}
 {
@@ -8033,15 +8033,15 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=false,
    ["wasVisited"]=false,
-   ["ceiling"]=7017,
-   ["wall"]=6048,
+   ["ceiling"]=32901,
+   ["wall"]=31938,
 },
 -- Table: {854}
 {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7018,
+   ["ceiling"]=32902,
    ["wasVisited"]=false,
 },
 -- Table: {855}
@@ -8049,7 +8049,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7019,
+   ["ceiling"]=32903,
    ["wasVisited"]=false,
 },
 -- Table: {856}
@@ -8057,7 +8057,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7020,
+   ["ceiling"]=32904,
    ["wasVisited"]=false,
 },
 -- Table: {857}
@@ -8065,7 +8065,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7021,
+   ["ceiling"]=32905,
    ["wasVisited"]=false,
 },
 -- Table: {858}
@@ -8073,7 +8073,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7022,
+   ["ceiling"]=32906,
    ["wasVisited"]=false,
 },
 -- Table: {859}
@@ -8081,7 +8081,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7023,
+   ["ceiling"]=32907,
    ["wasVisited"]=false,
 },
 -- Table: {860}
@@ -8089,7 +8089,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7024,
+   ["ceiling"]=32908,
    ["wasVisited"]=false,
 },
 -- Table: {861}
@@ -8097,7 +8097,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7025,
+   ["ceiling"]=32909,
    ["wasVisited"]=false,
 },
 -- Table: {862}
@@ -8105,7 +8105,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7026,
+   ["ceiling"]=32910,
    ["wasVisited"]=false,
 },
 -- Table: {863}
@@ -8113,7 +8113,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7027,
+   ["ceiling"]=32911,
    ["wasVisited"]=false,
 },
 -- Table: {864}
@@ -8121,7 +8121,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7028,
+   ["ceiling"]=32912,
    ["wasVisited"]=false,
 },
 -- Table: {865}
@@ -8129,7 +8129,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7029,
+   ["ceiling"]=32913,
    ["wasVisited"]=false,
 },
 -- Table: {866}
@@ -8143,7 +8143,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7030,
+   ["ceiling"]=32914,
    ["wasVisited"]=false,
 },
 -- Table: {868}
@@ -8151,7 +8151,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7031,
+   ["ceiling"]=32915,
    ["wasVisited"]=false,
 },
 -- Table: {869}
@@ -8159,7 +8159,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7032,
+   ["ceiling"]=32916,
    ["wasVisited"]=false,
 },
 -- Table: {870}
@@ -8167,7 +8167,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7033,
+   ["ceiling"]=32917,
    ["wasVisited"]=false,
 },
 -- Table: {871}
@@ -8175,7 +8175,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7034,
+   ["ceiling"]=32918,
    ["wasVisited"]=false,
 },
 -- Table: {872}
@@ -8183,7 +8183,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7035,
+   ["ceiling"]=32919,
    ["wasVisited"]=false,
 },
 -- Table: {873}
@@ -8191,7 +8191,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7036,
+   ["ceiling"]=32920,
    ["wasVisited"]=false,
 },
 -- Table: {874}
@@ -8199,7 +8199,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7037,
+   ["ceiling"]=32921,
    ["wasVisited"]=false,
 },
 -- Table: {875}
@@ -8207,7 +8207,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7038,
+   ["ceiling"]=32922,
    ["wasVisited"]=false,
 },
 -- Table: {876}
@@ -8215,7 +8215,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7039,
+   ["ceiling"]=32923,
    ["wasVisited"]=false,
 },
 -- Table: {877}
@@ -8223,7 +8223,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7040,
+   ["ceiling"]=32924,
    ["wasVisited"]=false,
 },
 -- Table: {878}
@@ -8232,8 +8232,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=false,
    ["wasVisited"]=false,
-   ["ceiling"]=7041,
-   ["wall"]=6049,
+   ["ceiling"]=32925,
+   ["wall"]=31939,
 },
 -- Table: {879}
 {
@@ -8241,8 +8241,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=7042,
-   ["floor"]=6050,
+   ["ceiling"]=32926,
+   ["floor"]=31940,
 },
 -- Table: {880}
 {
@@ -8250,8 +8250,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=7043,
-   ["floor"]=6051,
+   ["ceiling"]=32927,
+   ["floor"]=31941,
 },
 -- Table: {881}
 {
@@ -8259,8 +8259,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=7044,
-   ["floor"]=6052,
+   ["ceiling"]=32928,
+   ["floor"]=31942,
 },
 -- Table: {882}
 {
@@ -8268,8 +8268,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=7045,
-   ["floor"]=6053,
+   ["ceiling"]=32929,
+   ["floor"]=31943,
 },
 -- Table: {883}
 {
@@ -8277,8 +8277,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=7046,
-   ["floor"]=6054,
+   ["ceiling"]=32930,
+   ["floor"]=31944,
 },
 -- Table: {884}
 {
@@ -8286,15 +8286,15 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=false,
    ["wasVisited"]=false,
-   ["ceiling"]=7047,
-   ["wall"]=6055,
+   ["ceiling"]=32931,
+   ["wall"]=31945,
 },
 -- Table: {885}
 {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7048,
+   ["ceiling"]=32932,
    ["wasVisited"]=false,
 },
 -- Table: {886}
@@ -8302,7 +8302,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7049,
+   ["ceiling"]=32933,
    ["wasVisited"]=false,
 },
 -- Table: {887}
@@ -8310,7 +8310,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7050,
+   ["ceiling"]=32934,
    ["wasVisited"]=false,
 },
 -- Table: {888}
@@ -8318,7 +8318,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7051,
+   ["ceiling"]=32935,
    ["wasVisited"]=false,
 },
 -- Table: {889}
@@ -8326,7 +8326,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7052,
+   ["ceiling"]=32936,
    ["wasVisited"]=false,
 },
 -- Table: {890}
@@ -8334,7 +8334,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7053,
+   ["ceiling"]=32937,
    ["wasVisited"]=false,
 },
 -- Table: {891}
@@ -8342,7 +8342,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7054,
+   ["ceiling"]=32938,
    ["wasVisited"]=false,
 },
 -- Table: {892}
@@ -8350,7 +8350,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7055,
+   ["ceiling"]=32939,
    ["wasVisited"]=false,
 },
 -- Table: {893}
@@ -8358,7 +8358,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7056,
+   ["ceiling"]=32940,
    ["wasVisited"]=false,
 },
 -- Table: {894}
@@ -8366,7 +8366,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7057,
+   ["ceiling"]=32941,
    ["wasVisited"]=false,
 },
 -- Table: {895}
@@ -8374,7 +8374,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7058,
+   ["ceiling"]=32942,
    ["wasVisited"]=false,
 },
 -- Table: {896}
@@ -8382,7 +8382,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7059,
+   ["ceiling"]=32943,
    ["wasVisited"]=false,
 },
 -- Table: {897}
@@ -8390,7 +8390,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7060,
+   ["ceiling"]=32944,
    ["wasVisited"]=false,
 },
 -- Table: {898}
@@ -8404,7 +8404,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7061,
+   ["ceiling"]=32945,
    ["wasVisited"]=false,
 },
 -- Table: {900}
@@ -8412,7 +8412,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7062,
+   ["ceiling"]=32946,
    ["wasVisited"]=false,
 },
 -- Table: {901}
@@ -8420,7 +8420,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7063,
+   ["ceiling"]=32947,
    ["wasVisited"]=false,
 },
 -- Table: {902}
@@ -8428,7 +8428,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7064,
+   ["ceiling"]=32948,
    ["wasVisited"]=false,
 },
 -- Table: {903}
@@ -8436,7 +8436,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7065,
+   ["ceiling"]=32949,
    ["wasVisited"]=false,
 },
 -- Table: {904}
@@ -8444,7 +8444,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7066,
+   ["ceiling"]=32950,
    ["wasVisited"]=false,
 },
 -- Table: {905}
@@ -8452,7 +8452,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7067,
+   ["ceiling"]=32951,
    ["wasVisited"]=false,
 },
 -- Table: {906}
@@ -8460,7 +8460,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7068,
+   ["ceiling"]=32952,
    ["wasVisited"]=false,
 },
 -- Table: {907}
@@ -8468,7 +8468,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7069,
+   ["ceiling"]=32953,
    ["wasVisited"]=false,
 },
 -- Table: {908}
@@ -8476,7 +8476,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7070,
+   ["ceiling"]=32954,
    ["wasVisited"]=false,
 },
 -- Table: {909}
@@ -8484,7 +8484,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7071,
+   ["ceiling"]=32955,
    ["wasVisited"]=false,
 },
 -- Table: {910}
@@ -8492,7 +8492,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7072,
+   ["ceiling"]=32956,
    ["wasVisited"]=false,
 },
 -- Table: {911}
@@ -8501,8 +8501,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=false,
    ["wasVisited"]=false,
-   ["ceiling"]=7073,
-   ["wall"]=6056,
+   ["ceiling"]=32957,
+   ["wall"]=31946,
 },
 -- Table: {912}
 {
@@ -8510,8 +8510,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=7074,
-   ["floor"]=6057,
+   ["ceiling"]=32958,
+   ["floor"]=31947,
 },
 -- Table: {913}
 {
@@ -8519,8 +8519,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=7075,
-   ["floor"]=6058,
+   ["ceiling"]=32959,
+   ["floor"]=31948,
 },
 -- Table: {914}
 {
@@ -8528,8 +8528,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=7076,
-   ["floor"]=6059,
+   ["ceiling"]=32960,
+   ["floor"]=31949,
 },
 -- Table: {915}
 {
@@ -8537,15 +8537,15 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=false,
    ["wasVisited"]=false,
-   ["ceiling"]=7077,
-   ["wall"]=6060,
+   ["ceiling"]=32961,
+   ["wall"]=31950,
 },
 -- Table: {916}
 {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7078,
+   ["ceiling"]=32962,
    ["wasVisited"]=false,
 },
 -- Table: {917}
@@ -8553,7 +8553,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7079,
+   ["ceiling"]=32963,
    ["wasVisited"]=false,
 },
 -- Table: {918}
@@ -8561,7 +8561,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7080,
+   ["ceiling"]=32964,
    ["wasVisited"]=false,
 },
 -- Table: {919}
@@ -8569,7 +8569,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7081,
+   ["ceiling"]=32965,
    ["wasVisited"]=false,
 },
 -- Table: {920}
@@ -8577,7 +8577,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7082,
+   ["ceiling"]=32966,
    ["wasVisited"]=false,
 },
 -- Table: {921}
@@ -8585,7 +8585,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7083,
+   ["ceiling"]=32967,
    ["wasVisited"]=false,
 },
 -- Table: {922}
@@ -8593,7 +8593,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7084,
+   ["ceiling"]=32968,
    ["wasVisited"]=false,
 },
 -- Table: {923}
@@ -8601,7 +8601,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7085,
+   ["ceiling"]=32969,
    ["wasVisited"]=false,
 },
 -- Table: {924}
@@ -8609,7 +8609,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7086,
+   ["ceiling"]=32970,
    ["wasVisited"]=false,
 },
 -- Table: {925}
@@ -8617,7 +8617,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7087,
+   ["ceiling"]=32971,
    ["wasVisited"]=false,
 },
 -- Table: {926}
@@ -8625,7 +8625,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7088,
+   ["ceiling"]=32972,
    ["wasVisited"]=false,
 },
 -- Table: {927}
@@ -8633,7 +8633,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7089,
+   ["ceiling"]=32973,
    ["wasVisited"]=false,
 },
 -- Table: {928}
@@ -8641,7 +8641,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7090,
+   ["ceiling"]=32974,
    ["wasVisited"]=false,
 },
 -- Table: {929}
@@ -8649,7 +8649,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7091,
+   ["ceiling"]=32975,
    ["wasVisited"]=false,
 },
 -- Table: {930}
@@ -8663,7 +8663,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7092,
+   ["ceiling"]=32976,
    ["wasVisited"]=false,
 },
 -- Table: {932}
@@ -8671,7 +8671,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7093,
+   ["ceiling"]=32977,
    ["wasVisited"]=false,
 },
 -- Table: {933}
@@ -8679,7 +8679,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7094,
+   ["ceiling"]=32978,
    ["wasVisited"]=false,
 },
 -- Table: {934}
@@ -8687,7 +8687,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7095,
+   ["ceiling"]=32979,
    ["wasVisited"]=false,
 },
 -- Table: {935}
@@ -8695,7 +8695,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7096,
+   ["ceiling"]=32980,
    ["wasVisited"]=false,
 },
 -- Table: {936}
@@ -8703,7 +8703,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7097,
+   ["ceiling"]=32981,
    ["wasVisited"]=false,
 },
 -- Table: {937}
@@ -8711,7 +8711,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7098,
+   ["ceiling"]=32982,
    ["wasVisited"]=false,
 },
 -- Table: {938}
@@ -8719,7 +8719,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7099,
+   ["ceiling"]=32983,
    ["wasVisited"]=false,
 },
 -- Table: {939}
@@ -8727,7 +8727,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7100,
+   ["ceiling"]=32984,
    ["wasVisited"]=false,
 },
 -- Table: {940}
@@ -8735,7 +8735,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7101,
+   ["ceiling"]=32985,
    ["wasVisited"]=false,
 },
 -- Table: {941}
@@ -8743,7 +8743,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7102,
+   ["ceiling"]=32986,
    ["wasVisited"]=false,
 },
 -- Table: {942}
@@ -8751,7 +8751,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7103,
+   ["ceiling"]=32987,
    ["wasVisited"]=false,
 },
 -- Table: {943}
@@ -8759,7 +8759,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7104,
+   ["ceiling"]=32988,
    ["wasVisited"]=false,
 },
 -- Table: {944}
@@ -8768,8 +8768,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=false,
    ["wasVisited"]=false,
-   ["ceiling"]=7105,
-   ["wall"]=6061,
+   ["ceiling"]=32989,
+   ["wall"]=31951,
 },
 -- Table: {945}
 {
@@ -8777,8 +8777,8 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=true,
    ["wasVisited"]=false,
-   ["ceiling"]=7106,
-   ["floor"]=6062,
+   ["ceiling"]=32990,
+   ["floor"]=31952,
 },
 -- Table: {946}
 {
@@ -8786,15 +8786,15 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=false,
    ["wasVisited"]=false,
-   ["ceiling"]=7107,
-   ["wall"]=6063,
+   ["ceiling"]=32991,
+   ["wall"]=31953,
 },
 -- Table: {947}
 {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7108,
+   ["ceiling"]=32992,
    ["wasVisited"]=false,
 },
 -- Table: {948}
@@ -8802,7 +8802,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7109,
+   ["ceiling"]=32993,
    ["wasVisited"]=false,
 },
 -- Table: {949}
@@ -8810,7 +8810,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7110,
+   ["ceiling"]=32994,
    ["wasVisited"]=false,
 },
 -- Table: {950}
@@ -8818,7 +8818,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7111,
+   ["ceiling"]=32995,
    ["wasVisited"]=false,
 },
 -- Table: {951}
@@ -8826,7 +8826,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7112,
+   ["ceiling"]=32996,
    ["wasVisited"]=false,
 },
 -- Table: {952}
@@ -8834,7 +8834,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7113,
+   ["ceiling"]=32997,
    ["wasVisited"]=false,
 },
 -- Table: {953}
@@ -8842,7 +8842,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7114,
+   ["ceiling"]=32998,
    ["wasVisited"]=false,
 },
 -- Table: {954}
@@ -8850,7 +8850,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7115,
+   ["ceiling"]=32999,
    ["wasVisited"]=false,
 },
 -- Table: {955}
@@ -8858,7 +8858,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7116,
+   ["ceiling"]=33000,
    ["wasVisited"]=false,
 },
 -- Table: {956}
@@ -8866,7 +8866,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7117,
+   ["ceiling"]=33001,
    ["wasVisited"]=false,
 },
 -- Table: {957}
@@ -8874,7 +8874,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7118,
+   ["ceiling"]=33002,
    ["wasVisited"]=false,
 },
 -- Table: {958}
@@ -8882,7 +8882,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7119,
+   ["ceiling"]=33003,
    ["wasVisited"]=false,
 },
 -- Table: {959}
@@ -8890,7 +8890,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7120,
+   ["ceiling"]=33004,
    ["wasVisited"]=false,
 },
 -- Table: {960}
@@ -8898,7 +8898,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7121,
+   ["ceiling"]=33005,
    ["wasVisited"]=false,
 },
 -- Table: {961}
@@ -8906,7 +8906,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7122,
+   ["ceiling"]=33006,
    ["wasVisited"]=false,
 },
 -- Table: {962}
@@ -8920,7 +8920,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7123,
+   ["ceiling"]=33007,
    ["wasVisited"]=false,
 },
 -- Table: {964}
@@ -8928,7 +8928,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7124,
+   ["ceiling"]=33008,
    ["wasVisited"]=false,
 },
 -- Table: {965}
@@ -8936,7 +8936,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7125,
+   ["ceiling"]=33009,
    ["wasVisited"]=false,
 },
 -- Table: {966}
@@ -8944,7 +8944,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7126,
+   ["ceiling"]=33010,
    ["wasVisited"]=false,
 },
 -- Table: {967}
@@ -8952,7 +8952,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7127,
+   ["ceiling"]=33011,
    ["wasVisited"]=false,
 },
 -- Table: {968}
@@ -8960,7 +8960,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7128,
+   ["ceiling"]=33012,
    ["wasVisited"]=false,
 },
 -- Table: {969}
@@ -8968,7 +8968,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7129,
+   ["ceiling"]=33013,
    ["wasVisited"]=false,
 },
 -- Table: {970}
@@ -8976,7 +8976,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7130,
+   ["ceiling"]=33014,
    ["wasVisited"]=false,
 },
 -- Table: {971}
@@ -8984,7 +8984,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7131,
+   ["ceiling"]=33015,
    ["wasVisited"]=false,
 },
 -- Table: {972}
@@ -8992,7 +8992,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7132,
+   ["ceiling"]=33016,
    ["wasVisited"]=false,
 },
 -- Table: {973}
@@ -9000,7 +9000,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7133,
+   ["ceiling"]=33017,
    ["wasVisited"]=false,
 },
 -- Table: {974}
@@ -9008,7 +9008,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7134,
+   ["ceiling"]=33018,
    ["wasVisited"]=false,
 },
 -- Table: {975}
@@ -9016,7 +9016,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7135,
+   ["ceiling"]=33019,
    ["wasVisited"]=false,
 },
 -- Table: {976}
@@ -9024,7 +9024,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7136,
+   ["ceiling"]=33020,
    ["wasVisited"]=false,
 },
 -- Table: {977}
@@ -9033,15 +9033,15 @@ return {
    ["hasCeiling"]=true,
    ["hasFloor"]=false,
    ["wasVisited"]=false,
-   ["ceiling"]=7137,
-   ["wall"]=6064,
+   ["ceiling"]=33021,
+   ["wall"]=31954,
 },
 -- Table: {978}
 {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7138,
+   ["ceiling"]=33022,
    ["wasVisited"]=false,
 },
 -- Table: {979}
@@ -9049,7 +9049,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7139,
+   ["ceiling"]=33023,
    ["wasVisited"]=false,
 },
 -- Table: {980}
@@ -9057,7 +9057,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7140,
+   ["ceiling"]=33024,
    ["wasVisited"]=false,
 },
 -- Table: {981}
@@ -9065,7 +9065,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7141,
+   ["ceiling"]=33025,
    ["wasVisited"]=false,
 },
 -- Table: {982}
@@ -9073,7 +9073,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7142,
+   ["ceiling"]=33026,
    ["wasVisited"]=false,
 },
 -- Table: {983}
@@ -9081,7 +9081,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7143,
+   ["ceiling"]=33027,
    ["wasVisited"]=false,
 },
 -- Table: {984}
@@ -9089,7 +9089,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7144,
+   ["ceiling"]=33028,
    ["wasVisited"]=false,
 },
 -- Table: {985}
@@ -9097,7 +9097,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7145,
+   ["ceiling"]=33029,
    ["wasVisited"]=false,
 },
 -- Table: {986}
@@ -9105,7 +9105,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7146,
+   ["ceiling"]=33030,
    ["wasVisited"]=false,
 },
 -- Table: {987}
@@ -9113,7 +9113,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7147,
+   ["ceiling"]=33031,
    ["wasVisited"]=false,
 },
 -- Table: {988}
@@ -9121,7 +9121,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7148,
+   ["ceiling"]=33032,
    ["wasVisited"]=false,
 },
 -- Table: {989}
@@ -9129,7 +9129,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7149,
+   ["ceiling"]=33033,
    ["wasVisited"]=false,
 },
 -- Table: {990}
@@ -9137,7 +9137,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7150,
+   ["ceiling"]=33034,
    ["wasVisited"]=false,
 },
 -- Table: {991}
@@ -9145,7 +9145,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7151,
+   ["ceiling"]=33035,
    ["wasVisited"]=false,
 },
 -- Table: {992}
@@ -9153,7 +9153,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7152,
+   ["ceiling"]=33036,
    ["wasVisited"]=false,
 },
 -- Table: {993}
@@ -9161,7 +9161,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7153,
+   ["ceiling"]=33037,
    ["wasVisited"]=false,
 },
 -- Table: {994}
@@ -9175,7 +9175,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7154,
+   ["ceiling"]=33038,
    ["wasVisited"]=false,
 },
 -- Table: {996}
@@ -9183,7 +9183,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7155,
+   ["ceiling"]=33039,
    ["wasVisited"]=false,
 },
 -- Table: {997}
@@ -9191,7 +9191,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7156,
+   ["ceiling"]=33040,
    ["wasVisited"]=false,
 },
 -- Table: {998}
@@ -9199,7 +9199,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7157,
+   ["ceiling"]=33041,
    ["wasVisited"]=false,
 },
 -- Table: {999}
@@ -9207,7 +9207,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7158,
+   ["ceiling"]=33042,
    ["wasVisited"]=false,
 },
 -- Table: {1000}
@@ -9215,7 +9215,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7159,
+   ["ceiling"]=33043,
    ["wasVisited"]=false,
 },
 -- Table: {1001}
@@ -9223,7 +9223,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7160,
+   ["ceiling"]=33044,
    ["wasVisited"]=false,
 },
 -- Table: {1002}
@@ -9231,7 +9231,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7161,
+   ["ceiling"]=33045,
    ["wasVisited"]=false,
 },
 -- Table: {1003}
@@ -9239,7 +9239,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7162,
+   ["ceiling"]=33046,
    ["wasVisited"]=false,
 },
 -- Table: {1004}
@@ -9247,7 +9247,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7163,
+   ["ceiling"]=33047,
    ["wasVisited"]=false,
 },
 -- Table: {1005}
@@ -9255,7 +9255,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7164,
+   ["ceiling"]=33048,
    ["wasVisited"]=false,
 },
 -- Table: {1006}
@@ -9263,7 +9263,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7165,
+   ["ceiling"]=33049,
    ["wasVisited"]=false,
 },
 -- Table: {1007}
@@ -9271,7 +9271,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7166,
+   ["ceiling"]=33050,
    ["wasVisited"]=false,
 },
 -- Table: {1008}
@@ -9279,7 +9279,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7167,
+   ["ceiling"]=33051,
    ["wasVisited"]=false,
 },
 -- Table: {1009}
@@ -9287,7 +9287,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7168,
+   ["ceiling"]=33052,
    ["wasVisited"]=false,
 },
 -- Table: {1010}
@@ -9295,7 +9295,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7169,
+   ["ceiling"]=33053,
    ["wasVisited"]=false,
 },
 -- Table: {1011}
@@ -9303,7 +9303,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7170,
+   ["ceiling"]=33054,
    ["wasVisited"]=false,
 },
 -- Table: {1012}
@@ -9311,7 +9311,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7171,
+   ["ceiling"]=33055,
    ["wasVisited"]=false,
 },
 -- Table: {1013}
@@ -9319,7 +9319,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7172,
+   ["ceiling"]=33056,
    ["wasVisited"]=false,
 },
 -- Table: {1014}
@@ -9327,7 +9327,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7173,
+   ["ceiling"]=33057,
    ["wasVisited"]=false,
 },
 -- Table: {1015}
@@ -9335,7 +9335,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7174,
+   ["ceiling"]=33058,
    ["wasVisited"]=false,
 },
 -- Table: {1016}
@@ -9343,7 +9343,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7175,
+   ["ceiling"]=33059,
    ["wasVisited"]=false,
 },
 -- Table: {1017}
@@ -9351,7 +9351,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7176,
+   ["ceiling"]=33060,
    ["wasVisited"]=false,
 },
 -- Table: {1018}
@@ -9359,7 +9359,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7177,
+   ["ceiling"]=33061,
    ["wasVisited"]=false,
 },
 -- Table: {1019}
@@ -9367,7 +9367,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7178,
+   ["ceiling"]=33062,
    ["wasVisited"]=false,
 },
 -- Table: {1020}
@@ -9375,7 +9375,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7179,
+   ["ceiling"]=33063,
    ["wasVisited"]=false,
 },
 -- Table: {1021}
@@ -9383,7 +9383,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7180,
+   ["ceiling"]=33064,
    ["wasVisited"]=false,
 },
 -- Table: {1022}
@@ -9391,7 +9391,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7181,
+   ["ceiling"]=33065,
    ["wasVisited"]=false,
 },
 -- Table: {1023}
@@ -9399,7 +9399,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7182,
+   ["ceiling"]=33066,
    ["wasVisited"]=false,
 },
 -- Table: {1024}
@@ -9407,7 +9407,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7183,
+   ["ceiling"]=33067,
    ["wasVisited"]=false,
 },
 -- Table: {1025}
@@ -9415,7 +9415,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7184,
+   ["ceiling"]=33068,
    ["wasVisited"]=false,
 },
 -- Table: {1026}
@@ -9429,7 +9429,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7185,
+   ["ceiling"]=33069,
    ["wasVisited"]=false,
 },
 -- Table: {1028}
@@ -9437,7 +9437,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7186,
+   ["ceiling"]=33070,
    ["wasVisited"]=false,
 },
 -- Table: {1029}
@@ -9445,7 +9445,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7187,
+   ["ceiling"]=33071,
    ["wasVisited"]=false,
 },
 -- Table: {1030}
@@ -9453,7 +9453,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7188,
+   ["ceiling"]=33072,
    ["wasVisited"]=false,
 },
 -- Table: {1031}
@@ -9461,7 +9461,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7189,
+   ["ceiling"]=33073,
    ["wasVisited"]=false,
 },
 -- Table: {1032}
@@ -9469,7 +9469,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7190,
+   ["ceiling"]=33074,
    ["wasVisited"]=false,
 },
 -- Table: {1033}
@@ -9477,7 +9477,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7191,
+   ["ceiling"]=33075,
    ["wasVisited"]=false,
 },
 -- Table: {1034}
@@ -9485,7 +9485,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7192,
+   ["ceiling"]=33076,
    ["wasVisited"]=false,
 },
 -- Table: {1035}
@@ -9493,7 +9493,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7193,
+   ["ceiling"]=33077,
    ["wasVisited"]=false,
 },
 -- Table: {1036}
@@ -9501,7 +9501,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7194,
+   ["ceiling"]=33078,
    ["wasVisited"]=false,
 },
 -- Table: {1037}
@@ -9509,7 +9509,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7195,
+   ["ceiling"]=33079,
    ["wasVisited"]=false,
 },
 -- Table: {1038}
@@ -9517,7 +9517,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7196,
+   ["ceiling"]=33080,
    ["wasVisited"]=false,
 },
 -- Table: {1039}
@@ -9525,7 +9525,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7197,
+   ["ceiling"]=33081,
    ["wasVisited"]=false,
 },
 -- Table: {1040}
@@ -9533,7 +9533,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7198,
+   ["ceiling"]=33082,
    ["wasVisited"]=false,
 },
 -- Table: {1041}
@@ -9541,7 +9541,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7199,
+   ["ceiling"]=33083,
    ["wasVisited"]=false,
 },
 -- Table: {1042}
@@ -9549,7 +9549,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7200,
+   ["ceiling"]=33084,
    ["wasVisited"]=false,
 },
 -- Table: {1043}
@@ -9557,7 +9557,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7201,
+   ["ceiling"]=33085,
    ["wasVisited"]=false,
 },
 -- Table: {1044}
@@ -9565,7 +9565,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7202,
+   ["ceiling"]=33086,
    ["wasVisited"]=false,
 },
 -- Table: {1045}
@@ -9573,7 +9573,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7203,
+   ["ceiling"]=33087,
    ["wasVisited"]=false,
 },
 -- Table: {1046}
@@ -9581,7 +9581,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7204,
+   ["ceiling"]=33088,
    ["wasVisited"]=false,
 },
 -- Table: {1047}
@@ -9589,7 +9589,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7205,
+   ["ceiling"]=33089,
    ["wasVisited"]=false,
 },
 -- Table: {1048}
@@ -9597,7 +9597,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7206,
+   ["ceiling"]=33090,
    ["wasVisited"]=false,
 },
 -- Table: {1049}
@@ -9605,7 +9605,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7207,
+   ["ceiling"]=33091,
    ["wasVisited"]=false,
 },
 -- Table: {1050}
@@ -9613,7 +9613,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7208,
+   ["ceiling"]=33092,
    ["wasVisited"]=false,
 },
 -- Table: {1051}
@@ -9621,7 +9621,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7209,
+   ["ceiling"]=33093,
    ["wasVisited"]=false,
 },
 -- Table: {1052}
@@ -9629,7 +9629,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7210,
+   ["ceiling"]=33094,
    ["wasVisited"]=false,
 },
 -- Table: {1053}
@@ -9637,7 +9637,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7211,
+   ["ceiling"]=33095,
    ["wasVisited"]=false,
 },
 -- Table: {1054}
@@ -9645,7 +9645,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7212,
+   ["ceiling"]=33096,
    ["wasVisited"]=false,
 },
 -- Table: {1055}
@@ -9653,7 +9653,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7213,
+   ["ceiling"]=33097,
    ["wasVisited"]=false,
 },
 -- Table: {1056}
@@ -9661,7 +9661,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7214,
+   ["ceiling"]=33098,
    ["wasVisited"]=false,
 },
 -- Table: {1057}
@@ -9669,7 +9669,7 @@ return {
    ["hasWall"]=true,
    ["hasFloor"]=false,
    ["hasCeiling"]=true,
-   ["ceiling"]=7215,
+   ["ceiling"]=33099,
    ["wasVisited"]=false,
 },
 }
