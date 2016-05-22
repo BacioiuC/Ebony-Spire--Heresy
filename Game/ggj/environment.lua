@@ -36,6 +36,55 @@ function environment:createDoor(_posX, _posY, _orientation)
 	table.insert(self._doorTable, temp)
 end
 
+function environment:removeDoor(_posX, _posY)
+	local removeID = nil
+	for i,v in ipairs(self._doorTable) do
+		if v.x == _posX and v.y == _posY then
+			removeID = i
+			image:removeProp(v.gfx, self._mainMapLayer)
+		end
+	end
+
+	if removeID ~= nil then
+		table.remove(self._doorTable, removeID)
+	end
+end
+
+function environment:removeUnusedDoors( )
+	for i,v in ipairs(self._doorTable) do
+		if v.orientation == 1 then -- forward door
+			if rngMap:isWallAt(v.x, v.y-1) == false or rngMap:isWallAt(v.x,v.y+1) == false then
+				image:removeProp(v.gfx, self._mainMapLayer)
+				rngMap:setWall(v.x, v.y, false)
+				v.gfx = nil
+			end
+		else
+			if rngMap:isWallAt(v.x-1, v.y) == false or rngMap:isWallAt(v.x+1,v.y) == false then
+				image:removeProp(v.gfx, self._mainMapLayer)
+				v.gfx = nil
+				rngMap:setWall(v.x, v.y, false)
+			end
+		end
+	end
+
+	local idToRemoveTable = {}
+
+	for i,v in ipairs(self._doorTable) do
+		if v.gfx == nil then
+			local temp = {
+				id = i,
+			}
+			table.insert(idToRemoveTable, temp)
+		end
+	end
+
+	for i = #idToRemoveTable, 1, -1 do
+		table.remove(self._doorTable, idToRemoveTable[i].id)
+	end
+
+
+end
+
 -- Opens all doors at a distance of less than 1.5/2 tiles away :D
 function environment:openDoor(_px, _py)
 	for i,v in ipairs(self._doorTable) do

@@ -198,7 +198,7 @@ function interface:createCircleTower(centerX, centerY, radius)
 	    end
 
 	    -- make the sky
-	    local skyTile = makeCube(-12000, "tiles/Menu/sky_backdrop.png")
+	    local skyTile = makeCube(-10000, "tiles/Menu/sky_backdrop.png")
 	    self._skyTileBg = image:new3DImage(skyTile, 4000, 0, 0, self._mainMapLayer) 
 	    self._rotAngle = 0
 

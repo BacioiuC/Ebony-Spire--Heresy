@@ -5,7 +5,7 @@ Slime,3,assets/slime.png,4,5,yes,0,,,,4,1,0,20,0.1,1,2,2,0,0
 Deformed Slimification,1,assets/slimeclops.png,6,15,yes,0,,,,5,3,0,1,0.4,6,3,2,0,0
 Centipede,2,assets/centipede.png,4,4,yes,0,,,,4,1,1,1,0.6,4,0,1,0,0
 Gastropodus,2,assets/Gastropoda.png,2,20,yes,0,,,,4,3,0,3,0.4,5,2,2,0,0
-Clay Golem,2,assets/clay_golem.png,40,15,yes,0,,,,5,4,0,20,0.1,8,3,3,0,0
+Lizardman,2,assets/lizardman.png,40,25,yes,0,,,,5,4,0,20,0.9,10,2,3,0,0
 Rogue,2,assets/rogue.png,70,50,yes,0,,,,5,5,0,3,0.8,4,4,3,0,0
 Office Troll,2,OldAssets/office_troll.png,40,70,yes,0,,,,4,2,0,7,0.85,5,3,3,0,0
 One Eyed Ogre,2,OldAssets/one_eyed_ogre.png,20,100,yes,0,,,,8,4,0,0,1,6,1,3,0,0

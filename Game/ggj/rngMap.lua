@@ -63,7 +63,7 @@ function rngMap:init( )
 	--self._mapWalls[9] = makeCube( self._blockSize, "tiles/"..self._levelTiles[1].."/wall_special_2.png")
 
 	self._bookCases = {}
-	self._bookCases[1] = makeBox(95, 100, 10, "tiles/"..self._levelTiles[Game.dungeoNLevel].."/BookCase.png" )
+	self._bookCases[1] = makeBox(100, 100, 10, "tiles/"..self._levelTiles[1].."/BookCase.png" )
 
 
 	self._columns = { }
@@ -695,7 +695,7 @@ function rngMap:generateBookCasesOnTowerLevel( )
 						if self._map[x+i][y].hasFloor == true and foundFloor == false then
 							foundFloor = true
 							local temp = {
-								gfx = image:new3DImage(self._bookCases[math.random(1, #self._bookCases)], (x)*self._blockSize, self._blockSize, y*self._blockSize+i*10+i*50, self._mainMapLayer),
+								gfx = image:new3DImage(self._bookCases[math.random(1, #self._bookCases)], (x)*self._blockSize, self._blockSize, y*self._blockSize+i*2+i*50, self._mainMapLayer),
 								_x = (x)*self._blockSize,
 								_y = y*self._blockSize
 							}
@@ -704,9 +704,9 @@ function rngMap:generateBookCasesOnTowerLevel( )
 							posy = y*self._blockSize
 							if dir == 0 then -- forward/backward 
 								posx = x*self._blockSize
-								posy = y*self._blockSize+i*10+i*50
+								posy = y*self._blockSize+i*2+i*50
 							else -- left/right
-								posx = x*self._blockSize+i*10+i*50
+								posx = x*self._blockSize+i*2+i*50
 								posy = y*self._blockSize
 								if(temp.gfx ~= nil) then
 									image:setRot3D(temp.gfx, 0, 90, 0)
@@ -873,6 +873,8 @@ function rngMap:generate( )
 
 	local _px, _py = self:returnEmptyLocations( )
 	environment:createPortal(_px, _py, true)
+
+	environment:removeUnusedDoors( )
 	--self:placeStairs()
 	self._doneGenerating = true
 

@@ -9,7 +9,7 @@ Ebony Spire: Heresy
 
 **21/05/2016** - Initial commit! Features are still missing and art style is not final. Expect many commits to happen this week.
 
-**Beer count** (Numbers of beers drank during development) = **31**! 
+**Beer count** (Numbers of beers drank during development) = **35**! 
 
 <dl>
 <dt>Additional libraries:</dt>
