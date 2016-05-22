@@ -3,21 +3,9 @@ return {
 {
    {2},
    {3},
+   {4},
 },
 -- Table: {2}
-{
-   ["score"]=0,
-   ["id"]=1,
-   ["textLine3"]="He was killed by a <c:0B5E87>Dae-Ria</c>.",
-   ["killedBy"]="Dae-Ria",
-   ["name"]="Sir Zapa-nald",
-   ["textLine1"]="<c:9FC43A>Sir Zapa-nald</c> died on 0. He survived for 5 turns.",
-   ["textLine2"]="His most valauble item was: <c:FF0000>Potion of Body Displacement</c>.",
-   ["turns"]=5,
-   ["lvDeath"]=0,
-   ["valuableItem"]="<c:FF0000>Potion of Body Displacement</c>",
-},
--- Table: {3}
 {
    ["score"]=553,
    ["id"]=2,
@@ -25,9 +13,35 @@ return {
    ["killedBy"]="Lizardman",
    ["name"]="Sir Zapa-nald",
    ["textLine1"]="<c:9FC43A>Sir Zapa-nald</c> died on 0. He survived for 567 turns.",
-   ["valuableItem"]="<c:FF0000>Potion of Body Displacement</c>",
+   ["textLine2"]="His most valauble item was: <c:FF0000>Potion of Body Displacement</c>.",
    ["turns"]=567,
    ["lvDeath"]=0,
+   ["valuableItem"]="<c:FF0000>Potion of Body Displacement</c>",
+},
+-- Table: {3}
+{
+   ["score"]=0,
+   ["id"]=1,
+   ["textLine3"]="He was killed by a <c:0B5E87>Dae-Ria</c>.",
+   ["killedBy"]="Dae-Ria",
+   ["name"]="Sir Zapa-nald",
+   ["textLine1"]="<c:9FC43A>Sir Zapa-nald</c> died on 0. He survived for 5 turns.",
+   ["valuableItem"]="<c:FF0000>Potion of Body Displacement</c>",
+   ["turns"]=5,
+   ["lvDeath"]=0,
    ["textLine2"]="His most valauble item was: <c:FF0000>Potion of Body Displacement</c>.",
+},
+-- Table: {4}
+{
+   ["score"]=30,
+   ["id"]=3,
+   ["textLine3"]="He was killed by a <c:0B5E87>Adventurer</c>.",
+   ["killedBy"]="Adventurer",
+   ["name"]="Sir Zapa-nald",
+   ["textLine1"]="<c:9FC43A>Sir Zapa-nald</c> died on 0. He survived for 263 turns.",
+   ["valuableItem"]="<c:DBD75D>Paladin Armor</c>",
+   ["turns"]=263,
+   ["lvDeath"]=0,
+   ["textLine2"]="His most valauble item was: <c:DBD75D>Paladin Armor</c>.",
 },
 }

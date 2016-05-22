@@ -1059,12 +1059,12 @@ function rngMap:getMiniMap( )
 end
 
 function rngMap:addCeilings( )
-	for x = 2, self._mapWidth do
+	--[[for x = 2, self._mapWidth do
 		for y = 2, self._mapHeight do
 			self._map[x][y].ceiling = image:new3DImage(self._mapCeilings[math.random(1, #self._mapCeilings )], x*self._blockSize, self._floorElevation+self._blockSize+self._blockSize, y*self._blockSize, self._mainMapLayer)
 			self._map[x][y].hasCeiling = true
 		end
-	end
+	end--]]
 end
 
 function rngMap:setRoofVisibility(_state)

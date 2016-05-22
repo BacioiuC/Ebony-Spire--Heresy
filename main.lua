@@ -204,7 +204,7 @@ function setClearColor( r, g, b )
         local fb = MOAIGfxDevice:getFrameBuffer()
         fb:setClearColor( r, g, b )
 end
-setClearColor(0, 0 ,0 , 1)
+setClearColor(0.137, 0, 0.137 , 1)
 
 
 layermgr.addLayer("ActionPhase",4,core:returnLayer(1))
