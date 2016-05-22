@@ -1,4 +1,4 @@
-local astray = require('Game.lib.astray')
+local astray = require('Game.lib.astray.astray')
 
 
 rngMap = { }
