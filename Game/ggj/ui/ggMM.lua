@@ -158,7 +158,7 @@ function interface:createCircleTower(centerX, centerY, radius)
 		wallTable = { }
 		wallTable[1] = makeCube( 100, "tiles/Menu/wall.png" )
         wallTable[2] = makeCube( 100, "tiles/Menu/wall2.png" )
-        wallTable[3] = makeCube( 100, "tiles/Menu/wall2.png" )
+        wallTable[3] = makeCube( 100, "tiles/Menu/brick_1.png" )
         wallTable[4] = makeBox(100, 100, 0, "tiles/Menu/window.png" )
 
         baseLevel = makeCube(100, "tiles/Menu/brick_1.png")
@@ -376,8 +376,8 @@ function interface:_createClassDescriptions( )
 		" wreak havok uppon creation and probe it",
 		" for any flaws he might be able to ",
 		" exploit! Night Shade starts with: ",
-		" - 1X Rock",
-		" - 1X Potion of Polymorph",
+		" - 3X Throwing Dagger",
+		" - 1X Potion of Darkness",
 		" - 2X Potion of Teleportation",
 	} -- programmer
 
@@ -395,14 +395,16 @@ function interface:_createClassDescriptions( )
 	self._classInventory = { }
 	self._classInventory[1] = {
 		4,
-		{3, 6},
+		{49, 6},
 
 	}
 	self._classInventory[2] = {
-		6,
-		18,
-		11,
-		11,
+		51,
+		51,
+		51,
+		1,
+		52,
+		52,
 	}
 	self._classInventory[3] = {
 		17,

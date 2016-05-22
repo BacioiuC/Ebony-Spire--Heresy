@@ -503,12 +503,12 @@ function player:keypressed( key )
 
 			if key == 46 then
 				--rngMap:destroyMap( )
-				if evTurn:_isPlayerOnStairs( ) == true then
+				--if evTurn:_isPlayerOnStairs( ) == true then
 					if rngMap:isTowerLevel( ) then
 						Game.dungeoNLevel = Game.dungeoNLevel + 1
 					end
 					currentState = 16
-				end
+				--end
 			end
 
 
@@ -714,6 +714,10 @@ function player:update( )
 			nrEnemies = 1
 		elseif Game.dungeoNLevel == 2 and Game.dungeonType == 1 then
 			nrEnemies = 1
+		end
+
+		if rngMap:isTowerLevel( ) then
+			nrEnemies = rngMap:getEnemyLevelRatio( )[Game.dungeoNLevel]
 		end
 		for i = 1, nrEnemies do
 			local x, y = rngMap:returnEmptyLocations( )

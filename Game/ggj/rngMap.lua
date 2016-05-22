@@ -33,6 +33,18 @@ function rngMap:init( )
 	self._portalLevelType[10] = 2
 	self._levelTiles = { }
 
+	self._enemyLevelRatio = { }
+	self._enemyLevelRatio[1] = 7
+	self._enemyLevelRatio[2] = 1
+	self._enemyLevelRatio[3] = 2
+	self._enemyLevelRatio[4] = 4
+	self._enemyLevelRatio[5] = 7
+	self._enemyLevelRatio[6] = 7
+	self._enemyLevelRatio[7] = 7
+	self._enemyLevelRatio[8] = 7
+	self._enemyLevelRatio[9] = 7
+	self._enemyLevelRatio[10] = 7
+
 	--[[self._levelTiles[1] = "1"
 	self._levelTiles[2] = "2"
 	self._levelTiles[3] = "3"
@@ -179,6 +191,10 @@ function rngMap:init( )
 	end
 	
 	--self:load( )
+end
+
+function rngMap:getEnemyLevelRatio( )
+	return self._enemyLevelRatio
 end
 
 function rngMap:getPortalLevelType( )

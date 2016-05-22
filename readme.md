@@ -5,11 +5,11 @@ Ebony Spire: Heresy
 
 **ES:H** is played from a first person perspective. You can move around using W, A, S, D and look/turn around with Q and E. Inventory can be accessed using the I key. You can pick up items with P, equip them with Space (from the inventory) or throw them using the T key. **Gameplay revolves around acquiring items and using them to defeat enemies you encounter. **
 
-![alt tag](https://raw.githubusercontent.com/BacioiuC/Ebony-Spire--Heresy/master/priest_of_dae2.gif)
+![alt tag](https://dl.dropboxusercontent.com/u/23337718/esh/gif_combat_1.gif)
 
 **21/05/2016** - Initial commit! Features are still missing and art style is not final. Expect many commits to happen this week.
 
-**Beer count** (Numbers of beers drank during development) = **36**! 
+**Beer count** (Numbers of beers drank during development) = **37**! 
 
 <dl>
 <dt>Additional libraries:</dt>
@@ -20,7 +20,7 @@ Ebony Spire: Heresy
 * My own ChaurusFramework for quick prototyping: [Chaurus on Github][7]
 * SiENcE's Astray Library [Astray] [3]
 * Lucky's Bestiary for entity/enemies/creature assets [Lucky's Bestiary][4]
-* Temporary sprites from Oryx Design lab [Roguelike/Fantasy Sprites][5] - License acquired last year. Won't be used in the final release. Only temporary usage right now
+* Temporary sprites from Oryx Design lab [Roguelike/Fantasy Sprites][5] - License acquired last year. Won't be used in the final release. Only placeholder usage right now
 * Environment tiles based on Dawnlike tile set, licensed under CC-BY-SA 3.0. Environment tilesets are work in progress and will be the reason for many intense commits through out next week! [Dawnlike 16x16 Universal Rogue-like Tileset][6]
 * Cave Generation using [Cavity][8] by Lightcycle
 

@@ -165,7 +165,7 @@ function fixitploxMainMenu( )
 		item:removeAll( )
 
 	end
-	player:saveStats( )
+	--player:saveStats( )
 	Game.dungeoNLevel = 1
 	_bGameLoaded = false
 	_bGuiLoaded = false
