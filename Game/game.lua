@@ -255,6 +255,8 @@ function Game:keypressed( key )
 		interface:_helpMenuKeyPressed( key ) 
 	elseif _st == "VICTORY" then
 		interface:_setupVictoryKeyPressed( key )
+	elseif _st == "EDITOR" then
+		editor:handleInput( key )
 	end
 
 end
@@ -265,6 +267,8 @@ function Game:loopPersistantKeyPressed( )
 			if _st == "GlobalGameJam" then
 				local key = Game.key
 				player:keypressed( key )
+			elseif _st == "EDITOR" then
+				editor:handleInput( key )
 			end
 		end
 
