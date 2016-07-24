@@ -21,11 +21,32 @@ function editor:update( )
 end
 
 function editor:exportScene( )
-
+	table.save(self._environment,  "map/exported.gnrtd")
 end
 
 function editor:importScene( )
+	self:_clearLevel( )
+	local tab = table.load("map/exported.gnrtd")
+	for i,v in ipairs(tab) do
+		local temp = {
+			x = v.x,
+			y = v.y,
+			--gfx = image:new3DImage(self._tileTypeSet[self._currentTileType].gfx, _x * self._blockSize, self._pointerPos[2]*self._blockSize, _y * self._blockSize, self._mainMapLayer),
+			name = v.name,
+			elevation = v.elevation,
+			rot = v.rot,
+			tileType = v.tileType,
+		}
+		if self._tileTypeSet[temp.tileType].variation ~= nil then
+			temp.gfx = image:new3DImage(self._tileTypeSet[temp.tileType].variation[math.random(1, #self._tileTypeSet[temp.tileType].variation)], v.x * self._blockSize, self._pointerPos[2]*self._blockSize, v.y * self._blockSize, self._mainMapLayer)
+		else
+			temp.gfx = image:new3DImage(self._tileTypeSet[temp.tileType].gfx, v.x * self._blockSize, self._pointerPos[2]*self._blockSize, v.y * self._blockSize, self._mainMapLayer)
+		end
 
+		image:setRot3D(temp.gfx, 0, temp.rot, 0)
+		--temp.gfx = image:new3DImage(self._tileTypeSet[self._currentTileType].gfx, v.x * self._blockSize, self._pointerPos[2]*self._blockSize, v.y * self._blockSize, self._mainMapLayer)
+		table.insert(self._environment, temp)
+	end
 end
 
 ------------- Default Scene Stuff
@@ -167,6 +188,12 @@ function editor:handleInput(key)
 	elseif key == 108 then
 		self._fpsCamRotY = self._fpsCamRotY - 90
 	end
+
+	if key == 53 then -- key 5
+		self:exportScene( )
+	elseif key == 57 then
+		self:importScene( )
+	end
 	--113 q, 101 e
 	self:_updateUiTileUnderPointer( )
 end
@@ -206,6 +233,7 @@ function editor:placePrimitive(_x, _y)
 			name = ""..self._tileTypeSet[self._currentTileType].name.."",
 			elevation = self._pointerPosY,
 			rot = 0,
+			tileType = self._currentTileType,
 		}
 		if self._tileTypeSet[self._currentTileType].variation ~= nil then
 			temp.gfx = image:new3DImage(self._tileTypeSet[self._currentTileType].variation[math.random(1, #self._tileTypeSet[self._currentTileType].variation)], _x * self._blockSize, self._pointerPos[2]*self._blockSize, _y * self._blockSize, self._mainMapLayer)
@@ -252,6 +280,11 @@ function editor:initEditorInterface( )
 	self._elevationLevel:setPos(80,0)
 	self._elevationLevel:setText("Elevation: "..self._pointerPosY.."")
 	self._elevationLevel:setTextStyle(textstyles.get("mmButtonUnselected"))	
+
+	--[[self._saveButton = element.gui:createButton( )
+	self._saveButton:setDim(12, 8)
+	self._saveButton:setPos(0, 92)
+	self._saveButton:setText("EXPORT")--]]
 end
 
 function editor:getTileNameAt(_x, _y)
