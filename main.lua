@@ -157,7 +157,8 @@ require "core.networking"
 require "core.3dbasic"
 require "core.meshAnimation"
 require "Game.game" -- THE ACTUAL MAIN FILE! MAIN LUA is AREA 51, front for area 52 :D
-
+require "core.importCollada"
+useCollada = true
 
 
 sound:init( )

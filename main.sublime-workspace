@@ -1,0 +1,495 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"_cont",
+				"_containerEnd"
+			],
+			[
+				"htmlCont",
+				"htmlContentRequest"
+			],
+			[
+				"htmlCo",
+				"htmlContentStartPoint"
+			],
+			[
+				"_currentTileTye",
+				"_currentTileTypeLabel"
+			],
+			[
+				"_mapW",
+				"_mapWalls"
+			],
+			[
+				"dunge",
+				"dungeoNLevel"
+			],
+			[
+				"dun",
+				"dungeoNLevel"
+			],
+			[
+				"makeSp",
+				"makeSpawnListForTowerLevel"
+			],
+			[
+				"_tow",
+				"_dungeonTower"
+			],
+			[
+				"_dungeon",
+				"_dungeonRooms"
+			],
+			[
+				"map",
+				"mapSzX"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/C/webtools/app.lua",
+			"settings":
+			{
+				"buffer_size": 5006,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/webtools/server.lua",
+			"settings":
+			{
+				"buffer_size": 837,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Projects/bin",
+		"/C/Projects/bin/core",
+		"/C/Projects/bin/Game",
+		"/C/Projects/bin/Game/ggj",
+		"/C/Projects/bin/Game/ggj/ui",
+		"/C/Projects/bin/Game/lib",
+		"/C/Projects/bin/resources",
+		"/C/Projects/bin/resources/layouts",
+		"/C/Projects/bin/sounds"
+	],
+	"file_history":
+	[
+		"/C/Projects/Collada/small_table_2.dae",
+		"/C/Projects/bin/core/importCollada.lua",
+		"/C/Projects/bin/Game/ggj/editor.lua",
+		"/C/Projects/Collada/main.lua",
+		"/C/webtools/pages/feed.lua",
+		"/C/webtools/pages/projects.lua",
+		"/C/webtools/pages/home.lua",
+		"/C/webtools/style.css",
+		"/C/webtools/server.lua",
+		"/C/webtools/app.lua",
+		"/C/webtools/pages/tweet_embedd.html",
+		"/C/webtools/pages/style.css",
+		"/C/Projects/bin/core/image.lua",
+		"/C/Projects/bin/Game/ggj/rngMap.lua",
+		"/C/Projects/bin/map/exported.gnrtd",
+		"/C/Projects/bin/Game/ggj/ui/ggMM.lua",
+		"/C/Projects/bin/core/StateMachine.lua",
+		"/C/Projects/bin/core/core.lua",
+		"/C/Projects/bin/Game/ggj/environment.lua",
+		"/C/Projects/bin/Game/game.lua",
+		"/C/Projects/bin/Game/ggj/player.lua",
+		"/C/Projects/bin/Game/include_list.lua",
+		"/C/Projects/bin/tiles/table_test.dae",
+		"/C/Projects/bin/main.lua",
+		"/C/Projects/Collada/importCollada.lua",
+		"/C/Projects/bin/resources/layouts/editor_ui.lua",
+		"/C/Users/zapa/Documents/My Games/Skyrim/SkyrimPrefs.ini",
+		"/C/Projects/bin/Game/ggj/items.lua",
+		"/C/Projects/bin/Game/ggj/entity.lua",
+		"/C/Projects/bin/Game/ggj/ui/ggjUI.lua",
+		"/C/Program Files (x86)/Steam/steamapps/common/Skyrim/enbinjector.ini",
+		"/C/Projects/bin/Game/ggj/turn.lua",
+		"/C/Projects/bin/resources/layouts/ggClassSel.lua",
+		"/C/Projects/bin/resources/layouts/victory_screen.lua",
+		"/C/Users/zapa/Documents/My Games/Skyrim/Skyrim.ini",
+		"/C/Projects/bin/Game/lib/cavity.lua",
+		"/C/Users/zapa/AppData/Local/Temp/Rar$DIa0.372/main.lua",
+		"/C/Projects/bin/Game/ui/userInterface.lua",
+		"/C/Users/zapa/Downloads/cavity.lua",
+		"/C/Projects/bin/Ebony-Spire--Heresy/Game/ggj/entity.lua",
+		"/C/Projects/bin/libs/astray-master/main.lua",
+		"/C/Projects/bin/readme.md",
+		"/C/Projects/bin/resources/layouts/buymenu.lua",
+		"/C/Projects/bin/Game/ui/keyboard_nav.lua",
+		"/C/Projects/bin/Game/effects.lua",
+		"/C/Projects/bin/Game/digger.lua",
+		"/C/Projects/bin/Game/player/player.lua",
+		"/C/Projects/bin/core/3dbasic.lua",
+		"/C/Projects/bin/resources/themes/basetheme.lua",
+		"/C/Projects/bin/map/level1.gnrtd",
+		"/C/Projects/lore_and_stuff.txt",
+		"/C/Projects/bin/resources/layouts/ggMM.lua",
+		"/C/Projects/bin/additional/moses.lua",
+		"/C/Projects/bin/Game/lib/astray/astray.lua",
+		"/C/bin/Game/ggj/items.lua",
+		"/C/bin/Game/ggj/player.lua",
+		"/C/bin/Game/ggj/rngMap.lua",
+		"/C/bin/Game/ggj/messages.lua",
+		"/C/Projects/bin/resources/layouts/highscore.lua",
+		"/C/Projects/bin/Game/ui/mainMenu.lua",
+		"/C/Projects/bin/Game/lib/astray/roomgenerator.lua",
+		"/C/Projects/bin/Game/map.lua"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"Cube2_auv-",
+			"uv",
+			"textureFile",
+			"\"",
+			"home",
+			"\"",
+			"home",
+			"pivot",
+			"setRot3D",
+			"scale",
+			"_blockSize",
+			"editor:exportScene( )",
+			"_pointerPosY",
+			"FPS",
+			"_pointerPosY",
+			"ggjEditor",
+			"3DImage",
+			"updateImage",
+			"ggjPhase",
+			"editor",
+			"ap",
+			"iMinGrassSize",
+			"iMaxGrassTypesPerTexure",
+			"iMaxGrassTypesPerTexur",
+			"log:newMe",
+			"log",
+			"delt",
+			"attack",
+			"dealt",
+			"picked up",
+			"_scoreInventory",
+			"throwItem",
+			"_scoreInventory",
+			"scoreInventory",
+			"use",
+			"print",
+			"inventory",
+			"addItemToInve",
+			"ceiling",
+			"Game.DungeonL",
+			"inventory",
+			"Game.Dungeon",
+			"loadInventory",
+			"portal",
+			"name",
+			"MOAISim.enterFullscreenMode",
+			"MOAISim.enterFullscreenMode ()",
+			"_gameOverScreen",
+			"showGameOver",
+			"isDead",
+			"fixitploxMainMenu",
+			"isDead",
+			"setImage",
+			"destroy",
+			"self._towerGenerated",
+			"'",
+			"fixitploxMain",
+			"QUITTOMAINMENU",
+			"dead",
+			"dungeonLev",
+			"Game.classOptions",
+			"_checkPlayerOnStairs( )",
+			"46",
+			"\"",
+			">",
+			"press",
+			"press >",
+			"isTowerLevel",
+			"ddBoundaries",
+			"print",
+			"addBoundaries",
+			"returnEmptyLocations",
+			"portal",
+			"throw",
+			"_skyTileBg",
+			"bookCases",
+			"bookcase",
+			"generateTower",
+			"dungeoNLevel",
+			"fixitplox",
+			"item",
+			"load",
+			"inventory",
+			"self._playerStats",
+			"saveStats",
+			"_playerStats",
+			"playerStatsSave",
+			"saveStats",
+			"player:saveStats( )",
+			"loadStats",
+			"pickupItemsOnTheFloor",
+			"makeSpawnListForLevel",
+			"createItemEffect_SUMMONNearby",
+			"createItemEffect_SUMMON",
+			"self:createItemEffect_SUMMON(px, py)",
+			"entity:",
+			"entity:new",
+			"makeSpawnListForLevel( )",
+			"removeUnusedW",
+			"createDoor",
+			"Game.grid",
+			"makePathFinderTable",
+			"makePathFinderTable(",
+			"makePathFinderTable( )",
+			"pathfind",
+			"rngMap:makePathFinderTable",
+			"_gotoLoc",
+			"Game.dungeoNLevel",
+			"generate",
+			"bookcase",
+			"fixitplox",
+			"SOLVEMYPROBLEMSSTATE",
+			"_stairsGFX",
+			"self._stairsGFX",
+			"placeStairs",
+			"GenerateCave",
+			"addBoundaries",
+			"item",
+			"item:",
+			"self._maiNMapLayer",
+			"placeStairs",
+			"setLoc",
+			"update",
+			"removeFloorAt",
+			"hasFloor",
+			"removeUnusedWalls",
+			"addBoundaries",
+			"placeStairs"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"'",
+			"project",
+			"'",
+			"feed",
+			"9FC43A"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/C/webtools/app.lua",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5006,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Lua/Lua.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/C/webtools/server.lua",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 837,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Lua/Lua.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "main.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 332.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

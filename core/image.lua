@@ -455,6 +455,13 @@ function image:setScale(_image, _scx, _scy, _time)
 	end
 end
 
+function image:set3DScale(_image, _scx, _scy, _scz)
+	local imageID = _image
+	if imageID > 0 then
+		self.propTable[imageID].prop:setScl(_scx, _scy, _scz)
+	end
+end
+
 function image:_setScale(_image, _scx, _scy, _time)
 	local imageID = _image
 	if imageID > 0 then

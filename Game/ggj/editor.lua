@@ -6,6 +6,7 @@ function editor:init( )
 	print("Scene Editor GO")
 
 	self._editCamera = true
+	self._boolItemScale = false
 
 	self:setupGrid(40, 40)
 	self:setupCamera( )
@@ -13,11 +14,18 @@ function editor:init( )
 	self:generateTextures( )
 
 	self._environment = { }
+	self._itemTable = { }
 end
 
 function editor:update( )
 	self:updatePointer( )
 	self:updateCamera( )
+
+	if self._boolItemScale == true then
+		self._blockSize = self._itemSize
+	else
+		self._blockSize = self._initialBlockSize
+	end
 end
 
 function editor:exportScene( )
@@ -35,15 +43,18 @@ function editor:importScene( )
 			name = v.name,
 			elevation = v.elevation,
 			rot = v.rot,
+			xRot = v.xRot,
+			yRot = v.yRot,
+			zRot = v.zRot,
 			tileType = v.tileType,
 		}
 		if self._tileTypeSet[temp.tileType].variation ~= nil then
-			temp.gfx = image:new3DImage(self._tileTypeSet[temp.tileType].variation[math.random(1, #self._tileTypeSet[temp.tileType].variation)], v.x * self._blockSize, self._pointerPos[2]*self._blockSize, v.y * self._blockSize, self._mainMapLayer)
+			temp.gfx = image:new3DImage(self._tileTypeSet[temp.tileType].variation[math.random(1, #self._tileTypeSet[temp.tileType].variation)], v.x * self._blockSize, temp.elevation*self._blockSize, v.y * self._blockSize, self._mainMapLayer)
 		else
-			temp.gfx = image:new3DImage(self._tileTypeSet[temp.tileType].gfx, v.x * self._blockSize, self._pointerPos[2]*self._blockSize, v.y * self._blockSize, self._mainMapLayer)
+			temp.gfx = image:new3DImage(self._tileTypeSet[temp.tileType].gfx, v.x * self._blockSize, temp.elevation*self._blockSize, v.y * self._blockSize, self._mainMapLayer)
 		end
 
-		image:setRot3D(temp.gfx, 0, temp.rot, 0)
+		image:setRot3D(temp.gfx, temp.xRot, temp.yRot, temp.zRot)
 		--temp.gfx = image:new3DImage(self._tileTypeSet[self._currentTileType].gfx, v.x * self._blockSize, self._pointerPos[2]*self._blockSize, v.y * self._blockSize, self._mainMapLayer)
 		table.insert(self._environment, temp)
 	end
@@ -56,6 +67,8 @@ function editor:setupGrid(_width, _height)
 		self._mapHeight = _height
 		self._mainMapLayer = 1
 		self._blockSize = 100
+		self._itemSize = 10
+		self._initialBlockSize = 100
 
 		local grassTile = makeCube( 100, "tiles/sceneEditor/tile_1.png" )
 		local map = { }
@@ -194,6 +207,10 @@ function editor:handleInput(key)
 	elseif key == 57 then
 		self:importScene( )
 	end
+
+	if key == 105 then
+		self._boolItemScale = not self._boolItemScale
+	end
 	--113 q, 101 e
 	self:_updateUiTileUnderPointer( )
 end
@@ -214,13 +231,14 @@ function editor:generateTextures( )
 	self._mapWalls[7] = makeCube( self._blockSize, "tiles/"..self._levelTiles[textureToUse].."/wall5.png" )
 
 	self._tileTypeSet = {}
-	self._tileTypeSet[1] = {name = "Wall", gfx = makeCube( self._blockSize, "tiles/wall.png" ), yRot = 0, variation = self._mapWalls }
-	self._tileTypeSet[2] = {name = "BookCase", gfx = makeBox(100, 100, 10, "tiles/BookCase.png" ), yRot = 0, variation = nil  }
-	self._tileTypeSet[3] = {name = "Door", gfx = makeCube( self._blockSize, "tiles/door.png" ), yRot = 0, variation = nil  }
-	self._tileTypeSet[4] = {name = "Portal", gfx = makeCube( self._blockSize, "tiles/portal.png" ), yRot = 0, variation = nil  }
-	self._tileTypeSet[5] = {name = "Wall", gfx = makeCube( self._blockSize, "tiles/wall.png" ), yRot = 0, variation = nil }
-	self._tileTypeSet[6] = {name = "Water", gfx = makeCube( self._blockSize, "tiles/water.png" ), yRot = 0, variation = nil }
-
+	self._tileTypeSet[1] = {name = "Wall", gfx = makeCube( self._blockSize, "tiles/wall.png" ), yRot = 0, variation = self._mapWalls, xRot = 0, zRot = 0, offsetY = 0 }
+	self._tileTypeSet[2] = {name = "BookCase", gfx = makeBox(100, 100, 10, "tiles/BookCase.png" ), yRot = 0, variation = nil, xRot = 0, zRot = 0, offsetY = 0  }
+	self._tileTypeSet[3] = {name = "Door", gfx = makeCube( self._blockSize, "tiles/door.png" ), yRot = 0, variation = nil, xRot = 0, zRot = 0, offsetY = 0  }
+	self._tileTypeSet[4] = {name = "Portal", gfx = makeCube( self._blockSize, "tiles/portal.png" ), yRot = 0, variation = nil, xRot = 0, zRot = 0, offsetY = 0  }
+	self._tileTypeSet[5] = {name = "Wall", gfx = makeCube( self._blockSize, "tiles/wall.png" ), yRot = 0, variation = nil, xRot = 0, zRot = 0, offsetY = 0 }
+	self._tileTypeSet[6] = {name = "Water", gfx = makeCube( self._blockSize, "tiles/water.png" ), yRot = 0, variation = nil, xRot = 0, zRot = 0, offsetY = 0 }
+	self._tileTypeSet[7] = {name = "Wood", gfx = makeCube( self._blockSize, "tiles/wood.png" ), yRot = 90, variation = nil, xRot = 0, zRot = 0, offsetY = 0 }
+	self._tileTypeSet[8] = {name = "Table", gfx = colladaToMesh ( "tiles/small_table_2.dae", "tiles/table_mt_rough_dif.png" ), yRot = 0, variation = nil, xRot = 0, zRot = 0, offsetY = 10}
 	self._currentTileType = 1
 end
 
@@ -233,13 +251,24 @@ function editor:placePrimitive(_x, _y)
 			name = ""..self._tileTypeSet[self._currentTileType].name.."",
 			elevation = self._pointerPosY,
 			rot = 0,
+			xRot = self._tileTypeSet[self._currentTileType].xRot,
+			yRot = self._tileTypeSet[self._currentTileType].yRot,
+			zRot = self._tileTypeSet[self._currentTileType].zRot,
 			tileType = self._currentTileType,
+			offsetY = self._tileTypeSet[self._currentTileType].offsetY,
 		}
 		if self._tileTypeSet[self._currentTileType].variation ~= nil then
-			temp.gfx = image:new3DImage(self._tileTypeSet[self._currentTileType].variation[math.random(1, #self._tileTypeSet[self._currentTileType].variation)], _x * self._blockSize, self._pointerPos[2]*self._blockSize, _y * self._blockSize, self._mainMapLayer)
+			temp.gfx = image:new3DImage(self._tileTypeSet[self._currentTileType].variation[math.random(1, #self._tileTypeSet[self._currentTileType].variation)], _x * self._blockSize, self._pointerPos[2]*self._blockSize, _y * self._blockSize - temp.offsetY, self._mainMapLayer)
 		else
-			temp.gfx = image:new3DImage(self._tileTypeSet[self._currentTileType].gfx, _x * self._blockSize, self._pointerPos[2]*self._blockSize, _y * self._blockSize, self._mainMapLayer)
+			temp.gfx = image:new3DImage(self._tileTypeSet[self._currentTileType].gfx, _x * self._blockSize, self._pointerPos[2]*self._blockSize - temp.offsetY, _y * self._blockSize, self._mainMapLayer)
 		end
+
+		if temp.tileType == 8 then
+			image:set3DScale(temp.gfx, 11, 11, 11)
+		end
+
+		image:setRot3D(temp.gfx, temp.xRot, temp.yRot, temp.zRot)
+
 		table.insert(self._environment, temp)
 	end
 end
@@ -281,6 +310,12 @@ function editor:initEditorInterface( )
 	self._elevationLevel:setText("Elevation: "..self._pointerPosY.."")
 	self._elevationLevel:setTextStyle(textstyles.get("mmButtonUnselected"))	
 
+	self._itemEditMode = element.gui:createLabel( )
+	self._itemEditMode:setDim(22, 4)
+	self._itemEditMode:setPos(80,4)
+	self._itemEditMode:setText("Editing Environment")
+	self._itemEditMode:setTextStyle(textstyles.get("mmButtonUnselected"))	
+
 	--[[self._saveButton = element.gui:createButton( )
 	self._saveButton:setDim(12, 8)
 	self._saveButton:setPos(0, 92)
@@ -301,6 +336,12 @@ function editor:_updateUiTileUnderPointer( )
 	self._currentTextureLabel:setText(""..self:getTileNameAt(self._pointerPos[1], self._pointerPos[3]).."")
 	self._currentTileTypeLabel:setText(""..self._tileTypeSet[self._currentTileType].name.."")
 	self._elevationLevel:setText("Elevation: "..self._pointerPosY.."")
+
+	if self._boolItemScale == true then
+		self._itemEditMode:setText("Editing Items")
+	else
+		self._itemEditMode:setText("Editing Environment")
+	end
 end
 
 function editor:_deleteTileAt(_x, _y)

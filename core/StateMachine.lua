@@ -47,6 +47,8 @@ function initStates( )
 	state[20] = "HIGHSCORE"
 	state[21] = "HALP"
 	state[22] = "VICTORY"
+	state[23] = "EDITOR"
+	--currentState = 2
 	currentState = 2
 
 	_bGuiLoaded = false
@@ -102,6 +104,8 @@ function handleStates( )
 		ggjHalp( )
 	elseif _st == "VICTORY" then
 		ggjVictory( )
+	elseif _st == "EDITOR" then
+		ggjEditor( )
 	else
 		print("STATE OUT OF BOUNDS")
 	end
@@ -428,6 +432,22 @@ function lvsLoop( )
 	else
 		camera:update( )
 		worldMap:loop( )--worldMap:update( )
+	end
+end
+
+function ggjEditor( )
+	if _bGameLoaded == false then
+		editor:init( )
+		_bGameLoaded = true
+	else
+		editor:update( )
+	end
+
+	if _bGuiLoaded == false then
+		editor:initEditorInterface( )
+		_bGuiLoaded = true
+	else
+		
 	end
 end
 
