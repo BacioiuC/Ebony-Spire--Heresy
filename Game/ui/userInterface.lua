@@ -25,7 +25,7 @@
 interface = {}
 element = {}
 
-
+require "Game.ui.intro_moai"
 
 
 function interface:init(_gui, _resources)
@@ -120,7 +120,7 @@ function interface:_updateGameCursor( )
 
 		local ac = (Game.cursorX-1)*32+map.offX-8
 		local bc = (Game.cursorY-1)*32+map.offY-8
-		print("X: "..ac.." Y "..bc.."")
+		--print("X: "..ac.." Y "..bc.."")
 
 		if bc > 280 then
 			map:updateScreen(0, -32)

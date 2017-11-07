@@ -22,22 +22,62 @@
 * SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 --]]
 
-local scale = true
+--function print( )
+
+--end
+KEY_W = 119
+KEY_A = 97
+KEY_D = 100
+KEY_S = 115
+KEY_Q = 113
+KEY_E = 101
+KEY_F = 102
+KEY_P = 112
+KEY_UP = 294
+KEY_DOWN = 296
+KEY_LEFT = 293
+KEY_RIGHT =  295
+KEY_ENTER = 269
+KEY_SPACE = 32
+KEY_I = 105
+KEY_O = 111
+KEY_L = 108
+KEY_T = 116
+KEY_V = 118
+KEY_ESC = 283
+KEY_QUESTION = 47
+KEY_BRACKET_NEXT = 46
+KEY_NOTHING = 90000
+KEY_PLUS = 61
+KEY_M = 109
+
+KEY_2 = 50
+
+KEY_PGN_UP = 289
+KEY_PGN_DOWN = 290
+
+scale = false
 
 resX = MOAIEnvironment.horizontalResolution -- ? da hell
 resY = MOAIEnvironment.verticalResolution
 MOAILogMgr.setLogLevel (MOAILogMgr.LOG_NONE)
-io.stdout:setvbuf("no")
+--io.stdout:setvbuf("no")
 
-units_x = 1280
+units_x = 960
 units_y = 720
 
-MOAISim.enterFullscreenMode ()
+--MOAISim.enterFullscreenMode ()
 
 SCREEN_X_OFFSET = 0
 SCREEN_Y_OFFSET = 0
 
-THEME_NAME = "basetheme.lua"
+if scale == false then
+	THEME_NAME = "basetheme.lua"
+else
+	THEME_NAME = "basetheme.lua"
+end
+
+GLOBAL_UNITS_X = units_x
 
 if  MOAIEnvironment.osBrand ~= "Android"  then
 	pathToWrite = ""
@@ -51,23 +91,29 @@ local multiplier = 1
 --10
 if scale == false then
 	
-	resX = MOAIEnvironment.horizontalResolution or 640
-	resY = MOAIEnvironment.verticalResolution or 640
+	resX =  960
+	resY =  720
 	--resX = 960
 	--resY = 640
-	--div = resX / units_x * multiplier
-	--div2 = resY / units_y * multiplier
+	div = resX / units_x * multiplier
+	div2 = resY / units_y * multiplier
 else
-	resX = MOAIEnvironment.horizontalResolution or 1280
+	resX = MOAIEnvironment.horizontalResolution or 960
 	resY = MOAIEnvironment.verticalResolution or 720
-	--div = resX / units_x * multiplier
-	--div2 = resY / units_y *multiplier 
+	div = resX / units_x * multiplier
+	div2 = resY / units_y *multiplier 
 	
 end
+local DEVICE_WIDTH = resX
+local DEVICE_HEIGHT = resY
+local SCREEN_WIDTH = units_x
+local SCREEN_HEIGHT = units_y
+local SCREEN_UNITS_Y = units_y
+local SCREEN_UNITS_X = units_x
 
-local gameAspect = resY / resX
-local realAspect = resY / resX
---[[
+local gameAspect = SCREEN_UNITS_Y / SCREEN_UNITS_X
+local realAspect = DEVICE_HEIGHT / DEVICE_WIDTH
+
 if realAspect > gameAspect then
     SCREEN_WIDTH = resX
     SCREEN_HEIGHT = resY
@@ -83,7 +129,7 @@ end
 if SCREEN_HEIGHT < resY then
     SCREEN_Y_OFFSET = 0
 end
---]]
+
 local DEVICE_WIDTH = resX
 local DEVICE_HEIGHT = resY
  if realAspect > gameAspect then
@@ -171,7 +217,7 @@ layermgr = require "layermgr"
 
 
 core:init( )
-core:seWindow(resX, resY)
+core:seWindow(resX, resY, scale)
 core:setViewPort(1, ViewPort1, vpx1, vpy1, vpx2, vpy2, 1)
 
 --partition = MOAIPartition.new ()
@@ -187,6 +233,7 @@ core:newLayer(Layer5, 1)
 core:setViewPort(6, ViewPort2, resX, resY, 1)
 core:newLayer(Layer6, 2)
 core:newLayer(Layer7, 1)
+core:newLayer(Layer8, 1)
 
 
 --core:layerSetPartition(1, partition)
@@ -206,7 +253,7 @@ function setClearColor( r, g, b )
         fb:setClearColor( r, g, b )
 end
 setClearColor(0.137, 0, 0.137 , 1)
-
+--setClearColor(0,0,0, 1)
 
 layermgr.addLayer("ActionPhase",4,core:returnLayer(1))
 layermgr.addLayer("ActionPhase_hb",5,core:returnLayer(2)) -- main game layer! TODO: Separate draw layers for diff states
@@ -215,6 +262,7 @@ layermgr.addLayer("GroundLayer",1,core:returnLayer(4))
 layermgr.addLayer("RangeLayer",3,core:returnLayer(5))
 layermgr.addLayer("UiLayer", 6, core:returnLayer(6))
 layermgr.addLayer("TextLayer", 7, core:returnLayer(7))
+layermgr.addLayer("ScenaryLayer", 8, core:returnLayer(8))
 
 CAM_GL = nil
 
@@ -224,103 +272,17 @@ CAM_GL = nil
 
 --mm_Heavy Fabric_0.ogg
 
-local tb, bool = Game:loadOptionsState( )
-if bool == true then
 
-	if tb.fullScreen == true then
 
-		core:setFullscreen(true)
-	end
-end
-
-g = gui.GUI( resX, resY, vpx1, vpy1, vpx2, vpy2, units_x, units_y)
+g = gui.GUI( units_x, units_y, vpx1, vpy1, vpx2, vpy2, units_x, units_y)
 layermgr.addLayer("gui", 99999, g:layer())
+--core:setViewPort(
 core:addGuiViewPort(g:viewport(), vpx1, vpy1, vpx2, vpy2, 1)
 
-function OnScreenResize(width, height)
-    print("WIDTH: "..width.." HEIGHT: "..height.."")
-
-    _resX = width
-    _resY = height
-
-	SCREEN_X_OFFSET = 0
-	SCREEN_Y_OFFSET = 0
-
-	local gameAspect = units_y / units_x
-	local realAspect = _resY / _resX
-
---[[	if realAspect > gameAspect then
-	    SCREEN_WIDTH = _resX
-	    SCREEN_HEIGHT = _resY
-	    print("REAL ASPECT HAPPENING")
-	else
-	    SCREEN_WIDTH = _resX
-	    SCREEN_HEIGHT = _resY
-	    print("GAME ASPECT HAPPENINGS")
-	end
-	 
-	if SCREEN_WIDTH < _resX then
-	    SCREEN_X_OFFSET = 0
-	end
-	 
-	if SCREEN_HEIGHT < _resY then
-	    SCREEN_Y_OFFSET = 0
-	end--]]
-local DEVICE_WIDTH = _resX
-local DEVICE_HEIGHT = _resY
-
- if realAspect > gameAspect then
-    SCREEN_WIDTH = DEVICE_WIDTH
-    SCREEN_HEIGHT = DEVICE_WIDTH * gameAspect
- else
-    SCREEN_WIDTH = DEVICE_HEIGHT / gameAspect
-    SCREEN_HEIGHT = DEVICE_HEIGHT
- end
-
- if SCREEN_WIDTH < DEVICE_WIDTH then
-    SCREEN_X_OFFSET = ( DEVICE_WIDTH - SCREEN_WIDTH ) * 0.5
- end
-
- if SCREEN_HEIGHT < DEVICE_HEIGHT then
-    SCREEN_Y_OFFSET = ( DEVICE_HEIGHT - SCREEN_HEIGHT ) * 0.5
- end
-	--viewport:setSize ( SCREEN_X_OFFSET, SCREEN_Y_OFFSET, SCREEN_X_OFFSET + SCREEN_WIDTH, SCREEN_Y_OFFSET + SCREEN_HEIGHT )
-
-	vpx1 = SCREEN_X_OFFSET
-	vpy1 = SCREEN_Y_OFFSET
-
-	vpx2 = SCREEN_X_OFFSET + SCREEN_WIDTH
-	vpy2 = SCREEN_Y_OFFSET + SCREEN_HEIGHT
-
-
-	--Game:dropUI(g, resources )
-	core:updateViewPort(vpx1, vpy1, vpx2, vpy2)
-	--g:_updateGUILayer(width, height, vpx1, vpy1, vpx2, vpy2, units_x, units_y)
-	
-	--[[if _resX < 400 and _resY < 400 then
-		print("SMALL RES")
-
-		THEME_NAME = "basetheme_small.lua"
-		g:setTheme("basetheme_small.lua")
-		g:setCurrTextStyle("default")
-
-	else
-		print("BIG RES")
-
-		THEME_NAME = "basetheme.lua"
-		g:setTheme("basetheme.lua")
-		g:setCurrTextStyle("default")
-	end--]]
-	--g:setTheme("basetheme.lua")
-	--g:setCurrTextStyle("default")
-	--_bGuiLoaded = false
-	--g:shutdown()
-
-
-	print("THEME SHOULD BE: "..THEME_NAME.."")
-end
 
 MOAIGfxDevice.setListener(MOAIGfxDevice.EVENT_RESIZE, OnScreenResize )
+
+--MOAIGfxDevice.setListener(MOAIGfxDevice.EVENT_RESIZE, OnScreenResize )
 Game:init( )
 
 --function print( )

@@ -6,7 +6,7 @@ local data = {
 		pos = { 0, 0 },
 		images = { 
 			{
-				fileName = "../gui/overlay_image.png",
+				fileName = "../gui/overlay_image.png", --_1080.png
 			},
 		},
 		children = {
@@ -21,7 +21,7 @@ local data = {
 
 			inventory = {
 				widget = "image",
-				pos = {0, 9.2},
+				pos = {-100, 9.2},
 				dim = {100, 77.5},
 				images = {
 					{

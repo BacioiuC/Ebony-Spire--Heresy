@@ -38,7 +38,7 @@ function interface:_switchTo_introText( )
 		print("WELLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL")
 		Game:dropUI(g, resources )
 		local roots, widgets, groups = element.gui:loadLayout(resources.getPath("story_file.lua"), "")
-		self._introImage = 2
+		self._introImage = 3
 		self._newTimer = Game.worldTimer
 	end
 

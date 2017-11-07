@@ -41,7 +41,7 @@ end
 
 function evTurn:prepareList( )
 	for i,v in ipairs(entity:getList( )) do
-		if v.isCreature == true then
+		if v.isCreature == true and v.isBox == false then
 			v.energy = v.initialEnergy
 			self:addEntityToQue(v)
 		end
@@ -50,47 +50,18 @@ function evTurn:prepareList( )
 
 end
 
-function handlePCTurn( )
-	evTurn:_checkPlayerNextToPortal( )
-	evTurn:_checkPlayerOnStairs( )
-	evTurn:prepareList( )
-	evTurn:loopThroughListAndPerform( )
-	evTurn:resetQue( )
-
-
-
-
-end
-
-function evTurn:handlePCTurn()
-	
-	player:incTurn( )
-	player:regenLife( )
-	evTurn:_checkPlayerNextToPortal( )
-	self:_checkPlayerOnStairs( )
-	self:prepareList( )
-	self:loopThroughListAndPerform( )
-	self:resetQue( )
-	local px, py = player:returnPosition( )
-	local bool, chance = rngMap:isPatchAt(px, py, false)
-	--------- CHECK IF PLAYER IS ON A PATCH OF DARKNESS and GET CHANCE TO DIE!
-	if bool == true and chance == 7 then
-		log:newMessage("You were eaten by a grue!")
-		player:setKilledBy("a grue from within a patch of Darkness!")
-		player:receiveDamage(1000*10000)
+function evTurn:sortQue( )
+	for i,v in spairs(self._evTempQue, function(t,a,b) return t[b]._speed < t[a]._speed end) do
+		table.insert(self._evTurnTable, v)
 	end
-	--------- END CHECK
-end
-
-function evTurn:update( )
 
 end
 
 function evTurn:loopThroughListAndPerform( )
-	for i,v in ipairs(self._evTurnTable) do
-		if v.id ~= self._playerIDForQue then
-			entity:performAction(v.id)
-		end
+	for i,v in ipairs(entity:getList( )) do
+		--if v.id ~= self._playerIDForQue then
+		entity:performAction(v.id)
+		--end
 	end
 	-- loop through the list in order, starting with 1.
 	-- check current IDX. Is that entity DONE with it's action?
@@ -98,19 +69,63 @@ function evTurn:loopThroughListAndPerform( )
 	---- NO: do nothing and wait for it to do it's stuff
 end
 
-function evTurn:sortQue( )
-	for i,v in spairs(self._evTempQue, function(t,a,b) return t[b]._speed < t[a]._speed end) do
-		table.insert(self._evTurnTable, v)
-		--print("Name: "..v._name.." | Speed: "..v._speed.."")
-	end
 
-end
 
 
 function evTurn:resetQue( )
 	self._evTurnTable = { }
 	self._evTempQue = { }
 end
+
+
+function evTurn:handlePCTurn()
+	--self:prepareList( )
+	if item:getThrowProcessing( ) == false then
+		self:loopThroughListAndPerform( )
+		--self:resetQue( )
+
+
+		if player.isSleeping == false then
+			player:incTurn( )
+			player:regenLife( )
+			evTurn:_checkPlayerNextToPortal( )
+			self:_checkPlayerOnStairs( )
+			
+			local px, py = player:returnPosition( )
+			--item:createItemEffect_RemoveDarkness(px, py)
+			local bool, chance = rngMap:isPatchAt(px, py, false)
+			--------- CHECK IF PLAYER IS ON A PATCH OF DARKNESS and GET CHANCE TO DIE!
+			if bool == true and chance == 7 then
+				log:newMessage("You were eaten by a grue!")
+				player:setKilledBy("a grue from within a patch of Darkness!")
+				player:receiveDamage(1000*10000)
+			end
+			interface:_updateHealthModifier( )
+		else
+			evTurn:handlePCTurn()
+
+		end
+		--------- END CHECK
+		--[[rngMap:updateLights( )
+		entity:updateLightning()
+		item:updateLightning()--]]
+	end
+	
+	self:updateLights( )
+	entity:_SetLevelClear( )
+	
+end
+
+function evTurn:updateLights( )
+	rngMap:updateLights( )
+	entity:updateLightning()
+	item:updateLightning()
+end
+
+function evTurn:update( )
+
+end
+
 
 function evTurn:_checkPlayerOnStairs( )
 	local px, py = player:returnPosition( )
@@ -169,3 +184,17 @@ for k,v in spairs(HighScore, function(t,a,b) return t[b] < t[a] end) do
     print(k,v)
 end
 ]]
+
+
+function handlePCTurn( )
+	
+	evTurn:_checkPlayerNextToPortal( )
+	evTurn:_checkPlayerOnStairs( )
+	evTurn:prepareList( )
+	evTurn:loopThroughListAndPerform( )
+	evTurn:resetQue( )
+
+
+
+
+end

@@ -39,15 +39,82 @@ function core:returnLayerTable( )
 	return self.layerTable
 end
 
-function core:seWindow(_screenWidth, _screenHeight)
+function OnScreenResize2(width, height)
+    --print("WIDTH: "..width.." HEIGHT: "..height.."")
+	if g ~= nil then
+		_resX = width
+		_resY = height
+		
+		local SCREEN_WIDTH = units_x
+		local SCREEN_HEIGHT = units_y
+		local SCREEN_UNITS_Y = units_y
+		local SCREEN_UNITS_X = units_x
+		local DEVICE_WIDTH = _resX
+		local DEVICE_HEIGHT = _resY
+		GLOBALSCL = (SCREEN_X_OFFSET + SCREEN_WIDTH) / units_x
+
+		local gameAspect = SCREEN_UNITS_Y / SCREEN_UNITS_X
+		local realAspect = DEVICE_HEIGHT / DEVICE_WIDTH
+
+		if realAspect > gameAspect then
+			SCREEN_WIDTH = DEVICE_WIDTH
+			SCREEN_HEIGHT = DEVICE_WIDTH * gameAspect
+		else
+			SCREEN_WIDTH = DEVICE_HEIGHT / gameAspect
+			SCREEN_HEIGHT = DEVICE_HEIGHT
+		end
+
+		if SCREEN_WIDTH < DEVICE_WIDTH then
+			SCREEN_X_OFFSET = ( DEVICE_WIDTH - SCREEN_WIDTH ) * 0.5
+		end
+
+		if SCREEN_HEIGHT < DEVICE_HEIGHT then
+			SCREEN_Y_OFFSET = ( DEVICE_HEIGHT - SCREEN_HEIGHT ) * 0.5
+		end
+
+
+		vpx1 = SCREEN_X_OFFSET
+		vpy1 = SCREEN_Y_OFFSET
+		vpx2 = SCREEN_X_OFFSET + SCREEN_WIDTH
+		vpy2 = SCREEN_Y_OFFSET + SCREEN_HEIGHT
+
+		Game:dropUI(g, resources )
+		core:updateViewPort(vpx1, vpy1, vpx2, vpy2)
+		
+		g:_updateGUILayer(units_x, units_y, vpx1, vpy1, vpx2, vpy2, units_x, units_y)
+		_bGuiLoaded = false
+
+		
+	--g:shutdown()
+	end
+
+
+	--print("THEME SHOULD BE: "..THEME_NAME.."")
+end
+
+
+
+function core:seWindow(_screenWidth, _screenHeight, _fullScreen)
 	local screenWidth = MOAIEnvironment.horizontalResolution
 	local screenHeight = MOAIEnvironment.verticalResolution
+
+	if _fullScreen == false then 
+		screenWidth = _screenWidth
+		screenHeight = _screenHeight
+	end
 
 	if screenWidth == nil then screenWidth = _screenWidth end
 	if screenHeight == nil then screenHeight = _screenHeight end
 
 	MOAISim.openWindow(app_name,screenWidth,screenHeight)
-	--self:setFullscreen(true)
+	--self:updateViewPort(screenWidth, screenHeight, units_x, units_y)
+	OnScreenResize2(screenWidth, screenHeight)
+
+	if _fullScreen == true then
+		MOAISim.enterFullscreenMode ()
+	else
+		MOAISim.exitFullscreenMode ( )
+	end
 	--core:initFont( )
 end
 
@@ -132,6 +199,13 @@ function core:addGuiViewPort(_viewPort, _viewPortWidth, _viewPortHeight, _vp2, _
 	}
 	table.insert(self.viewPortTable, temp)
 
+	unitsX = units_x
+
+	unitsY = units_y
+
+	self.viewPortTable[#self.viewPortTable].viewPort = MOAIViewport.new()
+	self.viewPortTable[#self.viewPortTable].viewPort:setSize(_viewPortWidth, _viewPortHeight, _vp2, _vp3)
+	self.viewPortTable[#self.viewPortTable].viewPort:setScale(unitsX, unitsY)
 end
 
 
@@ -144,9 +218,12 @@ function core:updateViewPort(_vpWidth, _vpHeight, _vp2, _vp3)
 		v.viewPort:setSize(_vpWidth, _vpHeight, _vp2, _vp3)
 		v.viewPort:setScale(unitsX,unitsY)
 		
-		print("WIDTH: ".._vpWidth.." HEIGHT: ".._vpHeight.." VP2: ".._vp2.." VP3: ".._vp3.."")
-		print(i)
+		--print("WIDTH: ".._vpWidth.." HEIGHT: ".._vpHeight.." VP2: ".._vp2.." VP3: ".._vp3.."")
 	end
+end
+
+function core:clearLayer(_layer)
+	self:returnLayer(_layer):clear( )
 end
 
 function core:offsetViewport(_x, _y)
@@ -204,7 +281,8 @@ function core:_debugSetCamera( )
 	core:returnLayer(3):setCamera ( dcamera )
 	core:returnLayer(4):setCamera ( dcamera )
 	core:returnLayer(5):setCamera ( dcamera )
-
+	core:returnLayer(7):setCamera ( dcamera )
+	core:returnLayer(8):setCamera ( dcamera )
 
 end
 
@@ -217,11 +295,7 @@ function core:render(_id)
 end
 
 function core:setFullscreen(_bool)
-	if _bool == true then
-		MOAISim.enterFullscreenMode ()
-	elseif _bool == false then
-		MOAISim.exitFullscreenMode ()
-	end
+	core:seWindow(resX, resY, _bool)		
 end
 
 
@@ -246,6 +320,12 @@ function isModuleAvailable(name)
 end
 
 function file_exists(name)
+	local f=io.open(name,"r")
+	if f~=nil then io.close(f) return true else return false end
+end
+
+
+function core:file_exists(name)
 	local f=io.open(name,"r")
 	if f~=nil then io.close(f) return true else return false end
 end

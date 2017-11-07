@@ -27,7 +27,7 @@ inputFlag = true
 function input:init( )
 	self.inputTable = {}
 	self._inputFlag = true
-	print ( MOAIInputMgr.configuration )
+	--print ( MOAIInputMgr.configuration )
 	--print( "pana mea, seems to be workin'")
 end
 
@@ -57,7 +57,7 @@ function input.onKeyboardEvent ( key, down )
 	if down == true then
 		Game:keypressed( key )
 		g:injectKeyDown(key)
-		print(" "..key.."")
+		--print(" "..key.."")
 	elseif down == false then
 		Game:keyreleased( key )
 		g:injectKeyUp(key)
@@ -73,8 +73,8 @@ function input.onPointerEvent ( x, y )
 	local flag = input:_getFlag( )
 	if inputFlag == true then
 		--print("INPUT FLAG IS TRUE")
-		g:injectMouseMove(x, y)
-		Game.touchLocation( x, y )
+		--g:injectMouseMove(x, y)
+		--Game.touchLocation( x, y )
 	end
 end
 

@@ -1,21 +1,30 @@
 local textstyles = require "gui/textstyles"
 
+function math.distance(x1,y1, x2,y2) return ((x2-x1)^2+(y2-y1)^2)^0.5 end
+
 function interface:setupMainMenu( )
 	sound:stopAll( )
-
+	--player:init( )
+	rngMap:init( )
+	entity:init( )
+	item:init( )
 	local roots, widgets, groups = element.gui:loadLayout(resources.getPath("ggMM.lua"), "")
 	local g = element.gui
 
 	self._mmBackground = widgets.backGround.window
 	self._mmOptionpanel = widgets.mmBackPanel.window
+	
+
+	self._mmBackground:setImage(resources.getPath("../gui/alpha_sign_"..Game.optionSettings.scanLine..".png"), 1, 1, 1, 1)
 
 	self._mmButtonTable = {}
 	self._mmButtonText = {}
 	self._mmButtonText[1] = "NEW GAME"
 	self._mmButtonText[2] = "LOAD SAVED RUN"
 	self._mmButtonText[3] = "SHOW HIGHSCORES"
-	self._mmButtonText[4] = "HELP"
-	self._mmButtonText[5] = "EXIT"
+	self._mmButtonText[4] = "OPTIONS"
+	self._mmButtonText[5] = "HELP"
+	self._mmButtonText[6] = "EXIT"
 
 	self._mmIDX = 1
 	self:_mmAddButtons( )
@@ -25,8 +34,9 @@ function interface:setupMainMenu( )
 	sound:play(Game.mainMenuSound)
 	
 
-	interface:createTower( )
-
+	--interface:createTower( )
+	interface:loadMainMenuLevel( )
+	--self._skyTile = makeCube(-10000, "tiles/Menu/sky_backdrop.png")
 	
 end
 
@@ -35,9 +45,13 @@ function interface:createMMCamera( )
 	camera:setLoc ( 0, 0, camera:getFocalLength ( 360 ))
 	core:returnLayer(2):setCamera ( camera )
 	core:returnLayer(1):setCamera( camera )
+	core:returnLayer(3):setCamera( camera )
+	core:returnLayer(4):setCamera( camera )
+
 	core:returnLayer(g_Ui_Layer):setCamera(camera)
 	camera:setOrtho(false)
 	camera:setFieldOfView (FOVNORMAL)
+	self._cameraPoints = rngMap:getCameraPoints( )
 
 	self._cameraX = 50/2*100
 	self._cameraY = 7500
@@ -56,7 +70,25 @@ function interface:createMMCamera( )
 	self._orientation = 1
 
 	--camera:setRot(self._cameraRotX, self._cameraRotY, self._cameraRotZ, 0.5)
-	camera:setLoc(3500, 200, 4000, 0.5)
+	camera:setLoc(220, 200, 200, 0.5)
+end
+
+function interface:loadMainMenuLevel( )
+	if self._towerGenerated  == false then
+		self:createMMCamera( )
+		
+
+		rngMap:init( )
+		rngMap:loadMainMenu("victory_map.lua")
+	    self._skyTileBg = rngMap:_getSkyTile( )
+	    self._rotAngle = 0
+		local x, y = rngMap:getSpawnPointLoc( )
+		camera:setLoc(x*100, 100, y*100)
+		self._cameraPoints = rngMap:getCameraPoints( )
+		self._cameraLookAt = rngMap:getCameraLookAtPoints( )
+		self._currentPoint = 1
+		self._towerGenerated = true
+	end
 end
 
 function interface:createTower( )
@@ -73,7 +105,7 @@ function interface:createTower( )
 		self._towerBricksList = { }
 		self._treeList = { }
 
-		local grassTile = makeCube( 100, "tiles/Menu/grass2.png" )
+		local grassTile = makeCube( 100, "tiles/Forest/floor_1.png" )
 		local map = { }
 		for x = 1, self._mapWidth do
 			map[x] = { }
@@ -107,9 +139,7 @@ function interface:createTower( )
 		meshList[1] = ripMesh
 		meshList[2] = treeMesh2
 		core:setSordMode(1, MOAILayer.SORT_Z_ASCENDING)
-		--[[for i = 1, nrStones do
-			 image:new3DImage(ripMesh, math.random(10, 70)*100, 100, math.random(0, 40)*100, self._mainMapLayer)
-		end--]]
+
 		for x = 20, 60 do
 			for y = 10, 38 do
 				if(y > 25 and y < 30) then
@@ -127,7 +157,12 @@ function interface:createTower( )
 				end
 			end
 		end
+		--rngMap:loadMainMenuLevel( )
+		self._cameraPoints = rngMap:getCameraPoints( )
+		self._cameraLookAt = rngMap:getCameraLookAtPoints( )
+		self._currentPoint = 1
 		self._towerGenerated = true
+		--camera:setLoc(self._cameraPoints[1].x * 100, 100, self._cameraPoints[1].y * 100)
 	end
 end
 
@@ -135,7 +170,48 @@ function interface:resetTowerMenuFlag( )
 	self._towerGenerated = false
 end
 
+
+
 function interface:circleTowerUpdate( )
+
+	--[[for i,v in ipairs(self._cameraPoints) do
+		camera:setLoc(v.x*100, 200, v.y*100, 0.5)
+	end--]]
+	--[[local temp = {}
+	temp.x = self._cameraPoints[self._currentPoint].x or 100
+	temp.y = self._cameraPoints[self._currentPoint].y or 100
+	temp.rotY = self._cameraPoints[self._currentPoint].rotY
+	local cam = {}
+	local cx, cy, cz = camera:getLoc()
+	--print("CX: "..cx.." | CY: "..cz.."")
+	--print("TX: "..temp.x.." | TY: "..temp.y.."")
+	--print("Current Point: "..self._currentPoint.."")
+	local ncx = cx
+	local ncy = cz 
+	local cameraSpeed = 5
+	if ncx < temp.x * 100 then
+		ncx = ncx + cameraSpeed
+	elseif ncx > temp.x * 100 then
+		ncx = ncx - cameraSpeed
+	end
+
+	if ncy < temp.y * 100 then
+		ncy = ncy + cameraSpeed
+	elseif ncy > temp.y * 100 then
+		ncy = ncy - cameraSpeed
+	end	
+
+	if math.dist(ncx, ncy, temp.x*100, temp.y*100) < 100 then
+		if self._currentPoint < #self._cameraPoints then
+			self._currentPoint = self._currentPoint + 1
+		else
+			self._currentPoint = 1
+		end
+		camera:seekRot(0, temp.rotY, 0, 0.1)
+	end
+	camera:setLoc(ncx, 100, ncy, 1)--]]
+	--camera:seekRot()
+
 	if(self._skyTileBg ~= nil) then
 
 		if self._rotAngle < 360 then
@@ -266,23 +342,26 @@ end
 
 function interface:_mmKeyPressed(key)
 
-	if key == 119 then -- W
+	if key == ACTION_FORWARD or key == ACTION_FORWARD_UP then -- W
 		self:_mmDecPointer( )
-	elseif key == 115 then -- S
+	elseif key == ACTION_DOWN or key == ACTION_DOWN_S then -- S
 		self:_mmIncPointer( )
 	end
 
-	if key == 32 then -- YO! Space to confirm
+	if key == ACTION_USE or key == ACTION_ENTER then -- YO! Space to confirm
 		if self._mmIDX == 1 then
 			self:_destroyMainMenu( )
 			self:_mmGoToGame( )
 		elseif self._mmIDX == 2 then
-
+			self:_destroyMainMenu( )
+			self:_mmGoToGame(true)			
 		elseif self._mmIDX == 3 then
 			self:_mmGoToHighScore( )
 		elseif self._mmIDX == 4 then
-			interface:_mmGoToHelp( )
+			self:_mmGoToOptions( )
 		elseif self._mmIDX == 5 then
+			interface:_mmGoToHelp( )
+		elseif self._mmIDX == 6 then
 			os.exit( )
 		end
 	end
@@ -298,11 +377,29 @@ function interface:_destroyMainMenu( )
 	
 end
 
-function interface:_mmGoToGame( )
+function interface:_mmGoToGame(_isLoading)
 
 	_bGameLoaded = false
 	_bGuiLoaded = false	
-	currentState = 19
+	Game.favoriteItem = nil
+	Game._LevelsClearFlags = {}
+	for i = 1, 10 do
+		Game._LevelsClearFlags[i] = false
+	end
+
+	if _isLoading == true then
+	
+		Game:importDungeonLevel( )
+		interface:_destroyClassMenu( )
+		Game:importSaveInfo( )
+
+		currentState = 14
+
+	else
+		Game.levelSeed = nil
+		currentState = 19
+	end
+	
 end
 
 function interface:_mmGoToHighScore( )
@@ -310,6 +407,13 @@ function interface:_mmGoToHighScore( )
 	_bGameLoaded = false
 	_bGuiLoaded = false	
 	currentState = 20
+end
+
+function interface:_mmGoToOptions( )
+	self:_destroyMainMenu( )
+	_bGameLoaded = false
+	_bGuiLoaded = false	
+	currentState = 25
 end
 
 function interface:_mmGoToHelp( )
@@ -360,58 +464,98 @@ function interface:_createClassDescriptions( )
 	self._classTable = { }
 
 	self._classTable[1] = { 
-		" The mighty berserker is known for his",
-		" endurance and ruthlessness. Armed with ",
-		" nothing but a sword and courage he",
-		" hacks away at unsuspecting creatures and ",
-		" foes alike. The berserker starts with: ",
-		" - 1X Iron Sword",
-		" - 1X Leather Armor",
+		" The mighty berserker is known for ",
+		" his endurance and ruthlessness.   ",
+		" Armed with nothing but an axe and ",
+		" courage he hacks away at   ",
+		" unsuspecting creatures and foes ", 
+		" alike. The berserker starts with: ",
+		" - 1X Berserker’s Axe",
+		" - 1X Leather Armor of Rage",
 		" ",
 	} -- programmer
 
 	self._classTable[2] = { 
-		" The Night Shade cares not about the road",
-		" or destination. Their only goal is to",
-		" wreak havok uppon creation and probe it",
-		" for any flaws he might be able to ",
-		" exploit! Night Shade starts with: ",
+		" The Night Shade cares not about the ",
+		" road or destination. The only goal",
+		" is to wreak havok uppon creation and",
+		" probe it for any flaws he might be ",
+		" able to  exploit!",
+		" Night Shade starts with: ",
 		" - 3X Throwing Dagger",
-		" - 1X Potion of Darkness",
+		" - 1X Small Handgun",
 		" - 2X Potion of Teleportation",
 	} -- programmer
 
 	self._classTable[3] = { 
-		" The Scroll Mage is an odd and versatile",
-		" fellow. He is not an innate caster and",
-		" as such cannot cast magic by",
-		" regular means. Instead he relies on",
-		" Magic imbued items. The Scroll mage starts",
-		" with the following items:",
-		" - 2X Scroll of Magic Missile",
+		" The Scroll Mage is an odd and ",
+		" versatile fellow. He is not an ",
+		" innate caster and as such cannot ",
+		" cast magic by regular means. Instead ",
+		" he relies on Magic imbued items.",
+		" The Scroll mage starts with the ",
+		" following items: ",
+		" - 1X Spellbook of Ember",
 		" - 1X Scroll of Discharge",
 		" - 1X Small Potion of Health",
 	} -- programmer
 	self._classInventory = { }
 	self._classInventory[1] = {
-		53,
-		49,
+		74,
+		77,
 
+
+		--72,
+		--65,
+		--66,
+		--36,
+		--34,
 	}
 	self._classInventory[2] = {
-		51,
-		51,
-		51,
-		1,
-		52,
-		52,
+		48,
+		48,
+		48,
+		87,
+		49,
+		49,
+		--104,
+		--100,
+		--100,
+		--88,
+		--89,
+		----
+
+		--[[
+		92,
+		89,
+		93,
+		36,
+		34,
+		54,
+		69,
+		
+92 - tripple
+89 - sword of radiance
+93 - spellbook of healing
+36 - tome of teleportation
+34 - pixie wings
+54 - paladin armor
+69 - Noctus skull
+
+		]]
+
+		--[[88,
+		58,
+		89,
+		36,
+		42,
+		42,
+		54,--]]
 	}
 	self._classInventory[3] = {
-		17,
-		17,
-		15,
+		83,
 		13,
-
+		51,
 	}	
 
 --[[
@@ -424,22 +568,25 @@ function interface:_createClassDescriptions( )
 ]]
 	self._classStats = { }
 	self._classStats[1] = {
-		weaponAffinity = 0.7,
-		spellKnowdlege = 0.2,
+		weaponAffinity = 1.3,
+		spellKnowdlege = 0.1,
+		gunKnowledge = 0.1,
 		initial_health = 40,
 		hp = 40,
 	}
 	self._classStats[2] = {
-		weaponAffinity = 0.4,
-		spellKnowdlege = 0.4,
-		initial_health = 38,
-		hp = 38,
+		weaponAffinity = 0.7,
+		spellKnowdlege = 0.3,
+		gunKnowledge = 1.9,
+		initial_health = 35,
+		hp = 35,
 	}
 	self._classStats[3] = {
-		weaponAffinity = 2.3,
-		spellKnowdlege = 1.8,
-		initial_health = 44,
-		hp = 44,
+		weaponAffinity = 0.4,
+		spellKnowdlege = 5.0,
+		gunKnowledge = 0.1,
+		initial_health = 24,
+		hp = 24,
 	}
 end
 
@@ -454,7 +601,7 @@ function interface:_classSetupDescriptionMenu( )
 	--- Now the text box (eww)
 	self._descriptionTextBox = element.gui:createTextBox( )
 	self._descriptionTextBox:setDim(50, 40)
-	self._descriptionTextBox:setPos(1, 10)
+	self._descriptionTextBox:setPos(1, 5)
 	self._descriptionTextBox:addText("Lorem ipsum doloret sit amet ")
 	self._descriptionTextBox:setLineHeight(4)
 	self._descriptionTextBox:_setTextStyle("mmButtonUnselected")
@@ -532,9 +679,9 @@ end
 
 function interface:_classKeyPressed( key )
 
-	if key == 119 then -- W
+	if key == ACTION_FORWARD or key == ACTION_FORWARD_UP then -- W
 		self:_clsDecPointer( )
-	elseif key == 115 then -- S
+	elseif key == ACTION_DOWN or key == ACTION_DOWN_S then -- S
 		self:_clsIncPointer( )
 	end
 
@@ -542,7 +689,7 @@ function interface:_classKeyPressed( key )
 		self:_classMenuGoTMainMenu( )
 	end
 
-	if key == 32 then -- YO! Space to confirm
+	if key == ACTION_USE or key == ACTION_ENTER then -- YO! Space to confirm
 		if self._idx == 1 then
 			self:_classMenuGoToGame( )
 		elseif self._idx == 2 then
@@ -555,39 +702,52 @@ function interface:_classKeyPressed( key )
 end
 
 function interface:_destroyClassMenu( )
-	for i,v in ipairs(self._classButtonTable) do
-		v.label:destroy( )
+	if self._classButtonTable ~= nil then
+		for i,v in ipairs(self._classButtonTable) do
+			v.label:destroy( )
+		end
 	end
-	self._classPanel:destroy( )
-	self._classDescription:destroy( )
-	self._classBg:destroy( )
+	if self._classPanel ~= nil then
+		self._classPanel:destroy( )
+		self._classDescription:destroy( )
+		self._classBg:destroy( )
+	end
 
 	--self._towerBricksList 
 	-- self._treeList
-	for i = 1, #self._towerBricksList do
-		image:removeProp(self._towerBricksList[i], self._mainMapLayer)
+	if self._towerBricksList ~= nil then
+		for i = 1, #self._towerBricksList do
+			image:removeProp(self._towerBricksList[i], self._mainMapLayer)
+		end
 	end
 
-	for i = 1, #self._treeList do
-		image:removeProp(self._treeList[i], self._mainMapLayer)
+	if self._treeList ~= nil then
+		for i = 1, #self._treeList do
+			image:removeProp(self._treeList[i], self._mainMapLayer)
+		end
 	end
 
-	for x = 1, self._mapWidth do
+	--[[for x = 1, self._mapWidth do
 		for y = 1, self._mapHeight do
 			image:removeProp(self._map[x][y].floor, self._mainMapLayer)
 			self._map[x][y].floor = nil
 		end
-	end
+	end--]]
 
 	image:removeProp( self._skyTileBg, self._mainMapLayer);
 	self._skyTileBg = nil
+
+	rngMap:destroyMap( )
 	self._towerGenerated = false
+
+
 end
 
 function interface:_classMenuGoToGame( )
 	if self._idx > #self._classButtonTable then self._idx = self._classButtonTable end
 	Game.classOptions[1] = self._classInventory[self._idx] -- inventory
 	Game.classOptions[2] =  self._classStats[self._idx] -- modifiers player stats
+	Game.scoreTable.name = self._classButtonText[self._idx]
 	self:_destroyClassMenu( )
 	_bGameLoaded = false
 	_bGuiLoaded = false	
@@ -657,7 +817,7 @@ function interface:_initHighScoreTable( )
 
 
 	--local tbToFill = self:_loadScore( )
-	--print("TB TO FILL TYPE: "..type(tbToFill).."")
+	----print("TB TO FILL TYPE: "..type(tbToFill).."")
 	--local tempTable = tbToFill
 	--[[if tbToFill == nil then
 		tbToFill = { }
@@ -704,7 +864,7 @@ function interface:_initHighScoreTable( )
 	
 	local bool = file_exists("HighScore.yasd")
 	if bool == true then
-		print("INIT : FILE EXISTS ::::::::::::::::::::::::::::::")
+		--print("INIT : FILE EXISTS ::::::::::::::::::::::::::::::")
 --		self._highScoreTable = self:_loadScore( )
 		local unsortedHighScoreTable = self:_loadScore( )
 		self._highScoreTable = { }
@@ -715,25 +875,33 @@ function interface:_initHighScoreTable( )
 		end
 		----self._addScore(self._highScoreTable)
 		if self._highScoreTable == nil then
-			print("PROBLEM IN HIGHSCORE :( ")
+			--print("PROBLEM IN HIGHSCORE :( ")
 		else
-			print("HIGHSCORE OK! SIZE: "..#self._highScoreTable.."")
+			--print("HIGHSCORE OK! SIZE: "..#self._highScoreTable.."")
 		end
 		self:_scoreBoxAddContent( )
 	end
 
 end
 
-function interface:_addScore(_table)
-	print("IN ADD SCORE")
+function interface:_addScore(_table, _optional)
+	--print("IN ADD SCORE")
+	local textLine1Option = ""
 	for i,v in ipairs(_table) do
-		print("ADDING SCORE: "..i.."")
+		--print("ADDING SCORE: "..i.."")
+		if _optional ~= nil then
+			textLine1Option = "<c:9FC43A>"..v.name.."</c> entered the realm of legend! He \n completed his quest in: "..v.turns.." turns."
+			textLine3Option = ""
+		else
+			textLine1Option = "<c:9FC43A>"..v.name.."</c> died on level "..v.lvDeath..". He survived for "..v.turns.." turns."
+			textLine3Option = "He was killed by a <c:0B5E87>"..v.killedBy.."</c>."
+		end
 		local temp = { 
 			id = #self._highScoreTable+1,
 			score = v.score,
-			textLine1 = "<c:9FC43A>"..v.name.."</c> died on "..v.lvDeath..". He survived for "..v.turns.." turns.",
+			textLine1 = textLine1Option,
 			textLine2 = "His most valauble item was: "..v.valuableItem..".",
-			textLine3 = "He was killed by a <c:0B5E87>"..v.killedBy.."</c>.",
+			textLine3 = textLine3Option,
 			turns = v.turns,
 			name = v.name,
 			lvDeath = v.lvDeath,
@@ -742,7 +910,7 @@ function interface:_addScore(_table)
 		}
 
 		table.insert(self._highScoreTable, temp)
-		print("SCORE ADDED! ")
+		--print("SCORE ADDED! ")
 
 	end
 
@@ -752,7 +920,7 @@ function interface:_scoreBoxAddContent( )
 	
 	for i,v in ipairs(self._highScoreTable) do
 		-- now, update the text box
-		print("I: "..i.."")
+		--print("I: "..i.."")
 		self._highScoreTextBox:newLine( )
 		local posText = ""..v.id.."       |"
 		local scoreText = "   "..v.score.."     |"
@@ -793,11 +961,11 @@ local function spairs(t, order)
     end
 end
 
-function interface:_exportScore(_table)
-	print("IN EXPORT :(")
+function interface:_exportScore(_table, _optionalNil)
+	--print("IN EXPORT :(")
 	local bool = file_exists("HighScore.yasd")
 	if bool == true then
-		print("THE FILE EXISTS")
+		--print("THE FILE EXISTS")
 		--self._highScoreTable = table.load("HighScore.yasd")
 		self._highScoreTable = { }
 		local unsortedHighScoreTable = table.load("HighScore.yasd")
@@ -806,18 +974,18 @@ function interface:_exportScore(_table)
 			j.id = i
 			table.insert(self._highScoreTable, j)
 		end
-		self:_addScore(_table)
+		self:_addScore(_table, _optionalNil)
 		os.remove("HighScore.yasd")
-		print("SAVING EDITS")
+		--print("SAVING EDITS")
 		table.save(self._highScoreTable, "HighScore.yasd")
-		print("SAVED")
+		--print("SAVED")
 	else
-		print("WE GOT HERE :(")
+		--print("WE GOT HERE :(")
 		self._highScoreTable = { }
 		for i,v in ipairs(_table) do
-			print("I :" ..i.." type v: "..type(v).."")
+			--print("I :" ..i.." type v: "..type(v).."")
 		end
-		self:_addScore(_table)
+		self:_addScore(_table, _optionalNil)
 		table.save(self._highScoreTable, "HighScore.yasd")
 	end
 end
@@ -836,13 +1004,13 @@ function interface:_increaseScrollIDX( )
 	end
 	self._highScoreTextBox:_setCurItem(self._scrollIDX)
 	self._highScoreTextBox:_displayLines()
-	print("====== INC ======================")
-	print("SCROLLIDX: "..self._scrollIDX.." NUM ITEMS: "..self._highScoreTextBox:_getNumItem( ).."")
-	print("SCROLLIDX: "..self._scrollIDX.." NUM ITEMS: "..self._highScoreTextBox:_getNumItem( ).."")
-	print("SCROLLIDX: "..self._scrollIDX.." NUM ITEMS: "..self._highScoreTextBox:_getNumItem( ).."")
-	print("SCROLLIDX: "..self._scrollIDX.." NUM ITEMS: "..self._highScoreTextBox:_getNumItem( ).."")
-	print("SCROLLIDX: "..self._scrollIDX.." NUM ITEMS: "..self._highScoreTextBox:_getNumItem( ).."")
-	print("====== END INC ==================")
+	--print("====== INC ======================")
+	--print("SCROLLIDX: "..self._scrollIDX.." NUM ITEMS: "..self._highScoreTextBox:_getNumItem( ).."")
+	--print("SCROLLIDX: "..self._scrollIDX.." NUM ITEMS: "..self._highScoreTextBox:_getNumItem( ).."")
+	--print("SCROLLIDX: "..self._scrollIDX.." NUM ITEMS: "..self._highScoreTextBox:_getNumItem( ).."")
+	--print("SCROLLIDX: "..self._scrollIDX.." NUM ITEMS: "..self._highScoreTextBox:_getNumItem( ).."")
+	--print("SCROLLIDX: "..self._scrollIDX.." NUM ITEMS: "..self._highScoreTextBox:_getNumItem( ).."")
+	--print("====== END INC ==================")
 end
 
 function interface:_decreaseScrollIDX( )
@@ -858,14 +1026,14 @@ end
 function interface:_highScoreKeyPressed( key )
 
 	-- scroll up and down :)
-	if key == 119 then -- W
+	if key == ACTION_FORWARD or key == ACTION_FORWARD_UP then -- W
 		self:_decreaseScrollIDX( )
-	elseif key == 115 then --s
+	elseif key == ACTION_DOWN or key == ACTION_DOWN_S then --s
 		self:_increaseScrollIDX( )
 	end
 
 
-	if key == 13 or key == 27 then
+	if key == ACTION_QUIT or key == ACTION_BACK then
 		self:_returnToMainMenu( )
 	end
 end
@@ -877,6 +1045,248 @@ function interface:_returnToMainMenu( )
 	currentState = 2
 end
 
+----------------------------------------------------------------------
+--- Options Menu Stuff -----------------------------------------------
+----------------------------------------------------------------------
+
+function interface:_initOptionsMenu( )
+	local roots, widgets, groups = element.gui:loadLayout(resources.getPath("options_menu.lua"), "")
+	local g = element.gui
+	self._scanLineBig = widgets.scanlineBg.window
+	self._optionsMenuBG = widgets.backGround.window
+	self._scanLineBig:setImage(resources.getPath("../gui/alpha_sign_"..Game.optionSettings.scanLine..".png"), 1, 1, 1, 1)
+--[[musicAudioLabel = {
+	widget = "label",
+	dim = {40, 10},
+	pos = {5, 10},
+	text = "Music volume: 100",
+},
+soundAudioLabel = {
+	widget = "label",
+	dim = {40, 10},
+	pos = {5, 15},
+	text = "Sound volume: 100",
+},
+permaDeathLabel = {
+	widget = "label",
+	dim = {40, 10},
+	pos = {5, 20},
+	text = "Permadeath: ON",
+},--]]
+--	self._musicVolumeLabel = widgets.musicAudioLabel.window
+--	self._audioVolumeLabel = widgets.soundAudioLabel.window
+--	self._permaDeathLabel = widgets.permaDeathLabel.window
+
+--[[
+		Game.optionSettings.musicLevel = 50
+		Game.optionSettings.audioLevel = 25
+		Game.optionSettings.permaDeath = 1
+
+]]
+	Game:importOptions( )
+	self._musicVolumeLevel = Game.optionSettings.musicLevel
+	self._audioVolumeLevel = Game.optionSettings.audioLevel
+	self._scanLine = Game.optionSettings.scanLine
+	self.infinite_mode = Game.optionSettings.infinite_mode
+	self._permaOption = Game.optionSettings.permaDeath
+
+	self._maxVolume = 100
+	self._minVolume = 0
+	self._stepVolume = 5
+
+	self._permaDeathOptions =  {}
+	
+	
+	self._permaDeathOptions[0] = "OFF"
+	self._permaDeathOptions[1] = "ON"
+
+	self._opButtonTable = {}
+	self._opButtonText = {}
+	self._opButtonText[1] = "Music volume: "
+	self._opButtonText[2] = "Sound volume: "
+	self._opButtonText[3] = "Permadeath: "
+	self._opButtonText[4] = "Scanline: "
+	self._opButtonText[5] = "Infinite Mode: "
+
+	self._opButtonValue = {}
+	self._opButtonValue[1] = self._musicVolumeLevel
+	self._opButtonValue[2] = self._audioVolumeLevel
+	self._opButtonValue[3] = self._permaOption
+	self._opButtonValue[4] = self._scanLine
+	self._opButtonValue[5] = self.infinite_mode
+
+	self._optionsIDX = 1
+	self:_opAddButtons( )
+	for i = 1, #self._opButtonTable do
+		self:_opIncPointer( )
+	end
+
+	for i = 1, #self._opButtonTable do
+		self:_opDecPointer( )
+	end
+
+	self:_updateOpButtons( )
+	self:_updateOpButtons( )
+	self:_updateOpButtons( )
+	
+	
+end
+
+function interface:_updateSettingsValue( )
+	self._musicVolumeLevel = self._opButtonValue[1]
+	self._audioVolumeLevel = self._opButtonValue[2]
+	self._permaOption = self._opButtonValue[3]
+	self._scanLine = self._opButtonValue[4]
+	self.infinite_mode = self._opButtonValue[5]
+end
+
+
+function interface:_opAddButtons( )
+	local buttonTableSz = #self._opButtonText
+	for i = 1, buttonTableSz do
+		local temp = {
+			id = i,
+			label = element.gui:createLabel( ),
+		}
+		temp.label:setDim(40, 10)
+		temp.label:setPos(5, 5+i*5-5)
+		temp.label:setText("< "..self._opButtonText[i].." >")
+		temp.label:setTextStyle(textstyles.get("mmButtonUnselected"))
+		self._optionsMenuBG:addChild(temp.label)
+		table.insert(self._opButtonTable, temp)
+	end
+end
+
+
+
+function interface:_optionsKeyPressed( key )
+	if key == ACTION_FORWARD or key == ACTION_FORWARD_UP then -- W
+		self:_opDecPointer( )
+	elseif key == ACTION_DOWN or key == ACTION_DOWN_S then -- S
+		self:_opIncPointer( )
+	elseif key == ACTION_MOVE_LEFT_A or key == ACTION_MOVE_LEFT then
+		--print("A PRESSED")
+		self:_decButtonValue(self._optionsIDX)
+	elseif key == ACTION_MOVE_RIGHT_D or key == ACTION_MODE_RIGHT then
+		--print("D PRESSED")
+		self:_incButtonValue(self._optionsIDX)
+	end
+	
+	if key == ACTION_BACK or key == ACTION_QUIT then
+		self:_optionsGoToMaiNMenu( )
+	end
+
+	if key == ACTION_USE or key == ACTION_ENTER then -- YO! Space to confirm
+
+	end
+	interface:_updateSettingsValue( )
+	
+	Game:exportOptions(self._musicVolumeLevel, self._audioVolumeLevel, 	self._permaOption, self._scanLine, self.infinite_mode )
+	print("INFINITE MODE: "..self.infinite_mode.."")
+	print("INFINITE MODE: "..self.infinite_mode.."")
+	print("INFINITE MODE: "..self.infinite_mode.."")
+	self._scanLineBig:setImage(resources.getPath("../gui/alpha_sign_"..Game.optionSettings.scanLine..".png"), 1, 1, 1, 1)
+end
+
+function interface:_updateOpButtons( )
+	local idx = self._optionsIDX
+	self:_resetOpButtonsColor(idx)
+	
+end
+
+function interface:_resetOpButtonsColor(idx)
+	--print("IDX IS: "..idx.."")
+	for i,v in ipairs(self._opButtonTable) do
+		local text_style = "mmButtonUnselected"
+		local precSymbol = ""
+		local surSymbol = ""
+		local newValue = snil
+		if i == idx then
+			text_style = "mmButtonSelected"
+			precSymbol = "<"
+			surSymbol = ">"
+			newValue = self._opButtonValue[idx]
+		end
+		--print("I IS: "..i.."")
+		if newValue ~= nil then
+			v.label:setText(""..precSymbol.." "..self._opButtonText[i]..""..newValue.." "..surSymbol.."")
+		end
+		v.label:setTextStyle(textstyles.get(""..text_style..""))
+	end
+end
+function interface:_incButtonValue(_idx)
+	sound:play(Game.uiSwitch)
+	local currentButtonValue = self._opButtonValue[_idx]
+	--print("CBV: "..currentButtonValue.."")
+	if _idx < 3 then
+		if currentButtonValue < self._maxVolume then
+			currentButtonValue = currentButtonValue + self._stepVolume
+		else
+			currentButtonValue = self._maxVolume
+		end
+	else
+		currentButtonValue = 1
+	end
+	self._opButtonValue[_idx] = currentButtonValue
+	self:_updateOpButtons(_idx)
+
+	if _idx == 1 then 
+		for i,v in ipairs(Game.music) do
+			sound:setVolumeCategory(v, currentButtonValue/100)
+		end
+	elseif _idx == 2 then
+		for i,v in ipairs(Game.soundList) do
+			sound:setVolumeCategory(v, currentButtonValue/100)
+		end
+	end
+end
+
+function interface:_decButtonValue(_idx)
+	sound:play(Game.uiSwitch)
+	local currentButtonValue = self._opButtonValue[_idx]
+	--print("CBV: "..currentButtonValue.."")
+	if _idx < 3 then
+		if currentButtonValue > self._minVolume then
+			currentButtonValue = currentButtonValue - self._stepVolume
+		else
+			currentButtonValue = self._maxVolume
+		end
+	else
+		currentButtonValue = 0
+	end
+	self._opButtonValue[_idx] = currentButtonValue
+	self:_updateOpButtons(_idx)
+	if _idx == 1 then 
+		for i,v in ipairs(Game.music) do
+			sound:setVolumeCategory(v, currentButtonValue/100)
+		end
+	elseif _idx == 2 then
+		for i,v in ipairs(Game.soundList) do
+			sound:setVolumeCategory(v, currentButtonValue/100)
+		end
+	end
+	--print("DECREASE BY: "..self._stepVolume.."")
+	
+end
+
+function interface:_opIncPointer( )
+	sound:play(Game.uiSwitch)
+	self._optionsIDX = self._optionsIDX + 1
+	local btnTableSize = #self._opButtonText
+	if self._optionsIDX > btnTableSize then
+		self._optionsIDX = btnTableSize
+	end
+	self:_updateOpButtons( )
+end
+
+function interface:_opDecPointer( )
+	sound:play(Game.uiSwitch)
+	self._optionsIDX = self._optionsIDX - 1
+	if self._optionsIDX < 1 then
+		self._optionsIDX = 1
+	end
+	self:_updateOpButtons( )
+end
 
 -----------------------------------------------------------------------
 --- Help Menu Stuff ---------------------------------------------------
@@ -919,17 +1329,54 @@ the *Ebony Spire*, in an attempt to slay the fervent goddess!
 The player has to climb up all 10 tower levels to reach the most sacred of places. 
 Each floor contains one or more portals to other realms that the player must visit in order to obtain equipment that can aid him in his quest.
 ]]
+
+function file_exists(file)
+  local f = io.open(file, "rb")
+  if f then f:close() end
+  return f ~= nil
+end
+
+-- get all lines from a file, returns an empty 
+-- list/table if the file does not exist
+function lines_from(file)
+  if not file_exists(file) then return {} end
+  lines = {}
+  for line in io.lines(file) do 
+    lines[#lines + 1] = line
+  end
+  return lines
+end
+
+-- tests the functions above
+--[[local file = 'test.lua'
+local lines = lines_from(file)
+
+-- --print all line numbers and their contents
+for k,v in pairs(lines) do
+  --print('line[' .. k .. ']', v)
+end--]]
+--[[
+
+	
+]]
 function interface:_createHelpText( )
-	self._helpTextBox:addText("<c:9FC43A>Introduction</c>")
+local file = "assets/help_text.txt"
+lines = lines_from(file)
+
+for k,v in ipairs(lines) do
+	self._helpTextBox:newLine()
+	self._helpTextBox:addText(""..v.."")
+end
+	--[[self._helpTextBox:addText("<c:9FC43A>Introduction</c>")
 	self._helpTextBox:newLine()
 	self._helpTextBox:addText("<c:9FC43A>-------------</c>")
 	self._helpTextBox:newLine( )
 	self._helpTextBox:newLine( )
-	self._helpTextBox:addText("Ebony Spire: Heresy is an all 3D dungeon crawling roguelike")
+	self._helpTextBox:addText("Ebony Spire: Heresy is an all 3D dungeon crawling rogue-lite rpg")
 	self._helpTextBox:newLine( )
 	self._helpTextBox:addText("for PC (Windows and Linux), that takes inspiration from")
 	self._helpTextBox:newLine( )
-	self._helpTextBox:addText("games such as ADOM and Cardinal Quest. The action")
+	self._helpTextBox:addText("games such as 90's roguelike game and cRPG dungeon crawlers. The action")
 	self._helpTextBox:newLine( )
 	self._helpTextBox:addText("takes place inside the Ebony Spire, where you play as a berserker,")
 	self._helpTextBox:newLine( )
@@ -1015,19 +1462,6 @@ function interface:_createHelpText( )
 	self._helpTextBox:newLine( )
 	self._helpTextBox:newLine( )
 
-
-------------------------- DARKNESS ------------------------------------------------------------
-	self._helpTextBox:addText("Patches of 'darkness' are present in every level. They are the manifestation of evil's ") 
-	self._helpTextBox:newLine( )
-	self._helpTextBox:addText("presence in the world. This patches retreat as you draw near. Those that don't will “blind”")
-	self._helpTextBox:newLine( )
-	self._helpTextBox:addText("the player and make him vulnerable to the creatures that dwell within it (yes, it is possible")
-	self._helpTextBox:newLine( )
-	self._helpTextBox:addText("to die by spending too much time in persistent dark patches).")
-	self._helpTextBox:newLine( )
-	self._helpTextBox:newLine( )
-
-
 ------------------------- MESSAGE LOG -------------------------------------------------------
 	self._helpTextBox:addText("The message log (present in the middle upper part of the screen) conveys information")
 	self._helpTextBox:addText("on your character's status and observations. For a full Log press the <c:9FC43A>L</c> key ")
@@ -1069,7 +1503,7 @@ function interface:_createHelpText( )
 	self._helpTextBox:newLine( )
 	self._helpTextBox:addText("allow you to pick up new items.")
 	self._helpTextBox:newLine( )
-	self._helpTextBox:newLine( )
+	self._helpTextBox:newLine( )--]]
 
 	self._helpTextBox:_setTextStyle("mmButtonUnselected")
 end
@@ -1083,13 +1517,13 @@ function interface:_increaseScrollIDX_HALP( )
 	end
 	self._helpTextBox:_setCurItem(self._scrollIDX)
 	self._helpTextBox:_displayLines()
-	print("====== INC ======================")
-	print("SCROLLIDX: "..self._scrollIDX.." NUM ITEMS: "..self._helpTextBox:_getNumItem( ).." PAGE SIZE: "..pageSize.."")
-	print("SCROLLIDX: "..self._scrollIDX.." NUM ITEMS: "..self._helpTextBox:_getNumItem( ).." PAGE SIZE: "..pageSize.."")
-	print("SCROLLIDX: "..self._scrollIDX.." NUM ITEMS: "..self._helpTextBox:_getNumItem( ).." PAGE SIZE: "..pageSize.."")
-	print("SCROLLIDX: "..self._scrollIDX.." NUM ITEMS: "..self._helpTextBox:_getNumItem( ).." PAGE SIZE: "..pageSize.."")
-	print("SCROLLIDX: "..self._scrollIDX.." NUM ITEMS: "..self._helpTextBox:_getNumItem( ).." PAGE SIZE: "..pageSize.."")
-	print("====== END INC ==================")
+	--print("====== INC ======================")
+	--print("SCROLLIDX: "..self._scrollIDX.." NUM ITEMS: "..self._helpTextBox:_getNumItem( ).." PAGE SIZE: "..pageSize.."")
+	--print("SCROLLIDX: "..self._scrollIDX.." NUM ITEMS: "..self._helpTextBox:_getNumItem( ).." PAGE SIZE: "..pageSize.."")
+	--print("SCROLLIDX: "..self._scrollIDX.." NUM ITEMS: "..self._helpTextBox:_getNumItem( ).." PAGE SIZE: "..pageSize.."")
+	--print("SCROLLIDX: "..self._scrollIDX.." NUM ITEMS: "..self._helpTextBox:_getNumItem( ).." PAGE SIZE: "..pageSize.."")
+	--print("SCROLLIDX: "..self._scrollIDX.." NUM ITEMS: "..self._helpTextBox:_getNumItem( ).." PAGE SIZE: "..pageSize.."")
+	--print("====== END INC ==================")
 end
 
 function interface:_decreaseScrollIDX_HALP( )
@@ -1120,12 +1554,12 @@ function interface:_initHelpTitle( )
 end
 
 function interface:_helpMenuKeyPressed( key )
-	if key == 27 then
+	if key == ACTION_BACK or key == ACTION_QUIT then
 		self:_helpMenuGoTMainMenu( )
 	end
-	if key == 119 then -- W
+	if key == ACTION_FORWARD or key == ACTION_FORWARD_UP then -- W
 		self:_decreaseScrollIDX_HALP( )
-	elseif key == 115 then --s
+	elseif key == ACTION_DOWN or key == ACTION_DOWN_S then --s
 		self:_increaseScrollIDX_HALP( )
 	end
 end
@@ -1134,6 +1568,14 @@ function interface:_helpMenuGoTMainMenu( )
 	self._infoHelpLabel:destroy( )
 	self._helpTitle:destroy( )
 	self._menuBG:destroy( )
+	_bGameLoaded = false
+	_bGuiLoaded = false	
+	currentState = 2
+end
+
+function interface:_optionsGoToMaiNMenu( )
+	self._optionsMenuBG:destroy( )
+	self._scanLineBig:destroy( )
 	_bGameLoaded = false
 	_bGuiLoaded = false	
 	currentState = 2

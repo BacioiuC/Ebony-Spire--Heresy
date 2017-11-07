@@ -100,7 +100,7 @@ function keyClick(event, data)
 	if output ~= nil then _gui:setFocus(output) end
 	_gui:injectKeyDown(data.character)
     _gui:injectKeyUp(data.character)
-	print("A KEY WUZ PRESSED")
+	--print("A KEY WUZ PRESSED")
 end
 
 

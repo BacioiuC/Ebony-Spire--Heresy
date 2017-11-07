@@ -10,7 +10,12 @@ local data = {
 			},
 		},
 		children = {
-
+			scrollInfo = {
+				widget = "label",
+				dim = {100, 10},
+				pos = {5, 94},
+				text = "==== Scroll <c:9FC43A>UP</c> and <c:9FC43A>DOWN</c> using <c:9FC43A>W</c> and <c:9FC43A>S</c>. Press <c:9FC43A>ESC</c> to return =================",
+			},
 
 		},
 

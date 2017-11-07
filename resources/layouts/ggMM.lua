@@ -6,7 +6,7 @@ local data = {
 		pos = { 0, 0 },
 		images = { 
 			{
-				fileName = "", --../gui/ggMM/main_menu.png
+				fileName = "../gui/alpha_sign.png", --../gui/ggMM/main_menu.png  ../gui/alpha_sign_1080.png
 			},
 		},
 		children = {
@@ -22,7 +22,24 @@ local data = {
 				},
 
 			},
+			mmLogo = {
+				widget = "image",
+				dim = {80, 30},
+				pos = {10, 4},
+				images = {
+					{
+						fileName = "../gui/ebony_spire_logo.png",
+					},
 
+				},
+
+			},
+			mmVersion = {
+				widget = "label",
+				dim = {20, 10},
+				pos = {89, 94},
+				text = "v 1.1.1b",
+			},
 		},
 
 	},

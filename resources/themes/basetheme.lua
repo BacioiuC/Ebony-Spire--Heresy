@@ -3,13 +3,13 @@ data = {
 	textstyles = {
 		default = {
 			font = "atari full.ttf",
-			size = 24,
-			color = {1, 1, 1},
+			size = 14,
+			color = {0.663, 0.663, 0.663},
 		},
 		log = {
 			font = "atari full.ttf",
 			size = 14,
-			color = {1, 1, 1},
+			color = {0.663, 0.663, 0.663},
 		},
 		listselected = {
 			font = "atari full.ttf",
@@ -19,18 +19,18 @@ data = {
 		listunselected = {
 			font = "atari full.ttf",
 			size = 24,
-			color = {1, 1, 1},
+			color = {0.663, 0.663, 0.663},
 		},
 		blue = {
 			font = "atari full.ttf",
 			size = 14,
-			color = {1, 1, 1},
+			color = {0.663, 0.663, 0.663},
 			
 		},
 		unitInfo = {
 			font = "atari full.ttf",
 			size = 35,
-			color = {1, 1, 1},
+			color = {0.663, 0.663, 0.663},
 		},
 		buyMenu_coins = {
 			font = "atari full.ttf",
@@ -68,25 +68,25 @@ data = {
 		inventory = {
 			font = "atari full.ttf",
 			size = 20,
-			color = {1, 1, 1},	
+			color = {0.663, 0.663, 0.663},	
 
 		},
 		inventoryItem = {
 			font = "atari full.ttf",
 			size = 11,
-			color = {1, 1, 1},	
+			color = {0.663, 0.663, 0.663},	
 
 		},
 		logTextBox = {
 			font = "atari full.ttf",
 			size = 14,
-			color = {1, 1, 1},	
+			color = {0.663, 0.663, 0.663},	
 
 		},
 		mmButtonUnselected = {
 			font = "atari full.ttf",
 			size = 14,
-			color = {1, 1, 1},
+			color = {0.663, 0.663, 0.663},
 		},
 		mmButtonSelected = {
 			font = "atari full.ttf",

@@ -1,65 +1,105 @@
 name,_type,gfx,color,effect,description,weight,wmd,wmulti,sdmg,sa,adef,aarcdef,value,modifierType,modifier,canSpawn,spawnChance,AllowedFrom
-Potion of Darkness,Potion,OldAssets/potion_of_darkness.png,C9C9C9,darkness,Creates perpetual darkness patches. Blinds everything in it and can cause death.,1,0,0,0,0,0,0,1,nil,0,yes,25,22
-Spellbook of Frost,Spell,OldAssets/book_sprite.png,262626,nil,Pulls an Elsa on the target!,1,0,0,0,0,0,0,50,nil,0,no,0,23
-Leather Armor of Minor Arcane Def,Armor,OldAssets/leather_arcane_armor_sprite.png,FF0000,nil,Provides minimal defense against arcane attacks.,5.5,0,0,0,0,0,1,50,nil,0,yes,35,24
-Flocky's Keyboard,Weapon,OldAssets/Keyboard.png,FF0000,nil,A dev's best friend! (May or may not have been humped by Flocky),12,10,0.7,0,0,0,0,20,nil,0,yes,12,25
-Leather Armor of Minor Def,Armor,OldAssets/leather_armor_sprite.png,C9C9C9,nil,Provides minimal defense against physical attacks.,10,0,0,0,0,1,0,15,nil,0,yes,15,26
-rock,misc,OldAssets/rock.png,C9C9C9,nil,It's a rock! It can be thrown :D,2,5,0.5,0,0,0,0,1,nil,0,yes,25,27
-desk,Weapon,OldAssets/desk.png,B86E28,nil,Itsa dessk,80,4,1.4,0,0,0,0,1,nil,0,no,0,28
-Stack of Gold Coins,misc,OldAssets/gold_coins.png,EAFF00,nil,Stack of gold coins ( Extremely Valuable ),1,0,0,0,0,0,0,255,nil,0,yes,15,29
-Healing Potion,Potion,OldAssets/health_potion.png,9BBA1E,heal,Restores HP ( Area of Effect ),2,0,0,0,0,0,0,500,nil,0,yes,17,30
-Potion of Fire,Potion,OldAssets/fire_potion.png,FF0000,burn,Sets everyone in the radius on FIRE ( Area of Effect ),2,0,0,15,0,0,0,155,nil,0,yes,14,31
-Potion of Teleport,Potion,OldAssets/potion_of_teleportation.png,FF0000,teleport,Teleports the target to a random location ( Single Target ),2,0,0,0,0,0,0,155,nil,0,yes,14,32
-Potion of Summoning,Potion,OldAssets/potion_of_summoning.png,CF37E6,summon,Summons a random friendly monster to AID the player,2,0,0,0,0,0,0,600,nil,0,yes,15,33
-Small Potion of Health,Potion,OldAssets/health_potion.png,9BBA1E,heal_single,Restores HP (Single Target),2,0,0,0,0,0,0,500,nil,0,yes,16,34
-Scroll of Reveal,Scroll,OldAssets/scroll_of_reveal.png,EAFF00,reveal_map,Reveals the entire map,1,0,0,0,0,0,0,100,nil,0,yes,11,35
-Scroll of Discharge,Scroll,OldAssets/scroll_of_discharge.png,EAFF00,damage_all,Gives a random amount of damage to all enemies,1,0,0,8,0,0,0,800,nil,0,yes,10,36
-Magic Missile,Spell,OldAssets/magic_missile.png,155BA9,magic_missile_proj,Arcane Projectile (Goes boom when it hits a target),14,0,0,14,0,0,0,0,nil,0,no,11,37
-Scroll of Magic Missile,Scroll,OldAssets/scroll_of_magic_missile.png,155BA9,magic_missile,Used to cast the Magic Missile spell (Goes boom when it hits a target),1,0,0,14,0,0,0,1260,nil,0,yes,11,38
-Potion of Polimorph,Potion,OldAssets/potion_of_polymorph.png,9BBA1E,polymorph,Changes the target's appearance and stats into that of another monster. ,2,0,0,0,0,0,0,147,nil,0,yes,10,39
-Chain Mail Armor,Armor,OldAssets/chain_mail_armor.png,C9C9C9,nil,Provides some defense against physical attacks. Useless against most arcane/magic attacks,12.5,0,0,0,0,3,1,98,nil,0,yes,14,40
-Armor Of the Ranger,Armor,OldAssets/armor_of_the_ranger.png,C9C9C9,nil,Decent defense and arcane defense.,18,0,0,0,0,5,4,240,nil,0,yes,7,41
-Armor of Arcane Repulsion,Armor,OldAssets/armor_of_arcane_repulsion.png,C9C9C9,nil,A must have piece of armor that protects the wearer from most low-level arcane attacks,25,0,0,0,0,3,12,590,nil,0,yes,7,42
-Armor of the Lucky Summoner,Armor,OldAssets/armor_lucky_summoner.png,C9C9C9,nil,This set of armor can only be summoned via a spell/potion! Highly Valuable and powerful.,45,1,1,0,0,15,25,4500,nil,0,no,100,43
-Royal Plated Armor,Armor,OldAssets/royal_plated_armor.png,C9C9C9,nil,A set of armor with royal insignia. It is said that it was worn by Sir Costi – Duke of Mobility,65,0,0,0,0,10,8,4000,nil,0,no,100,44
-Scroll of Mystical Item,Scroll,OldAssets/scroll_of_mystical_item.png,EAFF00,summon_epic,A scroll that can summon a rare item into the world.,1,0,0,0,0,0,0,5500,nil,0,yes,3,45
-Iron Axe,Weapon,OldAssets/axe_sprite.png,C9C9C9,nil,An iron axe.,24,10,1,0,0,0,0,100,nil,0,yes,10,46
-Noldor Quicksilver Sword,Weapon,OldAssets/noldor_quicksilver_sword.png,C9C9C9,nil,A quicksilver sword of Noldor craftmanship. Strong but light!,15,12,2,0,0,0,0,1800,nil,0,yes,4,47
-Noldor Quicksilver Sword,Weapon,OldAssets/noldor_quicksilver_sword.png,C9C9C9,nil,A quicksilver sword of Noldor craftmanship. Strong but light!,15,12,2,0,0,0,0,1800,nil,0,no,4,48
-Ring of Life (+3),Accessories,OldAssets/red_ring.png,FF0000,nil,Increases the wearers health by 3,2,0,0,0,0,0,0,1500,hp,3,yes,10,49
-Necklace of Life Regen,Accessories,OldAssets/necklace_purple_heart.png,CF37E6,nil,Regenerates 1 HP every turn.,2,0,0,0,0,0,0,1800,hp_regen,1,yes,5,50
-Iron Throwing Axe,Weapon,OldAssets/throwing_axe.png,C9C9C9,nil,An iron throwing axe,30,8,1,0,0,0,0,150,nil,0,yes,10,51
-Ring of Life (+6),Accessories,OldAssets/red_ring.png,FF0000,nil,Increases the wearers health by 6,2,0,0,0,0,0,0,2300,hp,6,yes,7,52
-Cloak of the Immortal Mage,Armor,OldAssets/green_cloak.png,CF37E6,nil,Provides protection against arcane magic and increases health regen.,15,0,0,0,0,1,25,5500,hp_regen,5,yes,8,53
-Cloak of the Immortal Mage,Armor,OldAssets/green_cloak.png,CF37E6,nil,Provides protection against arcane magic and increases health regen.,15,0,0,0,0,1,25,5500,hp_regen,5,yes,8,54
-Cloak of Darkness,Artefact,OldAssets/dark_cloak.png,C9C9C9,darkness,When used – summons Patches of Darkness if none are present. Else – it will remove them!. ,15,0,0,0,0,1,25,5500,nil,0,yes,100,55
-Flaming Skull of Corruption,Artefact,OldAssets/skull_red_eye.png,EAFF00,damage_all,When used – it damages everyone in the level. If present in the inventory - it will drain a bit of the player's life every turn.,8,0,0,25,0,0,0,2400,hp_regen,-1,yes,4,56
-Axe of Regeneration,Artefact,OldAssets/green_epic_axe.png,C9C9C9,nil,A rare artefact that regens the user's life every turn.,65,25,4,0,0,0,0,9800,hp_regen,4,yes,4,57
-Sword of the Arcane,Artefact,OldAssets/red_sword_artefact.png,FF0000,damage_all,A sword forged into the fires of Nepala.,53,40,2,0,0,0,0,9900,nil,0,yes,1,58
-Tome of Teleportation,Artefact,OldAssets/Tome_1.png,FF0000,teleport,The fantasy variant of Get out of Jail Free Card. Quite useful and rare!,25,0,0,0,0,0,0,14000,nil,0,yes,2,59
-Gray Goblin Artefact,Artefact,OldAssets/goblin_artefact.png,C9C9C9,damage_all,An artefact carried by Gray Goblin Mages. It can be used to damage a creature from afar.,12,0,0,35,5,0,0,700,hp_regen,2,no,1,60
-Mio's Headphones,Artefact,OldAssets/headphones_mio.png,FF0000,magic_missile,Mio's Headphones is a rare artefact that – once it is triggered - spawns a magic missile in the wearers inventory.,16,0,0,0,0,0,0,9450,hp,3,yes,4,61
-Iron Sword,Weapon,OldAssets/sword_regular.png,C9C9C9,none,A plain iron sword.,20,12,1.6,9,9,9,9,200,nil,0,yes,15,62
-Iron Broadsword,Weapon,OldAssets/iron_broadsword.png,C9C9C9,none,A plain iron broadsword.,29,20,2,0,0,0,0,280,nil,0,yes,14,63
-Sword of Darkness,Weapon,OldAssets/sword_of_darkness.png,C9C9C9,darkness,A sword imbued with darkness. Throwing it kills most enemies and spawn patches of darkness.,89,25,3,0,0,0,0,1400,nil,0,yes,10,64
-Steel Arbalet,Weapon,OldAssets/steel_arbalet.png,FF0000,nil,This range weapon doubles the damage of all thrown items and objects.,70,15,2,0,0,0,0,1700,thrown,2,yes,7,65
-Ring of Life (+25),Accessories,OldAssets/red_ring.png,FF0000,nil,Increases the wearers health by 6,2,0,0,0,0,0,0,2300,hp,25,yes,7,66
-Fire Knight's Armor,Armor,OldAssets/armor_of_the_red_knight.png,EAFF00,nil,Extremely high physical and arcane damage reduction.,60,0,0,0,0,45,40,5400,nil,0,yes,4,67
-Old Amulet,Goal,Assets/items/priest_scepter.png,9FC43A,WinCondition,The holy grail – the most sought item – the thing that's worth it,1,2000,2000,2000,200,2000,2000,99999,nil,0,yes,100,68
-Priest Scepter,Artefact,Assets/items/priest_scepter.png,C9C9C9,summon_nextto,A scepter used by Dae’s Priest to summon creatures that can aid him!,4,4,0.7,0,0,0,0,450,nil,0,no,0,2
-Iron Sword,Weapon,Assets/items/iron_sword.png,C9C9C9,none,A plain iron sword.,5,6,1.1,9,9,9,9,200,nil,0,yes,25,1
-Iron Axe,Weapon,Assets/items/iron_axe.png,C9C9C9,none,A plain iron axe! Weights more than a sword but it hits hard when thrown,20,4,1.1,9,9,9,9,200,nil,0,yes,24,1
-Throwing Dagger,Weapon,Assets/items/throwing_daggers.png,C9C9C9,none,A Night Shade’s favorite weapon! ,15,5,1.2,0,0,0,0,190,nil,2,yes,25,1
-Potion of Body Displacement,Potion,Assets/items/potion_of_teleportation.png,FF0000,teleport,Displaces the target from it’s current position!,2,0,0,0,0,0,0,350,nil,0,yes,14,1
-Leather Armor,Armor,Assets/items/leather_armor.png,FF0000,nil,Provides the wearer “\n” with minimal protection!,3,0,0,0,0,2,0,45,nil,1,yes,19,1
-Small Potion of Health,Potion,Assets/items/health_potion.png,9BBA1E,heal,Restores the users HP!,2,0,0,0,0,0,0,500,nil,0,yes,26,1
-Iron Armor,Armor,Assets/items/iron_armor.png,C9C9C9,nil,Provides some defense against physical attacks. Useless against most arcane/magic attacks,12.5,0,0,0,0,3,1,98,nil,0,yes,14,2
-Steel Armor,Armor,Assets/items/steel_armor.png,C9C9C9,nil,High tier steel armor!,25,0,0,0,0,5,1,98,nil,2,yes,13,3
-Paladin Armor,Armor,Assets/items/paladin_armor.png,DBD75D,nil,Armor worn by Dae’s Paladins! Provides both magical and physical protection!,22,0,0,0,0,10,8,9800,nil,2,no,13,4
-Robes of Minor Arcane Abatment,Armor,Assets/items/robes_of_minor_arcade_defense.png,DBD75D,nil,Provides minimal defense against the arcane!,4,0,0,0,0,1,3,150,nil,2,no,13,2
-Amulet of Vitality,Accessories,Assets/items/amulet_of_health.png,FF0000,nil,Increases the wearers health by 3,2,0,0,0,0,0,0,1500,hp,3,yes,10,49
-Rapier,Weapon,Assets/items/rapier.png,DBD75D,nil,Uncommon weapon with a deadly slash technique,2,11,0.7,0,0,0,0,2200,nil,3,no,0,9
-Reaper’s Scite,Artefact,Assets/items/reapear_scite.png,DAD45E,,The most sought out weapon! Regen’s the wielders HP every turn!,45,0,0,0,0,0,0,1800,hp_regen,10,yes,0,9
-Small Potion of Health,Potion,Assets/items/health_potion.png,9BBA1E,heal,Restores the users HP!,2,0,0,0,0,0,0,500,nil,0,yes,26,1
-Scroll of Light,Scroll,Assets/items/scroll_of_reveal.png,EAFF00,reveal_map,Removes all dark patches!,1,0,0,0,0,0,0,100,nil,0,yes,16,1
-Stack of Gold Coins,misc,Assets/items/stack_of_gold_coins.png,EAFF00,nil,Stack of gold coins!,3,0,0,0,0,0,0,255,nil,0,yes,15,29
+Potion of Darkness,Potion,assets/old.png,deeed6,darkness,Creates perpetual darkness patches. Blinds everything in it and can cause death.,1,0,0,0,0,0,0,1,nil,0,yes,25,22
+Spellbook of Frost,Spell,assets/items/dark_tome_1.png,262626,nil,Freezes the target,1,0,0,0,0,0,0,50,nil,0,no,0,23
+Leather Armor of Minor Arcane Def,Armor,assets/old.png,FF0000,nil,Provides minimal defense against arcane attacks.,5.5,0,0,0,0,0,1,50,nil,0,yes,35,24
+Leather Armor of Minor Def,Armor,assets/old.png,C9C9C9,nil,Provides minimal defense against physical attacks.,10,0,0,0,0,1,0,15,nil,0,yes,15,26
+Rock,misc,assets/items/rock.png,deeed6,nil,It's a rock! It can be thrown!,2,5,0.5,0,0,0,0,1,nil,0,yes,25,1
+Stack of Gold Coins,misc,assets/old.png,EAFF00,nil,Stack of gold coins ( Extremely Valuable ),1,0,0,0,0,0,0,255,nil,0,yes,15,29
+Healing Potion,Potion,assets/old.png,9BBA1E,heal,Restores HP ( Area of Effect ),2,0,0,0,0,0,0,500,nil,0,yes,17,30
+Fire Bomb,Potion,assets/items/fire_bomb.png,597dce,burn,Sets everyone in the radius on FIRE ( Area of Effect ),2,0,0,15,0,0,0,155,nil,0,yes,14,1
+Potion of Teleport,Potion,assets/items/potion_of_teleportation.png,deeed6,teleport,Teleports the target to a random location ( Single Target ),2,0,0,0,0,0,0,155,nil,0,yes,14,32
+Potion of Summoning,Potion,assets/old.png,CF37E6,summon,Summons a random friendly monster to AID the player,2,0,0,0,0,0,0,600,nil,0,yes,15,33
+Small Potion of Health,Potion,assets/old.png,deeed6,heal_single,Restores HP (Single Target),2,0,0,0,0,0,0,500,nil,0,yes,16,34
+Scroll of Reveal,Scroll,assets/old.png,EAFF00,reveal_map,Reveals the entire map,1,0,0,0,0,0,0,100,nil,0,yes,11,35
+Scroll of Summon Meteor,Scroll,assets/items/scroll_of_discharge.png,6dc2ca,damage_all,Summons falling rocks from the sky upon all your enemies,1,0,0,8,0,0,0,800,nil,0,yes,10,36
+Magic Missile,Spell,assets/items/magic_missile.png,155BA9,magic_missile_proj,Arcane Projectile (Goes boom when it hits a target),14,6,0,14,0,0,6,0,nil,0,no,11,37
+Scroll of Magic Missile,Scroll,assets/old.png,155BA9,magic_missile,Used to cast the Magic Missile spell (Goes boom when it hits a target),1,0,0,14,0,0,0,1260,nil,0,yes,11,38
+Potion of Polimorph,Potion,assets/old.png,9BBA1E,polymorph,Changes the target's appearance and stats into that of another monster. ,2,0,0,0,0,0,0,147,nil,0,yes,10,39
+Chain Mail Armor,Armor,assets/old.png,C9C9C9,nil,Provides some defense against physical attacks. Useless against most arcane/magic attacks,12.5,0,0,0,0,3,1,98,nil,0,yes,14,40
+Armor Of the Ranger,Armor,assets/old.png,C9C9C9,nil,Decent defense and arcane defense.,18,0,0,0,0,5,4,240,nil,0,yes,7,41
+Armor of Arcane Repulsion,Armor,assets/old.png,C9C9C9,nil,A must have piece of armor that protects the wearer from most low-level arcane attacks,25,0,0,0,0,3,12,590,nil,0,yes,7,42
+Armor of the Lucky Summoner,Armor,assets/old.png,C9C9C9,nil,This set of armor can only be summoned via a spell/potion! Highly Valuable and powerful.,45,1,1,0,0,15,25,4500,nil,0,no,100,43
+Royal Plated Armor,Armor,assets/old.png,C9C9C9,nil,A set of armor with royal insignia. It is said that it was worn by Sir Costi ' Duke of Mobility,65,0,0,0,0,10,8,4000,nil,0,no,100,44
+Scroll of Mystical Item,Scroll,assets/old.png,EAFF00,summon_epic,A scroll that can summon a rare item into the world.,1,0,0,0,0,0,0,5500,nil,0,yes,3,45
+Iron Axe,Weapon,assets/old.png,deeed6,nil,An iron axe.,24,10,1,0,0,0,0,100,nil,0,yes,10,46
+Noldor Quicksilver Sword,Weapon,assets/old.png,C9C9C9,nil,A quicksilver sword of Noldor craftmanship. Strong but light!,15,12,2,0,0,0,0,1800,nil,0,yes,4,47
+Noldor Quicksilver Sword,Weapon,assets/old.png,C9C9C9,nil,A quicksilver sword of Noldor craftmanship. Strong but light!,15,12,2,0,0,0,0,1800,nil,0,no,4,48
+Ring of Life (+3),Accessories,assets/items/red_ring.png,597dce,nil,Increases the wearers health by 3,2,0,0,0,0,0,0,1500,hp,3,yes,10,49
+Necklace of Life Regen,Accessories,assets/old.png,CF37E6,nil,Regenerates 1 HP every turn.,2,0,0,0,0,0,0,1800,hp_regen,1,yes,5,50
+Iron Throwing Axe,Weapon,assets/old.png,C9C9C9,nil,An iron throwing axe,30,8,1,0,0,0,0,150,nil,0,yes,10,51
+Ring of Life (+6),Accessories,assets/old.png,597dce,nil,Increases the wearers health by 6,2,0,0,0,0,0,0,2300,hp,6,yes,7,52
+Cloak of the Immortal Mage,Armor,assets/old.png,CF37E6,nil,Provides protection against arcane magic and increases health regen.,15,0,0,0,0,1,25,5500,hp_regen,5,yes,8,53
+Cloak of the Immortal Mage,Armor,assets/old.png,CF37E6,nil,Provides protection against arcane magic and increases health regen.,15,0,0,0,0,1,25,5500,hp_regen,5,yes,8,54
+Cloak of Darkness,Artefact,assets/old.png,C9C9C9,darkness,When used ' summons Patches of Darkness if none are present. Else ' it will remove them!. ,15,0,0,0,0,1,25,5500,nil,0,yes,100,55
+Flaming Skull of Corruption,Artefact,assets/old.png,EAFF00,damage_all,When used ' it damages everyone in the level. If present in the inventory - it will drain a bit of the player's life every turn.,8,0,0,25,0,0,0,2400,hp_regen,-1,yes,4,56
+Pixie Wings,Artefact,assets/items/pixe_wings.png,30346d,nil,A rare artefact that regens the user's life every turn. (Regenâ€™s HP),1,25,4,0,0,0,0,9800,hp_regen,4,yes,4,57
+Sword of the Arcane,Artefact,assets/old.png,FF0000,damage_all,A sword forged into the fires of Nepala.,53,40,2,0,0,0,0,9900,nil,0,yes,1,58
+Tome of Teleportation,Artefact,assets/items/dark_tome_1.png,30346d,teleport,The fantasy variant of Get out of Jail Free Card. Quite useful and rare!,4,0,0,0,0,0,0,14000,nil,0,yes,2,59
+Gray Goblin Artefact,Artefact,assets/old.png,C9C9C9,damage_all,An artefact carried by Gray Goblin Mages. It can be used to damage a creature from afar. (Regenâ€™s HP),12,0,0,35,5,0,0,700,hp_regen,2,no,1,60
+Iron Sword,Weapon,assets/items/iron_sword.png,deeed6,none,A plain iron sword.,10,12,1.6,9,9,9,9,200,nil,0,yes,15,62
+Iron Broadsword,Weapon,assets/old.png,deeed6,none,A plain iron broadsword.,14,20,2,0,0,0,0,280,nil,0,yes,14,63
+Sword of Darkness,Weapon,assets/old.png,C9C9C9,nil,A sword imbued with darkness. Throwing it kills most enemies and spawn patches of darkness.,89,25,3,0,0,0,0,1400,nil,0,yes,10,64
+Steel Arbalet,Weapon,assets/old.png,FF0000,nil,This range weapon doubles the damage of all thrown items and objects.,70,15,2,0,0,0,0,1700,thrown,2,yes,7,65
+Ring of Life (+25),Accessories,assets/old.png,FF0000,nil,Increases the wearers health by 25,2,0,0,0,0,0,0,2300,hp,25,yes,7,66
+Fire Knight's Armor,Armor,assets/old.png,EAFF00,nil,Extremely high physical and arcane damage reduction.,60,0,0,0,0,45,40,5400,nil,0,yes,4,67
+Old Amulet,Goal,assets/items/priest_scepter.png,9FC43A,WinCondition,The holy grail ' the most sought item ' the thing that's worth it,1,2000,2000,2000,200,2000,2000,99999,nil,0,no,100,68
+Priest Scepter,Artefact,assets/items/priest_scepter.png,C9C9C9,summon_nextto,A scepter used by Dae's Priest to summon creatures that can aid him!,4,4,0.7,0,0,0,0,450,nil,0,no,0,2
+Iron Sword,Weapon,assets/items/iron_sword.png,deeed6,none,A plain iron sword.,5,6,1.1,9,9,9,9,200,nil,0,yes,25,1
+Iron Axe,Weapon,assets/items/iron_axe.png,deeed6,none,A plain iron axe! Weights more than a sword but it hits hard when thrown,8,4,1.1,9,9,9,9,200,nil,0,yes,24,1
+Throwing Dagger,Weapon,assets/items/throwing_daggers.png,deeed6,none,A Night Shade's favorite weapon! ,3,5,1.2,0,0,0,0,190,nil,2,yes,25,1
+Potion of Body Displacement,Potion,assets/items/potion_of_teleportation.png,597dce,teleport,Displaces the target from the current position!,2,0,0,0,0,0,0,350,nil,0,yes,14,1
+Leather Armor,Armor,assets/items/leather_armor.png,deeed6,nil,Provides the wearer '\n' with minimal protection!,3,0,0,0,0,2,0,45,nil,1,yes,22,1
+Small Potion of Health,Potion,assets/items/small_potion_health.png,deeed6,heal_single,Restores the users HP!,2,0,0,0,0,0,0,500,nil,0,yes,35,1
+Iron Armor,Armor,assets/items/iron_armor.png,deeed6,nil,Provides some defense against physical attacks. Useless against most arcane/magic attacks,12,0,0,0,0,3,1,98,nil,0,yes,14,2
+Steel Armor,Armor,assets/items/steel_armor.png,deeed6,nil,High tier steel armor!,16,0,0,0,0,5,1,98,nil,2,yes,13,3
+Paladin Armor,Armor,assets/items/paladin_armor.png,597dce,nil,Armor worn by Dae's Paladins! Provides both magical and physical protection!,18,0,0,0,0,10,8,9800,nil,2,no,13,4
+Robes of Minor Arcane Abatment,Armor,assets/items/robes_of_minor_arcade_defense.png,DBD75D,nil,Provides minimal defense against the arcane!,4,0,0,0,0,1,3,150,nil,2,no,13,2
+Amulet of Vitality,Accessories,assets/items/amulet_of_health.png,6dc2ca,nil,Increases the wearers health by 3,2,0,0,0,0,0,0,1500,hp,3,yes,10,49
+Rapier,Weapon,assets/items/rapier.png,deeed6,nil,Uncommon weapon with a deadly slash technique,2,11,0.7,0,0,0,0,2200,nil,3,no,0,9
+Reaperâ€™s Scyte,Weapon,assets/items/reapear_scite.png,597dce,heal_single,The most sought out weapon! Regen's the wielders HP every turn! (Regenâ€™s HP),15,57,0,0,4,4,0,2700,hp_regen,10,yes,0,9
+Small Potion of Health,Potion,assets/items/small_potion_health.png,deeed6,heal,Restores the users HP!,2,0,0,0,0,0,0,500,nil,0,yes,35,1
+Stack of Gold Coins,misc,assets/items/stack_of_gold_coins.png,deeed6,nil,Stack of gold coins!,1,0,0,0,0,0,0,255,nil,0,yes,15,29
+Key,misc,assets/items/key.png,deeed6,nil,Unlocks doors,1,0,0,0,0,0,2,1200,nil,0,yes,1,99
+Small Dagger,Weapon,assets/items/small_dagger.png,deeed6,nil,A small dagger that can be hidden really well,1,1,1,0,0,0,0,2,nil,0,yes,21,1
+Ring of Darkness Abating,Artefact,assets/items/ring_of_darkness_abatament.png,deeed6,darkness_repulse,A ring that casts away Daeâ€™eriaâ€™s influence!,2,1,1,0,0,0,2,4000,nil,0,yes,5,2
+Bullet,Projectile,assets/items/bullet.png,deeed6,bullet_impact,A small pebble filled with dust,15,0,0,14,0,0,0,15,nil,0,no,7,2
+Pistol,Artefact,assets/items/pistol.png,597dce,shoot,A small weapon that fires projectiles,5,1,1,0,0,0,0,120,nil,0,yes,7,2
+Scroll of Chitter,Scroll,assets/items/scroll_of_gobber.png,597dce,summon_gobber,Summon a chatty entity that might have loot or pickup loot,1,0,0,0,0,0,0,4,nil,0,yes,4,99
+Gobberâ€™s Will&Essence Test,Dialogue,assets/items/scroll_of_gobber.png,9FC43A,gobber_dialogue,A small reminder of your little buddy that died by your hands,1,0,0,0,0,0,0,1,gobber_effect_rengen,-1,no,0,99
+Lizzard Daggers,Weapon,assets/items/lizard_daggers.png,6dc2ca,nil,A dagger that imbues the wielder with regenaration traits (Regenâ€™s HP),14,18,1.3,0.4,0,1,1,1600,hp_regen,1,no,14,3
+Noctusâ€™s Skull,Artefact,assets/items/black_skull_red_eye.png,30346d,noctus_summon,An artifact imbued by Noctusâ€™s dark powers (Regenâ€™s HP),1,2,2,1,0,1,1,3900,hp,80,no,0,99
+Boulder,misc,assets/items/golem_hurl.png,6dc2ca,nil,A huge boulder,60,3,3,0,0,0,0,5000,nil,0,no,0,5
+Potion of Health,Potion,assets/items/health_potion.png,deeed6,heal,Restores the HP of everyone in a 2x2 area when broken or used!,1,0,0,0,0,0,0,500,nil,0,yes,26,2
+Spellbook of Sleep,Artefact,assets/items/spell_book_of_sleep.png,30346d,sleep,Target is set into a deep slumber,3,0,0,0,0,0,0,1400,nil,0,yes,4,7
+Orb of sleep,Spell,assets/items/orb_sleep.png,30346d,sleep_missile,Who ever touches the orb falls into a deep slumber,0,0,0,0,0,0,0,1400,nil,0,no,0,99
+Berserkerâ€™s Axe,Weapon,assets/items/berserker_axe.png,6dc2ca,nil,The only companion a berserker needs!,10,6,1.3,0,0,1,0,350,nil,0,no,0,0
+Blessed Berserkerâ€™s Axe,Weapon,assets/items/blessed_berserker_axe.png,6daa2c,nil,This axe has been blessed by the opposing gods! It increases a wielders both offense and defensive skills!,8,9,1.7,0,0,5,0,2900,nil,0,yes,9,3
+Cursed Berserkerâ€™s Axe,Weapon,assets/items/cursed_berserker_axe.png,4e4a4e,nil,This axe has been cursed by Daeâ€™eria herself! It increases the wielderâ€™s offensive and defensive skills at the cost of his life,15,10,1.7,0,0,4,0,2100,hp,-15,yes,14,3
+Leather Armor Of Rage,Armor,assets/items/berserkers_leather_armor.png,6dc2ca,nil,Flexible and light this piece of armor offers good protection and nimble movements!,6,0,0,0,0,3,0,200,nil,0,no,0,0
+Blessed Leather Armor,Armor,assets/items/blessed_leather_armor.png,6daa2c,nil,Flexible and light this piece of armor offers good protection and nimble movements! It is blessed by the opposing gods!,6,0,0,0,0,7,2,3100,nil,0,yes,6,3
+Cursed Leather Armor,Armor,assets/items/cursed_leather_armor.png,4e4a4e,nil,A cursed leather armor!,12,0,0,0,0,9,1,2700,hp,-5,yes,14,2
+Long Sword,Weapon,assets/items/long_sword.png,deeed6,nil,A sword with a long â€“ slashing blade!,12,20,1.8,0,0,0,0,1600,nil,0,yes,17,3
+Blessed Long Sword,Weapon,assets/items/long_sword.png,6daa2c,nil,A blessed sword with a long â€“ slashing blade! (Regenâ€™s HP),10,23,1.9,0,0,0,1,1600,hp_regen,1,yes,5,4
+Great Sword,Weapon,assets/items/great_sword.png,deeed6,nil,A sword with a very long blade and handle!,18,29,1.6,0,0,0,4,1900,nil,0,yes,18,4
+Spellbook of Ember,Artefact,assets/items/spell_book_of_ember.png,30346d,ember,Sends up to 4 bolts of fire towards a target!,2,0,0,0,0,1,0,2000,nil,0,no,0,99
+Orb of Ember,Spell,assets/items/flame_orb.png,30346d,ember_missile,Burns the target it comes in contact with!,2,0,0,5,0,1,0,2000,nil,0,no,0,99
+Hand Axe,Weapon,assets/items/short_axe.png,deeed6,nil,A short axe that can be wielded in one hand!,10,8,1.3,0,0,0,0,700,nil,0,yes,20,1
+Enchanted Short Axe,Weapon,assets/items/enchanted_short_axe.png,6daa2c,nil,A short axe that can be wielded in one hand! Restores 0.1 HP each turn. (Regenâ€™s HP),10,8,1.3,0,0,0,0,1200,hp_regen,0.1,yes,11,1
+Small Handgun,Artefact,assets/items/small_handgun.png,597dce,shoot_one,A small hand triggered device that fires projectiles! Might backfire!,3,1,1,0,0,0,0,120,nil,0,yes,7,2
+God Armor (Debug),Armor,assets/items/god_armor_debug.png,d6ae1f,nil,Armor used by the dashing bearded dev for tests,1,0,0,0,0,4000,4000,0,nil,0,no,0,99
+Sword of Radiance,Weapon,assets/items/sword_of_radiant_light.png,5eda6d,heal,The sword shines a bright â€“ healing - light that envelops the wielder! (Regenâ€™s HP),18,45,1.6,10,3,15,15,9000,hp_regen,2,no,0,99
+Daeâ€™s Horn,Artefact,assets/items/daerias_horn.png,30346d,god_power,Horn of Daeâ€™ria! Holds the Goddesâ€™s power! (Regenâ€™s HP),0,26,1.8,15,5,5,5,9999,hp_regen,25,no,0,99
+Ring of Life (+25),Accessories,assets/items/red_ring.png,30346d,nil,Increases the wearers health by 25,2,0,0,0,0,0,0,2300,hp,25,yes,2,5
+Triple Barrel Pistol,Artefact,assets/items/double_barreled_gun.png,30346d,shoot_double,A blessed triple barreled pistol (Regenâ€™s HP),10,0,0,0,0,0,0,2700,hp_regen,5,yes,3,6
+Spellbook of Healing,Artefact,assets/items/spellbook_of_healing.png,30346d,heal_single,Heals the caster,4,0,0,0,0,0,0,4300,nil,0,yes,2,7
+Devout Short Dagger,Weapon,assets/items/devout_short_dagger.png,deeed6,nil,A short dagger popular amongst the devouts,1,4,0,0,0,0,0,7,nil,0,no,0,1
+Potion of Polimorph,Potion,assets/items/potion_of_polymorph.png,deeed6,polymorph,Changes the target's appearance and stats into that of another monster. ,2,0,0,0,0,0,0,147,nil,0,yes,15,1
+Scroll of Magic Missile,Scroll,assets/items/scroll_of_magic_missile.png,30346d,magic_missile,Used to cast the Magic Missile spell (Goes boom when it hits a target),1,0,0,14,0,0,0,1260,nil,0,yes,19,2
+Potion of Darkness,Potion,assets/items/potion_of_darkness.png,deeed6,darkness,Creates perpetual darkness patches. Blinds everything in it and can cause death.,1,0,0,0,0,0,0,1,nil,0,yes,25,22
+Spellbook of Magic Missile,Artefact,assets/items/tome_magic_missile.png,30346d,magic_missile,Used to cast the Magic Missile spell,2,0,0,0,0,0,0,4700,nil,0,yes,1,6
+Ring of Marksmanship,Accessories,assets/items/ring_of_marksmanship.png,30346d,nil,Increases the users ability to wield Guns and (Cross)Bows,1,0,0,0,0,0,0,4500,marksmanship,1,yes,10,3
+Ring of Marksmanship + 3,Accessories,assets/items/ring_of_marksmanship.png,30346d,nil,Increases the users ability to wield Guns and (Cross)Bows,1,0,0,0,0,0,0,4500,marksmanship,3,yes,6,5
+Leather Gauntlets,Accessories,assets/items/leather_gauntlets.png,deeed6,nil,Increases the wearers armor,3,0,0,0,0,2,2,270,nil,0,yes,17,1
+Iron Gauntlets,Accessories,assets/items/metal_gauntlets.png,deeed6,nil,Increases the wearers armor,3,0,0,0,0,4,4,490,nil,0,yes,8,2
+Steel Gauntlets,Accessories,assets/items/steel_gauntlets.png,deeed6,nil,Increases the wearers armor,3,0,0,0,0,7,7,2700,nil,0,yes,8,4
+Blessed Steel Gauntlets,Accessories,assets/items/steel_gauntlets.png,5eda6d,nil,Increases the wearers armor,3,0,0,0,0,10,10,2700,hp_regen,0.5,yes,2,4

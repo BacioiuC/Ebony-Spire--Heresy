@@ -6,7 +6,7 @@ local data = {
 		pos = { 0, 0 },
 		images = { 
 			{
-				fileName = "",--../gui/ggClassSelection/ggClassSel.png
+				fileName = "../gui/alpha_sign.png",--../gui/ggClassSelection/ggClassSel.png ./gui/alpha_sign.png
 			},
 		},
 		children = {

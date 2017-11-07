@@ -445,7 +445,7 @@ function _M.GUI:injectMouseButtonDown(button)
 		result = self._focus:_handleMouseDown(event)
 	end
 
-	print("GOING DOWN")
+	--print("GOING DOWN")
 	return result
 end
 
@@ -462,7 +462,7 @@ function _M.GUI:injectMouseButtonUp(button)
 	end
 
 	self._mouseButtonsDown[button] = nil
-	print("GOIN UP")
+	--print("GOIN UP")
 	return result
 end
 
@@ -741,7 +741,7 @@ function _M.GUI:_updateGUILayer(width, height, w1, h1, w2, h2, ux, uy)
 	self._viewport:setSize(w1, h1, w2, h2)
 	self._viewport:setScale(width, height)
 
-	self._factory:setTheme(globalTheme)
+	--self._factory:setTheme(globalTheme)
 end
 
 function _M.GUI:getMouseX( )

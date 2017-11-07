@@ -48,8 +48,10 @@ function initStates( )
 	state[21] = "HALP"
 	state[22] = "VICTORY"
 	state[23] = "EDITOR"
+	state[24] = "GOTOVITORY"
+	state[25] = "GAME_OPTIONS"
 	--currentState = 2
-	currentState = 2
+	currentState = 1
 
 	_bGuiLoaded = false
 	_bGameLoaded = false
@@ -106,6 +108,10 @@ function handleStates( )
 		ggjVictory( )
 	elseif _st == "EDITOR" then
 		ggjEditor( )
+	elseif _st == "GOTOVITORY" then
+		fixitploxVictoryScreen()
+	elseif _st == "GAME_OPTIONS" then
+		ggjShowGameOptions( )
 	else
 		print("STATE OUT OF BOUNDS")
 	end
@@ -114,21 +120,34 @@ end
 function ggjVictory( )
 	
 	if _bGameLoaded == false then
+		interface:_clearAndBurnTheLog( )
+		--overlay_image		
+		--Game:importDungeonLevel( )
 
+		entity:init( )
+		player:init( )
+		evTurn:init( )
 		_bGameLoaded = true
 	
 	else
-
+		player:update( )
+		entity:update( )
+		item:update( )
+		environment:updateEffects( )
+		environment:update( )
+		rngMap:update( )
+		log:listenForPing( )
 	end
 
 	if _bGuiLoaded == false then
-		interface:_setupVictoryScreen( )
-		
-	
+
+		interface:initAP()
 		_bGuiLoaded = true
+		interface:showVictory( )
 
 	else
-		
+		interface:update( )
+		--
 	end		
 end
 
@@ -148,14 +167,16 @@ function fixitplox( )
 	_bGuiLoaded = false
 
 	--if Game.dungeoNLevel < 1 then
+	drop( )
+	if Game.dungeoNLevel < 12 then
+		currentState = 14
+	else
+		currentState = 18
+	end
+
+
+
 	
-	currentState = 14
-	--else
-	--	currentState = 22
-	--end
-
-
-
 	--currentState = 14
 end
 
@@ -171,22 +192,47 @@ function fixitploxMainMenu( )
 	end
 	--player:saveStats( )
 	Game.dungeoNLevel = 1
+	
 	_bGameLoaded = false
 	_bGuiLoaded = false
-
+	drop( )
 
 	currentState = 2
 end
 
+function fixitploxVictoryScreen( )
+	--_handleQuitToMM( )
+	for i = 1, 6 do
+		rngMap:destroyMap( )
+		item:removeAll( )
+		entity:removeAll( )
+		interface:destroyUI ( )
+		item:removeAll( )
+
+	end
+	--player:saveStats( )
+	Game.dungeoNLevel = 11
+	
+	_bGameLoaded = false
+	_bGuiLoaded = false
+	interface:destroyUI ( )
+	drop( )
+
+	currentState = 22
+end
+
 function ggjPhase( )
 	if _bGameLoaded == false then
-
+		interface:_clearAndBurnTheLog( )
 		--overlay_image		
-
+		--Game:importDungeonLevel( )
 
 		entity:init( )
 		player:init( )
 		evTurn:init( )
+		if Game.dungeoNLevel > 1 then
+			--Game:importSaveInfo( )
+		end
 		_bGameLoaded = true
 
 	
@@ -195,6 +241,9 @@ function ggjPhase( )
 		player:update( )
 		entity:update( )
 		item:update( )
+		environment:updateEffects( )
+		environment:update( )
+		rngMap:update( )
 		log:listenForPing( )
 	end
 
@@ -239,6 +288,26 @@ function ggjHalp( )
 
 	if _bGuiLoaded == false then
 		interface:_initHelpMenu( )
+		
+	
+		_bGuiLoaded = true
+
+	else
+		
+	end
+end
+
+function ggjShowGameOptions( )
+	if _bGameLoaded == false then
+
+		_bGameLoaded = true
+	
+	else
+
+	end
+
+	if _bGuiLoaded == false then
+		interface:_initOptionsMenu( )
 		
 	
 		_bGuiLoaded = true
@@ -390,12 +459,14 @@ end
 
 function ammLoop( )
 	if _bGameLoaded == false then
+		 Game:RESET( )
 		_bGameLoaded = true
 	else
 
 	end
 
 	if _bGuiLoaded == false then
+
 		 interface:setupMainMenu( )
 		--camera:init( )
 		

@@ -3,39 +3,36 @@ entity = { }
 function entity:init( )
 	self._entityTable = { }
 
+	self._woodenBox = {}
+	self._woodenBox[1] = makeBox(60, 40, 60, "tiles/Docks/box_texture_1.png")--makeCube(60, "tiles/Docks/box_texture_1.png")
+	self._woodenBox[2] = makeBox(40, 40, 40, "tiles/Docks/box_texture_1.png")--makeCube(60, "tiles/Docks/box_texture_1.png")
+	self._woodenBox[3] = makeBox(60, 30, 60, "tiles/Docks/drawer.png" )--makeCube(60, "tiles/Docks/box_texture_1.png")
+	self._woodenBox[4] = makeBox(40, 40, 40, "tiles/Docks/box_texture_1.png")
+
+	self._gobber = makeBox(100, 100, 0.1, "assets/summon_gobber.png")
+
 	self._entityCreatureTable = { }
 	self._entityCreatureTable = loadCSVData("data/creatures.csv")
 	self._actionQue = { }
 
+	self._specificSpawnCreatureTable =  loadCSVData("data/creatures.csv")
+
 	self._entityTowerDwellersTable = {}
 	self._entityTowerDwellersTable = loadCSVData("data/towerDwellers.csv")
 	self._movementAnimSpeed = 10
-
+	self._entityHeight = 70
 	-- generate their mesh from data
 	for i,v in pairs(self._entityCreatureTable) do
-		v.mesh = makeBox(100, 100, 0, ""..v.gfx.."")
+		v.mesh = makeBox(70, 70, 0, ""..v.gfx.."")
 	end
 
 	for i,v in pairs(self._entityTowerDwellersTable) do
 		v.mesh = makeBox(100, 100, 0, ""..v.gfx.."")
 	end
 
-	--[[self._fountain = makeBox(100, 100, 0, "fountain.png")
-	self._barrel = makeBox(100, 100, 0, "barrel.png")
-	self._rat1 = makeBox(100, 100, 0, "rat.png")
-	--fountain
-	self._entityType = { }
-	self._entityType[1] = {gfx = self._rat1, isCreature = true, life = 100, }
-	self._entityType[2] = {gfx=self._barrel, isCreature=false}--]]
-
-	
-
-	--[[
-	Movement dirs
-
-	]]
-	-- rat_tex_multi.png
-	--self._ratTexture = image:newDeckTexture("rat_tex_multi.png", 2, "multi_rat_lol", 24)
+	for i,v in pairs(self._specificSpawnCreatureTable) do
+		v.mesh = makeBox(70, 70, 0, ""..v.gfx.."")
+	end
 
 	self._playerEventPerformed = false
 
@@ -62,8 +59,190 @@ function entity:init( )
 	self._ATTACKRATIO = 1
 	self._PACKRATIO = 2
 	self._WANDERRATIO = 3
+
+	
+
 end
 
+function entity:_spawnSpecificCreatures( )
+	local creaturesToSpawn = rngMap:getCreatureToSpawnTable( )
+	for i,v in ipairs(creaturesToSpawn) do
+		--print("NOCTUS: "..v._x.. " | "..v._y.." TYPE: "..v._type.."")
+		self:newCreature(v._x, v._y, v._type, v._bool)
+	end
+end
+
+function entity:spawnGobber(_x, _y )
+	self._boxMesh = self._gobber
+	self._blockSize = 100
+	self._floorElevation = 0
+	local creatureNewTable = { }
+	local yOffsetForHeight = 0
+	local temp = {
+		id = #self._entityTable + 1,
+		x = _x,
+		y = _y,
+		prop = image:new3DImage(self._boxMesh, _x*self._blockSize, self._blockSize, _y*self._blockSize, 2),
+		baseDamage = 1,
+		heightDiff = yOffsetForHeight,
+		energy = 4,
+		mesh = self._boxMesh,
+		angle = 1,
+		speed = 25,
+		timer = Game.worldTimer,
+		hp = 15,
+		initial_health = 15,
+		name = "Gobber",
+		isAttacking = false,
+		state = "Follow", -- YES I USE STRINGS TO COMPARE, GTFO! 
+		path = nil,
+		hasGoal = false,
+		destX = _x,
+		destY = _y,
+		cur = 1,
+		isFollowing = false,
+		mvRange = 0,--math.random(1,3),
+		isDone = false,
+		healthModifier = 0,
+		regenModifier = 0,
+		colorFactor = 0.0,
+		nilCounter = 0,
+		sightRange = 5,
+		maxColor = 0.4,
+		inventory = { },
+		inventoryCapacity = 6,
+		isBox = false,
+		}
+
+
+	temp.initialEnergy = temp.energy
+	temp.movementR = { }
+	temp.movementR[1] = 1
+	temp.movementR[2] = 4
+	temp.movementR[3] = 4
+	temp.weaponAffinity = 0
+
+	temp.isCreature = true
+	--end
+	--local nrItems = math.random(1, 5)
+	--for i = 1, nrItems do
+		--local rndSpawn = math.random(1, 5)
+		--if rndSpawn >= 0 then
+			item:new(_x, _y, 67)
+			self:pickupItem(temp, false)
+		--end
+	--end
+	table.insert(self._entityTable, temp)
+
+	return temp.name
+
+end
+
+function entity:createBoxEntity(_x, _y, _type, _holdImage)
+	self._boxMesh = makeBox(60, 40, 60, "tiles/Docks/box_texture_1.png")
+	self._blockSize = 100
+	self._floorElevation = 0
+	local creatureNewTable = { }
+	local yOffsetForHeight = 0
+	local temp = {
+		id = #self._entityTable + 1,
+		x = _x,
+		y = _y,
+		prop = image:new3DImage(self._woodenBox[_type], _x*self._blockSize, self._blockSize-30, _y*self._blockSize, 2),
+		baseDamage = 1,
+		heightDiff = yOffsetForHeight,
+		energy = 1,
+		mesh = self._boxMesh,
+		angle = 1,
+		speed = 0.1,
+		timer = Game.worldTimer,
+		hp = 10,
+		initial_health = 10,
+		name = "WoodenBox",
+		isAttacking = false,
+		state = "Idle", -- YES I USE STRINGS TO COMPARE, GTFO! 
+		path = nil,
+		hasGoal = false,
+		destX = _x,
+		destY = _y,
+		cur = 1,
+		isFollowing = false,
+		mvRange = 0,--math.random(1,3),
+		isDone = false,
+		healthModifier = 0,
+		regenModifier = 0,
+		colorFactor = 0.0,
+		nilCounter = 0,
+		sightRange = 5,
+		maxColor = 0.4,
+		inventory = { },
+		inventoryCapacity = 6,
+		isBox = true,
+		heldImage = _holdImage,
+		}
+
+
+	temp.initialEnergy = temp.energy
+	temp.movementR = { }
+	temp.movementR[1] = 0
+	temp.movementR[2] = 0
+	temp.movementR[3] = 0
+	temp.weaponAffinity = 0
+
+	temp.isCreature = true
+	--end
+	local nrItems = math.random(1, 5)
+	for i = 1, nrItems do
+		local rndSpawn = math.random(1, 5)
+		if rndSpawn >= 0 then
+			item:newInBox(_x, _y)--item:new(_x, _y)
+			self:pickupItem(temp, false)
+		end
+	end
+	table.insert(self._entityTable, temp)
+
+	return temp.name
+
+end
+
+function entity:updateLightning()
+	local distFunction = math.distance
+	local px, py = player:returnPosition( )
+	for i,v in ipairs(self._entityTable) do
+		local dist = distFunction(px, py, v.x, v.y)
+		if dist > 1 then
+			local lightFactor = dist/(7-Game.lightFactor)
+			if v.state ~= "sleep" then
+				image:setColor(v.prop, 1-lightFactor+v.colorFactor, 1-lightFactor, 1-lightFactor, 1)
+			else
+				image:setColor(v.prop, 0, 0, 0, 1)	
+			end
+		end	
+	end
+end
+
+function entity:updateLightning2(_x, _y)
+	local distFunction = math.distance
+	local px, py = _x, _y
+	for i,v in ipairs(self._entityTable) do
+		local dist = distFunction(px, py, v.x, v.y)
+		if dist > 1 then
+			local lightFactor = dist/(7-Game.lightFactor)
+			if v.state ~= "sleep" then
+				image:setColor(v.prop, 1-lightFactor+v.colorFactor, 1-lightFactor, 1-lightFactor, 1)
+			else
+				image:setColor(v.prop, 0, 0, 0, 1)	
+			end
+		else
+			local lightFactor = 0
+			if v.state ~= "sleep" then
+				image:setColor(v.prop, 1-lightFactor+v.colorFactor, 1-lightFactor, 1-lightFactor, 1)
+			else
+				image:setColor(v.prop, 0, 0, 0, 1)	
+			end
+		end	
+	end
+end
 
 function entity:getName( _id )
 	if self._entityTable[_id] ~= nil then
@@ -81,14 +260,27 @@ function entity:updateHealthModifier(_v, _amount)
 	v.healthModifier = _amount
 end
 
-function entity:new(_x, _y, _tp, _isTowerLevel)
+--getAllCreatureList( )
+
+function entity:newCreature(_x, _y, _tp, _isTowerLevel)
 	local creatureNewTable = { }
-	if _isTowerLevel ~= true then
-		self._entityCreatureTable = self:makeSpawnListForLevel( )
-		creatureNewTable = self._entityCreatureTable
+	local yOffsetForHeight = 0
+	creatureNewTable =  self:getAllCreatureList( )
+	
+	--print("CREATURE TABLE: "..creatureNewTable[_tp].mesh.."")
+	--print("TP IS: ".._tp.."")
+	if creatureNewTable[_tp] ~= nil then
+		if creatureNewTable[_tp].mesh ~= nil then
+			--print("MESH EXISTS")
+		else
+			--print("VAMPIRE MESH NO REALLY AQUI")
+		end
 	else
-		self._entityTowerDwellersTable = self:makeSpawnListForTowerLevel( )
-		creatureNewTable = self._entityTowerDwellersTable
+		--print("THE ENTIRE CREATURE TABLE DOES NOT EXIST WTF")
+		--print("CREATURE TABLE SIZE: "..#creatureNewTable.."")
+		for i = 1, #creatureNewTable do
+			--print("CREATURE NEW TABLE NAME: "..creatureNewTable[i].name.."")
+		end
 	end
 	if #creatureNewTable > 0 then
 		local temp = {
@@ -97,6 +289,7 @@ function entity:new(_x, _y, _tp, _isTowerLevel)
 			y = _y,
 			prop = image:new3DImage(creatureNewTable[_tp].mesh, _x*100, 100, _y*100, 2),
 			baseDamage = creatureNewTable[_tp].baseDamage,
+			heightDiff = yOffsetForHeight,
 			energy = creatureNewTable[_tp].energy,
 			mesh = creatureNewTable[_tp].mesh,
 			angle = 1,
@@ -118,13 +311,123 @@ function entity:new(_x, _y, _tp, _isTowerLevel)
 			healthModifier = 0,
 			regenModifier = 0,
 			--isCreature = ,
-
+			colorFactor = 0.0,
 			nilCounter = 0,
 			sightRange = 5,
-
+			maxColor = 0.4,
 			inventory = { },
 			inventoryCapacity =creatureNewTable[_tp].inventoryCapacity,
-			
+			isBox = false,
+
+			}
+
+
+		temp.initialEnergy = temp.energy
+		temp.movementR = { }
+		temp.movementR[1] = creatureNewTable[_tp].Ratio1
+		temp.movementR[2] = creatureNewTable[_tp].Ratio2
+		temp.movementR[3] = creatureNewTable[_tp].Ratio3
+		temp.weaponAffinity = creatureNewTable[_tp].weaponAffinity
+
+		if temp.name == "Dae-Ria" then
+			temp.sightRange = 15
+		end
+
+		if creatureNewTable[_tp].isCreature == "yes" then
+			temp.isCreature = true
+		else
+			temp.isCreature = false
+		end
+		local itemList = {} 
+		--print("UM INV: "..creatureNewTable[_tp].InventoryItem.."")
+				-- ,
+		if string.len(creatureNewTable[_tp].InventoryItem) > 2 then
+
+			counter = 1;
+			for newItem in string.gmatch(creatureNewTable[_tp].InventoryItem, '([^;]+)') do
+			    itemList[counter] = tonumber(newItem)
+			    --print("DEH NUMBERS: "..tonumber(newItem).."")
+			    counter = counter + 1
+			end
+		end
+
+		if temp.inventoryItem ~= 0 then
+			if #itemList > 0 then
+				for i = 1, #itemList do
+					item:new(temp.x, temp.y, itemList[i])
+					self:pickupItem(temp)
+				end
+			else
+				temp.inventoryItem = creatureNewTable[_tp].InventoryItem
+				if temp.inventoryItem ~= 0 then
+					item:new(temp.x, temp.y, temp.inventoryItem)
+					self:pickupItem(temp)
+				end
+			end
+		end
+
+		-- create a default item and add it to the entity's inventory
+		--item:new(temp.x, temp.y, 4)
+		--[[local bool, _id = item:isItemAt(temp.x, temp.y)
+		if bool == true then
+			local _item = item:returnItem(_id)
+			self:addItemToInventory(temp, _item)
+			item:dropitem(_id)
+			log:newMessage(""..temp.name.." picked up ".._item.name.."")
+		end--]]
+		table.insert(self._entityTable, temp)
+
+		return temp.name
+	end
+end
+
+function entity:new(_x, _y, _tp, _isTowerLevel)
+	local creatureNewTable = { }
+	local yOffsetForHeight = 0
+	if _isTowerLevel ~= true then
+		self._entityCreatureTable = self:makeSpawnListForLevel( )
+		creatureNewTable = self._entityCreatureTable
+		yOffsetForHeight = 10
+	else
+		self._entityTowerDwellersTable = self:makeSpawnListForTowerLevel( )
+		creatureNewTable = self._entityTowerDwellersTable
+	end
+	if #creatureNewTable > 0 then
+		local temp = {
+			id = #self._entityTable + 1,
+			x = _x,
+			y = _y,
+			prop = image:new3DImage(creatureNewTable[_tp].mesh, _x*100, 100, _y*100, 2),
+			baseDamage = creatureNewTable[_tp].baseDamage,
+			heightDiff = yOffsetForHeight,
+			energy = creatureNewTable[_tp].energy,
+			mesh = creatureNewTable[_tp].mesh,
+			angle = 1,
+			speed = tonumber(creatureNewTable[_tp].speed),
+			timer = Game.worldTimer,
+			hp = creatureNewTable[_tp].hp,
+			initial_health = creatureNewTable[_tp].hp,
+			name = creatureNewTable[_tp].name,
+			isAttacking = false,
+			state = "Idle", -- YES I USE STRINGS TO COMPARE, GTFO! 
+			path = nil,
+			hasGoal = false,
+			destX = _x,
+			destY = _y,
+			cur = 1,
+			isFollowing = false,
+			mvRange = 1,--math.random(1,3),
+			isDone = false,
+			healthModifier = 0,
+			regenModifier = 0,
+			--isCreature = ,
+			colorFactor = 0.0,
+			nilCounter = 0,
+			sightRange = 5,
+			maxColor = 0.4,
+			inventory = { },
+			inventoryCapacity =creatureNewTable[_tp].inventoryCapacity,
+			isBox = false,
 
 			}
 
@@ -156,14 +459,14 @@ function entity:new(_x, _y, _tp, _isTowerLevel)
 			temp.isCreature = false
 		end
 		local itemList = {} 
-		print("UM INV: "..creatureNewTable[_tp].InventoryItem.."")
+		--print("UM INV: "..creatureNewTable[_tp].InventoryItem.."")
 				-- ,
 		if string.len(creatureNewTable[_tp].InventoryItem) > 2 then
 
 			counter = 1;
 			for newItem in string.gmatch(creatureNewTable[_tp].InventoryItem, '([^;]+)') do
 			    itemList[counter] = tonumber(newItem)
-			    print("DEH NUMBERS: "..tonumber(newItem).."")
+			    --print("DEH NUMBERS: "..tonumber(newItem).."")
 			    counter = counter + 1
 			end
 		end
@@ -211,6 +514,26 @@ function entity:makeSpawnListForLevel( )
 	return spawnList
 end
 
+function entity:makeSpawnListForPCGLevel( )
+	local level = Game.dungeoNLevel
+	local spawnList = { }
+	for i,v in ipairs(self._entityCreatureTable) do
+		if v.dungeonLevel == level then
+			table.insert(spawnList, v)
+		end
+	end
+	return spawnList
+end
+
+function entity:getAllCreatureList( )
+	local spawnList = { }
+	for i,v in ipairs(self._specificSpawnCreatureTable ) do
+		table.insert(spawnList, v)
+	end
+
+	return spawnList
+end
+
 function entity:makeSpawnListForLevelSummoning( )
 	local level = Game.dungeoNLevel
 	local spawnList = { }
@@ -237,11 +560,13 @@ end
 
 function entity:debugSpawner(_x, _y )
 	local creatureName = ""
-	if rngMap:isTowerLevel( ) then
+	if Game.dungeonType == 1 then
+
 		if #self:makeSpawnListForTowerLevel( ) > 0 then
 			creatureName = self:new(_x, _y, math.random(1, #self:makeSpawnListForTowerLevel( ) ), true)
 		end
 	else
+
 		if #self:makeSpawnListForLevel( ) > 0 then
 			creatureName = self:new(_x, _y, math.random(1, #self:makeSpawnListForLevel( ) ))
 		end
@@ -252,7 +577,9 @@ end
 function entity:summonSpawner(_x, _y )
 	local creatureName = " "
 	if #self:makeSpawnListForLevel( ) > 0 then
-		creatureName = self:new(_x, _y, math.random(1, #self:makeSpawnListForLevel( ) ), false)
+		if  Game.grid[_x][_y] == 0 and self:isEntityAt(_x, _y) == false then
+			creatureName = self:new(_x, _y, math.random(1, #self:makeSpawnListForLevel( ) ), false)
+		end
 	end
 
 	return creatureName
@@ -261,7 +588,7 @@ end
 function entity:update( )
 	local rx, ry, rz = camera:getRot( )
 	for i,v in ipairs(self._entityTable) do
-		if v.isCreature == true then
+		if v.isBox == false then
 			
 			image:setRot3D(v.prop, rx, ry, 0)
 			--self:handleMovement(i)
@@ -279,7 +606,15 @@ function entity:dropEntity(_id, _forceDelete)
 		self:dropAllitemsFromInventory(v)
 		v.prop = nil
 		if _forceDelete ~= true then
-			log:newMessage("You killed <c:0B5E87>"..v.name.."</c>")
+			if v.isBox == false then
+				log:newMessage("You killed <c:0B5E87>"..v.name.."</c>")
+			else
+				log:newMessage("You destroyed the <c:0B5E87>"..v.name.."</c>")
+				local heldObject = v.heldImage
+				if heldObject ~= nil then
+					image:setLoc(heldObject, v.x*100, 63, v.y*100)
+				end
+			end
 			table.remove(self._entityTable, _id)
 		end
 
@@ -327,56 +662,104 @@ function entity:performAction(_id)
 
 	local v = self._entityTable[ self:getEntityWithID(_id) ]
 	if v ~= nil then -- we can't have a nonexisting entity right? He he he he 
-		-- step 1 - Check what state the entity is in
+			-- step 1 - Check what state the entity is in
 		v.__lID = _id
 		local state = v.state
-
-		local evaResult = self:evaluateEnvironment(v)
-		self:_regenHp(v)
-		-- if evaResult is nil it means there is nothing of interest happening nearby :(
-		if evaResult == nil then
-
-			if state == "Idle" then
-				self:handleIdle(v)
-			elseif state == "Aware" then
-				self:handleAware(v)
-			elseif state == "Combat" then
-				self:handleAware(v)
-			end
-		else -- OUR EVALUATION GAVE US THE MOST INTERESTING THING... YEAH!!!
-			-- first, check the type of our evaluation.
-			-- AI needs to behave differently depending on what the most interesting
-			-- thing is. If it's a player, go into the AWARE mode. If it's an entity
-			-- stay idle but decide weather to follow it.
-			local evaType = evaResult._type
-			if rngMap:isPatchAt(v.x, v.y, true) == true then -- if creature is in a darkness patch it will go into idle mode (AKA HE IS BLINDED. No playa'!)
-
-				v.state = "Idle"
-				self:handleIdle(v)
-			else
-				if evaType == 1 then -- type is 1. SO PLAYER
-					v.state = "Aware" -- go into aware mode! 
-					self:handleAware(v)
-				elseif evaType == 2 then -- type is 2. SO ENTITY
-					v.state = "Idle"
-					self:handleIdle(v)
-				elseif evaType == 3 then -- item! Let's go IDLE BUUUUTTTTTTT,
-					-- let'saa get that shiny, shiny, item (if we can)
-					v.state = "Idle"
-
-					-- by setting destX and destY to a value different than v.x, v.y, we
-					-- pretty much give a direct goal to our entity in the moveAtRandom function
-					-- bypassing the initial check and/or interrupting it's current movement 
-					-- direction
-					--print("ENTITY WITH ID: "..v.__lID.." Saw something interesting")
-					v.destX = evaResult.x
-					v.destY = evaResult.y
-					self:handleIdle(v)
+		if v.isBox == false then
+			local evaResult = self:evaluateEnvironment(v)
+			self:_regenHp(v)
+			-- if evaResult is nil it means there is nothing of interest happening nearby :(
+			if evaResult == nil then
+				if v.state ~= "Follow" then
+					if state == "Idle" then
+						self:handleIdle(v)
+					elseif state == "Aware" then
+						self:handleAware(v)
+					elseif state == "Combat" then
+						self:handleAware(v)
+					elseif state == "sleep" then
+						self:handleSleep(v)
+					end
+				else
+					self:handleFollowPlayer(v)
 				end
+			else -- OUR EVALUATION GAVE US THE MOST INTERESTING THING... YEAH!!!
+				-- first, check the type of our evaluation.
+				-- AI needs to behave differently depending on what the most interesting
+				-- thing is. If it's a player, go into the AWARE mode. If it's an entity
+				-- stay idle but decide weather to follow it.
+				local evaType = evaResult._type
+				if rngMap:isPatchAt(v.x, v.y, true) == true then -- if creature is in a darkness patch it will go into idle mode (AKA HE IS BLINDED. No playa'!)
+
+					v.state = "Idle"
+					self:handleIdle(v)
+				else
+					if v.state ~= "Follow" then
+						if v.state ~= "sleep" then
+							if evaType == 1 then -- type is 1. SO PLAYER
+								v.state = "Aware" -- go into aware mode! 
+								self:handleAware(v)
+							elseif evaType == 2 then -- type is 2. SO ENTITY
+								v.state = "Idle"
+								self:handleIdle(v)
+								-- IF TYPE OF ENTITY IS THE SAME ONE, PACK TOGETHER
+								--v.destX = evaResult.x
+								--v.destY = evaResult.y
+							elseif evaType == 3 then -- item! Let's go IDLE BUUUUTTTTTTT,
+								-- let'saa get that shiny, shiny, item (if we can)
+								v.state = "Idle"
+
+								-- by setting destX and destY to a value different than v.x, v.y, we
+								-- pretty much give a direct goal to our entity in the moveAtRandom function
+								-- bypassing the initial check and/or interrupting it's current movement 
+								-- direction
+								--print("ENTITY WITH ID: "..v.__lID.." Saw something interesting")
+								v.destX = evaResult.x
+								v.destY = evaResult.y
+								self:handleIdle(v)
+							end
+						else
+							self:handleSleep(v)
+						end
+					else
+						self:handleFollowPlayer(v)
+					end
+				end
+
+
 			end
-
-
 		end
+	end
+
+end
+
+function entity:handleSleep(_v)
+	local wakeChance = 15
+	local randomRoll = math.random(1, 100)
+	--image:setColor(_v.prop, 0.4, 0.4, 0.4, 1)	
+	local px, py = player:returnPosition( )
+	local dist = math.dist(px, py, _v.x, _v.y)
+	if randomRoll <= wakeChance then
+		_v.state = "Aware"
+		if dist < 5 then
+			log:newMessage(" ".._v.name.." woke up")
+		end
+		
+	else
+		if dist < 5 then
+			log:newMessage(" ".._v.name.." is still sleeping")
+		end
+	end
+	image:setColor(_v.prop, 0, 0, 0, 1)	
+end
+
+function entity:handleFollowPlayer(_v)
+	local v = _v
+
+	local px, py = player:returnPosition( )
+	self:followPlayer(v)
+	if math.random(1, 10) == 2 then
+		self:throwItem(v)
 	end
 
 end
@@ -388,10 +771,12 @@ end
 function entity:handleIdle(_v)
 	local v = _v
 	local bool = self:checkForPlayer(_v)
-	if bool == true and rngMap:isPatchAt(v.x, v.y, true) ~= true then
+	if self:checkForPlayer(_v) == true then
 		v.state = "Aware"
 		self:handleAware(v)
+		v.colorFactor = v.maxColor
 	else
+		v.colorFactor = 0.0
 		self:moveAtRandom(v)
 	end
 	--self:_gotoLoc(v, px, py)
@@ -432,14 +817,15 @@ function entity:handleAware(_v)
 		local px, py = player:returnPosition( )
 
 		if rngMap:_DarknessAt(px, py) == true then
-			print("TRUE")
+			--print("TRUE")
 			dist = 50000
 		end
 
 		if dist <= 1 then
 			self:_attack(v)
+			v.colorFactor = v.maxColor
 		elseif dist > 1 and dist <= 5 then
-			local rndAction = math.random(1, 2)
+			local rndAction = math.random(1, 3)
 			if self:isInventoryEmpty(v) == false then
 				self:followPlayer(v)
 			else
@@ -492,7 +878,7 @@ function entity:evaluateEnvironment(_v)
 						if seePlayer == true then
 							local temp = {
 								id = #evaluationTable + 1,
-								value = self:getPerceivedDangerForPlayer( ),
+								value = 9000,
 								x = v.x-x,
 								y = v.y-y,
 								_type = 1, -- ONE IS PLAYER
@@ -502,7 +888,7 @@ function entity:evaluateEnvironment(_v)
 					else
 						local temp = {
 							id = #evaluationTable + 1,
-							value = self:getPerceivedDangerForEntity(id),
+							value = 0, -- getPerceivedDangerForEntity -- NO MORE ENTITY INFIGHTING
 							x = v.x-x,
 							y = v.y-y,
 							_type = 2, -- TWO IS ENTITY
@@ -511,23 +897,23 @@ function entity:evaluateEnvironment(_v)
 					end
 				end
 
-					if #v.inventory < v.inventoryCapacity then
-						-- now check to isee if there is an item there
-						local bool, _id = item:isItemAt(v.x-x, v.y-y)
-						if bool == true then -- so there is something there
-							local _item = item:returnItem(_id) -- get the item based on it's id
-							local temp = {
-								id = #evaluationTable + 1,
-								value = _item.value,
-								x = v.x-x,
-								y = v.y-y,
-								_type = 3, -- THREE IS ITEM
+				if #v.inventory < v.inventoryCapacity then
+					-- now check to isee if there is an item there
+					local bool, _id = item:isItemAt(v.x-x, v.y-y)
+					if bool == true then -- so there is something there
+						local _item = item:returnItem(_id) -- get the item based on it's id
+						local temp = {
+							id = #evaluationTable + 1,
+							value = _item.value,
+							x = v.x-x,
+							y = v.y-y,
+							_type = 3, -- THREE IS ITEM
 
-							}
-							table.insert(evaluationTable, temp)				
+						}
+						table.insert(evaluationTable, temp)				
 
-						end
 					end
+				end
 			end
 		end
 
@@ -581,7 +967,7 @@ function entity:followPlayer(_v)
 	local v = _v
 	local px, py = self:getEmptySpotNextToPlayer( )--player:returnPosition( )
 	if v.isFollowing == false then
-		log:newMessage("You feel as if you are <c:0B5E87> being followed! </c>")
+		--log:newMessage("You feel as if you are <c:0B5E87> being followed! </c>")
 		v.isFollowing = true
 	end
 	sound:play(Game.walk)
@@ -590,11 +976,12 @@ end
 
 function entity:getEmptySpotNextToPlayer( )
 	local px, py = player:returnPosition( )
+	local distFunction = math.dist
 	for i = -1, 1 do
 		for j = -1, 1 do
 			local _px = px-i
 			local _py = py-j
-			if math.dist(px, py, _px, _py) == 1 then
+			if distFunction(px, py, _px, _py) == 1 then
 				if Game.grid[px-i][py-j] == 0 and self:isEntityAt(px-i, py-j) == false then
 					return px-i, py-j
 				end
@@ -675,7 +1062,7 @@ function entity:move(_v, _x, _y)
 		--HACK TO HOPEFULLY RESET GOAL DESTINATION
 	end
 	--Game.grid[v.x][v.y] = 1
-	image:seekLoc(v.prop, v.x*100, 100, v.y*100, 0.2)
+	image:seekLoc(v.prop, v.x*100, 100-v.heightDiff, v.y*100, 0.2)
 end
 
 -- Input: Entity and Target Location (x, y)
@@ -781,6 +1168,8 @@ function entity:checkForPlayer(_v)
 		if len <= v.sightRange then
 			return true
 		end
+	else
+		return false
 	end
 	return false
 
@@ -803,11 +1192,13 @@ function entity:isEntityAtLoc(_x, _y, _v)
 	local bool = false
 	local px, py = player:returnPosition( ) -- Also retrieve player location because he is technically an entity
 	local id = nil
+	local _newV = nil
 	for i,v in ipairs(self._entityTable) do
 		if v.id ~= _v.id then
 			if v.x == _x and v.y == _y then
 				bool = true
 				id = i
+				_newV = v
 			end
 		end
 
@@ -815,17 +1206,19 @@ function entity:isEntityAtLoc(_x, _y, _v)
 			bool = true
 		end
 	end
-	return bool, id
+	return bool, id, _newV
 end
 
 function entity:isEntityAt(_x, _y)
 	local bool = false
 	local px, py = player:returnPosition( ) -- Also retrieve player location because he is technically an entity
 	local id = nil
+	local _newV = nil
 	for i,v in ipairs(self._entityTable) do
 		if v.x == _x and v.y == _y then
 			bool = true
 			id = i
+			_newV = v
 		end
 
 		if px == _x and py == _y then
@@ -833,7 +1226,7 @@ function entity:isEntityAt(_x, _y)
 		end
 		
 	end
-	return bool, id
+	return bool, id, _newV
 end
 
 --------------------------------------------
@@ -843,7 +1236,7 @@ end
 function entity:_combatDebug(_entityID, _forcedDamage)
 	local v = self._entityTable[_entityID]
 	--log:newMessage("You dealt quit a bit of damage to it")
-	if v.isCreature == true then
+	--if v.isBox == false then
 		--print("FIGHTING A CREATURE")
 		
 		local plDMG = player:calcDamage(1)
@@ -862,12 +1255,38 @@ function entity:_combatDebug(_entityID, _forcedDamage)
 
 		log:newMessage("You dealt <c:0B5E87>"..math.abs(math.floor(combatResult)).."</c> to <c:0B5E87>"..v.name.."</c>  <c:296B29>HP Left: "..math.abs(math.floor(v.hp)).."</c>")
 		--v.hp = v.hp - 10
-	end
+	--end
+end
+
+
+function entity:_receiveDamage(_entityID, _forcedDamage)
+	local v = self._entityTable[_entityID]
+	--log:newMessage("You dealt quit a bit of damage to it")
+	--if v.isBox == false then
+		--print("FIGHTING A CREATURE")
+		
+		local plDMG = player:calcDamage(1)
+		local entDef = self._armorStats[1].def
+		local combatResult = plDMG - entDef
+
+		if _forcedDamage ~= nil then
+			combatResult =_forcedDamage
+		end
+
+		if combatResult > 0 then
+			v.hp = v.hp - math.floor(combatResult)
+		else
+			combatResult = 0
+		end
+
+		log:newMessage("<c:0B5E87>"..v.name.."</c> received <c:0B5E87>"..math.abs(math.floor(combatResult)).."</c> damage. <c:296B29>HP Left: "..math.abs(math.floor(v.hp)).."</c>")
+		--v.hp = v.hp - 10
+	--end
 end
 
 function entity:_doDamage(_entityID, _dmgValue)
 	local v = self._entityTable[_entityID]
-	if v.isCreature == true then
+	--if v.isBox == false then
 		--print("FIGHTING A CREATURE")
 		
 		local entDef = self._armorStats[1].def
@@ -880,7 +1299,7 @@ function entity:_doDamage(_entityID, _dmgValue)
 		log:newMessage("You dealt <c:0B5E87>"..math.abs(math.floor(combatResult)).."</c> to <c:0B5E87>"..v.name.."</c>  <c:296B29>HP Left: "..math.abs(math.floor(v.hp)).."</c>")
 		--player:setKilledBy(""..v.name.."")
 		player:addToScore(combatResult)		--v.hp = v.hp - 10
-	end
+	--end
 end
 
 function entity:_attack(_v)
@@ -889,10 +1308,12 @@ function entity:_attack(_v)
 		local damage, roll = self:_calcDamage(v, 1)
 		local dmgAmmount = math.floor(player:receiveDamage(math.floor( damage) ) )
 		--print("SHIT BE ATTACKING ME")
+		
 		local critText = ""
 		if roll == 20 then
 			critText = "<c:4B647B>[Critical Hit!]</c>"
 		end
+		--print("TEST TEST TEST")
 		sound:play(Game.attack)
 		log:newMessage("The "..v.name.." attacked you for "..dmgAmmount.." damage "..critText.."")
 		player:setKilledBy(""..v.name.."")
@@ -969,7 +1390,7 @@ function entity:dropAllitemsFromInventory(_v)
 	end
 end
 
-function entity:pickupItem(_v)
+function entity:pickupItem(_v, _announce)
 	local v = _v
 	local bool, _id = item:isItemAt(v.x, v.y)
 	if bool == true then
@@ -978,10 +1399,12 @@ function entity:pickupItem(_v)
 			self:addItemToInventory(v, _item)
 			item:dropitem(_id)
 			local dist = self:getDistanceFromPlayer(v)
-			if dist < 5 then
+			if dist < 5 and _announce ~= false then
 				log:newMessage(""..v.name.." picked up ".._item.name.."")
 			end
 		end 
+	else
+		
 	end
 end
 
@@ -999,15 +1422,18 @@ function entity:_calcDamage(_v,_type)
 		local critMulti = 0
 		local diceRoll = math.random(1, 20)
 		if diceRoll == 20 then
-			critMulti = 1.3
+			critMulti = 0
 		end
 		damage = damage + weaponDamage * (weaponAffinity * weaponMulti)
+		local afinityWeaponMulti = weaponAffinity * weaponMulti
+		local nDamageCritMulti = damage*critMulti
 		damage = damage + damage*critMulti
+		--print("CALC DAMAGE TEST")
 	else
 		damage = 2
 	end
 
-	self:_trainStats(v)
+	--self:_trainStats(v)
 
 	return damage, diceRoll
 end
@@ -1037,6 +1463,80 @@ function entity:isInventoryEmpty(_v)
 	return bool
 end
 
+function entity:playerLookAtInventory( )
+	local distFunction = math.distance
+	if interface:_getLogOpenedStatus( ) == false then
+		local px, py = player:returnPosition( )
+		local listOfItems = item:getItemsAt(px, py)
+
+		log:newMessage("You examine your nearby surroundings: ")
+		if #listOfItems > 0 then
+			log:newMessage("At your feet lie: ")
+		end
+		
+		for i,v in ipairs(listOfItems) do
+			log:newMessage("* "..v.name.."")
+		end
+		--local bool, _id = item:isItemAt(px, py)
+
+		--[[local px, py = player:returnPosition( )
+		local maxLookDistance = 3
+		log:newMessage("You examine your nearby surroundings!")
+		local itemTable = {}	
+		itemTable[1] = {}
+		itemTable[2] = {}
+		itemTable[3] = {}
+		itemTable[4] = {}
+		itemTable[5] = {}
+		itemTable[6] = {}
+		itemTable[7] = {}
+		for i,v in ipairs(self._entityTable) do
+			local dist = distFunction(px, py, v.x, v.y)
+			if dist <= maxLookDistance then
+				if v.inventory ~= nil and v.isBox == false then
+					--print("TYPE INVENT: "..type(v.inventory).."")
+					for i = 1, #v.inventory do
+						local eItem = v.inventory[i]
+						table.insert(itemTable[1], eItem.name)
+						table.insert(itemTable[2], eItem._type)
+						table.insert(itemTable[3], eItem.description)
+						table.insert(itemTable[4], eItem.weapon_dmg)
+						table.insert(itemTable[5], eItem.armor_def)
+						table.insert(itemTable[6], v.name)
+						table.insert(itemTable[7], dist)
+					end
+				end
+			end
+		end
+		local stringTableName = {}
+		local stringTableItems = {}
+		local itEnemies = #itemTable[6]
+		if  itEnemies > 0 then
+			for i = 1, itEnemies do
+				--print("I: "..i.."")
+				local stringEquip = "has equipped the following items: "
+				log:newMessage("You notice that <c:25a866>"..itemTable[6][i].."</c> ["..math.floor(itemTable[7][i]).." tiles away] "..stringEquip.."")
+				for j = 1, itEnemies do
+					if itemTable[2][j] == "Weapon" then
+						log:newMessage("* "..itemTable[1][j].." with a damage of: "..itemTable[4][j].."")				
+					elseif itemTable[2][j] == "Armor" then
+						log:newMessage("* "..itemTable[1][j].." with a defense of: "..itemTable[5][j].."")				
+					else
+						log:newMessage("* "..itemTable[1][j].."")
+					end
+				end
+			end
+			interface:_showFullLog( )
+		else
+			interface:_closeLog( )
+		end--]]
+
+	else
+		interface:_closeLog( )
+	end
+	
+end
+
 function entity:throwItem(_v)
 	local v = _v
 	-- get the item with the most weight in inventory
@@ -1049,7 +1549,8 @@ function entity:throwItem(_v)
 			local px, py = player:returnPosition( )
 			if _item._type == "Potion" then
 				log:newMessage(""..v.name.." threw item ".._item.name.."")
-				item:throw(_item.gfxID, math.random(1,4), v.x, v.y)		
+				-- _dmg, _name, _multi, _armor_def, _armor_arcane_def
+				item:throwSetStats(_item.gfxID, math.random(1,4), v.x, v.y, nil, _item.weapon_dmg,  _item.name,  _item.weapon_multi,  _item.armor_def,  _item.armor_arcane_def )		
 				table.remove(v.inventory, 1)	
 			elseif _item._type == "Scroll" then
 				item:doItemEffect(_item, v.x, v.y, false)
@@ -1058,6 +1559,8 @@ function entity:throwItem(_v)
 			elseif _item._type == "Artefact" then
 				item:doItemEffect(_item, v.x, v.y, false)
 				log:newMessage(""..v.name.." used artefact ".._item.name.."!")
+			elseif _item._type == "Dialogue" then
+				item:doItemEffect(_item, v.x, v.y, false)				
 			elseif _item._type == "Accessories" then
 				self:followPlayer(v)
 				local rnd = math.random(1, 6)
@@ -1068,13 +1571,9 @@ function entity:throwItem(_v)
 				end
 			else				
 				log:newMessage(""..v.name.." threw item ".._item.name.."")
-				item:throw(_item.gfxID, math.random(1,4), v.x, v.y)	
+				item:throwSetStats(_item.gfxID, math.random(1,4), v.x, v.y, nil, _item.weapon_dmg,  _item.name,  _item.weapon_multi,  _item.armor_def,  _item.armor_arcane_def )	
 				table.remove(v.inventory, 1)
 			end
-
-
-			
-
 		end
 	end
 		-- get inventory size :)
@@ -1123,9 +1622,6 @@ function entity:_scoreInventory(_v)
 		table.insert(evaluationTable, i)
 	end
 
-
-
-
 	if evaluationTable ~= nil then
 		emptyTableEva = true
 	end
@@ -1138,15 +1634,6 @@ function entity:_scoreInventory(_v)
 		end
 	end
 	return emptyTableEva, evaluationTable[item]
-
-
-	--[[
-
-			for i,v in spairs(evaluationTable, function(t,a,b) return t[b].value < t[a].value end) do
-				table.insert(sortedEvaTable, v)
-			end		
-	]]
-
 end
 
 function entity:_getHeaviestItemInInventory(_v)
@@ -1154,14 +1641,10 @@ function entity:_getHeaviestItemInInventory(_v)
 
 	local _itemID = nil
 	local sortedWeightTable = { }
-	--print("****************************** INVENTORY *****************************************")
+
 	for i,j in ipairs(v.inventory) do
-		--print("DEBUG INVENTORY I: "..i.."")
-		--table.insert(sortedWeightTable, j)
-		--print("I IS: "..i.."")
 		return j
 	end
-	--print("*******************************************************************************")
 
 
 	return _itemID
@@ -1228,4 +1711,31 @@ function entity:_regenHp(_v)
 		v.hp = v.hp + v.regenModifier
 	end
 	--print("Regenerating for : "..v.id.."")
+end
+
+function entity:_gobberDialogue( )
+	local dialogue1 = "Gobber screams: Why why why why why why why?"
+	log:newMessage(""..dialogue1.."")
+end
+
+function entity:_SetLevelClear( )
+	if Game.dungeonType == 1 or Game.dungeonType == rngMap:returnTowerLevelType( ) then
+		local nrEntities = 0
+		for i, v in ipairs(self._entityTable) do
+			if v.isBox == false then
+				nrEntities = nrEntities + 1
+			end
+		end
+		--print("SIZE ENTITY TABLE: "..nrEntities.."")
+		if nrEntities == 0 then
+			--[[print("&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&SET LEVEL TO CLEARED")
+			print("&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&SET LEVEL TO CLEARED")
+			print("&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&SET LEVEL TO CLEARED")
+			print("&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&SET LEVEL TO CLEARED")
+			print("&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&SET LEVEL TO CLEARED")--]]
+			Game._LevelsClearFlags[Game.dungeoNLevel] = true
+		else
+			Game._LevelsClearFlags[Game.dungeoNLevel] = false
+		end
+	end
 end

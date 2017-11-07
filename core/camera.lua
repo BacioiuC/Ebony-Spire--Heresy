@@ -34,7 +34,7 @@ function mCamera:new(_layersNr)
 		id = #self._cameraTable+1,
 		cam = MOAICamera2D:new(),
 	}
-	print("ID IS: "..temp.id.."")
+	--print("ID IS: "..temp.id.."")
 
 	-- add it to a layer
 	for i = 1, _layersNr do

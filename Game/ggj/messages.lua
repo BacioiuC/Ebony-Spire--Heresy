@@ -31,13 +31,18 @@ function log:getLogTable( )
 	return self._logTable
 end
 
+function log:RESET_LOG_TABLE( )
+	if self._logTable ~= nil then
+		for j = 1, #self._logTable + 1-20 do
+			for i,v in ipairs(self._logTable) do
+				table.remove(self._logTable, i)
+			end
+		end
+	end
+
+	self._logTable = {}
+end
+
 function log:listenForPing( )
 
-		
-
-
-	--[[if Game.worldTimer > self._logTimer + self._timeTillFade then
-		interface:pushLogMessage("")
-	end--]]
 end
---]]

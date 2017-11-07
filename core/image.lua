@@ -43,6 +43,30 @@ function image:init( )
 	self.animTable = {}
 
 	self._filter = MOAITexture.GL_NEAREST
+
+	--[[file = assert ( io.open ( 'shader.vsh', mode ))
+	self._vsh = file:read ( '*all' )
+	file:close ()
+
+	file = assert ( io.open ( 'shader.fsh', mode ))
+	self._fsh = file:read ( '*all' )
+	file:close ()
+
+	self._program = MOAIShaderProgram.new ()
+
+	self._program:setVertexAttribute ( 1, 'position' )
+	self._program:setVertexAttribute ( 2, 'uv' )
+	self._program:setVertexAttribute ( 3, 'color' )
+
+	self._program:reserveUniforms ( 1 )
+	self._program:declareUniform ( 1, 'maskColor', MOAIShaderProgram.UNIFORM_VECTOR_F4 )
+
+	--self._program:load ( vsh, fsh )
+
+	self._shader = MOAIShader.new ()
+	self._shader:setProgram ( program )
+	self._shader:setAttrLink ( 1, color, MOAIColor.COLOR_TRAIT )--]]
+
 end
 
 --[[
@@ -333,7 +357,9 @@ function image:new3DImage( _image, _x, _y, _z, _parrentLayer, _disableDepth)
 		temp.prop:setShader ( MOAIShaderMgr.getShader ( MOAIShaderMgr.MESH_SHADER ))
 		temp.prop:setCullMode ( MOAIProp.CULL_BACK )
 		core:returnLayerTable( )[temp.layer].layer:insertProp( temp.prop )	
-		--temp.prop:setBlendMode(MOAIProp.GL_SRC_ALPHA, MOAIProp.GL_ONE_MINUS_SRC_ALPHA)
+		temp.prop:setBlendMode( MOAIProp.GL_SRC_ALPHA, MOAIProp.GL_ONE_MINUS_SRC_ALPHA )
+		--temp.prop:setBlendMode(MOAIProp2D.GL_SRC_ALPHA, MOAIProp2D.GL_ONE_MINUS_SRC_ALPHA)
+		--temp.prop:setColor(1,1,1,0.9)
 		--DEPTH_TEST_DISABLE for skybox
 		if _disableDepth ~= nil then
 			temp.prop:setDepthTest( MOAIProp.DEPTH_TEST_ALWAYS )
@@ -383,10 +409,15 @@ function image:seekLoc(_prop, _x, _y, _z, _time)
 end
 
 function image:setRot3D(_prop, _x, _y, _z, _time)
-	self.propTable[_prop].prop:setRot( _x, _y, _z)
+	if _prop ~= nil then
+		if self.propTable[_prop].prop ~= nil then
+			self.propTable[_prop].prop:setRot( _x, _y, _z)
+		end
+	end
 end
 
 function image:seekRot3D(_prop, _x, _y, _z, _time)
+	--print("Prop name: ".._prop.."")
 	self.propTable[_prop].prop:seekRot( _x, _y, _z, _time)
 end
 

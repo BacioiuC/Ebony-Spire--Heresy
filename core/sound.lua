@@ -79,6 +79,15 @@ local cat = _id
 	end
 end
 
+function sound:setVolumeCategory(_id, _value)
+	local cat = _id
+	local tab = self._soundTable[cat]
+	for i, v in ipairs(tab) do
+		print("I IS: "..i.." | CATEGORY IS: ".._id.." VALUE IS: ".._value.."")
+		v.sound:setVolume(_value)
+	end
+end
+
 function sound:setGeneralVolume(_value, noBgMusic)
 
 
@@ -88,7 +97,7 @@ function sound:setGeneralVolume(_value, noBgMusic)
 				j.sound:setVolume(_value)
 			end
 		elseif i == 3 then
-			print("YES IS 3")
+			--print("YES IS 3")
 			for k, j in ipairs(v) do
 				if _value - 0.4 > 0 then
 					j.sound:setVolume(_value-0.4)
