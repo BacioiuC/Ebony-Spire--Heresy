@@ -14,9 +14,9 @@ Scroll of Reveal,Scroll,assets/old.png,EAFF00,reveal_map,Reveals the entire map,
 Scroll of Summon Meteor,Scroll,assets/items/scroll_of_discharge.png,6dc2ca,damage_all,Summons falling rocks from the sky upon all your enemies,1,0,0,8,0,0,0,800,nil,0,yes,10,36
 Magic Missile,Spell,assets/items/magic_missile.png,155BA9,magic_missile_proj,Arcane Projectile (Goes boom when it hits a target),14,6,0,14,0,0,6,0,nil,0,no,11,37
 Scroll of Magic Missile,Scroll,assets/old.png,155BA9,magic_missile,Used to cast the Magic Missile spell (Goes boom when it hits a target),1,0,0,14,0,0,0,1260,nil,0,yes,11,38
-Potion of Polimorph,Potion,assets/old.png,9BBA1E,polymorph,Changes the target's appearance and stats into that of another monster. ,2,0,0,0,0,0,0,147,nil,0,yes,10,39
+Potion of Polymorph,Potion,assets/old.png,9BBA1E,polymorph,Changes the target's appearance and stats into that of another monster. ,2,0,0,0,0,0,0,147,nil,0,yes,10,39
 Chain Mail Armor,Armor,assets/old.png,C9C9C9,nil,Provides some defense against physical attacks. Useless against most arcane/magic attacks,12.5,0,0,0,0,3,1,98,nil,0,yes,14,40
-Armor Of the Ranger,Armor,assets/old.png,C9C9C9,nil,Decent defense and arcane defense.,18,0,0,0,0,5,4,240,nil,0,yes,7,41
+Armor of the Ranger,Armor,assets/old.png,C9C9C9,nil,Decent defense and arcane defense.,18,0,0,0,0,5,4,240,nil,0,yes,7,41
 Armor of Arcane Repulsion,Armor,assets/old.png,C9C9C9,nil,A must have piece of armor that protects the wearer from most low-level arcane attacks,25,0,0,0,0,3,12,590,nil,0,yes,7,42
 Armor of the Lucky Summoner,Armor,assets/old.png,C9C9C9,nil,This set of armor can only be summoned via a spell/potion! Highly Valuable and powerful.,45,1,1,0,0,15,25,4500,nil,0,no,100,43
 Royal Plated Armor,Armor,assets/old.png,C9C9C9,nil,A set of armor with royal insignia. It is said that it was worn by Sir Costi ' Duke of Mobility,65,0,0,0,0,10,8,4000,nil,0,no,100,44
@@ -75,7 +75,7 @@ Orb of sleep,Spell,assets/items/orb_sleep.png,30346d,sleep_missile,Who ever touc
 Berserker’s Axe,Weapon,assets/items/berserker_axe.png,6dc2ca,nil,The only companion a berserker needs!,10,6,1.3,0,0,1,0,350,nil,0,no,0,0
 Blessed Berserker’s Axe,Weapon,assets/items/blessed_berserker_axe.png,6daa2c,nil,This axe has been blessed by the opposing gods! It increases a wielders both offense and defensive skills!,8,9,1.7,0,0,5,0,2900,nil,0,yes,9,3
 Cursed Berserker’s Axe,Weapon,assets/items/cursed_berserker_axe.png,4e4a4e,nil,This axe has been cursed by Dae’eria herself! It increases the wielder’s offensive and defensive skills at the cost of his life,15,10,1.7,0,0,4,0,2100,hp,-15,yes,14,3
-Leather Armor Of Rage,Armor,assets/items/berserkers_leather_armor.png,6dc2ca,nil,Flexible and light this piece of armor offers good protection and nimble movements!,6,0,0,0,0,3,0,200,nil,0,no,0,0
+Leather Armor of Rage,Armor,assets/items/berserkers_leather_armor.png,6dc2ca,nil,Flexible and light this piece of armor offers good protection and nimble movements!,6,0,0,0,0,3,0,200,nil,0,no,0,0
 Blessed Leather Armor,Armor,assets/items/blessed_leather_armor.png,6daa2c,nil,Flexible and light this piece of armor offers good protection and nimble movements! It is blessed by the opposing gods!,6,0,0,0,0,7,2,3100,nil,0,yes,6,3
 Cursed Leather Armor,Armor,assets/items/cursed_leather_armor.png,4e4a4e,nil,A cursed leather armor!,12,0,0,0,0,9,1,2700,hp,-5,yes,14,2
 Long Sword,Weapon,assets/items/long_sword.png,deeed6,nil,A sword with a long – slashing blade!,12,20,1.8,0,0,0,0,1600,nil,0,yes,17,3
@@ -93,7 +93,7 @@ Ring of Life (+25),Accessories,assets/items/red_ring.png,30346d,nil,Increases th
 Triple Barrel Pistol,Artefact,assets/items/double_barreled_gun.png,30346d,shoot_double,A blessed triple barreled pistol (Regen’s HP),10,0,0,0,0,0,0,2700,hp_regen,5,yes,3,6
 Spellbook of Healing,Artefact,assets/items/spellbook_of_healing.png,30346d,heal_single,Heals the caster,4,0,0,0,0,0,0,4300,nil,0,yes,2,7
 Devout Short Dagger,Weapon,assets/items/devout_short_dagger.png,deeed6,nil,A short dagger popular amongst the devouts,1,4,0,0,0,0,0,7,nil,0,no,0,1
-Potion of Polimorph,Potion,assets/items/potion_of_polymorph.png,deeed6,polymorph,Changes the target's appearance and stats into that of another monster. ,2,0,0,0,0,0,0,147,nil,0,yes,15,1
+Potion of Polymorph,Potion,assets/items/potion_of_polymorph.png,deeed6,polymorph,Changes the target's appearance and stats into that of another monster. ,2,0,0,0,0,0,0,147,nil,0,yes,15,1
 Scroll of Magic Missile,Scroll,assets/items/scroll_of_magic_missile.png,30346d,magic_missile,Used to cast the Magic Missile spell (Goes boom when it hits a target),1,0,0,14,0,0,0,1260,nil,0,yes,19,2
 Potion of Darkness,Potion,assets/items/potion_of_darkness.png,deeed6,darkness,Creates perpetual darkness patches. Blinds everything in it and can cause death.,1,0,0,0,0,0,0,1,nil,0,yes,25,22
 Spellbook of Magic Missile,Artefact,assets/items/tome_magic_missile.png,30346d,magic_missile,Used to cast the Magic Missile spell,2,0,0,0,0,0,0,4700,nil,0,yes,1,6
