@@ -1146,7 +1146,7 @@ function interface:addItemToEquipment(_item, _forced)
 		elseif ___item._type == "Weapon" then
 			if nrWeapons >= self._maxWeapon then
 				addBool = false
-				log:newMessage("You are already weilding a weapon!")
+				log:newMessage("You are already wielding a weapon!")
 			end
 		elseif ___item._type == "Accessories" then
 			if nrAccessories >= self._maxAccessories then
